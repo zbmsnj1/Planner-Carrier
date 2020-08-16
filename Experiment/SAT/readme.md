@@ -1,5 +1,5 @@
 **link: https:**
->//github.com/tomsons22/FOND-SAT
+>https://github.com/tomsons22/FOND-SAT
 
 **how to use:**
 >(from the src/directory)
