@@ -4,5 +4,5 @@
 **how to use:**
 >(from the src/directory)
 
->(../src) ./prp <domain_file> <problem_file> --dump-policy 2
+>./prp <domain_file> <problem_file> --dump-policy 2
 
