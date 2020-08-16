@@ -1,7 +1,7 @@
 # Yifan-s-Honour-Project---Plan-B
 
 **FOND planners**
->FIP [link](experiment/FIP/README.md)
+>FIP [link](Experiment/FIP)
 
 >prp
 
