@@ -1,11 +1,13 @@
 # Yifan-s-Honour-Project---Plan-B
 
 **FOND planners**
->FIP [link](Experiment/FIP/readme.md)
+>FIP [link](Experiment/FIP)
 
->prp
+>PRP [link](Experiment/PRP)
 
->mbp
+>MBP [link](Experiment/MBP)
 
->sat
+>SAT [link](Experiment/SAT)
+
+>myND [link](Experiment/myND)
 
