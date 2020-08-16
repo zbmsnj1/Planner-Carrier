@@ -5,7 +5,7 @@ This is the project to evaluate the-state-of-art FOND planners by experiments. W
 **There are links for the planners and the report:**
 
 **Report**
->FIP [link](Latex - Honours Thesis/)
+>FIP [link](Latex - Honours Thesis/Latex template.pdf)
 
 **FOND planners**
 >FIP [link](Experiment/FIP)
