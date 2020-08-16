@@ -19,4 +19,4 @@ This is the project to evaluate the-state-of-art FOND planners by experiments. W
 >myND [link](Experiment/myND)
 
 **Benchmarks for experiments:**
-> [link](Experiment/selected-benchmarks/yifan.pdf)
+> [link](Experiment/selected-benchmarks/yifan)
