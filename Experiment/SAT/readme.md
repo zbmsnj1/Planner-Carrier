@@ -1,4 +1,4 @@
-**link: https:**
+**link:**
 >https://github.com/tomsons22/FOND-SAT
 
 **how to use:**
