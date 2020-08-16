@@ -2,7 +2,7 @@
 
 This is the project to evaluate the-state-of-art FOND planners by experiments. We will place all the details of experiments and a report about the evaluation.
 
-**There are links for the details of planners and the report:**
+**There are links for the details:**
 
 **Report**
 > [link](Thesis/Yifan.pdf)
@@ -18,3 +18,5 @@ This is the project to evaluate the-state-of-art FOND planners by experiments. W
 
 >myND [link](Experiment/myND)
 
+**Benchmarks for experiments:**
+> [link](Experiment/selected-benchmarks/yifan.pdf)
