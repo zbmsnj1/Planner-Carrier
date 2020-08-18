@@ -1,0 +1,12 @@
+
+If holds: var1:0 var0:1
+Execute: goal / SC / d=0
+
+If holds: var1:0 var0:0
+Execute: walk-on-beam p0 p1 / SC / d=1
+
+If holds: var1:1 var0:0
+Execute: climb p0 / SC / d=2
+
+If holds: var1:1 var0:1
+Execute: walk-left p1 p0 / SC / d=3
