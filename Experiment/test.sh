@@ -21,11 +21,12 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"   #the p
 
 eval : > $DIR/SAT/data/$folder_name.csv        #reset the csv file   
 
-
+echo "Atoms,Actions,Solve,Time,Size" >> $DIR/SAT/data/$folder_name.csv
 
 if [ -f Fond-domains/$folder_name/domain.pddl ];          
 then                              
     echo "for PDDL files: domain, p1, p2, p3, p4 ..."
+    
     for ((i=1;i<num;i++))
 
        {
