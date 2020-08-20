@@ -25,15 +25,16 @@ for ((i=1;i<num;i++))
 
        {
          eval "cd SAT/src"
-         eval "python main.py ${arr[0]} ${arr[i]}"  | egrep -w 'Atoms|Actions|Trying with|Elapsed total time|SATISFIABLE$' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
+         eval "python main.py -time_limit 3600 ${arr[0]} ${arr[i]}"  | egrep -w 'Atoms|Actions|Trying with|Elapsed total time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
 
          if grep -q -w "SATISFIABLE" "$DIR/test.txt"; 
          then
              haveSolution="1"          #if there is a solution, we set vaule to 1, else 0
+             tail -4 "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv     #get the digital number(incloud float) of last four lines, and save them to the csv file
          else
-             haveSolution="0"
+             haveSolution="3600,0"
+             tail -3 "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv     #get the digital number(incloud float) of last three lines, and save them to the csv file
          fi
-         tail -4 "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv     #get the digital number(incloud float) of last four lines, and save them to the csv file
          #in csv file, 5 columns represent: polciy size, Atoms, Actions, time, solution
          echo $haveSolution >> $DIR/SAT/data/$folder_name.csv       #save the solution sitution to the csv file
 
