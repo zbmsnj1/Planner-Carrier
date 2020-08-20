@@ -1,7 +1,12 @@
-**link:**
->https://github.com/tomsons22/FOND-SAT
+**How to use test.sh**
 
-**how to use:**
->(from the src/directory)
 
->python main.py <domain_file> <problem_file>
+
+>(from the Experiment/)
+
+>. test.sh
+
+>folder_name  #(enter the folder name you want to test)
+
+
+Then you will get a folder_name.csv file in "SAT/data/".
