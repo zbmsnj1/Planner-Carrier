@@ -31,7 +31,7 @@ then
 
        {
          eval "cd SAT/src"
-         eval "python main.py -time_limit 3600 ${arr[0]} ${arr[i]}"  | egrep -w 'Atoms|Actions|Trying with|Elapsed total time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
+         eval "python main.py -time_limit 3600 ${arr[0]} ${arr[i]}"  | egrep -w 'Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
 
          grep -w "Atoms" "$DIR/test.txt" | head -n1 | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
          grep -w "Actions" "$DIR/test.txt" | head -n1 |sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
@@ -39,7 +39,7 @@ then
          then
              haveSolution="1,"          #if there is a solution, we set vaule to 1, else 0           
              printf $haveSolution >> $DIR/SAT/data/$folder_name.csv
-             grep -w "Elapsed total time" "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
+             grep -w "Cumulated solver time" "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | awk '{if(min==""){min=max=$1}; if($1>max) {max=$1}} END {print max}'| tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
          else
              haveSolution="0,"
              totalTime=" ,"
@@ -59,7 +59,7 @@ else
 
        {
          eval "cd SAT/src"
-         eval "python main.py -time_limit 3600 ${arr[i]} ${arr[half_num+i]}"  | egrep -w 'Atoms|Actions|Trying with|Elapsed total time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
+         eval "python main.py -time_limit 3600 ${arr[i]} ${arr[half_num+i]}"  | egrep -w 'Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
 
          grep -w "Atoms" "$DIR/test.txt" | head -n1 | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
          grep -w "Actions" "$DIR/test.txt" | head -n1 |sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
@@ -67,7 +67,7 @@ else
          then
              haveSolution="1,"          #if there is a solution, we set vaule to 1, else 0           
              printf $haveSolution >> $DIR/SAT/data/$folder_name.csv
-             grep -w "Elapsed total time" "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
+             grep -w "Cumulated solver time" "$DIR/test.txt" | sed 's/[^0-9^.]*//g' | awk '{if(min==""){min=max=$1}; if($1>max) {max=$1}} END {print max}'| tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
          else
              haveSolution="0,"
              totalTime=" ,"
