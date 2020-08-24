@@ -20,10 +20,14 @@ Then the data after test will be stored as csv files in 'SAT/data' or 'PRP/data'
 
 *Get the data*
 
->(from the Experiment/)
 
+From the `Experiment/` folder run:
+
+```
 >python3 satData.py
 
 >python3 prpData.py
+
+```
 
 Will create satData.csv or prpData.csv stored the calculated data means from above data files.
