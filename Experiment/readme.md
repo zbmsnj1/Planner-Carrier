@@ -3,18 +3,19 @@
 
 *Run the test*
 
->(from the Experiment/)
+From `Experiment/` folder run:
 
->. test.sh
+```
+$ test.sh
 
->folder_name  #enter the folder(domain) name you want to test
+folder_name  #enter the folder(domain) name you want to test
 
->>1         #for test SAT
+1         #for test SAT
 
->>2         #for test PRP
+2         #for test PRP
+```
 
 Then the data after test will be stored as csv files in 'SAT/data' or 'PRP/data'.
-
 
 
 *Get the data*
