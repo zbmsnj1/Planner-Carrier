@@ -28,7 +28,7 @@ read selected_num
 #defind functions
 run_sat () {
          eval "cd SAT/src"
-         eval "python main.py -time_limit 3600 ${arr[$1]} ${arr[$2]}"  | egrep -w 'Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
+         eval "python main.py ${arr[$1]} ${arr[$2]}"  | egrep -w 'Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE' >$DIR/test.txt                      #find keywords from termianl output and save them to the test.txt 
 
          grep -w "Atoms" "$DIR/test.txt" | head -n1 | sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
          grep -w "Actions" "$DIR/test.txt" | head -n1 |sed 's/[^0-9^.]*//g' | tr '\n' ','  >> $DIR/SAT/data/$folder_name.csv
