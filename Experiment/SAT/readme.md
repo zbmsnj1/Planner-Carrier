@@ -4,4 +4,4 @@
 **how to use:**
 ```(from the src/directory)
 
->python main.py <domain_file> <problem_file>```
+>python main.py <domain_file> <problem_file>
