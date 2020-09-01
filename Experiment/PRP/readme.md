@@ -3,8 +3,8 @@
 
 **how to use:**
 
-```
-(from the src/directory)
 
+(from the src/directory)
+```
 ./prp <domain_file> <problem_file> --dump-policy 2
 ```
