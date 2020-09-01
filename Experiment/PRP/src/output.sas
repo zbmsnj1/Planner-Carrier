@@ -4,6180 +4,32317 @@ end_version
 begin_metric
 0
 end_metric
-8
+21
 begin_variable
 var0
 -1
 2
-Atom bridge-clear()
-Atom bridge-occupied()
+Atom clear(b1)
+NegatedAtom clear(b1)
 end_variable
 begin_variable
 var1
 -1
-33
-Atom monkey-at(m1, l11-1)
-Atom monkey-at(m1, l11-2)
-Atom monkey-at(m1, l12-1)
-Atom monkey-at(m1, l12-2)
-Atom monkey-at(m1, l13-1)
-Atom monkey-at(m1, l13-2)
-Atom monkey-at(m1, l14-1)
-Atom monkey-at(m1, l14-2)
-Atom monkey-at(m1, l21-1)
-Atom monkey-at(m1, l21-2)
-Atom monkey-at(m1, l22-1)
-Atom monkey-at(m1, l22-2)
-Atom monkey-at(m1, l23-1)
-Atom monkey-at(m1, l23-2)
-Atom monkey-at(m1, l24-1)
-Atom monkey-at(m1, l24-2)
-Atom monkey-at(m1, l31-1)
-Atom monkey-at(m1, l31-2)
-Atom monkey-at(m1, l32-1)
-Atom monkey-at(m1, l32-2)
-Atom monkey-at(m1, l33-1)
-Atom monkey-at(m1, l33-2)
-Atom monkey-at(m1, l34-1)
-Atom monkey-at(m1, l34-2)
-Atom monkey-at(m1, l41-1)
-Atom monkey-at(m1, l41-2)
-Atom monkey-at(m1, l42-1)
-Atom monkey-at(m1, l42-2)
-Atom monkey-at(m1, l43-1)
-Atom monkey-at(m1, l43-2)
-Atom monkey-at(m1, l44-1)
-Atom monkey-at(m1, l44-2)
-Atom monkey-on-bridge(m1)
+2
+Atom clear(b10)
+NegatedAtom clear(b10)
 end_variable
 begin_variable
 var2
 -1
-33
-Atom monkey-at(m2, l11-1)
-Atom monkey-at(m2, l11-2)
-Atom monkey-at(m2, l12-1)
-Atom monkey-at(m2, l12-2)
-Atom monkey-at(m2, l13-1)
-Atom monkey-at(m2, l13-2)
-Atom monkey-at(m2, l14-1)
-Atom monkey-at(m2, l14-2)
-Atom monkey-at(m2, l21-1)
-Atom monkey-at(m2, l21-2)
-Atom monkey-at(m2, l22-1)
-Atom monkey-at(m2, l22-2)
-Atom monkey-at(m2, l23-1)
-Atom monkey-at(m2, l23-2)
-Atom monkey-at(m2, l24-1)
-Atom monkey-at(m2, l24-2)
-Atom monkey-at(m2, l31-1)
-Atom monkey-at(m2, l31-2)
-Atom monkey-at(m2, l32-1)
-Atom monkey-at(m2, l32-2)
-Atom monkey-at(m2, l33-1)
-Atom monkey-at(m2, l33-2)
-Atom monkey-at(m2, l34-1)
-Atom monkey-at(m2, l34-2)
-Atom monkey-at(m2, l41-1)
-Atom monkey-at(m2, l41-2)
-Atom monkey-at(m2, l42-1)
-Atom monkey-at(m2, l42-2)
-Atom monkey-at(m2, l43-1)
-Atom monkey-at(m2, l43-2)
-Atom monkey-at(m2, l44-1)
-Atom monkey-at(m2, l44-2)
-Atom monkey-on-bridge(m2)
+2
+Atom clear(b2)
+NegatedAtom clear(b2)
 end_variable
 begin_variable
 var3
 -1
-33
-Atom monkey-at(m3, l11-1)
-Atom monkey-at(m3, l11-2)
-Atom monkey-at(m3, l12-1)
-Atom monkey-at(m3, l12-2)
-Atom monkey-at(m3, l13-1)
-Atom monkey-at(m3, l13-2)
-Atom monkey-at(m3, l14-1)
-Atom monkey-at(m3, l14-2)
-Atom monkey-at(m3, l21-1)
-Atom monkey-at(m3, l21-2)
-Atom monkey-at(m3, l22-1)
-Atom monkey-at(m3, l22-2)
-Atom monkey-at(m3, l23-1)
-Atom monkey-at(m3, l23-2)
-Atom monkey-at(m3, l24-1)
-Atom monkey-at(m3, l24-2)
-Atom monkey-at(m3, l31-1)
-Atom monkey-at(m3, l31-2)
-Atom monkey-at(m3, l32-1)
-Atom monkey-at(m3, l32-2)
-Atom monkey-at(m3, l33-1)
-Atom monkey-at(m3, l33-2)
-Atom monkey-at(m3, l34-1)
-Atom monkey-at(m3, l34-2)
-Atom monkey-at(m3, l41-1)
-Atom monkey-at(m3, l41-2)
-Atom monkey-at(m3, l42-1)
-Atom monkey-at(m3, l42-2)
-Atom monkey-at(m3, l43-1)
-Atom monkey-at(m3, l43-2)
-Atom monkey-at(m3, l44-1)
-Atom monkey-at(m3, l44-2)
-Atom monkey-on-bridge(m3)
+2
+Atom clear(b3)
+NegatedAtom clear(b3)
 end_variable
 begin_variable
 var4
 -1
-33
-Atom monkey-at(m4, l11-1)
-Atom monkey-at(m4, l11-2)
-Atom monkey-at(m4, l12-1)
-Atom monkey-at(m4, l12-2)
-Atom monkey-at(m4, l13-1)
-Atom monkey-at(m4, l13-2)
-Atom monkey-at(m4, l14-1)
-Atom monkey-at(m4, l14-2)
-Atom monkey-at(m4, l21-1)
-Atom monkey-at(m4, l21-2)
-Atom monkey-at(m4, l22-1)
-Atom monkey-at(m4, l22-2)
-Atom monkey-at(m4, l23-1)
-Atom monkey-at(m4, l23-2)
-Atom monkey-at(m4, l24-1)
-Atom monkey-at(m4, l24-2)
-Atom monkey-at(m4, l31-1)
-Atom monkey-at(m4, l31-2)
-Atom monkey-at(m4, l32-1)
-Atom monkey-at(m4, l32-2)
-Atom monkey-at(m4, l33-1)
-Atom monkey-at(m4, l33-2)
-Atom monkey-at(m4, l34-1)
-Atom monkey-at(m4, l34-2)
-Atom monkey-at(m4, l41-1)
-Atom monkey-at(m4, l41-2)
-Atom monkey-at(m4, l42-1)
-Atom monkey-at(m4, l42-2)
-Atom monkey-at(m4, l43-1)
-Atom monkey-at(m4, l43-2)
-Atom monkey-at(m4, l44-1)
-Atom monkey-at(m4, l44-2)
-Atom monkey-on-bridge(m4)
+2
+Atom clear(b4)
+NegatedAtom clear(b4)
 end_variable
 begin_variable
 var5
 -1
-33
-Atom monkey-at(m5, l11-1)
-Atom monkey-at(m5, l11-2)
-Atom monkey-at(m5, l12-1)
-Atom monkey-at(m5, l12-2)
-Atom monkey-at(m5, l13-1)
-Atom monkey-at(m5, l13-2)
-Atom monkey-at(m5, l14-1)
-Atom monkey-at(m5, l14-2)
-Atom monkey-at(m5, l21-1)
-Atom monkey-at(m5, l21-2)
-Atom monkey-at(m5, l22-1)
-Atom monkey-at(m5, l22-2)
-Atom monkey-at(m5, l23-1)
-Atom monkey-at(m5, l23-2)
-Atom monkey-at(m5, l24-1)
-Atom monkey-at(m5, l24-2)
-Atom monkey-at(m5, l31-1)
-Atom monkey-at(m5, l31-2)
-Atom monkey-at(m5, l32-1)
-Atom monkey-at(m5, l32-2)
-Atom monkey-at(m5, l33-1)
-Atom monkey-at(m5, l33-2)
-Atom monkey-at(m5, l34-1)
-Atom monkey-at(m5, l34-2)
-Atom monkey-at(m5, l41-1)
-Atom monkey-at(m5, l41-2)
-Atom monkey-at(m5, l42-1)
-Atom monkey-at(m5, l42-2)
-Atom monkey-at(m5, l43-1)
-Atom monkey-at(m5, l43-2)
-Atom monkey-at(m5, l44-1)
-Atom monkey-at(m5, l44-2)
-Atom monkey-on-bridge(m5)
+2
+Atom clear(b5)
+NegatedAtom clear(b5)
 end_variable
 begin_variable
 var6
 -1
 2
-Atom person-alive()
-NegatedAtom person-alive()
+Atom clear(b6)
+NegatedAtom clear(b6)
 end_variable
 begin_variable
 var7
 -1
-33
-Atom person-at(l11-1)
-Atom person-at(l11-2)
-Atom person-at(l12-1)
-Atom person-at(l12-2)
-Atom person-at(l13-1)
-Atom person-at(l13-2)
-Atom person-at(l14-1)
-Atom person-at(l14-2)
-Atom person-at(l21-1)
-Atom person-at(l21-2)
-Atom person-at(l22-1)
-Atom person-at(l22-2)
-Atom person-at(l23-1)
-Atom person-at(l23-2)
-Atom person-at(l24-1)
-Atom person-at(l24-2)
-Atom person-at(l31-1)
-Atom person-at(l31-2)
-Atom person-at(l32-1)
-Atom person-at(l32-2)
-Atom person-at(l33-1)
-Atom person-at(l33-2)
-Atom person-at(l34-1)
-Atom person-at(l34-2)
-Atom person-at(l41-1)
-Atom person-at(l41-2)
-Atom person-at(l42-1)
-Atom person-at(l42-2)
-Atom person-at(l43-1)
-Atom person-at(l43-2)
-Atom person-at(l44-1)
-Atom person-at(l44-2)
-<none of those>
-end_variable
-8
-begin_mutex_group
 2
-0 0
-0 1
+Atom clear(b7)
+NegatedAtom clear(b7)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom clear(b8)
+NegatedAtom clear(b8)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom clear(b9)
+NegatedAtom clear(b9)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom emptyhand()
+NegatedAtom emptyhand()
+end_variable
+begin_variable
+var11
+-1
+12
+Atom holding(b1)
+Atom on(b1, b1)
+Atom on(b1, b10)
+Atom on(b1, b2)
+Atom on(b1, b3)
+Atom on(b1, b4)
+Atom on(b1, b5)
+Atom on(b1, b6)
+Atom on(b1, b7)
+Atom on(b1, b8)
+Atom on(b1, b9)
+Atom on-table(b1)
+end_variable
+begin_variable
+var12
+-1
+12
+Atom holding(b10)
+Atom on(b10, b1)
+Atom on(b10, b10)
+Atom on(b10, b2)
+Atom on(b10, b3)
+Atom on(b10, b4)
+Atom on(b10, b5)
+Atom on(b10, b6)
+Atom on(b10, b7)
+Atom on(b10, b8)
+Atom on(b10, b9)
+Atom on-table(b10)
+end_variable
+begin_variable
+var13
+-1
+12
+Atom holding(b2)
+Atom on(b2, b1)
+Atom on(b2, b10)
+Atom on(b2, b2)
+Atom on(b2, b3)
+Atom on(b2, b4)
+Atom on(b2, b5)
+Atom on(b2, b6)
+Atom on(b2, b7)
+Atom on(b2, b8)
+Atom on(b2, b9)
+Atom on-table(b2)
+end_variable
+begin_variable
+var14
+-1
+12
+Atom holding(b3)
+Atom on(b3, b1)
+Atom on(b3, b10)
+Atom on(b3, b2)
+Atom on(b3, b3)
+Atom on(b3, b4)
+Atom on(b3, b5)
+Atom on(b3, b6)
+Atom on(b3, b7)
+Atom on(b3, b8)
+Atom on(b3, b9)
+Atom on-table(b3)
+end_variable
+begin_variable
+var15
+-1
+12
+Atom holding(b4)
+Atom on(b4, b1)
+Atom on(b4, b10)
+Atom on(b4, b2)
+Atom on(b4, b3)
+Atom on(b4, b4)
+Atom on(b4, b5)
+Atom on(b4, b6)
+Atom on(b4, b7)
+Atom on(b4, b8)
+Atom on(b4, b9)
+Atom on-table(b4)
+end_variable
+begin_variable
+var16
+-1
+12
+Atom holding(b5)
+Atom on(b5, b1)
+Atom on(b5, b10)
+Atom on(b5, b2)
+Atom on(b5, b3)
+Atom on(b5, b4)
+Atom on(b5, b5)
+Atom on(b5, b6)
+Atom on(b5, b7)
+Atom on(b5, b8)
+Atom on(b5, b9)
+Atom on-table(b5)
+end_variable
+begin_variable
+var17
+-1
+12
+Atom holding(b6)
+Atom on(b6, b1)
+Atom on(b6, b10)
+Atom on(b6, b2)
+Atom on(b6, b3)
+Atom on(b6, b4)
+Atom on(b6, b5)
+Atom on(b6, b6)
+Atom on(b6, b7)
+Atom on(b6, b8)
+Atom on(b6, b9)
+Atom on-table(b6)
+end_variable
+begin_variable
+var18
+-1
+12
+Atom holding(b7)
+Atom on(b7, b1)
+Atom on(b7, b10)
+Atom on(b7, b2)
+Atom on(b7, b3)
+Atom on(b7, b4)
+Atom on(b7, b5)
+Atom on(b7, b6)
+Atom on(b7, b7)
+Atom on(b7, b8)
+Atom on(b7, b9)
+Atom on-table(b7)
+end_variable
+begin_variable
+var19
+-1
+12
+Atom holding(b8)
+Atom on(b8, b1)
+Atom on(b8, b10)
+Atom on(b8, b2)
+Atom on(b8, b3)
+Atom on(b8, b4)
+Atom on(b8, b5)
+Atom on(b8, b6)
+Atom on(b8, b7)
+Atom on(b8, b8)
+Atom on(b8, b9)
+Atom on-table(b8)
+end_variable
+begin_variable
+var20
+-1
+12
+Atom holding(b9)
+Atom on(b9, b1)
+Atom on(b9, b10)
+Atom on(b9, b2)
+Atom on(b9, b3)
+Atom on(b9, b4)
+Atom on(b9, b5)
+Atom on(b9, b6)
+Atom on(b9, b7)
+Atom on(b9, b8)
+Atom on(b9, b9)
+Atom on-table(b9)
+end_variable
+11
+begin_mutex_group
+11
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
 end_mutex_group
 begin_mutex_group
-6
-0 0
-1 32
-2 32
-3 32
-4 32
-5 32
+12
+11 0
+11 1
+11 2
+11 3
+11 4
+11 5
+11 6
+11 7
+11 8
+11 9
+11 10
+11 11
 end_mutex_group
 begin_mutex_group
-33
-1 0
-1 1
-1 2
-1 3
-1 4
-1 5
-1 6
-1 7
-1 8
-1 9
-1 10
-1 11
-1 12
-1 13
-1 14
-1 15
-1 16
-1 17
-1 18
-1 19
-1 20
-1 21
-1 22
-1 23
-1 24
-1 25
-1 26
-1 27
-1 28
-1 29
-1 30
-1 31
-1 32
+12
+12 0
+12 1
+12 2
+12 3
+12 4
+12 5
+12 6
+12 7
+12 8
+12 9
+12 10
+12 11
 end_mutex_group
 begin_mutex_group
-33
-2 0
-2 1
-2 2
-2 3
-2 4
-2 5
-2 6
-2 7
-2 8
-2 9
-2 10
-2 11
-2 12
-2 13
-2 14
-2 15
-2 16
-2 17
-2 18
-2 19
-2 20
-2 21
-2 22
-2 23
-2 24
-2 25
-2 26
-2 27
-2 28
-2 29
-2 30
-2 31
-2 32
+12
+13 0
+13 1
+13 2
+13 3
+13 4
+13 5
+13 6
+13 7
+13 8
+13 9
+13 10
+13 11
 end_mutex_group
 begin_mutex_group
-33
-3 0
-3 1
-3 2
-3 3
-3 4
-3 5
-3 6
-3 7
-3 8
-3 9
-3 10
-3 11
-3 12
-3 13
-3 14
-3 15
-3 16
-3 17
-3 18
-3 19
-3 20
-3 21
-3 22
-3 23
-3 24
-3 25
-3 26
-3 27
-3 28
-3 29
-3 30
-3 31
-3 32
+12
+14 0
+14 1
+14 2
+14 3
+14 4
+14 5
+14 6
+14 7
+14 8
+14 9
+14 10
+14 11
 end_mutex_group
 begin_mutex_group
-33
-4 0
-4 1
-4 2
-4 3
-4 4
-4 5
-4 6
-4 7
-4 8
-4 9
-4 10
-4 11
-4 12
-4 13
-4 14
-4 15
-4 16
-4 17
-4 18
-4 19
-4 20
-4 21
-4 22
-4 23
-4 24
-4 25
-4 26
-4 27
-4 28
-4 29
-4 30
-4 31
-4 32
+12
+15 0
+15 1
+15 2
+15 3
+15 4
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
 end_mutex_group
 begin_mutex_group
-33
-5 0
-5 1
-5 2
-5 3
-5 4
-5 5
-5 6
-5 7
-5 8
-5 9
-5 10
-5 11
-5 12
-5 13
-5 14
-5 15
-5 16
-5 17
-5 18
-5 19
-5 20
-5 21
-5 22
-5 23
-5 24
-5 25
-5 26
-5 27
-5 28
-5 29
-5 30
-5 31
-5 32
+12
+16 0
+16 1
+16 2
+16 3
+16 4
+16 5
+16 6
+16 7
+16 8
+16 9
+16 10
+16 11
 end_mutex_group
 begin_mutex_group
-32
-7 0
-7 1
-7 2
-7 3
-7 4
-7 5
-7 6
-7 7
-7 8
-7 9
-7 10
-7 11
-7 12
-7 13
-7 14
-7 15
-7 16
-7 17
-7 18
-7 19
-7 20
-7 21
-7 22
-7 23
-7 24
-7 25
-7 26
-7 27
-7 28
-7 29
-7 30
-7 31
+12
+17 0
+17 1
+17 2
+17 3
+17 4
+17 5
+17 6
+17 7
+17 8
+17 9
+17 10
+17 11
+end_mutex_group
+begin_mutex_group
+12
+18 0
+18 1
+18 2
+18 3
+18 4
+18 5
+18 6
+18 7
+18 8
+18 9
+18 10
+18 11
+end_mutex_group
+begin_mutex_group
+12
+19 0
+19 1
+19 2
+19 3
+19 4
+19 5
+19 6
+19 7
+19 8
+19 9
+19 10
+19 11
+end_mutex_group
+begin_mutex_group
+12
+20 0
+20 1
+20 2
+20 3
+20 4
+20 5
+20 6
+20 7
+20 8
+20 9
+20 10
+20 11
 end_mutex_group
 begin_state
+1
+1
+1
+1
 0
-28
-19
-6
-28
-28
 0
-30
+0
+1
+1
+1
+0
+8
+3
+11
+10
+9
+2
+11
+11
+4
+1
 end_state
 begin_goal
-1
-7 25
+13
+1 0
+8 0
+10 0
+11 10
+12 1
+13 6
+14 3
+15 4
+16 7
+17 11
+18 5
+19 8
+20 11
 end_goal
-770
+3200
 begin_operator
-climb-bridge m1 l11-1
+pick-tower_DETDUP_1 b1 b1 b1
 0
-2
-0 0 0 1
-0 1 0 32
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b1
+1
+11 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b10
+1
+11 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b2
+1
+11 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b3
+1
+11 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b4
+1
+11 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b5
+1
+11 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b6
+1
+11 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b7
+1
+11 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b8
+1
+11 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b10 b9
+1
+11 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b1
+1
+11 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b10
+1
+11 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b2
+1
+11 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b3
+1
+11 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b4
+1
+11 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b5
+1
+11 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b6
+1
+11 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b7
+1
+11 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b8
+1
+11 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b9
+1
+11 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b1
+1
+11 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b10
+1
+11 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b2
+1
+11 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b3
+1
+11 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b4
+1
+11 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b5
+1
+11 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b6
+1
+11 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b7
+1
+11 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b8
+1
+11 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b9
+1
+11 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b1
+1
+11 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b10
+1
+11 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b2
+1
+11 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b3
+1
+11 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b4
+1
+11 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b5
+1
+11 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b6
+1
+11 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b7
+1
+11 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b8
+1
+11 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b9
+1
+11 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b1
+1
+11 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b10
+1
+11 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b2
+1
+11 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b3
+1
+11 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b4
+1
+11 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b5
+1
+11 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b6
+1
+11 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b7
+1
+11 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b8
+1
+11 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b9
+1
+11 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b1
+1
+11 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b10
+1
+11 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b2
+1
+11 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b3
+1
+11 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b4
+1
+11 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b5
+1
+11 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b6
+1
+11 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b7
+1
+11 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b8
+1
+11 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b6 b9
+1
+11 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b1
+1
+11 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b10
+1
+11 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b2
+1
+11 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b3
+1
+11 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b4
+1
+11 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b5
+1
+11 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b6
+1
+11 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b7
+1
+11 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b8
+1
+11 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b7 b9
+1
+11 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b1
+1
+11 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b10
+1
+11 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b2
+1
+11 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b3
+1
+11 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b4
+1
+11 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b5
+1
+11 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b6
+1
+11 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b7
+1
+11 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b8
+1
+11 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b8 b9
+1
+11 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b1
+1
+11 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b10
+1
+11 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b2
+1
+11 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b3
+1
+11 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b4
+1
+11 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b5
+1
+11 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b6
+1
+11 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b7
+1
+11 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b8
+1
+11 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b9 b9
+1
+11 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b1
+1
+12 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b10
+1
+12 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b2
+1
+12 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b3
+1
+12 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b4
+1
+12 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b5
+1
+12 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b6
+1
+12 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b7
+1
+12 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b8
+1
+12 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b1 b9
+1
+12 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b10 b10
+0
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b1
+1
+12 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b10
+1
+12 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b2
+1
+12 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b3
+1
+12 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b4
+1
+12 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b5
+1
+12 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b6
+1
+12 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b7
+1
+12 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b8
+1
+12 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b2 b9
+1
+12 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b1
+1
+12 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b10
+1
+12 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b2
+1
+12 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b3
+1
+12 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b4
+1
+12 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b5
+1
+12 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b6
+1
+12 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b7
+1
+12 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b8
+1
+12 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b3 b9
+1
+12 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b1
+1
+12 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b10
+1
+12 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b2
+1
+12 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b3
+1
+12 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b4
+1
+12 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b5
+1
+12 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b6
+1
+12 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b7
+1
+12 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b8
+1
+12 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b4 b9
+1
+12 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b1
+1
+12 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b10
+1
+12 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b2
+1
+12 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b3
+1
+12 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b4
+1
+12 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b5
+1
+12 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b6
+1
+12 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b7
+1
+12 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b8
+1
+12 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b5 b9
+1
+12 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b1
+1
+12 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b10
+1
+12 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b2
+1
+12 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b3
+1
+12 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b4
+1
+12 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b5
+1
+12 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b6
+1
+12 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b7
+1
+12 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b8
+1
+12 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b6 b9
+1
+12 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b1
+1
+12 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b10
+1
+12 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b2
+1
+12 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b3
+1
+12 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b4
+1
+12 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b5
+1
+12 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b6
+1
+12 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b7
+1
+12 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b8
+1
+12 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b7 b9
+1
+12 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b1
+1
+12 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b10
+1
+12 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b2
+1
+12 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b3
+1
+12 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b4
+1
+12 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b5
+1
+12 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b6
+1
+12 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b7
+1
+12 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b8
+1
+12 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b8 b9
+1
+12 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b1
+1
+12 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b10
+1
+12 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b2
+1
+12 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b3
+1
+12 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b4
+1
+12 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b5
+1
+12 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b6
+1
+12 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b7
+1
+12 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b8
+1
+12 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b10 b9 b9
+1
+12 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b1
+1
+13 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b10
+1
+13 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b2
+1
+13 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b3
+1
+13 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b4
+1
+13 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b5
+1
+13 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b6
+1
+13 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b7
+1
+13 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l11-2
-0
-2
-0 0 0 1
-0 1 1 32
+pick-tower_DETDUP_1 b2 b1 b8
+1
+13 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l12-1
-0
-2
-0 0 0 1
-0 1 2 32
+pick-tower_DETDUP_1 b2 b1 b9
+1
+13 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l12-2
-0
-2
-0 0 0 1
-0 1 3 32
+pick-tower_DETDUP_1 b2 b10 b1
+1
+13 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l13-1
-0
-2
-0 0 0 1
-0 1 4 32
+pick-tower_DETDUP_1 b2 b10 b10
+1
+13 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l13-2
-0
-2
-0 0 0 1
-0 1 5 32
+pick-tower_DETDUP_1 b2 b10 b2
+1
+13 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l14-1
-0
-2
-0 0 0 1
-0 1 6 32
+pick-tower_DETDUP_1 b2 b10 b3
+1
+13 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l14-2
-0
-2
-0 0 0 1
-0 1 7 32
+pick-tower_DETDUP_1 b2 b10 b4
+1
+13 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l21-1
-0
-2
-0 0 0 1
-0 1 8 32
+pick-tower_DETDUP_1 b2 b10 b5
+1
+13 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l21-2
-0
-2
-0 0 0 1
-0 1 9 32
+pick-tower_DETDUP_1 b2 b10 b6
+1
+13 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l22-1
-0
-2
-0 0 0 1
-0 1 10 32
+pick-tower_DETDUP_1 b2 b10 b7
+1
+13 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l22-2
-0
-2
-0 0 0 1
-0 1 11 32
+pick-tower_DETDUP_1 b2 b10 b8
+1
+13 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l23-1
-0
-2
-0 0 0 1
-0 1 12 32
+pick-tower_DETDUP_1 b2 b10 b9
+1
+13 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l23-2
+pick-tower_DETDUP_1 b2 b2 b2
 0
-2
-0 0 0 1
-0 1 13 32
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l24-1
-0
-2
-0 0 0 1
-0 1 14 32
+pick-tower_DETDUP_1 b2 b3 b1
+1
+13 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l24-2
-0
-2
-0 0 0 1
-0 1 15 32
+pick-tower_DETDUP_1 b2 b3 b10
+1
+13 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l31-1
-0
-2
-0 0 0 1
-0 1 16 32
+pick-tower_DETDUP_1 b2 b3 b2
+1
+13 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l31-2
-0
-2
-0 0 0 1
-0 1 17 32
+pick-tower_DETDUP_1 b2 b3 b3
+1
+13 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l32-1
-0
-2
-0 0 0 1
-0 1 18 32
+pick-tower_DETDUP_1 b2 b3 b4
+1
+13 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l32-2
-0
-2
-0 0 0 1
-0 1 19 32
+pick-tower_DETDUP_1 b2 b3 b5
+1
+13 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l33-1
-0
-2
-0 0 0 1
-0 1 20 32
+pick-tower_DETDUP_1 b2 b3 b6
+1
+13 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l33-2
-0
-2
-0 0 0 1
-0 1 21 32
+pick-tower_DETDUP_1 b2 b3 b7
+1
+13 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l34-1
+pick-tower_DETDUP_1 b2 b3 b8
+1
+13 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
-2
-0 0 0 1
-0 1 22 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b9
+1
+13 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l34-2
+pick-tower_DETDUP_1 b2 b4 b1
+1
+13 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
-2
-0 0 0 1
-0 1 23 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b10
+1
+13 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l41-1
+pick-tower_DETDUP_1 b2 b4 b2
+1
+13 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
-2
-0 0 0 1
-0 1 24 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b3
+1
+13 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l41-2
+pick-tower_DETDUP_1 b2 b4 b4
+1
+13 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
-2
-0 0 0 1
-0 1 25 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b5
+1
+13 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l42-1
+pick-tower_DETDUP_1 b2 b4 b6
+1
+13 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
-2
-0 0 0 1
-0 1 26 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b7
+1
+13 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l42-2
+pick-tower_DETDUP_1 b2 b4 b8
+1
+13 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
-2
-0 0 0 1
-0 1 27 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b9
+1
+13 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l43-1
+pick-tower_DETDUP_1 b2 b5 b1
+1
+13 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
-2
-0 0 0 1
-0 1 28 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b10
+1
+13 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l43-2
+pick-tower_DETDUP_1 b2 b5 b2
+1
+13 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
-2
-0 0 0 1
-0 1 29 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b3
+1
+13 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l44-1
+pick-tower_DETDUP_1 b2 b5 b4
+1
+13 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
-2
-0 0 0 1
-0 1 30 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b5
+1
+13 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-climb-bridge m1 l44-2
+pick-tower_DETDUP_1 b2 b5 b6
+1
+13 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
-2
-0 0 0 1
-0 1 31 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b7
+1
+13 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l11-1
+pick-tower_DETDUP_1 b2 b5 b8
+1
+13 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
-2
-0 0 0 1
-0 2 0 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b9
+1
+13 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l11-2
+pick-tower_DETDUP_1 b2 b6 b1
+1
+13 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
-2
-0 0 0 1
-0 2 1 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b6 b10
+1
+13 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l12-1
+pick-tower_DETDUP_1 b2 b6 b2
+1
+13 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
-2
-0 0 0 1
-0 2 2 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b6 b3
+1
+13 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l12-2
+pick-tower_DETDUP_1 b2 b6 b4
+1
+13 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
-2
-0 0 0 1
-0 2 3 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b6 b5
+1
+13 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l13-1
+pick-tower_DETDUP_1 b2 b6 b6
+1
+13 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
-2
-0 0 0 1
-0 2 4 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b6 b7
+1
+13 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l13-2
+pick-tower_DETDUP_1 b2 b6 b8
+1
+13 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
-2
-0 0 0 1
-0 2 5 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b6 b9
+1
+13 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l14-1
+pick-tower_DETDUP_1 b2 b7 b1
+1
+13 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
-2
-0 0 0 1
-0 2 6 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b7 b10
+1
+13 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l14-2
+pick-tower_DETDUP_1 b2 b7 b2
+1
+13 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
-2
-0 0 0 1
-0 2 7 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b7 b3
+1
+13 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l21-1
+pick-tower_DETDUP_1 b2 b7 b4
+1
+13 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
-2
-0 0 0 1
-0 2 8 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b7 b5
+1
+13 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l21-2
+pick-tower_DETDUP_1 b2 b7 b6
+1
+13 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
-2
-0 0 0 1
-0 2 9 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b7 b7
+1
+13 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l22-1
+pick-tower_DETDUP_1 b2 b7 b8
+1
+13 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
-2
-0 0 0 1
-0 2 10 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b7 b9
+1
+13 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l22-2
+pick-tower_DETDUP_1 b2 b8 b1
+1
+13 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
-2
-0 0 0 1
-0 2 11 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b8 b10
+1
+13 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l23-1
+pick-tower_DETDUP_1 b2 b8 b2
+1
+13 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
-2
-0 0 0 1
-0 2 12 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b8 b3
+1
+13 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l23-2
+pick-tower_DETDUP_1 b2 b8 b4
+1
+13 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
-2
-0 0 0 1
-0 2 13 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b8 b5
+1
+13 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l24-1
+pick-tower_DETDUP_1 b2 b8 b6
+1
+13 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
-2
-0 0 0 1
-0 2 14 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b8 b7
+1
+13 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l24-2
+pick-tower_DETDUP_1 b2 b8 b8
+1
+13 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
-2
-0 0 0 1
-0 2 15 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b8 b9
+1
+13 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l31-1
+pick-tower_DETDUP_1 b2 b9 b1
+1
+13 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
-2
-0 0 0 1
-0 2 16 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b9 b10
+1
+13 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l31-2
+pick-tower_DETDUP_1 b2 b9 b2
+1
+13 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
-2
-0 0 0 1
-0 2 17 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b9 b3
+1
+13 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l32-1
+pick-tower_DETDUP_1 b2 b9 b4
+1
+13 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
-2
-0 0 0 1
-0 2 18 32
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b9 b5
+1
+13 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l32-2
-0
-2
-0 0 0 1
-0 2 19 32
+pick-tower_DETDUP_1 b2 b9 b6
+1
+13 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l33-1
-0
-2
-0 0 0 1
-0 2 20 32
+pick-tower_DETDUP_1 b2 b9 b7
+1
+13 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l33-2
-0
-2
-0 0 0 1
-0 2 21 32
+pick-tower_DETDUP_1 b2 b9 b8
+1
+13 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l34-1
-0
-2
-0 0 0 1
-0 2 22 32
+pick-tower_DETDUP_1 b2 b9 b9
+1
+13 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l34-2
-0
-2
-0 0 0 1
-0 2 23 32
+pick-tower_DETDUP_1 b3 b1 b1
+1
+14 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l41-1
-0
-2
-0 0 0 1
-0 2 24 32
+pick-tower_DETDUP_1 b3 b1 b10
+1
+14 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l41-2
-0
-2
-0 0 0 1
-0 2 25 32
+pick-tower_DETDUP_1 b3 b1 b2
+1
+14 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l42-1
-0
-2
-0 0 0 1
-0 2 26 32
+pick-tower_DETDUP_1 b3 b1 b3
+1
+14 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l42-2
-0
-2
-0 0 0 1
-0 2 27 32
+pick-tower_DETDUP_1 b3 b1 b4
+1
+14 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l43-1
-0
-2
-0 0 0 1
-0 2 28 32
+pick-tower_DETDUP_1 b3 b1 b5
+1
+14 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l43-2
-0
-2
-0 0 0 1
-0 2 29 32
+pick-tower_DETDUP_1 b3 b1 b6
+1
+14 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l44-1
-0
-2
-0 0 0 1
-0 2 30 32
+pick-tower_DETDUP_1 b3 b1 b7
+1
+14 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-climb-bridge m2 l44-2
-0
-2
-0 0 0 1
-0 2 31 32
+pick-tower_DETDUP_1 b3 b1 b8
+1
+14 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l11-1
-0
-2
-0 0 0 1
-0 3 0 32
+pick-tower_DETDUP_1 b3 b1 b9
+1
+14 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l11-2
-0
-2
-0 0 0 1
-0 3 1 32
+pick-tower_DETDUP_1 b3 b10 b1
+1
+14 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l12-1
-0
-2
-0 0 0 1
-0 3 2 32
+pick-tower_DETDUP_1 b3 b10 b10
+1
+14 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l12-2
-0
-2
-0 0 0 1
-0 3 3 32
+pick-tower_DETDUP_1 b3 b10 b2
+1
+14 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l13-1
-0
-2
-0 0 0 1
-0 3 4 32
+pick-tower_DETDUP_1 b3 b10 b3
+1
+14 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l13-2
-0
-2
-0 0 0 1
-0 3 5 32
+pick-tower_DETDUP_1 b3 b10 b4
+1
+14 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l14-1
-0
-2
-0 0 0 1
-0 3 6 32
+pick-tower_DETDUP_1 b3 b10 b5
+1
+14 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l14-2
-0
-2
-0 0 0 1
-0 3 7 32
+pick-tower_DETDUP_1 b3 b10 b6
+1
+14 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l21-1
-0
-2
-0 0 0 1
-0 3 8 32
+pick-tower_DETDUP_1 b3 b10 b7
+1
+14 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l21-2
-0
-2
-0 0 0 1
-0 3 9 32
+pick-tower_DETDUP_1 b3 b10 b8
+1
+14 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l22-1
-0
-2
-0 0 0 1
-0 3 10 32
+pick-tower_DETDUP_1 b3 b10 b9
+1
+14 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l22-2
-0
-2
-0 0 0 1
-0 3 11 32
+pick-tower_DETDUP_1 b3 b2 b1
+1
+14 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l23-1
-0
-2
-0 0 0 1
-0 3 12 32
+pick-tower_DETDUP_1 b3 b2 b10
+1
+14 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l23-2
-0
-2
-0 0 0 1
-0 3 13 32
+pick-tower_DETDUP_1 b3 b2 b2
+1
+14 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l24-1
-0
-2
-0 0 0 1
-0 3 14 32
+pick-tower_DETDUP_1 b3 b2 b3
+1
+14 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l24-2
-0
-2
-0 0 0 1
-0 3 15 32
+pick-tower_DETDUP_1 b3 b2 b4
+1
+14 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l31-1
-0
-2
-0 0 0 1
-0 3 16 32
+pick-tower_DETDUP_1 b3 b2 b5
+1
+14 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l31-2
-0
-2
-0 0 0 1
-0 3 17 32
+pick-tower_DETDUP_1 b3 b2 b6
+1
+14 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l32-1
-0
-2
-0 0 0 1
-0 3 18 32
+pick-tower_DETDUP_1 b3 b2 b7
+1
+14 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l32-2
-0
-2
-0 0 0 1
-0 3 19 32
+pick-tower_DETDUP_1 b3 b2 b8
+1
+14 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l33-1
-0
-2
-0 0 0 1
-0 3 20 32
+pick-tower_DETDUP_1 b3 b2 b9
+1
+14 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l33-2
+pick-tower_DETDUP_1 b3 b3 b3
 0
-2
-0 0 0 1
-0 3 21 32
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l34-1
-0
-2
-0 0 0 1
-0 3 22 32
+pick-tower_DETDUP_1 b3 b4 b1
+1
+14 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l34-2
-0
-2
-0 0 0 1
-0 3 23 32
+pick-tower_DETDUP_1 b3 b4 b10
+1
+14 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l41-1
-0
-2
-0 0 0 1
-0 3 24 32
+pick-tower_DETDUP_1 b3 b4 b2
+1
+14 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l41-2
-0
-2
-0 0 0 1
-0 3 25 32
+pick-tower_DETDUP_1 b3 b4 b3
+1
+14 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l42-1
-0
-2
-0 0 0 1
-0 3 26 32
+pick-tower_DETDUP_1 b3 b4 b4
+1
+14 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l42-2
-0
-2
-0 0 0 1
-0 3 27 32
+pick-tower_DETDUP_1 b3 b4 b5
+1
+14 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l43-1
-0
-2
-0 0 0 1
-0 3 28 32
+pick-tower_DETDUP_1 b3 b4 b6
+1
+14 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l43-2
-0
-2
-0 0 0 1
-0 3 29 32
+pick-tower_DETDUP_1 b3 b4 b7
+1
+14 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l44-1
-0
-2
-0 0 0 1
-0 3 30 32
+pick-tower_DETDUP_1 b3 b4 b8
+1
+14 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-climb-bridge m3 l44-2
-0
-2
-0 0 0 1
-0 3 31 32
+pick-tower_DETDUP_1 b3 b4 b9
+1
+14 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l11-1
-0
-2
-0 0 0 1
-0 4 0 32
+pick-tower_DETDUP_1 b3 b5 b1
+1
+14 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l11-2
-0
-2
-0 0 0 1
-0 4 1 32
+pick-tower_DETDUP_1 b3 b5 b10
+1
+14 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l12-1
-0
-2
-0 0 0 1
-0 4 2 32
+pick-tower_DETDUP_1 b3 b5 b2
+1
+14 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l12-2
-0
-2
-0 0 0 1
-0 4 3 32
+pick-tower_DETDUP_1 b3 b5 b3
+1
+14 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l13-1
-0
-2
-0 0 0 1
-0 4 4 32
+pick-tower_DETDUP_1 b3 b5 b4
+1
+14 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l13-2
-0
-2
-0 0 0 1
-0 4 5 32
+pick-tower_DETDUP_1 b3 b5 b5
+1
+14 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l14-1
-0
-2
-0 0 0 1
-0 4 6 32
+pick-tower_DETDUP_1 b3 b5 b6
+1
+14 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l14-2
-0
-2
-0 0 0 1
-0 4 7 32
+pick-tower_DETDUP_1 b3 b5 b7
+1
+14 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l21-1
-0
-2
-0 0 0 1
-0 4 8 32
+pick-tower_DETDUP_1 b3 b5 b8
+1
+14 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l21-2
-0
-2
-0 0 0 1
-0 4 9 32
+pick-tower_DETDUP_1 b3 b5 b9
+1
+14 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l22-1
-0
-2
-0 0 0 1
-0 4 10 32
+pick-tower_DETDUP_1 b3 b6 b1
+1
+14 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l22-2
-0
-2
-0 0 0 1
-0 4 11 32
+pick-tower_DETDUP_1 b3 b6 b10
+1
+14 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l23-1
-0
-2
-0 0 0 1
-0 4 12 32
+pick-tower_DETDUP_1 b3 b6 b2
+1
+14 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l23-2
-0
-2
-0 0 0 1
-0 4 13 32
+pick-tower_DETDUP_1 b3 b6 b3
+1
+14 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l24-1
-0
-2
-0 0 0 1
-0 4 14 32
+pick-tower_DETDUP_1 b3 b6 b4
+1
+14 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l24-2
-0
-2
-0 0 0 1
-0 4 15 32
+pick-tower_DETDUP_1 b3 b6 b5
+1
+14 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l31-1
-0
-2
-0 0 0 1
-0 4 16 32
+pick-tower_DETDUP_1 b3 b6 b6
+1
+14 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l31-2
-0
-2
-0 0 0 1
-0 4 17 32
+pick-tower_DETDUP_1 b3 b6 b7
+1
+14 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l32-1
-0
-2
-0 0 0 1
-0 4 18 32
+pick-tower_DETDUP_1 b3 b6 b8
+1
+14 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l32-2
-0
-2
-0 0 0 1
-0 4 19 32
+pick-tower_DETDUP_1 b3 b6 b9
+1
+14 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l33-1
-0
-2
-0 0 0 1
-0 4 20 32
+pick-tower_DETDUP_1 b3 b7 b1
+1
+14 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l33-2
-0
-2
-0 0 0 1
-0 4 21 32
+pick-tower_DETDUP_1 b3 b7 b10
+1
+14 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l34-1
-0
-2
-0 0 0 1
-0 4 22 32
+pick-tower_DETDUP_1 b3 b7 b2
+1
+14 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l34-2
-0
-2
-0 0 0 1
-0 4 23 32
+pick-tower_DETDUP_1 b3 b7 b3
+1
+14 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l41-1
-0
-2
-0 0 0 1
-0 4 24 32
+pick-tower_DETDUP_1 b3 b7 b4
+1
+14 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l41-2
-0
-2
-0 0 0 1
-0 4 25 32
+pick-tower_DETDUP_1 b3 b7 b5
+1
+14 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l42-1
-0
-2
-0 0 0 1
-0 4 26 32
+pick-tower_DETDUP_1 b3 b7 b6
+1
+14 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l42-2
-0
-2
-0 0 0 1
-0 4 27 32
+pick-tower_DETDUP_1 b3 b7 b7
+1
+14 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l43-1
-0
-2
-0 0 0 1
-0 4 28 32
+pick-tower_DETDUP_1 b3 b7 b8
+1
+14 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l43-2
-0
-2
-0 0 0 1
-0 4 29 32
+pick-tower_DETDUP_1 b3 b7 b9
+1
+14 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l44-1
-0
-2
-0 0 0 1
-0 4 30 32
+pick-tower_DETDUP_1 b3 b8 b1
+1
+14 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
 end_operator
 begin_operator
-climb-bridge m4 l44-2
-0
-2
-0 0 0 1
-0 4 31 32
+pick-tower_DETDUP_1 b3 b8 b10
+1
+14 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l11-1
-0
-2
-0 0 0 1
-0 5 0 32
+pick-tower_DETDUP_1 b3 b8 b2
+1
+14 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l11-2
-0
-2
-0 0 0 1
-0 5 1 32
+pick-tower_DETDUP_1 b3 b8 b3
+1
+14 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l12-1
-0
-2
-0 0 0 1
-0 5 2 32
+pick-tower_DETDUP_1 b3 b8 b4
+1
+14 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l12-2
-0
-2
-0 0 0 1
-0 5 3 32
+pick-tower_DETDUP_1 b3 b8 b5
+1
+14 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l13-1
-0
-2
-0 0 0 1
-0 5 4 32
+pick-tower_DETDUP_1 b3 b8 b6
+1
+14 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l13-2
-0
-2
-0 0 0 1
-0 5 5 32
+pick-tower_DETDUP_1 b3 b8 b7
+1
+14 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l14-1
-0
-2
-0 0 0 1
-0 5 6 32
+pick-tower_DETDUP_1 b3 b8 b8
+1
+14 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l14-2
-0
-2
-0 0 0 1
-0 5 7 32
+pick-tower_DETDUP_1 b3 b8 b9
+1
+14 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l21-1
-0
-2
-0 0 0 1
-0 5 8 32
+pick-tower_DETDUP_1 b3 b9 b1
+1
+14 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l21-2
-0
-2
-0 0 0 1
-0 5 9 32
+pick-tower_DETDUP_1 b3 b9 b10
+1
+14 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l22-1
-0
-2
-0 0 0 1
-0 5 10 32
+pick-tower_DETDUP_1 b3 b9 b2
+1
+14 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l22-2
-0
-2
-0 0 0 1
-0 5 11 32
+pick-tower_DETDUP_1 b3 b9 b3
+1
+14 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l23-1
-0
-2
-0 0 0 1
-0 5 12 32
+pick-tower_DETDUP_1 b3 b9 b4
+1
+14 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l23-2
-0
-2
-0 0 0 1
-0 5 13 32
+pick-tower_DETDUP_1 b3 b9 b5
+1
+14 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l24-1
-0
-2
-0 0 0 1
-0 5 14 32
+pick-tower_DETDUP_1 b3 b9 b6
+1
+14 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l24-2
-0
-2
-0 0 0 1
-0 5 15 32
+pick-tower_DETDUP_1 b3 b9 b7
+1
+14 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l31-1
-0
-2
-0 0 0 1
-0 5 16 32
+pick-tower_DETDUP_1 b3 b9 b8
+1
+14 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l31-2
-0
-2
-0 0 0 1
-0 5 17 32
+pick-tower_DETDUP_1 b3 b9 b9
+1
+14 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l32-1
-0
-2
-0 0 0 1
-0 5 18 32
+pick-tower_DETDUP_1 b4 b1 b1
+1
+15 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l32-2
-0
-2
-0 0 0 1
-0 5 19 32
+pick-tower_DETDUP_1 b4 b1 b10
+1
+15 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l33-1
-0
-2
-0 0 0 1
-0 5 20 32
+pick-tower_DETDUP_1 b4 b1 b2
+1
+15 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l33-2
-0
-2
-0 0 0 1
-0 5 21 32
+pick-tower_DETDUP_1 b4 b1 b3
+1
+15 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l34-1
-0
-2
-0 0 0 1
-0 5 22 32
+pick-tower_DETDUP_1 b4 b1 b4
+1
+15 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l34-2
-0
-2
-0 0 0 1
-0 5 23 32
+pick-tower_DETDUP_1 b4 b1 b5
+1
+15 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l41-1
-0
-2
-0 0 0 1
-0 5 24 32
+pick-tower_DETDUP_1 b4 b1 b6
+1
+15 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l41-2
-0
-2
-0 0 0 1
-0 5 25 32
+pick-tower_DETDUP_1 b4 b1 b7
+1
+15 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l42-1
-0
-2
-0 0 0 1
-0 5 26 32
+pick-tower_DETDUP_1 b4 b1 b8
+1
+15 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l42-2
-0
-2
-0 0 0 1
-0 5 27 32
+pick-tower_DETDUP_1 b4 b1 b9
+1
+15 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l43-1
-0
-2
-0 0 0 1
-0 5 28 32
+pick-tower_DETDUP_1 b4 b10 b1
+1
+15 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l43-2
-0
-2
-0 0 0 1
-0 5 29 32
+pick-tower_DETDUP_1 b4 b10 b10
+1
+15 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l44-1
-0
-2
-0 0 0 1
-0 5 30 32
+pick-tower_DETDUP_1 b4 b10 b2
+1
+15 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-climb-bridge m5 l44-2
-0
-2
-0 0 0 1
-0 5 31 32
+pick-tower_DETDUP_1 b4 b10 b3
+1
+15 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-leave-bridge m1 l11-1
-0
-2
-0 0 1 0
-0 1 32 0
+pick-tower_DETDUP_1 b4 b10 b4
+1
+15 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-leave-bridge m1 l11-2
-0
-2
-0 0 1 0
-0 1 32 1
+pick-tower_DETDUP_1 b4 b10 b5
+1
+15 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-leave-bridge m2 l11-1
-0
-2
-0 0 1 0
-0 2 32 0
+pick-tower_DETDUP_1 b4 b10 b6
+1
+15 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-leave-bridge m2 l11-2
-0
-2
-0 0 1 0
-0 2 32 1
+pick-tower_DETDUP_1 b4 b10 b7
+1
+15 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-leave-bridge m3 l11-1
-0
-2
-0 0 1 0
-0 3 32 0
+pick-tower_DETDUP_1 b4 b10 b8
+1
+15 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-leave-bridge m3 l11-2
-0
-2
-0 0 1 0
-0 3 32 1
+pick-tower_DETDUP_1 b4 b10 b9
+1
+15 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-leave-bridge m4 l11-1
-0
-2
-0 0 1 0
-0 4 32 0
+pick-tower_DETDUP_1 b4 b2 b1
+1
+15 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-leave-bridge m4 l11-2
-0
-2
-0 0 1 0
-0 4 32 1
+pick-tower_DETDUP_1 b4 b2 b10
+1
+15 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-leave-bridge m5 l11-1
-0
-2
-0 0 1 0
-0 5 32 0
+pick-tower_DETDUP_1 b4 b2 b2
+1
+15 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-leave-bridge m5 l11-2
-0
-2
-0 0 1 0
-0 5 32 1
+pick-tower_DETDUP_1 b4 b2 b3
+1
+15 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l12-1 m1
-0
+pick-tower_DETDUP_1 b4 b2 b4
 1
-0 1 0 2
+15 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l12-1 m2
-0
+pick-tower_DETDUP_1 b4 b2 b5
 1
-0 2 0 2
+15 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l12-1 m3
-0
+pick-tower_DETDUP_1 b4 b2 b6
 1
-0 3 0 2
+15 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l12-1 m4
-0
+pick-tower_DETDUP_1 b4 b2 b7
 1
-0 4 0 2
+15 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l12-1 m5
-0
+pick-tower_DETDUP_1 b4 b2 b8
 1
-0 5 0 2
+15 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l21-1 m1
-0
+pick-tower_DETDUP_1 b4 b2 b9
 1
-0 1 0 8
+15 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l21-1 m2
-0
+pick-tower_DETDUP_1 b4 b3 b1
 1
-0 2 0 8
+15 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l21-1 m3
-0
+pick-tower_DETDUP_1 b4 b3 b10
 1
-0 3 0 8
+15 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l21-1 m4
-0
+pick-tower_DETDUP_1 b4 b3 b2
 1
-0 4 0 8
+15 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l11-1 l21-1 m5
-0
+pick-tower_DETDUP_1 b4 b3 b3
 1
-0 5 0 8
+15 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l12-2 m1
-0
+pick-tower_DETDUP_1 b4 b3 b4
 1
-0 1 1 3
+15 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l12-2 m2
-0
+pick-tower_DETDUP_1 b4 b3 b5
 1
-0 2 1 3
+15 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l12-2 m3
-0
+pick-tower_DETDUP_1 b4 b3 b6
 1
-0 3 1 3
+15 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l12-2 m4
-0
+pick-tower_DETDUP_1 b4 b3 b7
 1
-0 4 1 3
+15 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l12-2 m5
-0
+pick-tower_DETDUP_1 b4 b3 b8
 1
-0 5 1 3
+15 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l21-2 m1
-0
+pick-tower_DETDUP_1 b4 b3 b9
 1
-0 1 1 9
+15 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l21-2 m2
+pick-tower_DETDUP_1 b4 b4 b4
 0
-1
-0 2 1 9
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l21-2 m3
-0
+pick-tower_DETDUP_1 b4 b5 b1
 1
-0 3 1 9
+15 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l21-2 m4
-0
+pick-tower_DETDUP_1 b4 b5 b10
 1
-0 4 1 9
+15 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-move-monkey l11-2 l21-2 m5
-0
+pick-tower_DETDUP_1 b4 b5 b2
 1
-0 5 1 9
+15 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l11-1 m1
-0
+pick-tower_DETDUP_1 b4 b5 b3
 1
-0 1 2 0
+15 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l11-1 m2
-0
+pick-tower_DETDUP_1 b4 b5 b4
 1
-0 2 2 0
+15 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l11-1 m3
-0
+pick-tower_DETDUP_1 b4 b5 b5
 1
-0 3 2 0
+15 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l11-1 m4
-0
+pick-tower_DETDUP_1 b4 b5 b6
 1
-0 4 2 0
+15 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l11-1 m5
-0
+pick-tower_DETDUP_1 b4 b5 b7
 1
-0 5 2 0
+15 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l13-1 m1
-0
+pick-tower_DETDUP_1 b4 b5 b8
 1
-0 1 2 4
+15 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l13-1 m2
-0
+pick-tower_DETDUP_1 b4 b5 b9
 1
-0 2 2 4
+15 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l13-1 m3
-0
+pick-tower_DETDUP_1 b4 b6 b1
 1
-0 3 2 4
+15 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l13-1 m4
-0
+pick-tower_DETDUP_1 b4 b6 b10
 1
-0 4 2 4
+15 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l13-1 m5
-0
+pick-tower_DETDUP_1 b4 b6 b2
 1
-0 5 2 4
+15 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l22-1 m1
-0
+pick-tower_DETDUP_1 b4 b6 b3
 1
-0 1 2 10
+15 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l22-1 m2
-0
+pick-tower_DETDUP_1 b4 b6 b4
 1
-0 2 2 10
+15 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l22-1 m3
-0
+pick-tower_DETDUP_1 b4 b6 b5
 1
-0 3 2 10
+15 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l22-1 m4
-0
+pick-tower_DETDUP_1 b4 b6 b6
 1
-0 4 2 10
+15 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-monkey l12-1 l22-1 m5
-0
+pick-tower_DETDUP_1 b4 b6 b7
 1
-0 5 2 10
+15 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l11-2 m1
-0
+pick-tower_DETDUP_1 b4 b6 b8
 1
-0 1 3 1
+15 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l11-2 m2
-0
+pick-tower_DETDUP_1 b4 b6 b9
 1
-0 2 3 1
+15 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l11-2 m3
-0
+pick-tower_DETDUP_1 b4 b7 b1
 1
-0 3 3 1
+15 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l11-2 m4
-0
+pick-tower_DETDUP_1 b4 b7 b10
 1
-0 4 3 1
+15 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l11-2 m5
-0
+pick-tower_DETDUP_1 b4 b7 b2
 1
-0 5 3 1
+15 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l13-2 m1
-0
+pick-tower_DETDUP_1 b4 b7 b3
 1
-0 1 3 5
+15 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l13-2 m2
-0
+pick-tower_DETDUP_1 b4 b7 b4
 1
-0 2 3 5
+15 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l13-2 m3
-0
+pick-tower_DETDUP_1 b4 b7 b5
 1
-0 3 3 5
+15 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l13-2 m4
-0
+pick-tower_DETDUP_1 b4 b7 b6
 1
-0 4 3 5
+15 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l13-2 m5
-0
+pick-tower_DETDUP_1 b4 b7 b7
 1
-0 5 3 5
+15 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l22-2 m1
-0
+pick-tower_DETDUP_1 b4 b7 b8
 1
-0 1 3 11
+15 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l22-2 m2
-0
+pick-tower_DETDUP_1 b4 b7 b9
 1
-0 2 3 11
+15 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l22-2 m3
+pick-tower_DETDUP_1 b4 b8 b1
+1
+15 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b8 b10
 1
-0 3 3 11
+15 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l22-2 m4
-0
+pick-tower_DETDUP_1 b4 b8 b2
 1
-0 4 3 11
+15 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-move-monkey l12-2 l22-2 m5
-0
+pick-tower_DETDUP_1 b4 b8 b3
 1
-0 5 3 11
+15 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l12-1 m1
-0
+pick-tower_DETDUP_1 b4 b8 b4
 1
-0 1 4 2
+15 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l12-1 m2
-0
+pick-tower_DETDUP_1 b4 b8 b5
 1
-0 2 4 2
+15 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l12-1 m3
-0
+pick-tower_DETDUP_1 b4 b8 b6
 1
-0 3 4 2
+15 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l12-1 m4
-0
+pick-tower_DETDUP_1 b4 b8 b7
 1
-0 4 4 2
+15 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l12-1 m5
-0
+pick-tower_DETDUP_1 b4 b8 b8
 1
-0 5 4 2
+15 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l14-1 m1
-0
+pick-tower_DETDUP_1 b4 b8 b9
 1
-0 1 4 6
+15 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l14-1 m2
-0
+pick-tower_DETDUP_1 b4 b9 b1
 1
-0 2 4 6
+15 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l14-1 m3
-0
+pick-tower_DETDUP_1 b4 b9 b10
 1
-0 3 4 6
+15 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l14-1 m4
-0
+pick-tower_DETDUP_1 b4 b9 b2
 1
-0 4 4 6
+15 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l14-1 m5
-0
+pick-tower_DETDUP_1 b4 b9 b3
 1
-0 5 4 6
+15 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l23-1 m1
-0
+pick-tower_DETDUP_1 b4 b9 b4
 1
-0 1 4 12
+15 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l23-1 m2
-0
+pick-tower_DETDUP_1 b4 b9 b5
 1
-0 2 4 12
+15 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l23-1 m3
-0
+pick-tower_DETDUP_1 b4 b9 b6
 1
-0 3 4 12
+15 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l23-1 m4
-0
+pick-tower_DETDUP_1 b4 b9 b7
 1
-0 4 4 12
+15 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-move-monkey l13-1 l23-1 m5
-0
+pick-tower_DETDUP_1 b4 b9 b8
 1
-0 5 4 12
+15 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l12-2 m1
-0
+pick-tower_DETDUP_1 b4 b9 b9
 1
-0 1 5 3
+15 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l12-2 m2
-0
+pick-tower_DETDUP_1 b5 b1 b1
 1
-0 2 5 3
+16 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l12-2 m3
-0
+pick-tower_DETDUP_1 b5 b1 b10
 1
-0 3 5 3
+16 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l12-2 m4
-0
+pick-tower_DETDUP_1 b5 b1 b2
 1
-0 4 5 3
+16 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l12-2 m5
-0
+pick-tower_DETDUP_1 b5 b1 b3
 1
-0 5 5 3
+16 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l14-2 m1
-0
+pick-tower_DETDUP_1 b5 b1 b4
 1
-0 1 5 7
+16 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l14-2 m2
-0
+pick-tower_DETDUP_1 b5 b1 b5
 1
-0 2 5 7
+16 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l14-2 m3
-0
+pick-tower_DETDUP_1 b5 b1 b6
 1
-0 3 5 7
+16 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l14-2 m4
-0
+pick-tower_DETDUP_1 b5 b1 b7
 1
-0 4 5 7
+16 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l14-2 m5
-0
+pick-tower_DETDUP_1 b5 b1 b8
 1
-0 5 5 7
+16 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l23-2 m1
-0
+pick-tower_DETDUP_1 b5 b1 b9
 1
-0 1 5 13
+16 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l23-2 m2
-0
+pick-tower_DETDUP_1 b5 b10 b1
 1
-0 2 5 13
+16 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l23-2 m3
-0
+pick-tower_DETDUP_1 b5 b10 b10
 1
-0 3 5 13
+16 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l23-2 m4
-0
+pick-tower_DETDUP_1 b5 b10 b2
 1
-0 4 5 13
+16 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-monkey l13-2 l23-2 m5
-0
+pick-tower_DETDUP_1 b5 b10 b3
 1
-0 5 5 13
+16 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l13-1 m1
-0
+pick-tower_DETDUP_1 b5 b10 b4
 1
-0 1 6 4
+16 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l13-1 m2
-0
+pick-tower_DETDUP_1 b5 b10 b5
 1
-0 2 6 4
+16 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l13-1 m3
-0
+pick-tower_DETDUP_1 b5 b10 b6
 1
-0 3 6 4
+16 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l13-1 m4
-0
+pick-tower_DETDUP_1 b5 b10 b7
 1
-0 4 6 4
+16 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l13-1 m5
-0
+pick-tower_DETDUP_1 b5 b10 b8
 1
-0 5 6 4
+16 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l24-1 m1
-0
+pick-tower_DETDUP_1 b5 b10 b9
 1
-0 1 6 14
+16 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l24-1 m2
-0
+pick-tower_DETDUP_1 b5 b2 b1
 1
-0 2 6 14
+16 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l24-1 m3
-0
+pick-tower_DETDUP_1 b5 b2 b10
 1
-0 3 6 14
+16 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l24-1 m4
-0
+pick-tower_DETDUP_1 b5 b2 b2
 1
-0 4 6 14
+16 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-move-monkey l14-1 l24-1 m5
-0
+pick-tower_DETDUP_1 b5 b2 b3
 1
-0 5 6 14
+16 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l13-2 m1
-0
+pick-tower_DETDUP_1 b5 b2 b4
 1
-0 1 7 5
+16 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l13-2 m2
-0
+pick-tower_DETDUP_1 b5 b2 b5
 1
-0 2 7 5
+16 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l13-2 m3
-0
+pick-tower_DETDUP_1 b5 b2 b6
 1
-0 3 7 5
+16 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l13-2 m4
-0
+pick-tower_DETDUP_1 b5 b2 b7
 1
-0 4 7 5
+16 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l13-2 m5
-0
+pick-tower_DETDUP_1 b5 b2 b8
 1
-0 5 7 5
+16 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l24-2 m1
-0
+pick-tower_DETDUP_1 b5 b2 b9
 1
-0 1 7 15
+16 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l24-2 m2
-0
+pick-tower_DETDUP_1 b5 b3 b1
 1
-0 2 7 15
+16 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l24-2 m3
-0
+pick-tower_DETDUP_1 b5 b3 b10
 1
-0 3 7 15
+16 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l24-2 m4
-0
+pick-tower_DETDUP_1 b5 b3 b2
 1
-0 4 7 15
+16 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l14-2 l24-2 m5
-0
+pick-tower_DETDUP_1 b5 b3 b3
 1
-0 5 7 15
+16 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l11-1 m1
-0
+pick-tower_DETDUP_1 b5 b3 b4
 1
-0 1 8 0
+16 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l11-1 m2
-0
+pick-tower_DETDUP_1 b5 b3 b5
 1
-0 2 8 0
+16 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l11-1 m3
-0
+pick-tower_DETDUP_1 b5 b3 b6
 1
-0 3 8 0
+16 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l11-1 m4
-0
+pick-tower_DETDUP_1 b5 b3 b7
 1
-0 4 8 0
+16 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l11-1 m5
-0
+pick-tower_DETDUP_1 b5 b3 b8
 1
-0 5 8 0
+16 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l22-1 m1
-0
+pick-tower_DETDUP_1 b5 b3 b9
 1
-0 1 8 10
+16 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l22-1 m2
-0
+pick-tower_DETDUP_1 b5 b4 b1
 1
-0 2 8 10
+16 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l22-1 m3
-0
+pick-tower_DETDUP_1 b5 b4 b10
 1
-0 3 8 10
+16 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l22-1 m4
-0
+pick-tower_DETDUP_1 b5 b4 b2
 1
-0 4 8 10
+16 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l22-1 m5
-0
+pick-tower_DETDUP_1 b5 b4 b3
 1
-0 5 8 10
+16 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l31-1 m1
-0
+pick-tower_DETDUP_1 b5 b4 b4
 1
-0 1 8 16
+16 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l31-1 m2
-0
+pick-tower_DETDUP_1 b5 b4 b5
 1
-0 2 8 16
+16 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l31-1 m3
-0
+pick-tower_DETDUP_1 b5 b4 b6
 1
-0 3 8 16
+16 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l31-1 m4
-0
+pick-tower_DETDUP_1 b5 b4 b7
 1
-0 4 8 16
+16 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-monkey l21-1 l31-1 m5
-0
+pick-tower_DETDUP_1 b5 b4 b8
 1
-0 5 8 16
+16 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l11-2 m1
-0
+pick-tower_DETDUP_1 b5 b4 b9
 1
-0 1 9 1
+16 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l11-2 m2
+pick-tower_DETDUP_1 b5 b5 b5
 0
-1
-0 2 9 1
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l11-2 m3
-0
+pick-tower_DETDUP_1 b5 b6 b1
 1
-0 3 9 1
+16 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l11-2 m4
-0
+pick-tower_DETDUP_1 b5 b6 b10
 1
-0 4 9 1
+16 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l11-2 m5
-0
+pick-tower_DETDUP_1 b5 b6 b2
 1
-0 5 9 1
+16 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l22-2 m1
-0
+pick-tower_DETDUP_1 b5 b6 b3
 1
-0 1 9 11
+16 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l22-2 m2
-0
+pick-tower_DETDUP_1 b5 b6 b4
 1
-0 2 9 11
+16 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l22-2 m3
-0
+pick-tower_DETDUP_1 b5 b6 b5
 1
-0 3 9 11
+16 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l22-2 m4
-0
+pick-tower_DETDUP_1 b5 b6 b6
 1
-0 4 9 11
+16 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l22-2 m5
-0
+pick-tower_DETDUP_1 b5 b6 b7
 1
-0 5 9 11
+16 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l31-2 m1
-0
+pick-tower_DETDUP_1 b5 b6 b8
 1
-0 1 9 17
+16 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l31-2 m2
-0
+pick-tower_DETDUP_1 b5 b6 b9
 1
-0 2 9 17
+16 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l31-2 m3
-0
+pick-tower_DETDUP_1 b5 b7 b1
 1
-0 3 9 17
+16 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l31-2 m4
-0
+pick-tower_DETDUP_1 b5 b7 b10
 1
-0 4 9 17
+16 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-move-monkey l21-2 l31-2 m5
-0
+pick-tower_DETDUP_1 b5 b7 b2
 1
-0 5 9 17
+16 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l12-1 m1
-0
+pick-tower_DETDUP_1 b5 b7 b3
 1
-0 1 10 2
+16 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l12-1 m2
-0
+pick-tower_DETDUP_1 b5 b7 b4
 1
-0 2 10 2
+16 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l12-1 m3
-0
+pick-tower_DETDUP_1 b5 b7 b5
 1
-0 3 10 2
+16 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l12-1 m4
-0
+pick-tower_DETDUP_1 b5 b7 b6
 1
-0 4 10 2
+16 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l12-1 m5
-0
+pick-tower_DETDUP_1 b5 b7 b7
 1
-0 5 10 2
+16 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l21-1 m1
-0
+pick-tower_DETDUP_1 b5 b7 b8
 1
-0 1 10 8
+16 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l21-1 m2
-0
+pick-tower_DETDUP_1 b5 b7 b9
 1
-0 2 10 8
+16 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l21-1 m3
-0
+pick-tower_DETDUP_1 b5 b8 b1
 1
-0 3 10 8
+16 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l21-1 m4
-0
+pick-tower_DETDUP_1 b5 b8 b10
 1
-0 4 10 8
+16 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l21-1 m5
-0
+pick-tower_DETDUP_1 b5 b8 b2
 1
-0 5 10 8
+16 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l23-1 m1
-0
+pick-tower_DETDUP_1 b5 b8 b3
 1
-0 1 10 12
+16 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l23-1 m2
-0
+pick-tower_DETDUP_1 b5 b8 b4
 1
-0 2 10 12
+16 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l23-1 m3
-0
+pick-tower_DETDUP_1 b5 b8 b5
 1
-0 3 10 12
+16 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l23-1 m4
-0
+pick-tower_DETDUP_1 b5 b8 b6
 1
-0 4 10 12
+16 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l23-1 m5
-0
+pick-tower_DETDUP_1 b5 b8 b7
 1
-0 5 10 12
+16 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l32-1 m1
-0
+pick-tower_DETDUP_1 b5 b8 b8
 1
-0 1 10 18
+16 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l32-1 m2
-0
+pick-tower_DETDUP_1 b5 b8 b9
 1
-0 2 10 18
+16 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l32-1 m3
-0
+pick-tower_DETDUP_1 b5 b9 b1
 1
-0 3 10 18
+16 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l32-1 m4
-0
+pick-tower_DETDUP_1 b5 b9 b10
 1
-0 4 10 18
+16 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-move-monkey l22-1 l32-1 m5
-0
+pick-tower_DETDUP_1 b5 b9 b2
 1
-0 5 10 18
+16 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l12-2 m1
-0
+pick-tower_DETDUP_1 b5 b9 b3
 1
-0 1 11 3
+16 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l12-2 m2
-0
+pick-tower_DETDUP_1 b5 b9 b4
 1
-0 2 11 3
+16 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l12-2 m3
-0
+pick-tower_DETDUP_1 b5 b9 b5
 1
-0 3 11 3
+16 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l12-2 m4
-0
+pick-tower_DETDUP_1 b5 b9 b6
 1
-0 4 11 3
+16 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l12-2 m5
-0
+pick-tower_DETDUP_1 b5 b9 b7
 1
-0 5 11 3
+16 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l21-2 m1
-0
+pick-tower_DETDUP_1 b5 b9 b8
 1
-0 1 11 9
+16 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l21-2 m2
-0
+pick-tower_DETDUP_1 b5 b9 b9
 1
-0 2 11 9
+16 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l21-2 m3
-0
+pick-tower_DETDUP_1 b6 b1 b1
 1
-0 3 11 9
+17 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l21-2 m4
-0
+pick-tower_DETDUP_1 b6 b1 b10
 1
-0 4 11 9
+17 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l21-2 m5
-0
+pick-tower_DETDUP_1 b6 b1 b2
 1
-0 5 11 9
+17 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l23-2 m1
-0
+pick-tower_DETDUP_1 b6 b1 b3
 1
-0 1 11 13
+17 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l23-2 m2
-0
+pick-tower_DETDUP_1 b6 b1 b4
 1
-0 2 11 13
+17 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l23-2 m3
-0
+pick-tower_DETDUP_1 b6 b1 b5
 1
-0 3 11 13
+17 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l23-2 m4
-0
+pick-tower_DETDUP_1 b6 b1 b6
 1
-0 4 11 13
+17 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l23-2 m5
-0
+pick-tower_DETDUP_1 b6 b1 b7
 1
-0 5 11 13
+17 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l32-2 m1
-0
+pick-tower_DETDUP_1 b6 b1 b8
 1
-0 1 11 19
+17 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l32-2 m2
-0
+pick-tower_DETDUP_1 b6 b1 b9
 1
-0 2 11 19
+17 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l32-2 m3
-0
+pick-tower_DETDUP_1 b6 b10 b1
 1
-0 3 11 19
+17 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l32-2 m4
-0
+pick-tower_DETDUP_1 b6 b10 b10
 1
-0 4 11 19
+17 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-move-monkey l22-2 l32-2 m5
-0
+pick-tower_DETDUP_1 b6 b10 b2
 1
-0 5 11 19
+17 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l13-1 m1
-0
+pick-tower_DETDUP_1 b6 b10 b3
 1
-0 1 12 4
+17 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l13-1 m2
-0
+pick-tower_DETDUP_1 b6 b10 b4
 1
-0 2 12 4
+17 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l13-1 m3
-0
+pick-tower_DETDUP_1 b6 b10 b5
 1
-0 3 12 4
+17 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l13-1 m4
-0
+pick-tower_DETDUP_1 b6 b10 b6
 1
-0 4 12 4
+17 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l13-1 m5
-0
+pick-tower_DETDUP_1 b6 b10 b7
 1
-0 5 12 4
+17 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l22-1 m1
-0
+pick-tower_DETDUP_1 b6 b10 b8
 1
-0 1 12 10
+17 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l22-1 m2
-0
+pick-tower_DETDUP_1 b6 b10 b9
 1
-0 2 12 10
+17 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l22-1 m3
-0
+pick-tower_DETDUP_1 b6 b2 b1
 1
-0 3 12 10
+17 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l22-1 m4
-0
+pick-tower_DETDUP_1 b6 b2 b10
 1
-0 4 12 10
+17 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l22-1 m5
-0
+pick-tower_DETDUP_1 b6 b2 b2
 1
-0 5 12 10
+17 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l24-1 m1
-0
+pick-tower_DETDUP_1 b6 b2 b3
 1
-0 1 12 14
+17 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l24-1 m2
-0
+pick-tower_DETDUP_1 b6 b2 b4
 1
-0 2 12 14
+17 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l24-1 m3
-0
+pick-tower_DETDUP_1 b6 b2 b5
 1
-0 3 12 14
+17 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l24-1 m4
-0
+pick-tower_DETDUP_1 b6 b2 b6
 1
-0 4 12 14
+17 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l24-1 m5
-0
+pick-tower_DETDUP_1 b6 b2 b7
 1
-0 5 12 14
+17 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l33-1 m1
-0
+pick-tower_DETDUP_1 b6 b2 b8
 1
-0 1 12 20
+17 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l33-1 m2
-0
+pick-tower_DETDUP_1 b6 b2 b9
 1
-0 2 12 20
+17 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l33-1 m3
-0
+pick-tower_DETDUP_1 b6 b3 b1
 1
-0 3 12 20
+17 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l33-1 m4
-0
+pick-tower_DETDUP_1 b6 b3 b10
 1
-0 4 12 20
+17 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l23-1 l33-1 m5
-0
+pick-tower_DETDUP_1 b6 b3 b2
 1
-0 5 12 20
+17 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l13-2 m1
-0
+pick-tower_DETDUP_1 b6 b3 b3
 1
-0 1 13 5
+17 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l13-2 m2
-0
+pick-tower_DETDUP_1 b6 b3 b4
 1
-0 2 13 5
+17 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l13-2 m3
-0
+pick-tower_DETDUP_1 b6 b3 b5
 1
-0 3 13 5
+17 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l13-2 m4
-0
+pick-tower_DETDUP_1 b6 b3 b6
 1
-0 4 13 5
+17 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l13-2 m5
-0
+pick-tower_DETDUP_1 b6 b3 b7
 1
-0 5 13 5
+17 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l22-2 m1
-0
+pick-tower_DETDUP_1 b6 b3 b8
 1
-0 1 13 11
+17 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l22-2 m2
-0
+pick-tower_DETDUP_1 b6 b3 b9
 1
-0 2 13 11
+17 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l22-2 m3
-0
+pick-tower_DETDUP_1 b6 b4 b1
 1
-0 3 13 11
+17 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l22-2 m4
-0
+pick-tower_DETDUP_1 b6 b4 b10
 1
-0 4 13 11
+17 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l22-2 m5
-0
+pick-tower_DETDUP_1 b6 b4 b2
 1
-0 5 13 11
+17 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l24-2 m1
-0
+pick-tower_DETDUP_1 b6 b4 b3
 1
-0 1 13 15
+17 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l24-2 m2
-0
+pick-tower_DETDUP_1 b6 b4 b4
 1
-0 2 13 15
+17 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l24-2 m3
-0
+pick-tower_DETDUP_1 b6 b4 b5
 1
-0 3 13 15
+17 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l24-2 m4
-0
+pick-tower_DETDUP_1 b6 b4 b6
 1
-0 4 13 15
+17 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l24-2 m5
-0
+pick-tower_DETDUP_1 b6 b4 b7
 1
-0 5 13 15
+17 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l33-2 m1
-0
+pick-tower_DETDUP_1 b6 b4 b8
 1
-0 1 13 21
+17 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l33-2 m2
-0
+pick-tower_DETDUP_1 b6 b4 b9
 1
-0 2 13 21
+17 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l33-2 m3
-0
+pick-tower_DETDUP_1 b6 b5 b1
 1
-0 3 13 21
+17 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l33-2 m4
-0
+pick-tower_DETDUP_1 b6 b5 b10
 1
-0 4 13 21
+17 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-move-monkey l23-2 l33-2 m5
-0
+pick-tower_DETDUP_1 b6 b5 b2
 1
-0 5 13 21
+17 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l14-1 m1
-0
+pick-tower_DETDUP_1 b6 b5 b3
 1
-0 1 14 6
+17 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l14-1 m2
-0
+pick-tower_DETDUP_1 b6 b5 b4
 1
-0 2 14 6
+17 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l14-1 m3
-0
+pick-tower_DETDUP_1 b6 b5 b5
 1
-0 3 14 6
+17 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l14-1 m4
-0
+pick-tower_DETDUP_1 b6 b5 b6
 1
-0 4 14 6
+17 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l14-1 m5
-0
+pick-tower_DETDUP_1 b6 b5 b7
 1
-0 5 14 6
+17 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l23-1 m1
-0
+pick-tower_DETDUP_1 b6 b5 b8
 1
-0 1 14 12
+17 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l23-1 m2
-0
+pick-tower_DETDUP_1 b6 b5 b9
 1
-0 2 14 12
+17 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l23-1 m3
+pick-tower_DETDUP_1 b6 b6 b6
 0
-1
-0 3 14 12
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l23-1 m4
-0
+pick-tower_DETDUP_1 b6 b7 b1
 1
-0 4 14 12
+17 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l23-1 m5
-0
+pick-tower_DETDUP_1 b6 b7 b10
 1
-0 5 14 12
+17 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l34-1 m1
-0
+pick-tower_DETDUP_1 b6 b7 b2
 1
-0 1 14 22
+17 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l34-1 m2
-0
+pick-tower_DETDUP_1 b6 b7 b3
 1
-0 2 14 22
+17 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l34-1 m3
-0
+pick-tower_DETDUP_1 b6 b7 b4
 1
-0 3 14 22
+17 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l34-1 m4
-0
+pick-tower_DETDUP_1 b6 b7 b5
 1
-0 4 14 22
+17 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-move-monkey l24-1 l34-1 m5
-0
+pick-tower_DETDUP_1 b6 b7 b6
 1
-0 5 14 22
+17 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l14-2 m1
-0
+pick-tower_DETDUP_1 b6 b7 b7
 1
-0 1 15 7
+17 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l14-2 m2
-0
+pick-tower_DETDUP_1 b6 b7 b8
 1
-0 2 15 7
+17 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l14-2 m3
-0
+pick-tower_DETDUP_1 b6 b7 b9
 1
-0 3 15 7
+17 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l14-2 m4
-0
+pick-tower_DETDUP_1 b6 b8 b1
 1
-0 4 15 7
+17 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l14-2 m5
-0
+pick-tower_DETDUP_1 b6 b8 b10
 1
-0 5 15 7
+17 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l23-2 m1
-0
+pick-tower_DETDUP_1 b6 b8 b2
 1
-0 1 15 13
+17 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l23-2 m2
-0
+pick-tower_DETDUP_1 b6 b8 b3
 1
-0 2 15 13
+17 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l23-2 m3
-0
+pick-tower_DETDUP_1 b6 b8 b4
 1
-0 3 15 13
+17 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l23-2 m4
-0
+pick-tower_DETDUP_1 b6 b8 b5
 1
-0 4 15 13
+17 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l23-2 m5
-0
+pick-tower_DETDUP_1 b6 b8 b6
 1
-0 5 15 13
+17 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l34-2 m1
-0
+pick-tower_DETDUP_1 b6 b8 b7
 1
-0 1 15 23
+17 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l34-2 m2
-0
+pick-tower_DETDUP_1 b6 b8 b8
 1
-0 2 15 23
+17 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l34-2 m3
-0
+pick-tower_DETDUP_1 b6 b8 b9
 1
-0 3 15 23
+17 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l34-2 m4
-0
+pick-tower_DETDUP_1 b6 b9 b1
 1
-0 4 15 23
+17 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-move-monkey l24-2 l34-2 m5
-0
+pick-tower_DETDUP_1 b6 b9 b10
 1
-0 5 15 23
+17 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l21-1 m1
-0
+pick-tower_DETDUP_1 b6 b9 b2
 1
-0 1 16 8
+17 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l21-1 m2
-0
+pick-tower_DETDUP_1 b6 b9 b3
 1
-0 2 16 8
+17 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l21-1 m3
-0
+pick-tower_DETDUP_1 b6 b9 b4
 1
-0 3 16 8
+17 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l21-1 m4
-0
+pick-tower_DETDUP_1 b6 b9 b5
 1
-0 4 16 8
+17 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l21-1 m5
-0
+pick-tower_DETDUP_1 b6 b9 b6
 1
-0 5 16 8
+17 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l32-1 m1
-0
+pick-tower_DETDUP_1 b6 b9 b7
 1
-0 1 16 18
+17 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l32-1 m2
-0
+pick-tower_DETDUP_1 b6 b9 b8
 1
-0 2 16 18
+17 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l32-1 m3
-0
+pick-tower_DETDUP_1 b6 b9 b9
 1
-0 3 16 18
+17 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l32-1 m4
-0
+pick-tower_DETDUP_1 b7 b1 b1
 1
-0 4 16 18
+18 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l32-1 m5
-0
+pick-tower_DETDUP_1 b7 b1 b10
 1
-0 5 16 18
+18 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l41-1 m1
-0
+pick-tower_DETDUP_1 b7 b1 b2
 1
-0 1 16 24
+18 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l41-1 m2
-0
+pick-tower_DETDUP_1 b7 b1 b3
 1
-0 2 16 24
+18 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l41-1 m3
-0
+pick-tower_DETDUP_1 b7 b1 b4
 1
-0 3 16 24
+18 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l41-1 m4
-0
+pick-tower_DETDUP_1 b7 b1 b5
 1
-0 4 16 24
+18 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-monkey l31-1 l41-1 m5
-0
+pick-tower_DETDUP_1 b7 b1 b6
 1
-0 5 16 24
+18 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l21-2 m1
-0
+pick-tower_DETDUP_1 b7 b1 b7
 1
-0 1 17 9
+18 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l21-2 m2
-0
+pick-tower_DETDUP_1 b7 b1 b8
 1
-0 2 17 9
+18 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l21-2 m3
-0
+pick-tower_DETDUP_1 b7 b1 b9
 1
-0 3 17 9
+18 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l21-2 m4
-0
+pick-tower_DETDUP_1 b7 b10 b1
 1
-0 4 17 9
+18 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l21-2 m5
-0
+pick-tower_DETDUP_1 b7 b10 b10
 1
-0 5 17 9
+18 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l32-2 m1
-0
+pick-tower_DETDUP_1 b7 b10 b2
 1
-0 1 17 19
+18 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l32-2 m2
-0
+pick-tower_DETDUP_1 b7 b10 b3
 1
-0 2 17 19
+18 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l32-2 m3
-0
+pick-tower_DETDUP_1 b7 b10 b4
 1
-0 3 17 19
+18 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l32-2 m4
-0
+pick-tower_DETDUP_1 b7 b10 b5
 1
-0 4 17 19
+18 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l32-2 m5
-0
+pick-tower_DETDUP_1 b7 b10 b6
 1
-0 5 17 19
+18 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l41-2 m1
-0
+pick-tower_DETDUP_1 b7 b10 b7
 1
-0 1 17 25
+18 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l41-2 m2
-0
+pick-tower_DETDUP_1 b7 b10 b8
 1
-0 2 17 25
+18 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l41-2 m3
-0
+pick-tower_DETDUP_1 b7 b10 b9
 1
-0 3 17 25
+18 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l41-2 m4
-0
+pick-tower_DETDUP_1 b7 b2 b1
 1
-0 4 17 25
+18 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-monkey l31-2 l41-2 m5
-0
+pick-tower_DETDUP_1 b7 b2 b10
 1
-0 5 17 25
+18 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l22-1 m1
-0
+pick-tower_DETDUP_1 b7 b2 b2
 1
-0 1 18 10
+18 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l22-1 m2
-0
+pick-tower_DETDUP_1 b7 b2 b3
 1
-0 2 18 10
+18 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l22-1 m3
-0
+pick-tower_DETDUP_1 b7 b2 b4
 1
-0 3 18 10
+18 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l22-1 m4
-0
+pick-tower_DETDUP_1 b7 b2 b5
 1
-0 4 18 10
+18 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l22-1 m5
-0
+pick-tower_DETDUP_1 b7 b2 b6
 1
-0 5 18 10
+18 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l31-1 m1
-0
+pick-tower_DETDUP_1 b7 b2 b7
 1
-0 1 18 16
+18 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l31-1 m2
-0
+pick-tower_DETDUP_1 b7 b2 b8
 1
-0 2 18 16
+18 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l31-1 m3
-0
+pick-tower_DETDUP_1 b7 b2 b9
 1
-0 3 18 16
+18 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l31-1 m4
-0
+pick-tower_DETDUP_1 b7 b3 b1
 1
-0 4 18 16
+18 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l31-1 m5
-0
+pick-tower_DETDUP_1 b7 b3 b10
 1
-0 5 18 16
+18 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l33-1 m1
-0
+pick-tower_DETDUP_1 b7 b3 b2
 1
-0 1 18 20
+18 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l33-1 m2
-0
+pick-tower_DETDUP_1 b7 b3 b3
 1
-0 2 18 20
+18 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l33-1 m3
-0
+pick-tower_DETDUP_1 b7 b3 b4
 1
-0 3 18 20
+18 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l33-1 m4
-0
+pick-tower_DETDUP_1 b7 b3 b5
 1
-0 4 18 20
+18 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l33-1 m5
-0
+pick-tower_DETDUP_1 b7 b3 b6
 1
-0 5 18 20
+18 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l42-1 m1
-0
+pick-tower_DETDUP_1 b7 b3 b7
 1
-0 1 18 26
+18 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l42-1 m2
-0
+pick-tower_DETDUP_1 b7 b3 b8
 1
-0 2 18 26
+18 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l42-1 m3
-0
+pick-tower_DETDUP_1 b7 b3 b9
 1
-0 3 18 26
+18 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l42-1 m4
-0
+pick-tower_DETDUP_1 b7 b4 b1
 1
-0 4 18 26
+18 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-monkey l32-1 l42-1 m5
-0
+pick-tower_DETDUP_1 b7 b4 b10
 1
-0 5 18 26
+18 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l22-2 m1
-0
+pick-tower_DETDUP_1 b7 b4 b2
 1
-0 1 19 11
+18 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l22-2 m2
-0
+pick-tower_DETDUP_1 b7 b4 b3
 1
-0 2 19 11
+18 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l22-2 m3
-0
+pick-tower_DETDUP_1 b7 b4 b4
 1
-0 3 19 11
+18 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l22-2 m4
-0
+pick-tower_DETDUP_1 b7 b4 b5
 1
-0 4 19 11
+18 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l22-2 m5
-0
+pick-tower_DETDUP_1 b7 b4 b6
 1
-0 5 19 11
+18 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l31-2 m1
-0
+pick-tower_DETDUP_1 b7 b4 b7
 1
-0 1 19 17
+18 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l31-2 m2
-0
+pick-tower_DETDUP_1 b7 b4 b8
 1
-0 2 19 17
+18 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l31-2 m3
-0
+pick-tower_DETDUP_1 b7 b4 b9
 1
-0 3 19 17
+18 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l31-2 m4
-0
+pick-tower_DETDUP_1 b7 b5 b1
 1
-0 4 19 17
+18 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l31-2 m5
-0
+pick-tower_DETDUP_1 b7 b5 b10
 1
-0 5 19 17
+18 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l33-2 m1
-0
+pick-tower_DETDUP_1 b7 b5 b2
 1
-0 1 19 21
+18 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l33-2 m2
-0
+pick-tower_DETDUP_1 b7 b5 b3
 1
-0 2 19 21
+18 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l33-2 m3
-0
+pick-tower_DETDUP_1 b7 b5 b4
 1
-0 3 19 21
+18 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l33-2 m4
-0
+pick-tower_DETDUP_1 b7 b5 b5
 1
-0 4 19 21
+18 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l33-2 m5
-0
+pick-tower_DETDUP_1 b7 b5 b6
 1
-0 5 19 21
+18 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l42-2 m1
-0
+pick-tower_DETDUP_1 b7 b5 b7
 1
-0 1 19 27
+18 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l42-2 m2
-0
+pick-tower_DETDUP_1 b7 b5 b8
 1
-0 2 19 27
+18 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l42-2 m3
-0
+pick-tower_DETDUP_1 b7 b5 b9
 1
-0 3 19 27
+18 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l42-2 m4
-0
+pick-tower_DETDUP_1 b7 b6 b1
 1
-0 4 19 27
+18 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-move-monkey l32-2 l42-2 m5
-0
+pick-tower_DETDUP_1 b7 b6 b10
 1
-0 5 19 27
+18 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l23-1 m1
-0
+pick-tower_DETDUP_1 b7 b6 b2
 1
-0 1 20 12
+18 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l23-1 m2
-0
+pick-tower_DETDUP_1 b7 b6 b3
 1
-0 2 20 12
+18 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l23-1 m3
-0
+pick-tower_DETDUP_1 b7 b6 b4
 1
-0 3 20 12
+18 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l23-1 m4
-0
+pick-tower_DETDUP_1 b7 b6 b5
 1
-0 4 20 12
+18 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l23-1 m5
-0
+pick-tower_DETDUP_1 b7 b6 b6
 1
-0 5 20 12
+18 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l32-1 m1
-0
+pick-tower_DETDUP_1 b7 b6 b7
 1
-0 1 20 18
+18 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l32-1 m2
-0
+pick-tower_DETDUP_1 b7 b6 b8
 1
-0 2 20 18
+18 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l32-1 m3
-0
+pick-tower_DETDUP_1 b7 b6 b9
 1
-0 3 20 18
+18 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l32-1 m4
+pick-tower_DETDUP_1 b7 b7 b7
 0
-1
-0 4 20 18
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l32-1 m5
-0
+pick-tower_DETDUP_1 b7 b8 b1
 1
-0 5 20 18
+18 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l34-1 m1
-0
+pick-tower_DETDUP_1 b7 b8 b10
 1
-0 1 20 22
+18 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l34-1 m2
-0
+pick-tower_DETDUP_1 b7 b8 b2
 1
-0 2 20 22
+18 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l34-1 m3
-0
+pick-tower_DETDUP_1 b7 b8 b3
 1
-0 3 20 22
+18 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l34-1 m4
-0
+pick-tower_DETDUP_1 b7 b8 b4
 1
-0 4 20 22
+18 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l34-1 m5
-0
+pick-tower_DETDUP_1 b7 b8 b5
 1
-0 5 20 22
+18 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l43-1 m1
-0
+pick-tower_DETDUP_1 b7 b8 b6
 1
-0 1 20 28
+18 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l43-1 m2
-0
+pick-tower_DETDUP_1 b7 b8 b7
 1
-0 2 20 28
+18 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l43-1 m3
-0
+pick-tower_DETDUP_1 b7 b8 b8
 1
-0 3 20 28
+18 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l43-1 m4
-0
+pick-tower_DETDUP_1 b7 b8 b9
 1
-0 4 20 28
+18 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
 0
 end_operator
 begin_operator
-move-monkey l33-1 l43-1 m5
-0
+pick-tower_DETDUP_1 b7 b9 b1
 1
-0 5 20 28
+18 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l23-2 m1
-0
+pick-tower_DETDUP_1 b7 b9 b10
 1
-0 1 21 13
+18 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l23-2 m2
-0
+pick-tower_DETDUP_1 b7 b9 b2
 1
-0 2 21 13
+18 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l23-2 m3
-0
+pick-tower_DETDUP_1 b7 b9 b3
 1
-0 3 21 13
+18 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l23-2 m4
-0
+pick-tower_DETDUP_1 b7 b9 b4
 1
-0 4 21 13
+18 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l23-2 m5
-0
+pick-tower_DETDUP_1 b7 b9 b5
 1
-0 5 21 13
+18 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l32-2 m1
-0
+pick-tower_DETDUP_1 b7 b9 b6
 1
-0 1 21 19
+18 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l32-2 m2
-0
+pick-tower_DETDUP_1 b7 b9 b7
 1
-0 2 21 19
+18 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l32-2 m3
-0
+pick-tower_DETDUP_1 b7 b9 b8
 1
-0 3 21 19
+18 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l32-2 m4
-0
+pick-tower_DETDUP_1 b7 b9 b9
 1
-0 4 21 19
+18 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l32-2 m5
-0
+pick-tower_DETDUP_1 b8 b1 b1
 1
-0 5 21 19
+19 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l34-2 m1
-0
+pick-tower_DETDUP_1 b8 b1 b10
 1
-0 1 21 23
+19 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l34-2 m2
-0
+pick-tower_DETDUP_1 b8 b1 b2
 1
-0 2 21 23
+19 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l34-2 m3
-0
+pick-tower_DETDUP_1 b8 b1 b3
 1
-0 3 21 23
+19 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l34-2 m4
-0
+pick-tower_DETDUP_1 b8 b1 b4
 1
-0 4 21 23
+19 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l34-2 m5
-0
+pick-tower_DETDUP_1 b8 b1 b5
 1
-0 5 21 23
+19 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l43-2 m1
-0
+pick-tower_DETDUP_1 b8 b1 b6
 1
-0 1 21 29
+19 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l43-2 m2
-0
+pick-tower_DETDUP_1 b8 b1 b7
 1
-0 2 21 29
+19 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l43-2 m3
-0
+pick-tower_DETDUP_1 b8 b1 b8
 1
-0 3 21 29
+19 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l43-2 m4
-0
+pick-tower_DETDUP_1 b8 b1 b9
 1
-0 4 21 29
+19 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-monkey l33-2 l43-2 m5
-0
+pick-tower_DETDUP_1 b8 b10 b1
 1
-0 5 21 29
+19 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l24-1 m1
-0
+pick-tower_DETDUP_1 b8 b10 b10
 1
-0 1 22 14
+19 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l24-1 m2
-0
+pick-tower_DETDUP_1 b8 b10 b2
 1
-0 2 22 14
+19 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l24-1 m3
-0
+pick-tower_DETDUP_1 b8 b10 b3
 1
-0 3 22 14
+19 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l24-1 m4
-0
+pick-tower_DETDUP_1 b8 b10 b4
 1
-0 4 22 14
+19 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l24-1 m5
-0
+pick-tower_DETDUP_1 b8 b10 b5
 1
-0 5 22 14
+19 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l33-1 m1
-0
+pick-tower_DETDUP_1 b8 b10 b6
 1
-0 1 22 20
+19 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l33-1 m2
-0
+pick-tower_DETDUP_1 b8 b10 b7
 1
-0 2 22 20
+19 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l33-1 m3
-0
+pick-tower_DETDUP_1 b8 b10 b8
 1
-0 3 22 20
+19 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l33-1 m4
-0
+pick-tower_DETDUP_1 b8 b10 b9
 1
-0 4 22 20
+19 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l33-1 m5
-0
+pick-tower_DETDUP_1 b8 b2 b1
 1
-0 5 22 20
+19 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l44-1 m1
-0
+pick-tower_DETDUP_1 b8 b2 b10
 1
-0 1 22 30
+19 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l44-1 m2
-0
+pick-tower_DETDUP_1 b8 b2 b2
 1
-0 2 22 30
+19 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l44-1 m3
-0
+pick-tower_DETDUP_1 b8 b2 b3
 1
-0 3 22 30
+19 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l44-1 m4
-0
+pick-tower_DETDUP_1 b8 b2 b4
 1
-0 4 22 30
+19 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l34-1 l44-1 m5
-0
+pick-tower_DETDUP_1 b8 b2 b5
 1
-0 5 22 30
+19 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l24-2 m1
-0
+pick-tower_DETDUP_1 b8 b2 b6
 1
-0 1 23 15
+19 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l24-2 m2
-0
+pick-tower_DETDUP_1 b8 b2 b7
 1
-0 2 23 15
+19 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l24-2 m3
-0
+pick-tower_DETDUP_1 b8 b2 b8
 1
-0 3 23 15
+19 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l24-2 m4
-0
+pick-tower_DETDUP_1 b8 b2 b9
 1
-0 4 23 15
+19 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l24-2 m5
-0
+pick-tower_DETDUP_1 b8 b3 b1
 1
-0 5 23 15
+19 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l33-2 m1
-0
+pick-tower_DETDUP_1 b8 b3 b10
 1
-0 1 23 21
+19 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l33-2 m2
-0
+pick-tower_DETDUP_1 b8 b3 b2
 1
-0 2 23 21
+19 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l33-2 m3
-0
+pick-tower_DETDUP_1 b8 b3 b3
 1
-0 3 23 21
+19 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l33-2 m4
-0
+pick-tower_DETDUP_1 b8 b3 b4
 1
-0 4 23 21
+19 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l33-2 m5
-0
+pick-tower_DETDUP_1 b8 b3 b5
 1
-0 5 23 21
+19 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l44-2 m1
-0
+pick-tower_DETDUP_1 b8 b3 b6
 1
-0 1 23 31
+19 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l44-2 m2
-0
+pick-tower_DETDUP_1 b8 b3 b7
 1
-0 2 23 31
+19 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l44-2 m3
-0
+pick-tower_DETDUP_1 b8 b3 b8
 1
-0 3 23 31
+19 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l44-2 m4
-0
+pick-tower_DETDUP_1 b8 b3 b9
 1
-0 4 23 31
+19 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l34-2 l44-2 m5
-0
+pick-tower_DETDUP_1 b8 b4 b1
 1
-0 5 23 31
+19 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l31-1 m1
-0
+pick-tower_DETDUP_1 b8 b4 b10
 1
-0 1 24 16
+19 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l31-1 m2
-0
+pick-tower_DETDUP_1 b8 b4 b2
 1
-0 2 24 16
+19 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l31-1 m3
-0
+pick-tower_DETDUP_1 b8 b4 b3
 1
-0 3 24 16
+19 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l31-1 m4
-0
+pick-tower_DETDUP_1 b8 b4 b4
 1
-0 4 24 16
+19 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l31-1 m5
-0
+pick-tower_DETDUP_1 b8 b4 b5
 1
-0 5 24 16
+19 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l42-1 m1
-0
+pick-tower_DETDUP_1 b8 b4 b6
 1
-0 1 24 26
+19 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l42-1 m2
-0
+pick-tower_DETDUP_1 b8 b4 b7
 1
-0 2 24 26
+19 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l42-1 m3
-0
+pick-tower_DETDUP_1 b8 b4 b8
 1
-0 3 24 26
+19 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l42-1 m4
-0
+pick-tower_DETDUP_1 b8 b4 b9
 1
-0 4 24 26
+19 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-monkey l41-1 l42-1 m5
-0
+pick-tower_DETDUP_1 b8 b5 b1
 1
-0 5 24 26
+19 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l31-2 m1
-0
+pick-tower_DETDUP_1 b8 b5 b10
 1
-0 1 25 17
+19 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l31-2 m2
-0
+pick-tower_DETDUP_1 b8 b5 b2
 1
-0 2 25 17
+19 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l31-2 m3
-0
+pick-tower_DETDUP_1 b8 b5 b3
 1
-0 3 25 17
+19 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l31-2 m4
-0
+pick-tower_DETDUP_1 b8 b5 b4
 1
-0 4 25 17
+19 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l31-2 m5
-0
+pick-tower_DETDUP_1 b8 b5 b5
 1
-0 5 25 17
+19 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l42-2 m1
-0
+pick-tower_DETDUP_1 b8 b5 b6
 1
-0 1 25 27
+19 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l42-2 m2
-0
+pick-tower_DETDUP_1 b8 b5 b7
 1
-0 2 25 27
+19 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l42-2 m3
-0
+pick-tower_DETDUP_1 b8 b5 b8
 1
-0 3 25 27
+19 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l42-2 m4
-0
+pick-tower_DETDUP_1 b8 b5 b9
 1
-0 4 25 27
+19 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-move-monkey l41-2 l42-2 m5
-0
+pick-tower_DETDUP_1 b8 b6 b1
 1
-0 5 25 27
+19 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l32-1 m1
-0
+pick-tower_DETDUP_1 b8 b6 b10
 1
-0 1 26 18
+19 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l32-1 m2
-0
+pick-tower_DETDUP_1 b8 b6 b2
 1
-0 2 26 18
+19 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l32-1 m3
-0
+pick-tower_DETDUP_1 b8 b6 b3
 1
-0 3 26 18
+19 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l32-1 m4
-0
+pick-tower_DETDUP_1 b8 b6 b4
 1
-0 4 26 18
+19 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l32-1 m5
-0
+pick-tower_DETDUP_1 b8 b6 b5
 1
-0 5 26 18
+19 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l41-1 m1
-0
+pick-tower_DETDUP_1 b8 b6 b6
 1
-0 1 26 24
+19 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l41-1 m2
-0
+pick-tower_DETDUP_1 b8 b6 b7
 1
-0 2 26 24
+19 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l41-1 m3
-0
+pick-tower_DETDUP_1 b8 b6 b8
 1
-0 3 26 24
+19 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l41-1 m4
-0
+pick-tower_DETDUP_1 b8 b6 b9
 1
-0 4 26 24
+19 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l41-1 m5
-0
+pick-tower_DETDUP_1 b8 b7 b1
 1
-0 5 26 24
+19 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l43-1 m1
-0
+pick-tower_DETDUP_1 b8 b7 b10
 1
-0 1 26 28
+19 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l43-1 m2
-0
+pick-tower_DETDUP_1 b8 b7 b2
 1
-0 2 26 28
+19 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l43-1 m3
-0
+pick-tower_DETDUP_1 b8 b7 b3
 1
-0 3 26 28
+19 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l43-1 m4
-0
+pick-tower_DETDUP_1 b8 b7 b4
 1
-0 4 26 28
+19 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-move-monkey l42-1 l43-1 m5
-0
+pick-tower_DETDUP_1 b8 b7 b5
 1
-0 5 26 28
+19 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l32-2 m1
-0
+pick-tower_DETDUP_1 b8 b7 b6
 1
-0 1 27 19
+19 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l32-2 m2
-0
+pick-tower_DETDUP_1 b8 b7 b7
 1
-0 2 27 19
+19 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l32-2 m3
-0
+pick-tower_DETDUP_1 b8 b7 b8
 1
-0 3 27 19
+19 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l32-2 m4
-0
+pick-tower_DETDUP_1 b8 b7 b9
 1
-0 4 27 19
+19 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l32-2 m5
+pick-tower_DETDUP_1 b8 b8 b8
 0
-1
-0 5 27 19
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l41-2 m1
-0
+pick-tower_DETDUP_1 b8 b9 b1
 1
-0 1 27 25
+19 10
+3
+0 0 -1 0
+0 10 0 1
+0 20 1 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l41-2 m2
-0
+pick-tower_DETDUP_1 b8 b9 b10
 1
-0 2 27 25
+19 10
+3
+0 1 -1 0
+0 10 0 1
+0 20 2 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l41-2 m3
-0
+pick-tower_DETDUP_1 b8 b9 b2
 1
-0 3 27 25
+19 10
+3
+0 2 -1 0
+0 10 0 1
+0 20 3 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l41-2 m4
-0
+pick-tower_DETDUP_1 b8 b9 b3
 1
-0 4 27 25
+19 10
+3
+0 3 -1 0
+0 10 0 1
+0 20 4 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l41-2 m5
-0
+pick-tower_DETDUP_1 b8 b9 b4
 1
-0 5 27 25
+19 10
+3
+0 4 -1 0
+0 10 0 1
+0 20 5 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l43-2 m1
-0
+pick-tower_DETDUP_1 b8 b9 b5
 1
-0 1 27 29
+19 10
+3
+0 5 -1 0
+0 10 0 1
+0 20 6 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l43-2 m2
-0
+pick-tower_DETDUP_1 b8 b9 b6
 1
-0 2 27 29
+19 10
+3
+0 6 -1 0
+0 10 0 1
+0 20 7 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l43-2 m3
-0
+pick-tower_DETDUP_1 b8 b9 b7
 1
-0 3 27 29
+19 10
+3
+0 7 -1 0
+0 10 0 1
+0 20 8 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l43-2 m4
-0
+pick-tower_DETDUP_1 b8 b9 b8
 1
-0 4 27 29
+19 10
+3
+0 8 -1 0
+0 10 0 1
+0 20 9 0
 0
 end_operator
 begin_operator
-move-monkey l42-2 l43-2 m5
-0
+pick-tower_DETDUP_1 b8 b9 b9
 1
-0 5 27 29
+19 10
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l33-1 m1
-0
+pick-tower_DETDUP_1 b9 b1 b1
 1
-0 1 28 20
+20 1
+3
+0 0 -1 0
+0 10 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l33-1 m2
-0
+pick-tower_DETDUP_1 b9 b1 b10
 1
-0 2 28 20
+20 1
+3
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l33-1 m3
-0
+pick-tower_DETDUP_1 b9 b1 b2
 1
-0 3 28 20
+20 1
+3
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l33-1 m4
-0
+pick-tower_DETDUP_1 b9 b1 b3
 1
-0 4 28 20
+20 1
+3
+0 3 -1 0
+0 10 0 1
+0 11 4 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l33-1 m5
-0
+pick-tower_DETDUP_1 b9 b1 b4
 1
-0 5 28 20
+20 1
+3
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l42-1 m1
-0
+pick-tower_DETDUP_1 b9 b1 b5
 1
-0 1 28 26
+20 1
+3
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l42-1 m2
-0
+pick-tower_DETDUP_1 b9 b1 b6
 1
-0 2 28 26
+20 1
+3
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l42-1 m3
-0
+pick-tower_DETDUP_1 b9 b1 b7
 1
-0 3 28 26
+20 1
+3
+0 7 -1 0
+0 10 0 1
+0 11 8 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l42-1 m4
-0
+pick-tower_DETDUP_1 b9 b1 b8
 1
-0 4 28 26
+20 1
+3
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l42-1 m5
-0
+pick-tower_DETDUP_1 b9 b1 b9
 1
-0 5 28 26
+20 1
+3
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l44-1 m1
-0
+pick-tower_DETDUP_1 b9 b10 b1
 1
-0 1 28 30
+20 2
+3
+0 0 -1 0
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l44-1 m2
-0
+pick-tower_DETDUP_1 b9 b10 b10
 1
-0 2 28 30
+20 2
+3
+0 1 -1 0
+0 10 0 1
+0 12 2 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l44-1 m3
-0
+pick-tower_DETDUP_1 b9 b10 b2
 1
-0 3 28 30
+20 2
+3
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l44-1 m4
-0
+pick-tower_DETDUP_1 b9 b10 b3
 1
-0 4 28 30
+20 2
+3
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-monkey l43-1 l44-1 m5
-0
+pick-tower_DETDUP_1 b9 b10 b4
 1
-0 5 28 30
+20 2
+3
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l33-2 m1
-0
+pick-tower_DETDUP_1 b9 b10 b5
 1
-0 1 29 21
+20 2
+3
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l33-2 m2
-0
+pick-tower_DETDUP_1 b9 b10 b6
 1
-0 2 29 21
+20 2
+3
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l33-2 m3
-0
+pick-tower_DETDUP_1 b9 b10 b7
 1
-0 3 29 21
+20 2
+3
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l33-2 m4
-0
+pick-tower_DETDUP_1 b9 b10 b8
 1
-0 4 29 21
+20 2
+3
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l33-2 m5
-0
+pick-tower_DETDUP_1 b9 b10 b9
 1
-0 5 29 21
+20 2
+3
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l42-2 m1
-0
+pick-tower_DETDUP_1 b9 b2 b1
 1
-0 1 29 27
+20 3
+3
+0 0 -1 0
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l42-2 m2
-0
+pick-tower_DETDUP_1 b9 b2 b10
 1
-0 2 29 27
+20 3
+3
+0 1 -1 0
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l42-2 m3
-0
+pick-tower_DETDUP_1 b9 b2 b2
 1
-0 3 29 27
+20 3
+3
+0 2 -1 0
+0 10 0 1
+0 13 3 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l42-2 m4
-0
+pick-tower_DETDUP_1 b9 b2 b3
 1
-0 4 29 27
+20 3
+3
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l42-2 m5
-0
+pick-tower_DETDUP_1 b9 b2 b4
 1
-0 5 29 27
+20 3
+3
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l44-2 m1
-0
+pick-tower_DETDUP_1 b9 b2 b5
 1
-0 1 29 31
+20 3
+3
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l44-2 m2
-0
+pick-tower_DETDUP_1 b9 b2 b6
 1
-0 2 29 31
+20 3
+3
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l44-2 m3
-0
+pick-tower_DETDUP_1 b9 b2 b7
 1
-0 3 29 31
+20 3
+3
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l44-2 m4
-0
+pick-tower_DETDUP_1 b9 b2 b8
 1
-0 4 29 31
+20 3
+3
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-monkey l43-2 l44-2 m5
-0
+pick-tower_DETDUP_1 b9 b2 b9
 1
-0 5 29 31
+20 3
+3
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l34-1 m1
-0
+pick-tower_DETDUP_1 b9 b3 b1
 1
-0 1 30 22
+20 4
+3
+0 0 -1 0
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l34-1 m2
-0
+pick-tower_DETDUP_1 b9 b3 b10
 1
-0 2 30 22
+20 4
+3
+0 1 -1 0
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l34-1 m3
-0
+pick-tower_DETDUP_1 b9 b3 b2
 1
-0 3 30 22
+20 4
+3
+0 2 -1 0
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l34-1 m4
-0
+pick-tower_DETDUP_1 b9 b3 b3
 1
-0 4 30 22
+20 4
+3
+0 3 -1 0
+0 10 0 1
+0 14 4 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l34-1 m5
-0
+pick-tower_DETDUP_1 b9 b3 b4
 1
-0 5 30 22
+20 4
+3
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l43-1 m1
-0
+pick-tower_DETDUP_1 b9 b3 b5
 1
-0 1 30 28
+20 4
+3
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l43-1 m2
-0
+pick-tower_DETDUP_1 b9 b3 b6
 1
-0 2 30 28
+20 4
+3
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l43-1 m3
-0
+pick-tower_DETDUP_1 b9 b3 b7
 1
-0 3 30 28
+20 4
+3
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l43-1 m4
-0
+pick-tower_DETDUP_1 b9 b3 b8
 1
-0 4 30 28
+20 4
+3
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-monkey l44-1 l43-1 m5
-0
+pick-tower_DETDUP_1 b9 b3 b9
 1
-0 5 30 28
+20 4
+3
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l34-2 m1
-0
+pick-tower_DETDUP_1 b9 b4 b1
 1
-0 1 31 23
+20 5
+3
+0 0 -1 0
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l34-2 m2
-0
+pick-tower_DETDUP_1 b9 b4 b10
 1
-0 2 31 23
+20 5
+3
+0 1 -1 0
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l34-2 m3
-0
+pick-tower_DETDUP_1 b9 b4 b2
 1
-0 3 31 23
+20 5
+3
+0 2 -1 0
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l34-2 m4
-0
+pick-tower_DETDUP_1 b9 b4 b3
 1
-0 4 31 23
+20 5
+3
+0 3 -1 0
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l34-2 m5
-0
+pick-tower_DETDUP_1 b9 b4 b4
 1
-0 5 31 23
+20 5
+3
+0 4 -1 0
+0 10 0 1
+0 15 5 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l43-2 m1
-0
+pick-tower_DETDUP_1 b9 b4 b5
 1
-0 1 31 29
+20 5
+3
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l43-2 m2
-0
+pick-tower_DETDUP_1 b9 b4 b6
 1
-0 2 31 29
+20 5
+3
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l43-2 m3
-0
+pick-tower_DETDUP_1 b9 b4 b7
 1
-0 3 31 29
+20 5
+3
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l43-2 m4
-0
+pick-tower_DETDUP_1 b9 b4 b8
 1
-0 4 31 29
+20 5
+3
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-monkey l44-2 l43-2 m5
-0
+pick-tower_DETDUP_1 b9 b4 b9
 1
-0 5 31 29
+20 5
+3
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-person l11-1 l12-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b1
 1
-0 7 0 2
+20 6
+3
+0 0 -1 0
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-move-person l11-1 l21-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b10
 1
-0 7 0 8
+20 6
+3
+0 1 -1 0
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-move-person l11-2 l12-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b2
 1
-0 7 1 3
+20 6
+3
+0 2 -1 0
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-move-person l11-2 l21-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b3
 1
-0 7 1 9
+20 6
+3
+0 3 -1 0
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-move-person l12-1 l11-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b4
 1
-0 7 2 0
+20 6
+3
+0 4 -1 0
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-move-person l12-1 l13-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b5
 1
-0 7 2 4
+20 6
+3
+0 5 -1 0
+0 10 0 1
+0 16 6 0
 0
 end_operator
 begin_operator
-move-person l12-1 l22-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b6
 1
-0 7 2 10
+20 6
+3
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-move-person l12-2 l11-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b7
 1
-0 7 3 1
+20 6
+3
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-move-person l12-2 l13-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b8
 1
-0 7 3 5
+20 6
+3
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-move-person l12-2 l22-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b5 b9
 1
-0 7 3 11
+20 6
+3
+0 9 -1 0
+0 10 0 1
+0 16 10 0
 0
 end_operator
 begin_operator
-move-person l13-1 l12-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b1
 1
-0 7 4 2
+20 7
+3
+0 0 -1 0
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-move-person l13-1 l14-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b10
 1
-0 7 4 6
+20 7
+3
+0 1 -1 0
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-move-person l13-1 l23-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b2
 1
-0 7 4 12
+20 7
+3
+0 2 -1 0
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-move-person l13-2 l12-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b3
 1
-0 7 5 3
+20 7
+3
+0 3 -1 0
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-move-person l13-2 l14-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b4
 1
-0 7 5 7
+20 7
+3
+0 4 -1 0
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-move-person l13-2 l23-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b5
 1
-0 7 5 13
+20 7
+3
+0 5 -1 0
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-move-person l14-1 l13-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b6
 1
-0 7 6 4
+20 7
+3
+0 6 -1 0
+0 10 0 1
+0 17 7 0
 0
 end_operator
 begin_operator
-move-person l14-1 l24-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b7
 1
-0 7 6 14
+20 7
+3
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-move-person l14-2 l13-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b8
 1
-0 7 7 5
+20 7
+3
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-move-person l14-2 l24-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b6 b9
 1
-0 7 7 15
+20 7
+3
+0 9 -1 0
+0 10 0 1
+0 17 10 0
 0
 end_operator
 begin_operator
-move-person l21-1 l11-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b1
 1
-0 7 8 0
+20 8
+3
+0 0 -1 0
+0 10 0 1
+0 18 1 0
 0
 end_operator
 begin_operator
-move-person l21-1 l22-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b10
 1
-0 7 8 10
+20 8
+3
+0 1 -1 0
+0 10 0 1
+0 18 2 0
 0
 end_operator
 begin_operator
-move-person l21-1 l31-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b2
 1
-0 7 8 16
+20 8
+3
+0 2 -1 0
+0 10 0 1
+0 18 3 0
 0
 end_operator
 begin_operator
-move-person l21-2 l11-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b3
 1
-0 7 9 1
+20 8
+3
+0 3 -1 0
+0 10 0 1
+0 18 4 0
 0
 end_operator
 begin_operator
-move-person l21-2 l22-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b4
 1
-0 7 9 11
+20 8
+3
+0 4 -1 0
+0 10 0 1
+0 18 5 0
 0
 end_operator
 begin_operator
-move-person l21-2 l31-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b5
 1
-0 7 9 17
+20 8
+3
+0 5 -1 0
+0 10 0 1
+0 18 6 0
 0
 end_operator
 begin_operator
-move-person l22-1 l12-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b6
 1
-0 7 10 2
+20 8
+3
+0 6 -1 0
+0 10 0 1
+0 18 7 0
 0
 end_operator
 begin_operator
-move-person l22-1 l21-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b7
 1
-0 7 10 8
+20 8
+3
+0 7 -1 0
+0 10 0 1
+0 18 8 0
 0
 end_operator
 begin_operator
-move-person l22-1 l23-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b8
 1
-0 7 10 12
+20 8
+3
+0 8 -1 0
+0 10 0 1
+0 18 9 0
 0
 end_operator
 begin_operator
-move-person l22-1 l32-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b7 b9
 1
-0 7 10 18
+20 8
+3
+0 9 -1 0
+0 10 0 1
+0 18 10 0
 0
 end_operator
 begin_operator
-move-person l22-2 l12-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b1
 1
-0 7 11 3
+20 9
+3
+0 0 -1 0
+0 10 0 1
+0 19 1 0
 0
 end_operator
 begin_operator
-move-person l22-2 l21-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b10
 1
-0 7 11 9
+20 9
+3
+0 1 -1 0
+0 10 0 1
+0 19 2 0
 0
 end_operator
 begin_operator
-move-person l22-2 l23-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b2
 1
-0 7 11 13
+20 9
+3
+0 2 -1 0
+0 10 0 1
+0 19 3 0
 0
 end_operator
 begin_operator
-move-person l22-2 l32-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b3
 1
-0 7 11 19
+20 9
+3
+0 3 -1 0
+0 10 0 1
+0 19 4 0
 0
 end_operator
 begin_operator
-move-person l23-1 l13-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b4
 1
-0 7 12 4
+20 9
+3
+0 4 -1 0
+0 10 0 1
+0 19 5 0
 0
 end_operator
 begin_operator
-move-person l23-1 l22-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b5
 1
-0 7 12 10
+20 9
+3
+0 5 -1 0
+0 10 0 1
+0 19 6 0
 0
 end_operator
 begin_operator
-move-person l23-1 l24-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b6
 1
-0 7 12 14
+20 9
+3
+0 6 -1 0
+0 10 0 1
+0 19 7 0
 0
 end_operator
 begin_operator
-move-person l23-1 l33-1
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b7
 1
-0 7 12 20
+20 9
+3
+0 7 -1 0
+0 10 0 1
+0 19 8 0
 0
 end_operator
 begin_operator
-move-person l23-2 l13-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b8
 1
-0 7 13 5
+20 9
+3
+0 8 -1 0
+0 10 0 1
+0 19 9 0
 0
 end_operator
 begin_operator
-move-person l23-2 l22-2
-1
-6 0
+pick-tower_DETDUP_1 b9 b8 b9
 1
-0 7 13 11
+20 9
+3
+0 9 -1 0
+0 10 0 1
+0 19 10 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b9 b9 b9
+0
+3
+0 9 -1 0
+0 10 0 1
+0 20 10 0
 0
 end_operator
 begin_operator
-move-person l23-2 l24-2
-1
-6 0
+pick-up-from-table_DETDUP_1 b1
 1
-0 7 13 15
+0 0
+2
+0 10 0 1
+0 11 11 0
 0
 end_operator
 begin_operator
-move-person l23-2 l33-2
-1
-6 0
+pick-up-from-table_DETDUP_1 b10
 1
-0 7 13 21
+1 0
+2
+0 10 0 1
+0 12 11 0
 0
 end_operator
 begin_operator
-move-person l24-1 l14-1
+pick-up-from-table_DETDUP_1 b2
 1
-6 0
-1
-0 7 14 6
+2 0
+2
+0 10 0 1
+0 13 11 0
 0
 end_operator
 begin_operator
-move-person l24-1 l23-1
-1
-6 0
+pick-up-from-table_DETDUP_1 b3
 1
-0 7 14 12
+3 0
+2
+0 10 0 1
+0 14 11 0
 0
 end_operator
 begin_operator
-move-person l24-1 l34-1
-1
-6 0
+pick-up-from-table_DETDUP_1 b4
 1
-0 7 14 22
+4 0
+2
+0 10 0 1
+0 15 11 0
 0
 end_operator
 begin_operator
-move-person l24-2 l14-2
-1
-6 0
+pick-up-from-table_DETDUP_1 b5
 1
-0 7 15 7
+5 0
+2
+0 10 0 1
+0 16 11 0
 0
 end_operator
 begin_operator
-move-person l24-2 l23-2
+pick-up-from-table_DETDUP_1 b6
 1
 6 0
-1
-0 7 15 13
+2
+0 10 0 1
+0 17 11 0
 0
 end_operator
 begin_operator
-move-person l24-2 l34-2
-1
-6 0
+pick-up-from-table_DETDUP_1 b7
 1
-0 7 15 23
+7 0
+2
+0 10 0 1
+0 18 11 0
 0
 end_operator
 begin_operator
-move-person l31-1 l21-1
-1
-6 0
+pick-up-from-table_DETDUP_1 b8
 1
-0 7 16 8
+8 0
+2
+0 10 0 1
+0 19 11 0
 0
 end_operator
 begin_operator
-move-person l31-1 l32-1
+pick-up-from-table_DETDUP_1 b9
 1
-6 0
-1
-0 7 16 18
+9 0
+2
+0 10 0 1
+0 20 11 0
 0
 end_operator
 begin_operator
-move-person l31-1 l41-1
-1
-6 0
-1
-0 7 16 24
+pick-up_DETDUP_0 b1 b10
+0
+4
+0 0 0 1
+0 1 -1 0
+0 10 0 1
+0 11 2 0
 0
 end_operator
 begin_operator
-move-person l31-2 l21-2
-1
-6 0
-1
-0 7 17 9
+pick-up_DETDUP_0 b1 b2
+0
+4
+0 0 0 1
+0 2 -1 0
+0 10 0 1
+0 11 3 0
 0
 end_operator
 begin_operator
-move-person l31-2 l32-2
-1
-6 0
-1
-0 7 17 19
+pick-up_DETDUP_0 b1 b3
 0
+4
+0 0 0 1
+0 3 -1 0
+0 10 0 1
+0 11 4 0
+0
 end_operator
 begin_operator
-move-person l31-2 l41-2
-1
-6 0
-1
-0 7 17 25
+pick-up_DETDUP_0 b1 b4
+0
+4
+0 0 0 1
+0 4 -1 0
+0 10 0 1
+0 11 5 0
 0
 end_operator
 begin_operator
-move-person l32-1 l22-1
-1
-6 0
-1
-0 7 18 10
+pick-up_DETDUP_0 b1 b5
+0
+4
+0 0 0 1
+0 5 -1 0
+0 10 0 1
+0 11 6 0
 0
 end_operator
 begin_operator
-move-person l32-1 l31-1
-1
-6 0
-1
-0 7 18 16
+pick-up_DETDUP_0 b1 b6
+0
+4
+0 0 0 1
+0 6 -1 0
+0 10 0 1
+0 11 7 0
 0
 end_operator
 begin_operator
-move-person l32-1 l33-1
-1
-6 0
-1
-0 7 18 20
+pick-up_DETDUP_0 b1 b7
 0
+4
+0 0 0 1
+0 7 -1 0
+0 10 0 1
+0 11 8 0
+0
 end_operator
 begin_operator
-move-person l32-1 l42-1
-1
-6 0
-1
-0 7 18 26
+pick-up_DETDUP_0 b1 b8
+0
+4
+0 0 0 1
+0 8 -1 0
+0 10 0 1
+0 11 9 0
 0
 end_operator
 begin_operator
-move-person l32-2 l22-2
-1
-6 0
-1
-0 7 19 11
+pick-up_DETDUP_0 b1 b9
+0
+4
+0 0 0 1
+0 9 -1 0
+0 10 0 1
+0 11 10 0
 0
 end_operator
 begin_operator
-move-person l32-2 l31-2
-1
-6 0
-1
-0 7 19 17
+pick-up_DETDUP_0 b10 b1
+0
+4
+0 0 -1 0
+0 1 0 1
+0 10 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-move-person l32-2 l33-2
-1
-6 0
-1
-0 7 19 21
+pick-up_DETDUP_0 b10 b2
+0
+4
+0 1 0 1
+0 2 -1 0
+0 10 0 1
+0 12 3 0
 0
 end_operator
 begin_operator
-move-person l32-2 l42-2
-1
-6 0
-1
-0 7 19 27
+pick-up_DETDUP_0 b10 b3
+0
+4
+0 1 0 1
+0 3 -1 0
+0 10 0 1
+0 12 4 0
 0
 end_operator
 begin_operator
-move-person l33-1 l23-1
-1
-6 0
-1
-0 7 20 12
+pick-up_DETDUP_0 b10 b4
+0
+4
+0 1 0 1
+0 4 -1 0
+0 10 0 1
+0 12 5 0
 0
 end_operator
 begin_operator
-move-person l33-1 l32-1
-1
-6 0
-1
-0 7 20 18
+pick-up_DETDUP_0 b10 b5
+0
+4
+0 1 0 1
+0 5 -1 0
+0 10 0 1
+0 12 6 0
 0
 end_operator
 begin_operator
-move-person l33-1 l34-1
-1
-6 0
-1
-0 7 20 22
+pick-up_DETDUP_0 b10 b6
+0
+4
+0 1 0 1
+0 6 -1 0
+0 10 0 1
+0 12 7 0
 0
 end_operator
 begin_operator
-move-person l33-1 l43-1
-1
-6 0
-1
-0 7 20 28
+pick-up_DETDUP_0 b10 b7
+0
+4
+0 1 0 1
+0 7 -1 0
+0 10 0 1
+0 12 8 0
 0
 end_operator
 begin_operator
-move-person l33-2 l23-2
-1
-6 0
-1
-0 7 21 13
+pick-up_DETDUP_0 b10 b8
+0
+4
+0 1 0 1
+0 8 -1 0
+0 10 0 1
+0 12 9 0
 0
 end_operator
 begin_operator
-move-person l33-2 l32-2
-1
-6 0
-1
-0 7 21 19
+pick-up_DETDUP_0 b10 b9
+0
+4
+0 1 0 1
+0 9 -1 0
+0 10 0 1
+0 12 10 0
 0
 end_operator
 begin_operator
-move-person l33-2 l34-2
-1
-6 0
-1
-0 7 21 23
+pick-up_DETDUP_0 b2 b1
+0
+4
+0 0 -1 0
+0 2 0 1
+0 10 0 1
+0 13 1 0
 0
 end_operator
 begin_operator
-move-person l33-2 l43-2
-1
-6 0
-1
-0 7 21 29
+pick-up_DETDUP_0 b2 b10
+0
+4
+0 1 -1 0
+0 2 0 1
+0 10 0 1
+0 13 2 0
 0
 end_operator
 begin_operator
-move-person l34-1 l24-1
-1
-6 0
-1
-0 7 22 14
+pick-up_DETDUP_0 b2 b3
+0
+4
+0 2 0 1
+0 3 -1 0
+0 10 0 1
+0 13 4 0
 0
 end_operator
 begin_operator
-move-person l34-1 l33-1
-1
-6 0
-1
-0 7 22 20
+pick-up_DETDUP_0 b2 b4
+0
+4
+0 2 0 1
+0 4 -1 0
+0 10 0 1
+0 13 5 0
 0
 end_operator
 begin_operator
-move-person l34-1 l44-1
-1
-6 0
-1
-0 7 22 30
+pick-up_DETDUP_0 b2 b5
+0
+4
+0 2 0 1
+0 5 -1 0
+0 10 0 1
+0 13 6 0
 0
 end_operator
 begin_operator
-move-person l34-2 l24-2
-1
-6 0
-1
-0 7 23 15
+pick-up_DETDUP_0 b2 b6
+0
+4
+0 2 0 1
+0 6 -1 0
+0 10 0 1
+0 13 7 0
 0
 end_operator
 begin_operator
-move-person l34-2 l33-2
-1
-6 0
-1
-0 7 23 21
+pick-up_DETDUP_0 b2 b7
+0
+4
+0 2 0 1
+0 7 -1 0
+0 10 0 1
+0 13 8 0
 0
 end_operator
 begin_operator
-move-person l34-2 l44-2
-1
-6 0
-1
-0 7 23 31
+pick-up_DETDUP_0 b2 b8
+0
+4
+0 2 0 1
+0 8 -1 0
+0 10 0 1
+0 13 9 0
 0
 end_operator
 begin_operator
-move-person l41-1 l31-1
-1
-6 0
-1
-0 7 24 16
+pick-up_DETDUP_0 b2 b9
+0
+4
+0 2 0 1
+0 9 -1 0
+0 10 0 1
+0 13 10 0
 0
 end_operator
 begin_operator
-move-person l41-1 l42-1
-1
-6 0
-1
-0 7 24 26
+pick-up_DETDUP_0 b3 b1
+0
+4
+0 0 -1 0
+0 3 0 1
+0 10 0 1
+0 14 1 0
 0
 end_operator
 begin_operator
-move-person l41-2 l31-2
-1
-6 0
-1
-0 7 25 17
+pick-up_DETDUP_0 b3 b10
+0
+4
+0 1 -1 0
+0 3 0 1
+0 10 0 1
+0 14 2 0
 0
 end_operator
 begin_operator
-move-person l41-2 l42-2
-1
-6 0
-1
-0 7 25 27
+pick-up_DETDUP_0 b3 b2
+0
+4
+0 2 -1 0
+0 3 0 1
+0 10 0 1
+0 14 3 0
 0
 end_operator
 begin_operator
-move-person l42-1 l32-1
-1
-6 0
-1
-0 7 26 18
+pick-up_DETDUP_0 b3 b4
+0
+4
+0 3 0 1
+0 4 -1 0
+0 10 0 1
+0 14 5 0
 0
 end_operator
 begin_operator
-move-person l42-1 l41-1
-1
-6 0
-1
-0 7 26 24
+pick-up_DETDUP_0 b3 b5
+0
+4
+0 3 0 1
+0 5 -1 0
+0 10 0 1
+0 14 6 0
 0
 end_operator
 begin_operator
-move-person l42-1 l43-1
-1
-6 0
-1
-0 7 26 28
+pick-up_DETDUP_0 b3 b6
+0
+4
+0 3 0 1
+0 6 -1 0
+0 10 0 1
+0 14 7 0
 0
 end_operator
 begin_operator
-move-person l42-2 l32-2
-1
-6 0
-1
-0 7 27 19
+pick-up_DETDUP_0 b3 b7
+0
+4
+0 3 0 1
+0 7 -1 0
+0 10 0 1
+0 14 8 0
 0
 end_operator
 begin_operator
-move-person l42-2 l41-2
-1
-6 0
-1
-0 7 27 25
+pick-up_DETDUP_0 b3 b8
+0
+4
+0 3 0 1
+0 8 -1 0
+0 10 0 1
+0 14 9 0
 0
 end_operator
 begin_operator
-move-person l42-2 l43-2
-1
-6 0
-1
-0 7 27 29
+pick-up_DETDUP_0 b3 b9
+0
+4
+0 3 0 1
+0 9 -1 0
+0 10 0 1
+0 14 10 0
 0
 end_operator
 begin_operator
-move-person l43-1 l33-1
-1
-6 0
-1
-0 7 28 20
+pick-up_DETDUP_0 b4 b1
+0
+4
+0 0 -1 0
+0 4 0 1
+0 10 0 1
+0 15 1 0
 0
 end_operator
 begin_operator
-move-person l43-1 l42-1
-1
-6 0
-1
-0 7 28 26
+pick-up_DETDUP_0 b4 b10
+0
+4
+0 1 -1 0
+0 4 0 1
+0 10 0 1
+0 15 2 0
 0
 end_operator
 begin_operator
-move-person l43-1 l44-1
-1
-6 0
-1
-0 7 28 30
+pick-up_DETDUP_0 b4 b2
+0
+4
+0 2 -1 0
+0 4 0 1
+0 10 0 1
+0 15 3 0
 0
 end_operator
 begin_operator
-move-person l43-2 l33-2
-1
-6 0
-1
-0 7 29 21
+pick-up_DETDUP_0 b4 b3
+0
+4
+0 3 -1 0
+0 4 0 1
+0 10 0 1
+0 15 4 0
 0
 end_operator
 begin_operator
-move-person l43-2 l42-2
-1
-6 0
-1
-0 7 29 27
+pick-up_DETDUP_0 b4 b5
+0
+4
+0 4 0 1
+0 5 -1 0
+0 10 0 1
+0 15 6 0
 0
 end_operator
 begin_operator
-move-person l43-2 l44-2
-1
-6 0
-1
-0 7 29 31
+pick-up_DETDUP_0 b4 b6
+0
+4
+0 4 0 1
+0 6 -1 0
+0 10 0 1
+0 15 7 0
 0
 end_operator
 begin_operator
-move-person l44-1 l34-1
-1
-6 0
-1
-0 7 30 22
+pick-up_DETDUP_0 b4 b7
+0
+4
+0 4 0 1
+0 7 -1 0
+0 10 0 1
+0 15 8 0
 0
 end_operator
 begin_operator
-move-person l44-1 l43-1
-1
-6 0
-1
-0 7 30 28
+pick-up_DETDUP_0 b4 b8
+0
+4
+0 4 0 1
+0 8 -1 0
+0 10 0 1
+0 15 9 0
 0
 end_operator
 begin_operator
-move-person l44-2 l34-2
-1
-6 0
-1
-0 7 31 23
+pick-up_DETDUP_0 b4 b9
+0
+4
+0 4 0 1
+0 9 -1 0
+0 10 0 1
+0 15 10 0
 0
 end_operator
 begin_operator
-move-person l44-2 l43-2
-1
-6 0
-1
-0 7 31 29
+pick-up_DETDUP_0 b5 b1
+0
+4
+0 0 -1 0
+0 5 0 1
+0 10 0 1
+0 16 1 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l14-1 l41-2
-1
-6 0
-1
-0 7 6 25
+pick-up_DETDUP_0 b5 b10
+0
+4
+0 1 -1 0
+0 5 0 1
+0 10 0 1
+0 16 2 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l24-1 l41-2
-1
-6 0
-1
-0 7 14 25
+pick-up_DETDUP_0 b5 b2
+0
+4
+0 2 -1 0
+0 5 0 1
+0 10 0 1
+0 16 3 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l34-1 l41-2
-1
-6 0
-1
-0 7 22 25
+pick-up_DETDUP_0 b5 b3
+0
+4
+0 3 -1 0
+0 5 0 1
+0 10 0 1
+0 16 4 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l41-2 l14-1
-1
-6 0
-1
-0 7 25 6
+pick-up_DETDUP_0 b5 b4
+0
+4
+0 4 -1 0
+0 5 0 1
+0 10 0 1
+0 16 5 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l41-2 l24-1
-1
-6 0
-1
-0 7 25 14
+pick-up_DETDUP_0 b5 b6
+0
+4
+0 5 0 1
+0 6 -1 0
+0 10 0 1
+0 16 7 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l41-2 l34-1
-1
-6 0
-1
-0 7 25 22
+pick-up_DETDUP_0 b5 b7
+0
+4
+0 5 0 1
+0 7 -1 0
+0 10 0 1
+0 16 8 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l41-2 l44-1
-1
-6 0
-1
-0 7 25 30
+pick-up_DETDUP_0 b5 b8
+0
+4
+0 5 0 1
+0 8 -1 0
+0 10 0 1
+0 16 9 0
 0
 end_operator
 begin_operator
-swim_DETDUP_0 l44-1 l41-2
-1
-6 0
-1
-0 7 30 25
+pick-up_DETDUP_0 b5 b9
 0
+4
+0 5 0 1
+0 9 -1 0
+0 10 0 1
+0 16 10 0
+0
 end_operator
 begin_operator
-swim_DETDUP_1 l14-1 l41-2
+pick-up_DETDUP_0 b6 b1
 0
-2
+4
+0 0 -1 0
 0 6 0 1
-0 7 6 32
+0 10 0 1
+0 17 1 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l24-1 l41-2
+pick-up_DETDUP_0 b6 b10
 0
-2
+4
+0 1 -1 0
 0 6 0 1
-0 7 14 32
+0 10 0 1
+0 17 2 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l34-1 l41-2
+pick-up_DETDUP_0 b6 b2
 0
-2
+4
+0 2 -1 0
 0 6 0 1
-0 7 22 32
+0 10 0 1
+0 17 3 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l41-2 l14-1
+pick-up_DETDUP_0 b6 b3
 0
-2
+4
+0 3 -1 0
 0 6 0 1
-0 7 25 32
+0 10 0 1
+0 17 4 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l41-2 l24-1
+pick-up_DETDUP_0 b6 b4
 0
-2
+4
+0 4 -1 0
 0 6 0 1
-0 7 25 32
+0 10 0 1
+0 17 5 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l41-2 l34-1
+pick-up_DETDUP_0 b6 b5
 0
-2
+4
+0 5 -1 0
 0 6 0 1
-0 7 25 32
+0 10 0 1
+0 17 6 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l41-2 l44-1
+pick-up_DETDUP_0 b6 b7
 0
-2
+4
 0 6 0 1
-0 7 25 32
+0 7 -1 0
+0 10 0 1
+0 17 8 0
 0
 end_operator
 begin_operator
-swim_DETDUP_1 l44-1 l41-2
+pick-up_DETDUP_0 b6 b8
 0
-2
+4
 0 6 0 1
-0 7 30 32
+0 8 -1 0
+0 10 0 1
+0 17 9 0
 0
 end_operator
 begin_operator
-walk-on-bridge l11-1 l14-2
+pick-up_DETDUP_0 b6 b9
+0
+4
+0 6 0 1
+0 9 -1 0
+0 10 0 1
+0 17 10 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b1
+0
+4
+0 0 -1 0
+0 7 0 1
+0 10 0 1
+0 18 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b10
+0
+4
+0 1 -1 0
+0 7 0 1
+0 10 0 1
+0 18 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b2
+0
+4
+0 2 -1 0
+0 7 0 1
+0 10 0 1
+0 18 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b3
+0
+4
+0 3 -1 0
+0 7 0 1
+0 10 0 1
+0 18 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b4
+0
+4
+0 4 -1 0
+0 7 0 1
+0 10 0 1
+0 18 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b5
+0
+4
+0 5 -1 0
+0 7 0 1
+0 10 0 1
+0 18 6 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b6
+0
+4
+0 6 -1 0
+0 7 0 1
+0 10 0 1
+0 18 7 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b8
+0
+4
+0 7 0 1
+0 8 -1 0
+0 10 0 1
+0 18 9 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b7 b9
+0
+4
+0 7 0 1
+0 9 -1 0
+0 10 0 1
+0 18 10 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b1
+0
+4
+0 0 -1 0
+0 8 0 1
+0 10 0 1
+0 19 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b10
+0
+4
+0 1 -1 0
+0 8 0 1
+0 10 0 1
+0 19 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b2
+0
+4
+0 2 -1 0
+0 8 0 1
+0 10 0 1
+0 19 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b3
+0
+4
+0 3 -1 0
+0 8 0 1
+0 10 0 1
+0 19 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b4
+0
+4
+0 4 -1 0
+0 8 0 1
+0 10 0 1
+0 19 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b5
+0
+4
+0 5 -1 0
+0 8 0 1
+0 10 0 1
+0 19 6 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b6
+0
+4
+0 6 -1 0
+0 8 0 1
+0 10 0 1
+0 19 7 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b7
+0
+4
+0 7 -1 0
+0 8 0 1
+0 10 0 1
+0 19 8 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b8 b9
+0
+4
+0 8 0 1
+0 9 -1 0
+0 10 0 1
+0 19 10 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b1
+0
+4
+0 0 -1 0
+0 9 0 1
+0 10 0 1
+0 20 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b10
+0
+4
+0 1 -1 0
+0 9 0 1
+0 10 0 1
+0 20 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b2
+0
+4
+0 2 -1 0
+0 9 0 1
+0 10 0 1
+0 20 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b3
+0
+4
+0 3 -1 0
+0 9 0 1
+0 10 0 1
+0 20 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b4
+0
+4
+0 4 -1 0
+0 9 0 1
+0 10 0 1
+0 20 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b5
+0
+4
+0 5 -1 0
+0 9 0 1
+0 10 0 1
+0 20 6 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b6
+0
+4
+0 6 -1 0
+0 9 0 1
+0 10 0 1
+0 20 7 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b7
+0
+4
+0 7 -1 0
+0 9 0 1
+0 10 0 1
+0 20 8 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b9 b8
+0
+4
+0 8 -1 0
+0 9 0 1
+0 10 0 1
+0 20 9 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b10
 2
 0 0
-6 0
-1
-0 7 0 7
+10 0
+2
+0 1 -1 0
+0 11 2 11
 0
 end_operator
 begin_operator
-walk-on-bridge l14-2 l11-1
+pick-up_DETDUP_1 b1 b2
 2
 0 0
-6 0
-1
-0 7 7 0
+10 0
+2
+0 2 -1 0
+0 11 3 11
 0
 end_operator
 begin_operator
-walk-on-bridge l21-1 l24-2
+pick-up_DETDUP_1 b1 b3
 2
 0 0
-6 0
-1
-0 7 8 15
+10 0
+2
+0 3 -1 0
+0 11 4 11
 0
 end_operator
 begin_operator
-walk-on-bridge l24-2 l21-1
+pick-up_DETDUP_1 b1 b4
 2
 0 0
-6 0
-1
-0 7 15 8
+10 0
+2
+0 4 -1 0
+0 11 5 11
 0
 end_operator
 begin_operator
-walk-on-bridge l31-1 l34-2
+pick-up_DETDUP_1 b1 b5
 2
 0 0
-6 0
-1
-0 7 16 23
+10 0
+2
+0 5 -1 0
+0 11 6 11
 0
 end_operator
 begin_operator
-walk-on-bridge l34-2 l31-1
+pick-up_DETDUP_1 b1 b6
 2
 0 0
-6 0
-1
-0 7 23 16
+10 0
+2
+0 6 -1 0
+0 11 7 11
 0
 end_operator
 begin_operator
-walk-on-bridge l41-1 l44-2
+pick-up_DETDUP_1 b1 b7
 2
 0 0
-6 0
-1
-0 7 24 31
+10 0
+2
+0 7 -1 0
+0 11 8 11
 0
 end_operator
 begin_operator
-walk-on-bridge l44-2 l41-1
+pick-up_DETDUP_1 b1 b8
 2
 0 0
+10 0
+2
+0 8 -1 0
+0 11 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b9
+2
+0 0
+10 0
+2
+0 9 -1 0
+0 11 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b1
+2
+1 0
+10 0
+2
+0 0 -1 0
+0 12 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b2
+2
+1 0
+10 0
+2
+0 2 -1 0
+0 12 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b3
+2
+1 0
+10 0
+2
+0 3 -1 0
+0 12 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b4
+2
+1 0
+10 0
+2
+0 4 -1 0
+0 12 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b5
+2
+1 0
+10 0
+2
+0 5 -1 0
+0 12 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b6
+2
+1 0
+10 0
+2
+0 6 -1 0
+0 12 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b7
+2
+1 0
+10 0
+2
+0 7 -1 0
+0 12 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b8
+2
+1 0
+10 0
+2
+0 8 -1 0
+0 12 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b10 b9
+2
+1 0
+10 0
+2
+0 9 -1 0
+0 12 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b1
+2
+2 0
+10 0
+2
+0 0 -1 0
+0 13 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b10
+2
+2 0
+10 0
+2
+0 1 -1 0
+0 13 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b3
+2
+2 0
+10 0
+2
+0 3 -1 0
+0 13 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b4
+2
+2 0
+10 0
+2
+0 4 -1 0
+0 13 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b5
+2
+2 0
+10 0
+2
+0 5 -1 0
+0 13 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b6
+2
+2 0
+10 0
+2
+0 6 -1 0
+0 13 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b7
+2
+2 0
+10 0
+2
+0 7 -1 0
+0 13 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b8
+2
+2 0
+10 0
+2
+0 8 -1 0
+0 13 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b9
+2
+2 0
+10 0
+2
+0 9 -1 0
+0 13 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b1
+2
+3 0
+10 0
+2
+0 0 -1 0
+0 14 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b10
+2
+3 0
+10 0
+2
+0 1 -1 0
+0 14 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b2
+2
+3 0
+10 0
+2
+0 2 -1 0
+0 14 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b4
+2
+3 0
+10 0
+2
+0 4 -1 0
+0 14 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b5
+2
+3 0
+10 0
+2
+0 5 -1 0
+0 14 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b6
+2
+3 0
+10 0
+2
+0 6 -1 0
+0 14 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b7
+2
+3 0
+10 0
+2
+0 7 -1 0
+0 14 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b8
+2
+3 0
+10 0
+2
+0 8 -1 0
+0 14 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b9
+2
+3 0
+10 0
+2
+0 9 -1 0
+0 14 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b1
+2
+4 0
+10 0
+2
+0 0 -1 0
+0 15 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b10
+2
+4 0
+10 0
+2
+0 1 -1 0
+0 15 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b2
+2
+4 0
+10 0
+2
+0 2 -1 0
+0 15 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b3
+2
+4 0
+10 0
+2
+0 3 -1 0
+0 15 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b5
+2
+4 0
+10 0
+2
+0 5 -1 0
+0 15 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b6
+2
+4 0
+10 0
+2
+0 6 -1 0
+0 15 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b7
+2
+4 0
+10 0
+2
+0 7 -1 0
+0 15 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b8
+2
+4 0
+10 0
+2
+0 8 -1 0
+0 15 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b9
+2
+4 0
+10 0
+2
+0 9 -1 0
+0 15 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b1
+2
+5 0
+10 0
+2
+0 0 -1 0
+0 16 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b10
+2
+5 0
+10 0
+2
+0 1 -1 0
+0 16 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b2
+2
+5 0
+10 0
+2
+0 2 -1 0
+0 16 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b3
+2
+5 0
+10 0
+2
+0 3 -1 0
+0 16 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b4
+2
+5 0
+10 0
+2
+0 4 -1 0
+0 16 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b6
+2
+5 0
+10 0
+2
+0 6 -1 0
+0 16 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b7
+2
+5 0
+10 0
+2
+0 7 -1 0
+0 16 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b8
+2
+5 0
+10 0
+2
+0 8 -1 0
+0 16 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b9
+2
+5 0
+10 0
+2
+0 9 -1 0
+0 16 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b1
+2
 6 0
+10 0
+2
+0 0 -1 0
+0 17 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b10
+2
+6 0
+10 0
+2
+0 1 -1 0
+0 17 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b2
+2
+6 0
+10 0
+2
+0 2 -1 0
+0 17 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b3
+2
+6 0
+10 0
+2
+0 3 -1 0
+0 17 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b4
+2
+6 0
+10 0
+2
+0 4 -1 0
+0 17 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b5
+2
+6 0
+10 0
+2
+0 5 -1 0
+0 17 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b7
+2
+6 0
+10 0
+2
+0 7 -1 0
+0 17 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b8
+2
+6 0
+10 0
+2
+0 8 -1 0
+0 17 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b6 b9
+2
+6 0
+10 0
+2
+0 9 -1 0
+0 17 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b1
+2
+7 0
+10 0
+2
+0 0 -1 0
+0 18 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b10
+2
+7 0
+10 0
+2
+0 1 -1 0
+0 18 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b2
+2
+7 0
+10 0
+2
+0 2 -1 0
+0 18 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b3
+2
+7 0
+10 0
+2
+0 3 -1 0
+0 18 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b4
+2
+7 0
+10 0
+2
+0 4 -1 0
+0 18 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b5
+2
+7 0
+10 0
+2
+0 5 -1 0
+0 18 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b6
+2
+7 0
+10 0
+2
+0 6 -1 0
+0 18 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b8
+2
+7 0
+10 0
+2
+0 8 -1 0
+0 18 9 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b7 b9
+2
+7 0
+10 0
+2
+0 9 -1 0
+0 18 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b1
+2
+8 0
+10 0
+2
+0 0 -1 0
+0 19 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b10
+2
+8 0
+10 0
+2
+0 1 -1 0
+0 19 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b2
+2
+8 0
+10 0
+2
+0 2 -1 0
+0 19 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b3
+2
+8 0
+10 0
+2
+0 3 -1 0
+0 19 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b4
+2
+8 0
+10 0
+2
+0 4 -1 0
+0 19 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b5
+2
+8 0
+10 0
+2
+0 5 -1 0
+0 19 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b6
+2
+8 0
+10 0
+2
+0 6 -1 0
+0 19 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b7
+2
+8 0
+10 0
+2
+0 7 -1 0
+0 19 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b8 b9
+2
+8 0
+10 0
+2
+0 9 -1 0
+0 19 10 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b1
+2
+9 0
+10 0
+2
+0 0 -1 0
+0 20 1 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b10
+2
+9 0
+10 0
+2
+0 1 -1 0
+0 20 2 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b2
+2
+9 0
+10 0
+2
+0 2 -1 0
+0 20 3 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b3
+2
+9 0
+10 0
+2
+0 3 -1 0
+0 20 4 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b4
+2
+9 0
+10 0
+2
+0 4 -1 0
+0 20 5 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b5
+2
+9 0
+10 0
+2
+0 5 -1 0
+0 20 6 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b6
+2
+9 0
+10 0
+2
+0 6 -1 0
+0 20 7 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b7
+2
+9 0
+10 0
+2
+0 7 -1 0
+0 20 8 11
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b9 b8
+2
+9 0
+10 0
+2
+0 8 -1 0
+0 20 9 11
+0
+end_operator
+begin_operator
+put-down b1
+0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-down b10
+0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-down b2
+0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-down b3
+0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-down b4
+0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-down b5
+0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-down b6
+0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-down b7
+0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-down b8
+0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-down b9
+0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b1
 1
-0 7 31 24
+0 0
+2
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b10
+0
+4
+0 0 -1 0
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b2
+0
+4
+0 0 -1 0
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b3
+0
+4
+0 0 -1 0
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b4
+0
+4
+0 0 -1 0
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b5
+0
+4
+0 0 -1 0
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b6
+0
+4
+0 0 -1 0
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b7
+0
+4
+0 0 -1 0
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b8
+0
+4
+0 0 -1 0
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b1 b9
+0
+4
+0 0 -1 0
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b1
+0
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b10
+1
+1 0
+2
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b2
+0
+4
+0 1 -1 0
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b3
+0
+4
+0 1 -1 0
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b4
+0
+4
+0 1 -1 0
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b5
+0
+4
+0 1 -1 0
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b6
+0
+4
+0 1 -1 0
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b7
+0
+4
+0 1 -1 0
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b8
+0
+4
+0 1 -1 0
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b10 b9
+0
+4
+0 1 -1 0
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b1
+0
+4
+0 0 0 1
+0 2 -1 0
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b10
+0
+4
+0 1 0 1
+0 2 -1 0
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b2
+1
+2 0
+2
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b3
+0
+4
+0 2 -1 0
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b4
+0
+4
+0 2 -1 0
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b5
+0
+4
+0 2 -1 0
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b6
+0
+4
+0 2 -1 0
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b7
+0
+4
+0 2 -1 0
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b8
+0
+4
+0 2 -1 0
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b9
+0
+4
+0 2 -1 0
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b1
+0
+4
+0 0 0 1
+0 3 -1 0
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b10
+0
+4
+0 1 0 1
+0 3 -1 0
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b2
+0
+4
+0 2 0 1
+0 3 -1 0
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b3
+1
+3 0
+2
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b4
+0
+4
+0 3 -1 0
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b5
+0
+4
+0 3 -1 0
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b6
+0
+4
+0 3 -1 0
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b7
+0
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b8
+0
+4
+0 3 -1 0
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b3 b9
+0
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b1
+0
+4
+0 0 0 1
+0 4 -1 0
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b10
+0
+4
+0 1 0 1
+0 4 -1 0
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b2
+0
+4
+0 2 0 1
+0 4 -1 0
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b3
+0
+4
+0 3 0 1
+0 4 -1 0
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b4
+1
+4 0
+2
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b5
+0
+4
+0 4 -1 0
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b6
+0
+4
+0 4 -1 0
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b7
+0
+4
+0 4 -1 0
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b8
+0
+4
+0 4 -1 0
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b4 b9
+0
+4
+0 4 -1 0
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b1
+0
+4
+0 0 0 1
+0 5 -1 0
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b10
+0
+4
+0 1 0 1
+0 5 -1 0
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b2
+0
+4
+0 2 0 1
+0 5 -1 0
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b3
+0
+4
+0 3 0 1
+0 5 -1 0
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b4
+0
+4
+0 4 0 1
+0 5 -1 0
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b5
+1
+5 0
+2
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b6
+0
+4
+0 5 -1 0
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b7
+0
+4
+0 5 -1 0
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b8
+0
+4
+0 5 -1 0
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b5 b9
+0
+4
+0 5 -1 0
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b1
+0
+4
+0 0 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b10
+0
+4
+0 1 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b2
+0
+4
+0 2 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b3
+0
+4
+0 3 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b4
+0
+4
+0 4 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b5
+0
+4
+0 5 0 1
+0 6 -1 0
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b6
+1
+6 0
+2
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b7
+0
+4
+0 6 -1 0
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b8
+0
+4
+0 6 -1 0
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b6 b9
+0
+4
+0 6 -1 0
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b1
+0
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b10
+0
+4
+0 1 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b2
+0
+4
+0 2 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b3
+0
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b4
+0
+4
+0 4 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b5
+0
+4
+0 5 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b6
+0
+4
+0 6 0 1
+0 7 -1 0
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b7
+1
+7 0
+2
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b8
+0
+4
+0 7 -1 0
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b7 b9
+0
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b1
+0
+4
+0 0 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b10
+0
+4
+0 1 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b2
+0
+4
+0 2 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b3
+0
+4
+0 3 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b4
+0
+4
+0 4 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b5
+0
+4
+0 5 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b6
+0
+4
+0 6 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b7
+0
+4
+0 7 0 1
+0 8 -1 0
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b8
+1
+8 0
+2
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b8 b9
+0
+4
+0 8 -1 0
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b1
+0
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b10
+0
+4
+0 1 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b2
+0
+4
+0 2 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b3
+0
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b4
+0
+4
+0 4 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b5
+0
+4
+0 5 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b6
+0
+4
+0 6 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b7
+0
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b8
+0
+4
+0 8 0 1
+0 9 -1 0
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b9 b9
+1
+9 0
+2
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b1
+1
+0 0
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b10
+1
+1 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b2
+1
+2 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b3
+1
+3 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b4
+1
+4 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b5
+1
+5 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b6
+1
+6 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b7
+1
+7 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b8
+1
+8 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b1 b9
+1
+9 0
+3
+0 0 -1 0
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b1
+1
+0 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b10
+1
+1 0
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b2
+1
+2 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b3
+1
+3 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b4
+1
+4 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b5
+1
+5 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b6
+1
+6 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b7
+1
+7 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b8
+1
+8 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b10 b9
+1
+9 0
+3
+0 1 -1 0
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b1
+1
+0 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b10
+1
+1 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b2
+1
+2 0
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b3
+1
+3 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b4
+1
+4 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b5
+1
+5 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b6
+1
+6 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b7
+1
+7 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b8
+1
+8 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b9
+1
+9 0
+3
+0 2 -1 0
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b1
+1
+0 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b10
+1
+1 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b2
+1
+2 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b3
+1
+3 0
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b4
+1
+4 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b5
+1
+5 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b6
+1
+6 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b7
+1
+7 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b8
+1
+8 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b3 b9
+1
+9 0
+3
+0 3 -1 0
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b1
+1
+0 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b10
+1
+1 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b2
+1
+2 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b3
+1
+3 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b4
+1
+4 0
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b5
+1
+5 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b6
+1
+6 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b7
+1
+7 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b8
+1
+8 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b4 b9
+1
+9 0
+3
+0 4 -1 0
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b1
+1
+0 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b10
+1
+1 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b2
+1
+2 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b3
+1
+3 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b4
+1
+4 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b5
+1
+5 0
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b6
+1
+6 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b7
+1
+7 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b8
+1
+8 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b5 b9
+1
+9 0
+3
+0 5 -1 0
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b1
+1
+0 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b10
+1
+1 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b2
+1
+2 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b3
+1
+3 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b4
+1
+4 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b5
+1
+5 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b6
+1
+6 0
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b7
+1
+7 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b8
+1
+8 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b6 b9
+1
+9 0
+3
+0 6 -1 0
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b1
+1
+0 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b10
+1
+1 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b2
+1
+2 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b3
+1
+3 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b4
+1
+4 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b5
+1
+5 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b6
+1
+6 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b7
+1
+7 0
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b8
+1
+8 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b7 b9
+1
+9 0
+3
+0 7 -1 0
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b1
+1
+0 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b10
+1
+1 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b2
+1
+2 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b3
+1
+3 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b4
+1
+4 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b5
+1
+5 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b6
+1
+6 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b7
+1
+7 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b8
+1
+8 0
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b8 b9
+1
+9 0
+3
+0 8 -1 0
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b1
+1
+0 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b10
+1
+1 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b2
+1
+2 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b3
+1
+3 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b4
+1
+4 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b5
+1
+5 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b6
+1
+6 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b7
+1
+7 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b8
+1
+8 0
+3
+0 9 -1 0
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b9 b9
+1
+9 0
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b10
+1
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b2
+1
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b3
+1
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b4
+1
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b5
+1
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b6
+1
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b7
+1
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b8
+1
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b1 b9
+1
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b1
+1
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b2
+1
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b3
+1
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b4
+1
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b5
+1
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b6
+1
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b7
+1
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b8
+1
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b10 b9
+1
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b1
+1
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b10
+1
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b3
+1
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b4
+1
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b5
+1
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b6
+1
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b7
+1
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b8
+1
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b2 b9
+1
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b1
+1
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b10
+1
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b2
+1
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b4
+1
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b5
+1
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b6
+1
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b7
+1
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b8
+1
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b3 b9
+1
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b1
+1
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b10
+1
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b2
+1
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b3
+1
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b5
+1
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b6
+1
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b7
+1
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b8
+1
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b4 b9
+1
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b1
+1
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b10
+1
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b2
+1
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b3
+1
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b4
+1
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b6
+1
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b7
+1
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b8
+1
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b5 b9
+1
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b1
+1
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b10
+1
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b2
+1
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b3
+1
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b4
+1
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b5
+1
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b7
+1
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b8
+1
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b6 b9
+1
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b1
+1
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b10
+1
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b2
+1
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b3
+1
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b4
+1
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b5
+1
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b6
+1
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b8
+1
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-down b7 b9
+1
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b1
+1
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b10
+1
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b2
+1
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b3
+1
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b4
+1
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b5
+1
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b6
+1
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b7
+1
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b8 b9
+1
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b1
+1
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b10
+1
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b2
+1
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b3
+1
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b4
+1
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b5
+1
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b6
+1
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b7
+1
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-down b9 b8
+1
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b1
+1
+11 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b10
+1
+11 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b2
+1
+11 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b3
+1
+11 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b4
+1
+11 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b5
+1
+11 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b6
+1
+11 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b7
+1
+11 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b8
+1
+11 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b10 b9
+1
+11 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b1
+1
+11 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b10
+1
+11 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b2
+1
+11 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b3
+1
+11 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b4
+1
+11 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b5
+1
+11 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b6
+1
+11 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b7
+1
+11 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b8
+1
+11 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b9
+1
+11 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b1
+1
+11 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b10
+1
+11 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b2
+1
+11 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b3
+1
+11 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b4
+1
+11 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b5
+1
+11 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b6
+1
+11 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b7
+1
+11 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b8
+1
+11 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b9
+1
+11 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b1
+1
+11 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b10
+1
+11 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b2
+1
+11 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b3
+1
+11 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b4
+1
+11 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b5
+1
+11 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b6
+1
+11 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b7
+1
+11 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b8
+1
+11 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b9
+1
+11 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b1
+1
+11 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b10
+1
+11 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b2
+1
+11 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b3
+1
+11 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b4
+1
+11 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b5
+1
+11 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b6
+1
+11 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b7
+1
+11 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b8
+1
+11 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b9
+1
+11 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b1
+1
+11 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b10
+1
+11 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b2
+1
+11 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b3
+1
+11 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b4
+1
+11 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b5
+1
+11 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b6
+1
+11 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b7
+1
+11 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b8
+1
+11 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b6 b9
+1
+11 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b1
+1
+11 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b10
+1
+11 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b2
+1
+11 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b3
+1
+11 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b4
+1
+11 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b5
+1
+11 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b6
+1
+11 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b7
+1
+11 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b8
+1
+11 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b7 b9
+1
+11 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b1
+1
+11 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b10
+1
+11 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b2
+1
+11 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b3
+1
+11 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b4
+1
+11 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b5
+1
+11 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b6
+1
+11 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b7
+1
+11 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b8
+1
+11 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b8 b9
+1
+11 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b1
+1
+11 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b10
+1
+11 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b2
+1
+11 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b3
+1
+11 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b4
+1
+11 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b5
+1
+11 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b6
+1
+11 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b7
+1
+11 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b8
+1
+11 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b9 b9
+1
+11 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b1
+1
+12 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b10
+1
+12 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b2
+1
+12 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b3
+1
+12 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b4
+1
+12 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b5
+1
+12 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b6
+1
+12 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b7
+1
+12 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b8
+1
+12 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b1 b9
+1
+12 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b1
+1
+12 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b10
+1
+12 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b2
+1
+12 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b3
+1
+12 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b4
+1
+12 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b5
+1
+12 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b6
+1
+12 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b7
+1
+12 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b8
+1
+12 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b2 b9
+1
+12 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b1
+1
+12 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b10
+1
+12 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b2
+1
+12 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b3
+1
+12 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b4
+1
+12 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b5
+1
+12 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b6
+1
+12 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b7
+1
+12 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b8
+1
+12 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b3 b9
+1
+12 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b1
+1
+12 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b10
+1
+12 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b2
+1
+12 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b3
+1
+12 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b4
+1
+12 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b5
+1
+12 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b6
+1
+12 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b7
+1
+12 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b8
+1
+12 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b4 b9
+1
+12 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b1
+1
+12 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b10
+1
+12 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b2
+1
+12 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b3
+1
+12 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b4
+1
+12 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b5
+1
+12 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b6
+1
+12 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b7
+1
+12 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b8
+1
+12 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b5 b9
+1
+12 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b1
+1
+12 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b10
+1
+12 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b2
+1
+12 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b3
+1
+12 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b4
+1
+12 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b5
+1
+12 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b6
+1
+12 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b7
+1
+12 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b8
+1
+12 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b6 b9
+1
+12 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b1
+1
+12 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b10
+1
+12 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b2
+1
+12 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b3
+1
+12 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b4
+1
+12 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b5
+1
+12 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b6
+1
+12 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b7
+1
+12 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b8
+1
+12 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b7 b9
+1
+12 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b1
+1
+12 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b10
+1
+12 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b2
+1
+12 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b3
+1
+12 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b4
+1
+12 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b5
+1
+12 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b6
+1
+12 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b7
+1
+12 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b8
+1
+12 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b8 b9
+1
+12 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b1
+1
+12 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b10
+1
+12 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b2
+1
+12 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b3
+1
+12 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b4
+1
+12 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b5
+1
+12 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b6
+1
+12 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b7
+1
+12 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b8
+1
+12 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b10 b9 b9
+1
+12 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b1
+1
+13 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b10
+1
+13 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b2
+1
+13 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b3
+1
+13 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b4
+1
+13 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b5
+1
+13 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b6
+1
+13 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b7
+1
+13 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b8
+1
+13 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b9
+1
+13 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b1
+1
+13 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b10
+1
+13 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b2
+1
+13 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b3
+1
+13 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b4
+1
+13 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b5
+1
+13 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b6
+1
+13 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b7
+1
+13 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b8
+1
+13 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b10 b9
+1
+13 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b1
+1
+13 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b10
+1
+13 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b2
+1
+13 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b3
+1
+13 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b4
+1
+13 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b5
+1
+13 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b6
+1
+13 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b7
+1
+13 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b8
+1
+13 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b9
+1
+13 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b1
+1
+13 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b10
+1
+13 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b2
+1
+13 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b3
+1
+13 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b4
+1
+13 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b5
+1
+13 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b6
+1
+13 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b7
+1
+13 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b8
+1
+13 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b9
+1
+13 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b1
+1
+13 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b10
+1
+13 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b2
+1
+13 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b3
+1
+13 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b4
+1
+13 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b5
+1
+13 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b6
+1
+13 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b7
+1
+13 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b8
+1
+13 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b9
+1
+13 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b1
+1
+13 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b10
+1
+13 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b2
+1
+13 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b3
+1
+13 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b4
+1
+13 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b5
+1
+13 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b6
+1
+13 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b7
+1
+13 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b8
+1
+13 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b6 b9
+1
+13 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b1
+1
+13 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b10
+1
+13 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b2
+1
+13 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b3
+1
+13 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b4
+1
+13 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b5
+1
+13 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b6
+1
+13 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b7
+1
+13 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b8
+1
+13 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b7 b9
+1
+13 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b1
+1
+13 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b10
+1
+13 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b2
+1
+13 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b3
+1
+13 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b4
+1
+13 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b5
+1
+13 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b6
+1
+13 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b7
+1
+13 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b8
+1
+13 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b8 b9
+1
+13 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b1
+1
+13 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b10
+1
+13 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b2
+1
+13 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b3
+1
+13 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b4
+1
+13 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b5
+1
+13 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b6
+1
+13 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b7
+1
+13 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b8
+1
+13 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b9 b9
+1
+13 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b1
+1
+14 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b10
+1
+14 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b2
+1
+14 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b3
+1
+14 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b4
+1
+14 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b5
+1
+14 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b6
+1
+14 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b7
+1
+14 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b8
+1
+14 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b9
+1
+14 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b1
+1
+14 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b10
+1
+14 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b2
+1
+14 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b3
+1
+14 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b4
+1
+14 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b5
+1
+14 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b6
+1
+14 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b7
+1
+14 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b8
+1
+14 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b10 b9
+1
+14 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b1
+1
+14 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b10
+1
+14 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b2
+1
+14 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b3
+1
+14 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b4
+1
+14 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b5
+1
+14 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b6
+1
+14 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b7
+1
+14 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b8
+1
+14 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b9
+1
+14 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b1
+1
+14 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b10
+1
+14 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b2
+1
+14 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b3
+1
+14 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b4
+1
+14 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b5
+1
+14 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b6
+1
+14 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b7
+1
+14 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b8
+1
+14 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b9
+1
+14 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b1
+1
+14 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b10
+1
+14 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b2
+1
+14 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b3
+1
+14 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b4
+1
+14 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b5
+1
+14 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b6
+1
+14 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b7
+1
+14 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b8
+1
+14 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b9
+1
+14 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b1
+1
+14 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b10
+1
+14 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b2
+1
+14 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b3
+1
+14 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b4
+1
+14 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b5
+1
+14 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b6
+1
+14 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b7
+1
+14 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b8
+1
+14 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b6 b9
+1
+14 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b1
+1
+14 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b10
+1
+14 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b2
+1
+14 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b3
+1
+14 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b4
+1
+14 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b5
+1
+14 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b6
+1
+14 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b7
+1
+14 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b8
+1
+14 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b7 b9
+1
+14 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b1
+1
+14 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b10
+1
+14 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b2
+1
+14 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b3
+1
+14 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b4
+1
+14 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b5
+1
+14 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b6
+1
+14 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b7
+1
+14 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b8
+1
+14 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b8 b9
+1
+14 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b1
+1
+14 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b10
+1
+14 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b2
+1
+14 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b3
+1
+14 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b4
+1
+14 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b5
+1
+14 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b6
+1
+14 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b7
+1
+14 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b8
+1
+14 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b9 b9
+1
+14 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b1
+1
+15 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b10
+1
+15 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b2
+1
+15 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b3
+1
+15 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b4
+1
+15 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b5
+1
+15 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b6
+1
+15 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b7
+1
+15 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b8
+1
+15 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b9
+1
+15 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b1
+1
+15 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b10
+1
+15 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b2
+1
+15 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b3
+1
+15 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b4
+1
+15 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b5
+1
+15 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b6
+1
+15 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b7
+1
+15 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b8
+1
+15 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b10 b9
+1
+15 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b1
+1
+15 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b10
+1
+15 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b2
+1
+15 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b3
+1
+15 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b4
+1
+15 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b5
+1
+15 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b6
+1
+15 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b7
+1
+15 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b8
+1
+15 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b9
+1
+15 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b1
+1
+15 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b10
+1
+15 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b2
+1
+15 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b3
+1
+15 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b4
+1
+15 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b5
+1
+15 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b6
+1
+15 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b7
+1
+15 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b8
+1
+15 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b9
+1
+15 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b1
+1
+15 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b10
+1
+15 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b2
+1
+15 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b3
+1
+15 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b4
+1
+15 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b5
+1
+15 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b6
+1
+15 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b7
+1
+15 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b8
+1
+15 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b9
+1
+15 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b1
+1
+15 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b10
+1
+15 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b2
+1
+15 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b3
+1
+15 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b4
+1
+15 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b5
+1
+15 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b6
+1
+15 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b7
+1
+15 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b8
+1
+15 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b6 b9
+1
+15 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b1
+1
+15 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b10
+1
+15 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b2
+1
+15 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b3
+1
+15 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b4
+1
+15 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b5
+1
+15 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b6
+1
+15 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b7
+1
+15 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b8
+1
+15 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b7 b9
+1
+15 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b1
+1
+15 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b10
+1
+15 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b2
+1
+15 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b3
+1
+15 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b4
+1
+15 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b5
+1
+15 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b6
+1
+15 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b7
+1
+15 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b8
+1
+15 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b8 b9
+1
+15 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b1
+1
+15 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b10
+1
+15 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b2
+1
+15 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b3
+1
+15 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b4
+1
+15 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b5
+1
+15 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b6
+1
+15 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b7
+1
+15 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b8
+1
+15 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b9 b9
+1
+15 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b1
+1
+16 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b10
+1
+16 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b2
+1
+16 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b3
+1
+16 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b4
+1
+16 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b5
+1
+16 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b6
+1
+16 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b7
+1
+16 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b8
+1
+16 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b9
+1
+16 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b1
+1
+16 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b10
+1
+16 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b2
+1
+16 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b3
+1
+16 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b4
+1
+16 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b5
+1
+16 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b6
+1
+16 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b7
+1
+16 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b8
+1
+16 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b10 b9
+1
+16 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b1
+1
+16 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b10
+1
+16 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b2
+1
+16 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b3
+1
+16 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b4
+1
+16 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b5
+1
+16 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b6
+1
+16 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b7
+1
+16 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b8
+1
+16 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b9
+1
+16 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b1
+1
+16 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b10
+1
+16 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b2
+1
+16 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b3
+1
+16 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b4
+1
+16 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b5
+1
+16 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b6
+1
+16 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b7
+1
+16 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b8
+1
+16 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b9
+1
+16 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b1
+1
+16 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b10
+1
+16 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b2
+1
+16 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b3
+1
+16 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b4
+1
+16 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b5
+1
+16 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b6
+1
+16 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b7
+1
+16 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b8
+1
+16 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b9
+1
+16 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b1
+1
+16 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b10
+1
+16 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b2
+1
+16 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b3
+1
+16 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b4
+1
+16 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b5
+1
+16 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b6
+1
+16 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b7
+1
+16 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b8
+1
+16 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b6 b9
+1
+16 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b1
+1
+16 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b10
+1
+16 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b2
+1
+16 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b3
+1
+16 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b4
+1
+16 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b5
+1
+16 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b6
+1
+16 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b7
+1
+16 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b8
+1
+16 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b7 b9
+1
+16 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b1
+1
+16 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b10
+1
+16 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b2
+1
+16 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b3
+1
+16 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b4
+1
+16 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b5
+1
+16 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b6
+1
+16 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b7
+1
+16 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b8
+1
+16 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b8 b9
+1
+16 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b1
+1
+16 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b10
+1
+16 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b2
+1
+16 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b3
+1
+16 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b4
+1
+16 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b5
+1
+16 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b6
+1
+16 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b7
+1
+16 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b8
+1
+16 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b9 b9
+1
+16 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b1
+1
+17 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b10
+1
+17 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b2
+1
+17 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b3
+1
+17 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b4
+1
+17 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b5
+1
+17 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b6
+1
+17 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b7
+1
+17 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b8
+1
+17 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b1 b9
+1
+17 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b1
+1
+17 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b10
+1
+17 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b2
+1
+17 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b3
+1
+17 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b4
+1
+17 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b5
+1
+17 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b6
+1
+17 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b7
+1
+17 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b8
+1
+17 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b10 b9
+1
+17 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b1
+1
+17 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b10
+1
+17 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b2
+1
+17 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b3
+1
+17 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b4
+1
+17 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b5
+1
+17 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b6
+1
+17 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b7
+1
+17 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b8
+1
+17 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b2 b9
+1
+17 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b1
+1
+17 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b10
+1
+17 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b2
+1
+17 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b3
+1
+17 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b4
+1
+17 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b5
+1
+17 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b6
+1
+17 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b7
+1
+17 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b8
+1
+17 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b3 b9
+1
+17 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b1
+1
+17 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b10
+1
+17 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b2
+1
+17 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b3
+1
+17 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b4
+1
+17 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b5
+1
+17 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b6
+1
+17 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b7
+1
+17 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b8
+1
+17 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b4 b9
+1
+17 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b1
+1
+17 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b10
+1
+17 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b2
+1
+17 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b3
+1
+17 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b4
+1
+17 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b5
+1
+17 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b6
+1
+17 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b7
+1
+17 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b8
+1
+17 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b5 b9
+1
+17 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b1
+1
+17 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b10
+1
+17 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b2
+1
+17 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b3
+1
+17 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b4
+1
+17 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b5
+1
+17 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b6
+1
+17 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b7
+1
+17 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b8
+1
+17 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b7 b9
+1
+17 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b1
+1
+17 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b10
+1
+17 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b2
+1
+17 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b3
+1
+17 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b4
+1
+17 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b5
+1
+17 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b6
+1
+17 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b7
+1
+17 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b8
+1
+17 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b8 b9
+1
+17 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b1
+1
+17 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b10
+1
+17 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b2
+1
+17 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b3
+1
+17 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b4
+1
+17 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b5
+1
+17 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b6
+1
+17 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b7
+1
+17 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b8
+1
+17 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b6 b9 b9
+1
+17 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b1
+1
+18 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b10
+1
+18 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b2
+1
+18 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b3
+1
+18 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b4
+1
+18 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b5
+1
+18 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b6
+1
+18 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b7
+1
+18 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b8
+1
+18 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b1 b9
+1
+18 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b1
+1
+18 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b10
+1
+18 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b2
+1
+18 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b3
+1
+18 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b4
+1
+18 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b5
+1
+18 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b6
+1
+18 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b7
+1
+18 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b8
+1
+18 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b10 b9
+1
+18 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b1
+1
+18 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b10
+1
+18 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b2
+1
+18 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b3
+1
+18 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b4
+1
+18 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b5
+1
+18 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b6
+1
+18 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b7
+1
+18 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b8
+1
+18 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b2 b9
+1
+18 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b1
+1
+18 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b10
+1
+18 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b2
+1
+18 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b3
+1
+18 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b4
+1
+18 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b5
+1
+18 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b6
+1
+18 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b7
+1
+18 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b8
+1
+18 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b3 b9
+1
+18 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b1
+1
+18 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b10
+1
+18 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b2
+1
+18 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b3
+1
+18 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b4
+1
+18 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b5
+1
+18 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b6
+1
+18 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b7
+1
+18 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b8
+1
+18 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b4 b9
+1
+18 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b1
+1
+18 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b10
+1
+18 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b2
+1
+18 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b3
+1
+18 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b4
+1
+18 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b5
+1
+18 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b6
+1
+18 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b7
+1
+18 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b8
+1
+18 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b5 b9
+1
+18 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b1
+1
+18 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b10
+1
+18 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b2
+1
+18 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b3
+1
+18 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b4
+1
+18 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b5
+1
+18 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b6
+1
+18 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b7
+1
+18 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b8
+1
+18 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b6 b9
+1
+18 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b1
+1
+18 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b10
+1
+18 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b2
+1
+18 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b3
+1
+18 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b4
+1
+18 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b5
+1
+18 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b6
+1
+18 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b7
+1
+18 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b8
+1
+18 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b8 b9
+1
+18 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b1
+1
+18 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b10
+1
+18 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b2
+1
+18 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b3
+1
+18 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b4
+1
+18 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b5
+1
+18 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b6
+1
+18 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b7
+1
+18 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b8
+1
+18 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b7 b9 b9
+1
+18 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b1
+1
+19 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b10
+1
+19 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b2
+1
+19 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b3
+1
+19 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b4
+1
+19 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b5
+1
+19 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b6
+1
+19 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b7
+1
+19 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b8
+1
+19 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b1 b9
+1
+19 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b1
+1
+19 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b10
+1
+19 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b2
+1
+19 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b3
+1
+19 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b4
+1
+19 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b5
+1
+19 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b6
+1
+19 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b7
+1
+19 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b8
+1
+19 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b10 b9
+1
+19 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b1
+1
+19 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b10
+1
+19 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b2
+1
+19 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b3
+1
+19 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b4
+1
+19 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b5
+1
+19 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b6
+1
+19 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b7
+1
+19 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b8
+1
+19 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b2 b9
+1
+19 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b1
+1
+19 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b10
+1
+19 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b2
+1
+19 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b3
+1
+19 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b4
+1
+19 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b5
+1
+19 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b6
+1
+19 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b7
+1
+19 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b8
+1
+19 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b3 b9
+1
+19 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b1
+1
+19 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b10
+1
+19 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b2
+1
+19 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b3
+1
+19 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b4
+1
+19 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b5
+1
+19 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b6
+1
+19 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b7
+1
+19 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b8
+1
+19 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b4 b9
+1
+19 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b1
+1
+19 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b10
+1
+19 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b2
+1
+19 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b3
+1
+19 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b4
+1
+19 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b5
+1
+19 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b6
+1
+19 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b7
+1
+19 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b8
+1
+19 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b5 b9
+1
+19 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b1
+1
+19 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b10
+1
+19 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b2
+1
+19 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b3
+1
+19 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b4
+1
+19 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b5
+1
+19 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b6
+1
+19 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b7
+1
+19 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b8
+1
+19 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b6 b9
+1
+19 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b1
+1
+19 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b10
+1
+19 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b2
+1
+19 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b3
+1
+19 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b4
+1
+19 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b5
+1
+19 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b6
+1
+19 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b7
+1
+19 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b8
+1
+19 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b7 b9
+1
+19 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b1
+1
+19 10
+3
+0 0 0 1
+0 10 -1 0
+0 20 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b10
+1
+19 10
+3
+0 1 0 1
+0 10 -1 0
+0 20 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b2
+1
+19 10
+3
+0 2 0 1
+0 10 -1 0
+0 20 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b3
+1
+19 10
+3
+0 3 0 1
+0 10 -1 0
+0 20 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b4
+1
+19 10
+3
+0 4 0 1
+0 10 -1 0
+0 20 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b5
+1
+19 10
+3
+0 5 0 1
+0 10 -1 0
+0 20 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b6
+1
+19 10
+3
+0 6 0 1
+0 10 -1 0
+0 20 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b7
+1
+19 10
+3
+0 7 0 1
+0 10 -1 0
+0 20 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b8
+1
+19 10
+3
+0 8 0 1
+0 10 -1 0
+0 20 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b8 b9 b9
+1
+19 10
+3
+0 9 0 1
+0 10 -1 0
+0 20 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b1
+1
+20 1
+3
+0 0 0 1
+0 10 -1 0
+0 11 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b10
+1
+20 1
+3
+0 1 0 1
+0 10 -1 0
+0 11 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b2
+1
+20 1
+3
+0 2 0 1
+0 10 -1 0
+0 11 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b3
+1
+20 1
+3
+0 3 0 1
+0 10 -1 0
+0 11 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b4
+1
+20 1
+3
+0 4 0 1
+0 10 -1 0
+0 11 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b5
+1
+20 1
+3
+0 5 0 1
+0 10 -1 0
+0 11 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b6
+1
+20 1
+3
+0 6 0 1
+0 10 -1 0
+0 11 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b7
+1
+20 1
+3
+0 7 0 1
+0 10 -1 0
+0 11 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b8
+1
+20 1
+3
+0 8 0 1
+0 10 -1 0
+0 11 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b1 b9
+1
+20 1
+3
+0 9 0 1
+0 10 -1 0
+0 11 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b1
+1
+20 2
+3
+0 0 0 1
+0 10 -1 0
+0 12 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b10
+1
+20 2
+3
+0 1 0 1
+0 10 -1 0
+0 12 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b2
+1
+20 2
+3
+0 2 0 1
+0 10 -1 0
+0 12 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b3
+1
+20 2
+3
+0 3 0 1
+0 10 -1 0
+0 12 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b4
+1
+20 2
+3
+0 4 0 1
+0 10 -1 0
+0 12 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b5
+1
+20 2
+3
+0 5 0 1
+0 10 -1 0
+0 12 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b6
+1
+20 2
+3
+0 6 0 1
+0 10 -1 0
+0 12 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b7
+1
+20 2
+3
+0 7 0 1
+0 10 -1 0
+0 12 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b8
+1
+20 2
+3
+0 8 0 1
+0 10 -1 0
+0 12 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b10 b9
+1
+20 2
+3
+0 9 0 1
+0 10 -1 0
+0 12 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b1
+1
+20 3
+3
+0 0 0 1
+0 10 -1 0
+0 13 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b10
+1
+20 3
+3
+0 1 0 1
+0 10 -1 0
+0 13 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b2
+1
+20 3
+3
+0 2 0 1
+0 10 -1 0
+0 13 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b3
+1
+20 3
+3
+0 3 0 1
+0 10 -1 0
+0 13 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b4
+1
+20 3
+3
+0 4 0 1
+0 10 -1 0
+0 13 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b5
+1
+20 3
+3
+0 5 0 1
+0 10 -1 0
+0 13 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b6
+1
+20 3
+3
+0 6 0 1
+0 10 -1 0
+0 13 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b7
+1
+20 3
+3
+0 7 0 1
+0 10 -1 0
+0 13 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b8
+1
+20 3
+3
+0 8 0 1
+0 10 -1 0
+0 13 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b2 b9
+1
+20 3
+3
+0 9 0 1
+0 10 -1 0
+0 13 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b1
+1
+20 4
+3
+0 0 0 1
+0 10 -1 0
+0 14 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b10
+1
+20 4
+3
+0 1 0 1
+0 10 -1 0
+0 14 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b2
+1
+20 4
+3
+0 2 0 1
+0 10 -1 0
+0 14 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b3
+1
+20 4
+3
+0 3 0 1
+0 10 -1 0
+0 14 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b4
+1
+20 4
+3
+0 4 0 1
+0 10 -1 0
+0 14 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b5
+1
+20 4
+3
+0 5 0 1
+0 10 -1 0
+0 14 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b6
+1
+20 4
+3
+0 6 0 1
+0 10 -1 0
+0 14 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b7
+1
+20 4
+3
+0 7 0 1
+0 10 -1 0
+0 14 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b8
+1
+20 4
+3
+0 8 0 1
+0 10 -1 0
+0 14 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b3 b9
+1
+20 4
+3
+0 9 0 1
+0 10 -1 0
+0 14 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b1
+1
+20 5
+3
+0 0 0 1
+0 10 -1 0
+0 15 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b10
+1
+20 5
+3
+0 1 0 1
+0 10 -1 0
+0 15 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b2
+1
+20 5
+3
+0 2 0 1
+0 10 -1 0
+0 15 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b3
+1
+20 5
+3
+0 3 0 1
+0 10 -1 0
+0 15 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b4
+1
+20 5
+3
+0 4 0 1
+0 10 -1 0
+0 15 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b5
+1
+20 5
+3
+0 5 0 1
+0 10 -1 0
+0 15 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b6
+1
+20 5
+3
+0 6 0 1
+0 10 -1 0
+0 15 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b7
+1
+20 5
+3
+0 7 0 1
+0 10 -1 0
+0 15 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b8
+1
+20 5
+3
+0 8 0 1
+0 10 -1 0
+0 15 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b4 b9
+1
+20 5
+3
+0 9 0 1
+0 10 -1 0
+0 15 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b1
+1
+20 6
+3
+0 0 0 1
+0 10 -1 0
+0 16 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b10
+1
+20 6
+3
+0 1 0 1
+0 10 -1 0
+0 16 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b2
+1
+20 6
+3
+0 2 0 1
+0 10 -1 0
+0 16 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b3
+1
+20 6
+3
+0 3 0 1
+0 10 -1 0
+0 16 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b4
+1
+20 6
+3
+0 4 0 1
+0 10 -1 0
+0 16 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b5
+1
+20 6
+3
+0 5 0 1
+0 10 -1 0
+0 16 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b6
+1
+20 6
+3
+0 6 0 1
+0 10 -1 0
+0 16 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b7
+1
+20 6
+3
+0 7 0 1
+0 10 -1 0
+0 16 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b8
+1
+20 6
+3
+0 8 0 1
+0 10 -1 0
+0 16 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b5 b9
+1
+20 6
+3
+0 9 0 1
+0 10 -1 0
+0 16 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b1
+1
+20 7
+3
+0 0 0 1
+0 10 -1 0
+0 17 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b10
+1
+20 7
+3
+0 1 0 1
+0 10 -1 0
+0 17 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b2
+1
+20 7
+3
+0 2 0 1
+0 10 -1 0
+0 17 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b3
+1
+20 7
+3
+0 3 0 1
+0 10 -1 0
+0 17 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b4
+1
+20 7
+3
+0 4 0 1
+0 10 -1 0
+0 17 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b5
+1
+20 7
+3
+0 5 0 1
+0 10 -1 0
+0 17 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b6
+1
+20 7
+3
+0 6 0 1
+0 10 -1 0
+0 17 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b7
+1
+20 7
+3
+0 7 0 1
+0 10 -1 0
+0 17 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b8
+1
+20 7
+3
+0 8 0 1
+0 10 -1 0
+0 17 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b6 b9
+1
+20 7
+3
+0 9 0 1
+0 10 -1 0
+0 17 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b1
+1
+20 8
+3
+0 0 0 1
+0 10 -1 0
+0 18 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b10
+1
+20 8
+3
+0 1 0 1
+0 10 -1 0
+0 18 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b2
+1
+20 8
+3
+0 2 0 1
+0 10 -1 0
+0 18 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b3
+1
+20 8
+3
+0 3 0 1
+0 10 -1 0
+0 18 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b4
+1
+20 8
+3
+0 4 0 1
+0 10 -1 0
+0 18 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b5
+1
+20 8
+3
+0 5 0 1
+0 10 -1 0
+0 18 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b6
+1
+20 8
+3
+0 6 0 1
+0 10 -1 0
+0 18 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b7
+1
+20 8
+3
+0 7 0 1
+0 10 -1 0
+0 18 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b8
+1
+20 8
+3
+0 8 0 1
+0 10 -1 0
+0 18 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b7 b9
+1
+20 8
+3
+0 9 0 1
+0 10 -1 0
+0 18 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b1
+1
+20 9
+3
+0 0 0 1
+0 10 -1 0
+0 19 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b10
+1
+20 9
+3
+0 1 0 1
+0 10 -1 0
+0 19 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b2
+1
+20 9
+3
+0 2 0 1
+0 10 -1 0
+0 19 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b3
+1
+20 9
+3
+0 3 0 1
+0 10 -1 0
+0 19 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b4
+1
+20 9
+3
+0 4 0 1
+0 10 -1 0
+0 19 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b5
+1
+20 9
+3
+0 5 0 1
+0 10 -1 0
+0 19 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b6
+1
+20 9
+3
+0 6 0 1
+0 10 -1 0
+0 19 0 7
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b7
+1
+20 9
+3
+0 7 0 1
+0 10 -1 0
+0 19 0 8
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b8
+1
+20 9
+3
+0 8 0 1
+0 10 -1 0
+0 19 0 9
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b9 b8 b9
+1
+20 9
+3
+0 9 0 1
+0 10 -1 0
+0 19 0 10
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b1
+2
+0 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b10
+2
+1 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b2
+2
+2 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b3
+2
+3 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b4
+2
+4 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b5
+2
+5 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b6
+2
+6 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b7
+2
+7 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b8
+2
+8 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b10 b9
+2
+9 0
+11 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b1
+2
+0 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b10
+2
+1 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b2
+2
+2 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b3
+2
+3 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b4
+2
+4 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b5
+2
+5 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b6
+2
+6 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b7
+2
+7 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b8
+2
+8 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b9
+2
+9 0
+11 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b1
+2
+0 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b10
+2
+1 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b2
+2
+2 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b3
+2
+3 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b4
+2
+4 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b5
+2
+5 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b6
+2
+6 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b7
+2
+7 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b8
+2
+8 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b9
+2
+9 0
+11 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b1
+2
+0 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b10
+2
+1 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b2
+2
+2 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b3
+2
+3 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b4
+2
+4 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b5
+2
+5 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b6
+2
+6 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b7
+2
+7 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b8
+2
+8 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b9
+2
+9 0
+11 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b1
+2
+0 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b10
+2
+1 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b2
+2
+2 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b3
+2
+3 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b4
+2
+4 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b5
+2
+5 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b6
+2
+6 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b7
+2
+7 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b8
+2
+8 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b9
+2
+9 0
+11 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b1
+2
+0 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b10
+2
+1 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b2
+2
+2 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b3
+2
+3 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b4
+2
+4 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b5
+2
+5 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b6
+2
+6 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b7
+2
+7 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b8
+2
+8 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b6 b9
+2
+9 0
+11 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b1
+2
+0 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b10
+2
+1 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b2
+2
+2 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b3
+2
+3 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b4
+2
+4 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b5
+2
+5 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b6
+2
+6 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b7
+2
+7 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b8
+2
+8 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b7 b9
+2
+9 0
+11 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b1
+2
+0 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b10
+2
+1 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b2
+2
+2 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b3
+2
+3 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b4
+2
+4 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b5
+2
+5 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b6
+2
+6 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b7
+2
+7 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b8
+2
+8 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b8 b9
+2
+9 0
+11 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b1
+2
+0 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b10
+2
+1 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b2
+2
+2 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b3
+2
+3 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b4
+2
+4 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b5
+2
+5 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b6
+2
+6 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b7
+2
+7 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b8
+2
+8 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b9 b9
+2
+9 0
+11 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b1
+2
+0 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b10
+2
+1 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b2
+2
+2 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b3
+2
+3 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b4
+2
+4 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b5
+2
+5 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b6
+2
+6 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b7
+2
+7 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b8
+2
+8 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b1 b9
+2
+9 0
+12 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b1
+2
+0 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b10
+2
+1 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b2
+2
+2 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b3
+2
+3 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b4
+2
+4 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b5
+2
+5 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b6
+2
+6 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b7
+2
+7 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b8
+2
+8 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b2 b9
+2
+9 0
+12 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b1
+2
+0 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b10
+2
+1 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b2
+2
+2 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b3
+2
+3 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b4
+2
+4 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b5
+2
+5 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b6
+2
+6 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b7
+2
+7 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b8
+2
+8 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b3 b9
+2
+9 0
+12 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b1
+2
+0 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b10
+2
+1 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b2
+2
+2 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b3
+2
+3 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b4
+2
+4 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b5
+2
+5 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b6
+2
+6 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b7
+2
+7 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b8
+2
+8 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b4 b9
+2
+9 0
+12 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b1
+2
+0 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b10
+2
+1 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b2
+2
+2 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b3
+2
+3 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b4
+2
+4 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b5
+2
+5 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b6
+2
+6 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b7
+2
+7 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b8
+2
+8 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b5 b9
+2
+9 0
+12 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b1
+2
+0 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b10
+2
+1 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b2
+2
+2 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b3
+2
+3 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b4
+2
+4 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b5
+2
+5 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b6
+2
+6 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b7
+2
+7 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b8
+2
+8 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b6 b9
+2
+9 0
+12 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b1
+2
+0 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b10
+2
+1 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b2
+2
+2 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b3
+2
+3 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b4
+2
+4 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b5
+2
+5 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b6
+2
+6 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b7
+2
+7 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b8
+2
+8 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b7 b9
+2
+9 0
+12 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b1
+2
+0 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b10
+2
+1 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b2
+2
+2 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b3
+2
+3 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b4
+2
+4 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b5
+2
+5 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b6
+2
+6 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b7
+2
+7 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b8
+2
+8 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b8 b9
+2
+9 0
+12 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b1
+2
+0 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b10
+2
+1 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b2
+2
+2 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b3
+2
+3 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b4
+2
+4 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b5
+2
+5 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b6
+2
+6 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b7
+2
+7 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b8
+2
+8 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b10 b9 b9
+2
+9 0
+12 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b1
+2
+0 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b10
+2
+1 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b2
+2
+2 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b3
+2
+3 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b4
+2
+4 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b5
+2
+5 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b6
+2
+6 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b7
+2
+7 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b8
+2
+8 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b9
+2
+9 0
+13 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b1
+2
+0 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b10
+2
+1 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b2
+2
+2 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b3
+2
+3 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b4
+2
+4 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b5
+2
+5 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b6
+2
+6 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b7
+2
+7 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b8
+2
+8 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b10 b9
+2
+9 0
+13 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b1
+2
+0 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b10
+2
+1 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b2
+2
+2 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b3
+2
+3 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b4
+2
+4 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b5
+2
+5 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b6
+2
+6 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b7
+2
+7 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b8
+2
+8 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b9
+2
+9 0
+13 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b1
+2
+0 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b10
+2
+1 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b2
+2
+2 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b3
+2
+3 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b4
+2
+4 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b5
+2
+5 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b6
+2
+6 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b7
+2
+7 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b8
+2
+8 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b9
+2
+9 0
+13 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b1
+2
+0 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b10
+2
+1 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b2
+2
+2 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b3
+2
+3 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b4
+2
+4 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b5
+2
+5 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b6
+2
+6 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b7
+2
+7 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b8
+2
+8 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b9
+2
+9 0
+13 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b1
+2
+0 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b10
+2
+1 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b2
+2
+2 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b3
+2
+3 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b4
+2
+4 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b5
+2
+5 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b6
+2
+6 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b7
+2
+7 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b8
+2
+8 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b6 b9
+2
+9 0
+13 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b1
+2
+0 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b10
+2
+1 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b2
+2
+2 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b3
+2
+3 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b4
+2
+4 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b5
+2
+5 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b6
+2
+6 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b7
+2
+7 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b8
+2
+8 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b7 b9
+2
+9 0
+13 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b1
+2
+0 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b10
+2
+1 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b2
+2
+2 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b3
+2
+3 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b4
+2
+4 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b5
+2
+5 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b6
+2
+6 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b7
+2
+7 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b8
+2
+8 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b8 b9
+2
+9 0
+13 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b1
+2
+0 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b10
+2
+1 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b2
+2
+2 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b3
+2
+3 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b4
+2
+4 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b5
+2
+5 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b6
+2
+6 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b7
+2
+7 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b8
+2
+8 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b9 b9
+2
+9 0
+13 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b1
+2
+0 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b10
+2
+1 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b2
+2
+2 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b3
+2
+3 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b4
+2
+4 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b5
+2
+5 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b6
+2
+6 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b7
+2
+7 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b8
+2
+8 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b9
+2
+9 0
+14 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b1
+2
+0 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b10
+2
+1 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b2
+2
+2 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b3
+2
+3 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b4
+2
+4 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b5
+2
+5 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b6
+2
+6 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b7
+2
+7 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b8
+2
+8 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b10 b9
+2
+9 0
+14 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b1
+2
+0 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b10
+2
+1 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b2
+2
+2 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b3
+2
+3 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b4
+2
+4 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b5
+2
+5 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b6
+2
+6 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b7
+2
+7 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b8
+2
+8 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b9
+2
+9 0
+14 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b1
+2
+0 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b10
+2
+1 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b2
+2
+2 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b3
+2
+3 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b4
+2
+4 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b5
+2
+5 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b6
+2
+6 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b7
+2
+7 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b8
+2
+8 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b9
+2
+9 0
+14 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b1
+2
+0 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b10
+2
+1 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b2
+2
+2 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b3
+2
+3 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b4
+2
+4 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b5
+2
+5 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b6
+2
+6 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b7
+2
+7 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b8
+2
+8 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b9
+2
+9 0
+14 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b1
+2
+0 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b10
+2
+1 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b2
+2
+2 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b3
+2
+3 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b4
+2
+4 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b5
+2
+5 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b6
+2
+6 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b7
+2
+7 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b8
+2
+8 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b6 b9
+2
+9 0
+14 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b1
+2
+0 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b10
+2
+1 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b2
+2
+2 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b3
+2
+3 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b4
+2
+4 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b5
+2
+5 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b6
+2
+6 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b7
+2
+7 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b8
+2
+8 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b7 b9
+2
+9 0
+14 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b1
+2
+0 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b10
+2
+1 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b2
+2
+2 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b3
+2
+3 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b4
+2
+4 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b5
+2
+5 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b6
+2
+6 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b7
+2
+7 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b8
+2
+8 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b8 b9
+2
+9 0
+14 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b1
+2
+0 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b10
+2
+1 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b2
+2
+2 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b3
+2
+3 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b4
+2
+4 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b5
+2
+5 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b6
+2
+6 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b7
+2
+7 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b8
+2
+8 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b9 b9
+2
+9 0
+14 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b1
+2
+0 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b10
+2
+1 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b2
+2
+2 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b3
+2
+3 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b4
+2
+4 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b5
+2
+5 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b6
+2
+6 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b7
+2
+7 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b8
+2
+8 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b9
+2
+9 0
+15 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b1
+2
+0 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b10
+2
+1 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b2
+2
+2 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b3
+2
+3 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b4
+2
+4 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b5
+2
+5 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b6
+2
+6 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b7
+2
+7 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b8
+2
+8 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b10 b9
+2
+9 0
+15 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b1
+2
+0 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b10
+2
+1 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b2
+2
+2 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b3
+2
+3 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b4
+2
+4 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b5
+2
+5 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b6
+2
+6 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b7
+2
+7 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b8
+2
+8 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b9
+2
+9 0
+15 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b1
+2
+0 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b10
+2
+1 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b2
+2
+2 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b3
+2
+3 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b4
+2
+4 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b5
+2
+5 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b6
+2
+6 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b7
+2
+7 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b8
+2
+8 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b9
+2
+9 0
+15 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b1
+2
+0 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b10
+2
+1 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b2
+2
+2 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b3
+2
+3 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b4
+2
+4 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b5
+2
+5 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b6
+2
+6 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b7
+2
+7 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b8
+2
+8 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b9
+2
+9 0
+15 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b1
+2
+0 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b10
+2
+1 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b2
+2
+2 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b3
+2
+3 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b4
+2
+4 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b5
+2
+5 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b6
+2
+6 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b7
+2
+7 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b8
+2
+8 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b6 b9
+2
+9 0
+15 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b1
+2
+0 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b10
+2
+1 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b2
+2
+2 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b3
+2
+3 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b4
+2
+4 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b5
+2
+5 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b6
+2
+6 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b7
+2
+7 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b8
+2
+8 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b7 b9
+2
+9 0
+15 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b1
+2
+0 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b10
+2
+1 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b2
+2
+2 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b3
+2
+3 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b4
+2
+4 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b5
+2
+5 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b6
+2
+6 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b7
+2
+7 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b8
+2
+8 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b8 b9
+2
+9 0
+15 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b1
+2
+0 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b10
+2
+1 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b2
+2
+2 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b3
+2
+3 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b4
+2
+4 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b5
+2
+5 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b6
+2
+6 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b7
+2
+7 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b8
+2
+8 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b9 b9
+2
+9 0
+15 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b1
+2
+0 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b10
+2
+1 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b2
+2
+2 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b3
+2
+3 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b4
+2
+4 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b5
+2
+5 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b6
+2
+6 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b7
+2
+7 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b8
+2
+8 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b9
+2
+9 0
+16 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b1
+2
+0 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b10
+2
+1 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b2
+2
+2 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b3
+2
+3 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b4
+2
+4 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b5
+2
+5 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b6
+2
+6 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b7
+2
+7 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b8
+2
+8 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b10 b9
+2
+9 0
+16 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b1
+2
+0 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b10
+2
+1 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b2
+2
+2 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b3
+2
+3 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b4
+2
+4 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b5
+2
+5 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b6
+2
+6 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b7
+2
+7 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b8
+2
+8 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b9
+2
+9 0
+16 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b1
+2
+0 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b10
+2
+1 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b2
+2
+2 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b3
+2
+3 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b4
+2
+4 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b5
+2
+5 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b6
+2
+6 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b7
+2
+7 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b8
+2
+8 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b9
+2
+9 0
+16 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b1
+2
+0 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b10
+2
+1 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b2
+2
+2 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b3
+2
+3 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b4
+2
+4 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b5
+2
+5 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b6
+2
+6 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b7
+2
+7 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b8
+2
+8 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b9
+2
+9 0
+16 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b1
+2
+0 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b10
+2
+1 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b2
+2
+2 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b3
+2
+3 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b4
+2
+4 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b5
+2
+5 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b6
+2
+6 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b7
+2
+7 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b8
+2
+8 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b6 b9
+2
+9 0
+16 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b1
+2
+0 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b10
+2
+1 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b2
+2
+2 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b3
+2
+3 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b4
+2
+4 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b5
+2
+5 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b6
+2
+6 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b7
+2
+7 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b8
+2
+8 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b7 b9
+2
+9 0
+16 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b1
+2
+0 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b10
+2
+1 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b2
+2
+2 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b3
+2
+3 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b4
+2
+4 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b5
+2
+5 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b6
+2
+6 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b7
+2
+7 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b8
+2
+8 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b8 b9
+2
+9 0
+16 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b1
+2
+0 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b10
+2
+1 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b2
+2
+2 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b3
+2
+3 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b4
+2
+4 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b5
+2
+5 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b6
+2
+6 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b7
+2
+7 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b8
+2
+8 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b9 b9
+2
+9 0
+16 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b1
+2
+0 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b10
+2
+1 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b2
+2
+2 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b3
+2
+3 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b4
+2
+4 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b5
+2
+5 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b6
+2
+6 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b7
+2
+7 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b8
+2
+8 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b1 b9
+2
+9 0
+17 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b1
+2
+0 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b10
+2
+1 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b2
+2
+2 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b3
+2
+3 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b4
+2
+4 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b5
+2
+5 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b6
+2
+6 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b7
+2
+7 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b8
+2
+8 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b10 b9
+2
+9 0
+17 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b1
+2
+0 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b10
+2
+1 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b2
+2
+2 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b3
+2
+3 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b4
+2
+4 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b5
+2
+5 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b6
+2
+6 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b7
+2
+7 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b8
+2
+8 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b2 b9
+2
+9 0
+17 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b1
+2
+0 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b10
+2
+1 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b2
+2
+2 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b3
+2
+3 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b4
+2
+4 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b5
+2
+5 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b6
+2
+6 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b7
+2
+7 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b8
+2
+8 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b3 b9
+2
+9 0
+17 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b1
+2
+0 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b10
+2
+1 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b2
+2
+2 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b3
+2
+3 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b4
+2
+4 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b5
+2
+5 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b6
+2
+6 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b7
+2
+7 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b8
+2
+8 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b4 b9
+2
+9 0
+17 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b1
+2
+0 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b10
+2
+1 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b2
+2
+2 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b3
+2
+3 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b4
+2
+4 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b5
+2
+5 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b6
+2
+6 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b7
+2
+7 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b8
+2
+8 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b5 b9
+2
+9 0
+17 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b1
+2
+0 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b10
+2
+1 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b2
+2
+2 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b3
+2
+3 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b4
+2
+4 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b5
+2
+5 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b6
+2
+6 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b7
+2
+7 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b8
+2
+8 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b7 b9
+2
+9 0
+17 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b1
+2
+0 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b10
+2
+1 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b2
+2
+2 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b3
+2
+3 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b4
+2
+4 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b5
+2
+5 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b6
+2
+6 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b7
+2
+7 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b8
+2
+8 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b8 b9
+2
+9 0
+17 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b1
+2
+0 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b10
+2
+1 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b2
+2
+2 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b3
+2
+3 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b4
+2
+4 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b5
+2
+5 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b6
+2
+6 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b7
+2
+7 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b8
+2
+8 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b6 b9 b9
+2
+9 0
+17 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b1
+2
+0 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b10
+2
+1 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b2
+2
+2 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b3
+2
+3 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b4
+2
+4 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b5
+2
+5 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b6
+2
+6 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b7
+2
+7 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b8
+2
+8 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b1 b9
+2
+9 0
+18 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b1
+2
+0 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b10
+2
+1 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b2
+2
+2 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b3
+2
+3 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b4
+2
+4 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b5
+2
+5 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b6
+2
+6 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b7
+2
+7 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b8
+2
+8 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b10 b9
+2
+9 0
+18 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b1
+2
+0 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b10
+2
+1 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b2
+2
+2 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b3
+2
+3 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b4
+2
+4 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b5
+2
+5 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b6
+2
+6 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b7
+2
+7 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b8
+2
+8 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b2 b9
+2
+9 0
+18 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b1
+2
+0 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b10
+2
+1 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b2
+2
+2 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b3
+2
+3 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b4
+2
+4 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b5
+2
+5 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b6
+2
+6 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b7
+2
+7 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b8
+2
+8 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b3 b9
+2
+9 0
+18 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b1
+2
+0 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b10
+2
+1 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b2
+2
+2 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b3
+2
+3 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b4
+2
+4 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b5
+2
+5 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b6
+2
+6 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b7
+2
+7 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b8
+2
+8 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b4 b9
+2
+9 0
+18 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b1
+2
+0 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b10
+2
+1 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b2
+2
+2 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b3
+2
+3 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b4
+2
+4 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b5
+2
+5 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b6
+2
+6 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b7
+2
+7 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b8
+2
+8 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b5 b9
+2
+9 0
+18 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b1
+2
+0 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b10
+2
+1 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b2
+2
+2 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b3
+2
+3 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b4
+2
+4 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b5
+2
+5 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b6
+2
+6 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b7
+2
+7 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b8
+2
+8 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b6 b9
+2
+9 0
+18 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b1
+2
+0 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b10
+2
+1 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b2
+2
+2 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b3
+2
+3 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b4
+2
+4 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b5
+2
+5 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b6
+2
+6 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b7
+2
+7 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b8
+2
+8 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b8 b9
+2
+9 0
+18 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b1
+2
+0 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b10
+2
+1 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b2
+2
+2 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b3
+2
+3 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b4
+2
+4 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b5
+2
+5 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b6
+2
+6 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b7
+2
+7 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b8
+2
+8 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b7 b9 b9
+2
+9 0
+18 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b1
+2
+0 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b10
+2
+1 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b2
+2
+2 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b3
+2
+3 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b4
+2
+4 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b5
+2
+5 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b6
+2
+6 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b7
+2
+7 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b8
+2
+8 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b1 b9
+2
+9 0
+19 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b1
+2
+0 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b10
+2
+1 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b2
+2
+2 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b3
+2
+3 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b4
+2
+4 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b5
+2
+5 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b6
+2
+6 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b7
+2
+7 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b8
+2
+8 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b10 b9
+2
+9 0
+19 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b1
+2
+0 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b10
+2
+1 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b2
+2
+2 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b3
+2
+3 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b4
+2
+4 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b5
+2
+5 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b6
+2
+6 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b7
+2
+7 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b8
+2
+8 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b2 b9
+2
+9 0
+19 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b1
+2
+0 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b10
+2
+1 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b2
+2
+2 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b3
+2
+3 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b4
+2
+4 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b5
+2
+5 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b6
+2
+6 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b7
+2
+7 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b8
+2
+8 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b3 b9
+2
+9 0
+19 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b1
+2
+0 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b10
+2
+1 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b2
+2
+2 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b3
+2
+3 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b4
+2
+4 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b5
+2
+5 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b6
+2
+6 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b7
+2
+7 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b8
+2
+8 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b4 b9
+2
+9 0
+19 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b1
+2
+0 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b10
+2
+1 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b2
+2
+2 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b3
+2
+3 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b4
+2
+4 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b5
+2
+5 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b6
+2
+6 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b7
+2
+7 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b8
+2
+8 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b5 b9
+2
+9 0
+19 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b1
+2
+0 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b10
+2
+1 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b2
+2
+2 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b3
+2
+3 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b4
+2
+4 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b5
+2
+5 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b6
+2
+6 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b7
+2
+7 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b8
+2
+8 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b6 b9
+2
+9 0
+19 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b1
+2
+0 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b10
+2
+1 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b2
+2
+2 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b3
+2
+3 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b4
+2
+4 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b5
+2
+5 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b6
+2
+6 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b7
+2
+7 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b8
+2
+8 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b7 b9
+2
+9 0
+19 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b1
+2
+0 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b10
+2
+1 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b2
+2
+2 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b3
+2
+3 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b4
+2
+4 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b5
+2
+5 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b6
+2
+6 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b7
+2
+7 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b8
+2
+8 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b8 b9 b9
+2
+9 0
+19 10
+2
+0 10 -1 0
+0 20 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b1
+2
+0 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b10
+2
+1 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b2
+2
+2 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b3
+2
+3 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b4
+2
+4 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b5
+2
+5 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b6
+2
+6 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b7
+2
+7 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b8
+2
+8 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b1 b9
+2
+9 0
+20 1
+2
+0 10 -1 0
+0 11 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b1
+2
+0 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b10
+2
+1 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b2
+2
+2 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b3
+2
+3 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b4
+2
+4 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b5
+2
+5 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b6
+2
+6 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b7
+2
+7 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b8
+2
+8 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b10 b9
+2
+9 0
+20 2
+2
+0 10 -1 0
+0 12 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b1
+2
+0 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b10
+2
+1 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b2
+2
+2 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b3
+2
+3 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b4
+2
+4 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b5
+2
+5 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b6
+2
+6 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b7
+2
+7 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b8
+2
+8 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b2 b9
+2
+9 0
+20 3
+2
+0 10 -1 0
+0 13 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b1
+2
+0 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b10
+2
+1 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b2
+2
+2 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b3
+2
+3 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b4
+2
+4 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b5
+2
+5 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b6
+2
+6 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b7
+2
+7 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b8
+2
+8 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b3 b9
+2
+9 0
+20 4
+2
+0 10 -1 0
+0 14 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b1
+2
+0 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b10
+2
+1 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b2
+2
+2 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b3
+2
+3 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b4
+2
+4 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b5
+2
+5 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b6
+2
+6 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b7
+2
+7 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b8
+2
+8 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b4 b9
+2
+9 0
+20 5
+2
+0 10 -1 0
+0 15 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b1
+2
+0 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b10
+2
+1 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b2
+2
+2 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b3
+2
+3 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b4
+2
+4 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b5
+2
+5 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b6
+2
+6 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b7
+2
+7 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b8
+2
+8 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b5 b9
+2
+9 0
+20 6
+2
+0 10 -1 0
+0 16 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b1
+2
+0 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b10
+2
+1 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b2
+2
+2 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b3
+2
+3 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b4
+2
+4 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b5
+2
+5 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b6
+2
+6 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b7
+2
+7 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b8
+2
+8 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b6 b9
+2
+9 0
+20 7
+2
+0 10 -1 0
+0 17 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b1
+2
+0 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b10
+2
+1 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b2
+2
+2 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b3
+2
+3 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b4
+2
+4 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b5
+2
+5 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b6
+2
+6 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b7
+2
+7 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b8
+2
+8 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b7 b9
+2
+9 0
+20 8
+2
+0 10 -1 0
+0 18 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b1
+2
+0 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b10
+2
+1 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b2
+2
+2 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b3
+2
+3 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b4
+2
+4 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b5
+2
+5 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b6
+2
+6 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b7
+2
+7 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b8
+2
+8 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b9 b8 b9
+2
+9 0
+20 9
+2
+0 10 -1 0
+0 19 0 11
 0
 end_operator
 0
