@@ -1,5 +1,17 @@
 **How to run the test and get data**
 
+*Run the testAll*
+
+From `Experiment/` folder run:
+
+```
+$ testAll.sh
+
+1         #for test SAT
+
+2         #for test PRP
+```
+This will test all problems in Fond-domains/*
 
 *Run the test*
 
