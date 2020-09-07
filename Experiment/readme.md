@@ -44,5 +44,4 @@ From the `Experiment/` folder run:
 
 Will create satData.csv or prpData.csv stored the calculated data means from above data files.
 
-![](https://github.com/lslll0302/Eval-of-FOND-planners-/edit/master/Experiment/prpData.pdf)  
 
