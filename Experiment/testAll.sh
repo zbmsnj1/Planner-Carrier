@@ -9,8 +9,8 @@ case $selected_num in
 [1])    #run all files in sat
 
 #for fileName in "Fond-domains"/*
-for fileName in "Fond-domains-for-sat-1"/*
-#for fileName in "Fond-domains-for-sat-2"/*
+#for fileName in "Fond-domains-for-sat-1"/*
+for fileName in "Fond-domains-for-sat-2"/*
 do
   eval "printf '$(basename $fileName)\n1\n' | . test.sh"
 done
