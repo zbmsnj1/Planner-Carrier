@@ -2,8 +2,8 @@ import pandas as pd
 import os 
 import glob
 
-import mysql.connector
-from mysql.connector import Error
+#import mysql.connector
+#from mysql.connector import Error
 from utils import get_project_root
 
 #this file is help users to decide 1.which domain 2.how many problems 3.which planner 4.how many cpus
