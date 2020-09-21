@@ -4,18 +4,15 @@ Evaluation of FOND planners
 This is the project to evaluate the-state-of-art FOND planners by experiments. We will place all the details of experiments and a report about the evaluation.
 
 
-folders
+Directory Structure
 -----
 
-### benchmarks
->the current benchmarks of FOND planning, all '.pddl' files
+`benchmarks/`: the current benchmarks of FOND planning, all '.pddl' files
+`Database/`: store relative path of corresponding benchmark file
+`planner/`: the source code for the-state-of-art of FOND planners
 
-### Database
->store relative path of corresponding benchmark file
 
-### planner
->the source code for the-state-of-art of FOND planners
-    **Original links of FOND planners**
+**Original links of FOND planners**
 >>FIP [link](Experiment/FIP)
 
 >>PRP * [Wiki](https://github.com/QuMuLab/planner-for-relevant-policies/wiki)
