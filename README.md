@@ -50,7 +50,16 @@ python3 update_database.py
 ```
 python3 create_task.py
 ```
-![sc](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-36-59.png)
+![choose domain](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-36-59.png)
+>Choose the index of domains
+![start point non-0](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-43-19.png)
+>select how many problems wanted to test in one domain
+0. all problems in a domain
+non-0. start point or end point
+![select a planner](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-42-53.png)
+>Select one planner to test
+![finish](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-43-02.png)
+>Check finish enter data or not
 **run the main.py to generate the text files including test data**
 ```
 python3 main.py [task.csv]
