@@ -1,33 +1,22 @@
-Evaluation of FOND planners
-===========================
+# Evaluation of FOND planners
 
 This is the project to evaluate the-state-of-art FOND planners by experiments. We will place all the details of experiments and a report about the evaluation.
 
 
-Directory Structure
+## Directory Structure
 -----
 
 * `benchmarks/`: the current benchmarks of FOND planning, all '.pddl' files
 * `Database/`: store relative path of corresponding benchmark file
 * `planner/`: the source code for the-state-of-art of FOND planners
+    * [FIP](Experiment/FIP), [PRP](https://github.com/QuMuLab/planner-for-relevant-policies/wiki), MBP [link](http://mbp.fbk.eu/), SAT [link](https://github.com/tomsons22/FOND-SAT), myND [Public myND repository](https://bitbucket.org/robertmattmueller/mynd)
+* `src/`: including the code files to updat database, to create task file, to run the planning benchmarks in parallel on a single machine or on a distrubted cluster
 
 
-**Original links of FOND planners**
->>FIP [link](Experiment/FIP)
+## Running
 
->>PRP * [Wiki](https://github.com/QuMuLab/planner-for-relevant-policies/wiki)
 
->>MBP [link](http://mbp.fbk.eu/)
-
->>SAT [link](https://github.com/tomsons22/FOND-SAT)
-
->>myND * [Public myND repository](https://bitbucket.org/robertmattmueller/mynd)
-
-### src
->including the code files to updat database, to create task file, to run the planning benchmarks in parallel on a single machine or on a distrubted cluster
-
-#### before running
-**there are some packages needed install**
+### Setup 
 
 ```
 python3 -m pip install jupyter-server-proxy
