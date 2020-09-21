@@ -7,13 +7,13 @@ This is the project to evaluate the-state-of-art FOND planners by experiments. W
 folders
 -----
 
-# benchmarks
+### benchmarks
 >the current benchmarks of FOND planning, all '.pddl' files
 
-# Database
+### Database
 >store relative path of corresponding benchmark file
 
-# planner
+### planner
 >the source code for the-state-of-art of FOND planners
     **Original links of FOND planners**
 >>FIP [link](Experiment/FIP)
@@ -26,10 +26,10 @@ folders
 
 >>myND * [Public myND repository](https://bitbucket.org/robertmattmueller/mynd)
 
-# src
+### src
 >including the code files to updat database, to create task file, to run the planning benchmarks in parallel on a single machine or on a distrubted cluster
 
-## before running
+#### before running
 **there are some packages needed install**
 
 ```
@@ -43,8 +43,8 @@ python3 update_database.py
 ```
 **Two ways to create task file:**
 
-    *Create a task.csv file manually, following the format of the example task files in src/task*
-    *Create a task.csv file using code*
+    >Create a task.csv file manually, following the format of the example task files in src/task
+    >Create a task.csv file using code
 ```
 python3 create_task.py
 ```
@@ -53,7 +53,7 @@ python3 create_task.py
 ```
 python3 main.py [task.csv]
 ```
-# results
+### results
 >the folder contains all the data created by the system
 
 
