@@ -7,9 +7,9 @@ This is the project to evaluate the-state-of-art FOND planners by experiments. W
 Directory Structure
 -----
 
-`benchmarks/`: the current benchmarks of FOND planning, all '.pddl' files
-`Database/`: store relative path of corresponding benchmark file
-`planner/`: the source code for the-state-of-art of FOND planners
+* `benchmarks/`: the current benchmarks of FOND planning, all '.pddl' files
+* `Database/`: store relative path of corresponding benchmark file
+* `planner/`: the source code for the-state-of-art of FOND planners
 
 
 **Original links of FOND planners**
