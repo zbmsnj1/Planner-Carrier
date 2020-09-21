@@ -41,14 +41,16 @@ python3 -m pip install "dask[complete]"
 ```
 python3 update_database.py
 ```
+
 **Two ways to create task file:**
 
-    >Create a task.csv file manually, following the format of the example task files in src/task
-    >Create a task.csv file using code
+   ##### Create a task.csv file manually, following the format of the example task files in src/task
+   ##### Create a task.csv file using code
+    
 ```
 python3 create_task.py
 ```
-[sc](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-36-59.png)
+![sc](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/Screenshot%20from%202020-09-21%2015-36-59.png)
 **run the main.py to generate the text files including test data**
 ```
 python3 main.py [task.csv]
