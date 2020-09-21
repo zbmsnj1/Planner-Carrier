@@ -2,63 +2,36 @@ import argparse
 import os
 import time
 import math
-import copy
 import subprocess
 import multiprocessing
 import pandas as pd
-from distutils.dir_util import copy_tree, remove_tree
 from utils import get_project_root
-import dask
-from dask.distributed import Client, SSHCluster, LocalCluster, progress
+
 import asyncssh, asyncio
 import logging
 #logging.basicConfig(level='DEBUG')
+import ray
 
 
 
-
-#ray.init(address='192.168.232.129:6379')
+ray.init()
 
 root_path = get_project_root()
 task_path=str(root_path)+'/src/task/'
 path_path=str(root_path)+'/Database/path/'
 prp_path=str(root_path)+'/planners/PRP/src/'
 sat_path=str(root_path)+'/planners/SAT/src/'
-text_path_prp=str(root_path)+'/results/PRP/text/'
-text_path_sat=str(root_path)+'/results/SAT/text/'
+text_path_prp=str(root_path)+'/text/prp/'
+text_path_sat=str(root_path)+'/text/sat/'
 
 
 def prp_command(domain_path, problem_path):
-    problem_name = problem_path.replace("/", "_")
-    problem_name = problem_name[51:]
-    problem_name = problem_name.replace('.pddl', '')
+    problem_name = problem_path.replace("/", "_");
     return './prp '+domain_path+' '+problem_path+' --dump-policy 2' +' | egrep -w "Strong cyclic plan found|Total time|   State-Action Pairs" >'+text_path_prp+problem_name+'.txt'
 
 def sat_command(domain_path, problem_path):
-    problem_name = problem_path.replace("/", "_")
-    problem_name = problem_name[51:]
-    problem_name = problem_name.replace('.pddl', '')
+    problem_name = problem_path.replace("/", "_");
     return 'python main.py '+domain_path+' '+problem_path +' | egrep -w "Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE" >'+text_path_sat+problem_name+'.txt'
-
-
-
-def set_cluster():
-    n_cpu=multiprocessing.cpu_count()
-    #set up local cluster using dask
-    cluster = LocalCluster(n_workers=n_cpu, threads_per_worker=1,  dashboard_address='0')
-    
-    #set up ssh cluster using dask
-    '''
-    cluster = SSHCluster(
-            #["localhost",  "118.138.246.177"],
-            #connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
-            ["localhost", "192.168.232.129"],
-            connect_options={"known_hosts": None, },
-            worker_options={"nthreads": 5, "nprocs": 1},
-            scheduler_options={"port": 0, "dashboard_address": ":8790"},)
-    '''
-    return cluster
-
 
 
 
@@ -75,28 +48,21 @@ def get_path(d, s, e, p):
             all_planner.append(planneri)
     return all_d, all_p, all_planner
  
-#the function run planner with domain and problem    
-def run_planner(d, p, planner,i):    
+#the function run planner with domain and problem
+@ray.remote     
+def run_planner(d, p, planner):    
     if planner=='prp':
-        new_dir =copy_dir(str(prp_path),i)
-        os.chdir(new_dir)
+        os.chdir(prp_path)
+        #subprocess.Popen(prp_command(d, p), shell=True)
         subprocess.call(prp_command(d, p), shell=True)
-        remove_tree(str(new_dir)) 
-
+        #return output
+        os.system(prp_command(d, p))
     elif planner=='sat':
-        new_dir =copy_dir(str(sat_path),i)
-        os.chdir(new_dir)
+        os.chdir(sat_path)
+        #subprocess.Popen(sat_command(d, p), shell=True)
         subprocess.call(sat_command(d, p), shell=True)
-        remove_tree(str(new_dir)) 
-
-#the function create a new copy of planner src, avoid bug while parallel
-def copy_dir(src_dir, i):
-    src_dir = src_dir[:-1]
-    copy_tree(str(src_dir), str(src_dir+str(i)))
-    return str(src_dir+str(i))
-
-
-
+        #os.system(sat_command(d, p))
+    
 
 #get the name of task file
 parser = argparse.ArgumentParser()
@@ -121,34 +87,18 @@ if os.path.exists(task_path+args.task):
 
     futures=[]
 
-    if __name__ == '__main__':
-       
-        cluster = set_cluster()
-        client = Client(cluster,asynchronous=True)
-
+    if __name__ == '__main__':   
         st = time.time()
         count=0
-        #dask.config.set(scheduler='threads')
 
-        #'''
         for i in range(len(all_p)):
-            count+=1         
-            #future = client.submit(run_planner1, i,i) 
-            future = client.submit(run_planner, all_d[i], all_p[i], all_planner[i], i) 
-            futures.append(future)
-        #'''
-        '''
-        for i in range(len(all_p)):
-            run_planner(all_d[i], all_p[i], all_planner[i])
-        '''    
+            count+=1          
+            futures.append(run_planner.remote(all_d[i], all_p[i], all_planner[i]))            
 
-        #more efficient
-        results = client.gather(futures)
+        results = ray.get(futures)
+
         
-        #print(client.get_worker_logs())
-        
-        #print(results)
-        #progress(results)  
+        print(results) 
         et = time.time()
         print(et - st)
         print('count:'+str(count))
