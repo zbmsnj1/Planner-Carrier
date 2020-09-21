@@ -18,7 +18,7 @@ folders
     **Original links of FOND planners**
 >>FIP [link](Experiment/FIP)
 
->>PRP [link](Experiment/PRP)
+>>PRP * [Wiki](https://github.com/QuMuLab/planner-for-relevant-policies/wiki)
 
 >>MBP [link](Experiment/MBP)
 
