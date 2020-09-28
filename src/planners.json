@@ -1,0 +1,21 @@
+{
+  "planners": [
+      {
+          "name": "prp", 
+          "src_path": "/planners/PRP/src/", 
+          "result_path": "/results/PRP/text/", 
+          "command": "./prp", 
+          "optional_command": "--dump-policy 2", 
+          "key_words": "'Strong cyclic plan found|Total time|   State-Action Pairs'"
+      }, 
+      
+      {
+          "name": "sat", 
+          "src_path": "/planners/SAT/src/", 
+          "result_path": "/results/SAT/text/", 
+          "command": "python main.py", 
+          "optional_command": "", 
+          "key_words": "'Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE'"
+      }     
+  ]
+}
