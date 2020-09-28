@@ -45,10 +45,10 @@ def set_cluster():
                     print("Start tasks on local machine....")
                 else: 
                     cluster = SSHCluster(
-                    #["localhost",  "118.138.246.177"],
-                    #connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
-                    ["localhost", "192.168.232.129"],
-                    connect_options={"known_hosts": None, },
+                    ["localhost",  "118.138.246.177"],
+                    connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
+                    #["localhost", "192.168.232.129"],
+                    #connect_options={"known_hosts": None, },
                     worker_options={"nthreads": 5, "nprocs": 1},
                     scheduler_options={"port": 0, "dashboard_address": ":8790"},)   
                     print("Start tasks on SHH cluster....")   
