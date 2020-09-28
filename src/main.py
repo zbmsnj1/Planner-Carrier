@@ -12,33 +12,23 @@ import dask
 from dask.distributed import Client, SSHCluster, LocalCluster, progress
 import asyncssh, asyncio
 import logging
+import json
 #logging.basicConfig(level='DEBUG')
 
 
+class Planner:
+    def __init__(self, name,src_path,result_path,command,optional_command,key_words):
+        self.name = name
+        self.src_path = src_path
+        self.result_path = result_path
+        self.command = command
+        self.optional_command = optional_command
+        self.key_words = key_words
 
-
-#ray.init(address='192.168.232.129:6379')
 
 root_path = get_project_root()
 task_path=str(root_path)+'/src/task/'
 path_path=str(root_path)+'/Database/path/'
-prp_path=str(root_path)+'/planners/PRP/src/'
-sat_path=str(root_path)+'/planners/SAT/src/'
-text_path_prp=str(root_path)+'/results/PRP/text/'
-text_path_sat=str(root_path)+'/results/SAT/text/'
-
-
-def prp_command(domain_path, problem_path):
-    problem_name = problem_path.replace("/", "_")
-    problem_name = problem_name[51:]
-    problem_name = problem_name.replace('.pddl', '')
-    return './prp '+domain_path+' '+problem_path+' --dump-policy 2' +' | egrep -w "Strong cyclic plan found|Total time|   State-Action Pairs" >'+text_path_prp+problem_name+'.txt'
-
-def sat_command(domain_path, problem_path):
-    problem_name = problem_path.replace("/", "_")
-    problem_name = problem_name[51:]
-    problem_name = problem_name.replace('.pddl', '')
-    return 'python main.py '+domain_path+' '+problem_path +' | egrep -w "Atoms|Actions|Trying with|Cumulated solver time|SATISFIABLE" >'+text_path_sat+problem_name+'.txt'
 
 
 
@@ -75,19 +65,20 @@ def get_path(d, s, e, p):
             all_planner.append(planneri)
     return all_d, all_p, all_planner
  
-#the function run planner with domain and problem    
-def run_planner(d, p, planner,i):    
-    if planner=='prp':
-        new_dir =copy_dir(str(prp_path),i)
-        os.chdir(new_dir)
-        subprocess.call(prp_command(d, p), shell=True)
-        remove_tree(str(new_dir)) 
+#the function create instance of Planner classs by name
+def create_planner(planner_name): 
+    # read file
+    with open('planners.json', 'r') as json_file:
+        # parse file
+        data = json.load(json_file)
 
-    elif planner=='sat':
-        new_dir =copy_dir(str(sat_path),i)
-        os.chdir(new_dir)
-        subprocess.call(sat_command(d, p), shell=True)
-        remove_tree(str(new_dir)) 
+    # get values
+    for d in data['planners']:
+        if(planner_name==d['name']):
+            planner = Planner(d['name'],d['src_path'], d['result_path'],d['command'],d['optional_command'],d['key_words'])
+            break
+       
+    return planner
 
 #the function create a new copy of planner src, avoid bug while parallel
 def copy_dir(src_dir, i):
@@ -95,6 +86,30 @@ def copy_dir(src_dir, i):
     copy_tree(str(src_dir), str(src_dir+str(i)))
     return str(src_dir+str(i))
 
+
+#the function generate command line for assigned planner
+def generate_command(domain_path, problem_path, planner):
+    #reduce the prefix of file name
+    problem_name = problem_path.replace("/", "_")
+    problem_name = problem_name[51:]
+    problem_name = problem_name.replace('.pddl', '')
+    command = (planner.command + ' ' + domain_path + ' ' + problem_path + ' ' + planner.optional_command + 
+              ' | egrep -w ' + planner.key_words + 
+              ' >' + str(root_path) + planner.result_path + problem_name + '.txt')
+
+    return command        
+    
+
+
+#the function run planner with domain and problem    
+def run_planner(d, p, planner_name,i):  
+    #create planner instance by planner name
+    planner = create_planner(planner_name)
+
+    new_dir =copy_dir(str(str(root_path)+planner.src_path),i)
+    os.chdir(new_dir)
+    subprocess.call(generate_command(d, p, planner), shell=True)
+    remove_tree(str(new_dir)) 
 
 
 
@@ -122,7 +137,7 @@ if os.path.exists(task_path+args.task):
     futures=[]
 
     if __name__ == '__main__':
-       
+
         cluster = set_cluster()
         client = Client(cluster,asynchronous=True)
 
