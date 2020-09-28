@@ -33,21 +33,31 @@ path_path=str(root_path)+'/Database/path/'
 
 
 def set_cluster():
-    n_cpu=multiprocessing.cpu_count()
-    #set up local cluster using dask
-    cluster = LocalCluster(n_workers=n_cpu, threads_per_worker=1,  dashboard_address='0')
-    
-    #set up ssh cluster using dask
-    '''
-    cluster = SSHCluster(
-            #["localhost",  "118.138.246.177"],
-            #connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
-            ["localhost", "192.168.232.129"],
-            connect_options={"known_hosts": None, },
-            worker_options={"nthreads": 5, "nprocs": 1},
-            scheduler_options={"port": 0, "dashboard_address": ":8790"},)
-    '''
+    while True:
+        try:
+            input_num = int(input('\nWhich mode you wish to run tasks?\n 1.Local machine\n 2.SSH Cluster\n'))
+            if input_num in range(1,3):  
+                if input_num == 1:
+                    n_cpu=multiprocessing.cpu_count()
+                    #set up local cluster using dask
+                    cluster = LocalCluster(n_workers=n_cpu, threads_per_worker=1,  dashboard_address='0')
+                    print("Start tasks on local machine....")
+                else: 
+                    cluster = SSHCluster(
+                    ["localhost",  "118.138.246.177"],
+                    connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
+                    #["localhost", "192.168.232.129"],
+                    #connect_options={"known_hosts": None, },
+                    worker_options={"nthreads": 5, "nprocs": 1},
+                    scheduler_options={"port": 0, "dashboard_address": ":8790"},)   
+                    print("Start tasks on SHH cluster....")   
+                break
+        except (ValueError):
+            pass
+        print('Wrong input vaule!')
+        continue
     return cluster
+
 
 
 
