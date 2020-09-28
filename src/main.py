@@ -27,6 +27,7 @@ class Planner:
 
 
 root_path = get_project_root()
+json_path = str(root_path)+'/src/planners.json'
 task_path=str(root_path)+'/src/task/'
 path_path=str(root_path)+'/Database/path/'
 
@@ -44,10 +45,10 @@ def set_cluster():
                     print("Start tasks on local machine....")
                 else: 
                     cluster = SSHCluster(
-                    ["localhost",  "118.138.246.177"],
-                    connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
-                    #["localhost", "192.168.232.129"],
-                    #connect_options={"known_hosts": None, },
+                    #["localhost",  "118.138.246.177"],
+                    #connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
+                    ["localhost", "192.168.232.129"],
+                    connect_options={"known_hosts": None, },
                     worker_options={"nthreads": 5, "nprocs": 1},
                     scheduler_options={"port": 0, "dashboard_address": ":8790"},)   
                     print("Start tasks on SHH cluster....")   
@@ -78,7 +79,7 @@ def get_path(d, s, e, p):
 #the function create instance of Planner classs by name
 def create_planner(planner_name): 
     # read file
-    with open('planners.json', 'r') as json_file:
+    with open(json_path, 'r') as json_file:
         # parse file
         data = json.load(json_file)
 
@@ -91,9 +92,8 @@ def create_planner(planner_name):
     return planner
 
 #the function create a new copy of planner src, avoid bug while parallel
-def copy_dir(src_dir, i):
+def temp_dir(src_dir, i):
     src_dir = src_dir[:-1]
-    copy_tree(str(src_dir), str(src_dir+str(i)))
     return str(src_dir+str(i))
 
 
@@ -116,10 +116,15 @@ def run_planner(d, p, planner_name,i):
     #create planner instance by planner name
     planner = create_planner(planner_name)
 
-    new_dir =copy_dir(str(str(root_path)+planner.src_path),i)
-    os.chdir(new_dir)
+    src_path = str(str(root_path)+planner.src_path)
+    temp_src_path =temp_dir(src_path,i)
+
+    copy_tree(src_path,temp_src_path)
+
+    os.chdir(temp_src_path)
     subprocess.call(generate_command(d, p, planner), shell=True)
-    remove_tree(str(new_dir)) 
+
+    remove_tree(str(temp_src_path)) 
 
 
 
