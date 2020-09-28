@@ -119,6 +119,7 @@ def run_planner(d, p, planner_name,i):
     src_path = str(str(root_path)+planner.src_path)
     temp_src_path =temp_dir(src_path,i)
 
+    #call copy_tree in temp_dir() function will have bug, attributeerror: 'NoneType' object has no attribute 'endswith'
     copy_tree(src_path,temp_src_path)
 
     os.chdir(temp_src_path)
