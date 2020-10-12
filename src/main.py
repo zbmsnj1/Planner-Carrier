@@ -1,39 +1,27 @@
 import argparse
 import os
 import time
-import math
-import copy
 import subprocess
 import multiprocessing
 import pandas as pd
+#from dask import dataframe as dd 
 from distutils.dir_util import copy_tree, remove_tree
 from utils import get_project_root
 import dask
 from dask.distributed import Client, SSHCluster, LocalCluster, progress
-import asyncssh, asyncio
-import logging
-import json
+
 #logging.basicConfig(level='DEBUG')
 
 
-class Planner:
-    def __init__(self, name,src_path,result_path,command,optional_command,key_words):
-        self.name = name
-        self.src_path = src_path
-        self.result_path = result_path
-        self.command = command
-        self.optional_command = optional_command
-        self.key_words = key_words
 
 
-root_path = get_project_root()
-json_path = str(root_path)+'/src/planners.json'
-task_path=str(root_path)+'/src/task/'
-path_path=str(root_path)+'/Database/path/'
+ROOT_PATH = get_project_root()
+TASK_PATH = os.path.join(ROOT_PATH, 'src/task/')
+DB_PATH = os.path.join(ROOT_PATH, 'Database/path/')
 
 
 
-def set_cluster():
+def set_cluster(jobs_sum):
     while True:
         try:
             input_num = int(input('\nWhich mode you wish to run tasks?\n 1.Local machine\n 2.SSH Cluster\n'))
@@ -42,16 +30,16 @@ def set_cluster():
                     n_cpu=multiprocessing.cpu_count()
                     #set up local cluster using dask
                     cluster = LocalCluster(n_workers=n_cpu, threads_per_worker=1,  dashboard_address='0')
-                    print("Start tasks on local machine....")
+                    print(f"Start {jobs_sum} jobs on local machine....\n")
                 else: 
                     cluster = SSHCluster(
-                    ["localhost",  "118.138.246.177"],
-                    connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
-                    #["localhost", "192.168.232.129"],
-                    #connect_options={"known_hosts": None, },
+                    #["localhost",  "118.138.246.177"],
+                    #connect_options={"known_hosts": None, 'username':'yifan', 'password':'prp2020'},
+                    ["localhost", "192.168.232.129"],
+                    connect_options={"known_hosts": None, },
                     worker_options={"nthreads": 5, "nprocs": 1},
                     scheduler_options={"port": 0, "dashboard_address": ":8790"},)   
-                    print("Start tasks on SHH cluster....")   
+                    print("Start {jobs_sum} jobs on SHH cluster....\n")   
                 break
         except (ValueError):
             pass
@@ -66,83 +54,42 @@ def set_cluster():
 #get all problem and domain paths 
 def get_path(d, s, e, p):    
     for di,si,ei, planneri in zip(d,s,e,p):
-        df1=pd.read_csv(path_path+di+'.csv')
+        df=pd.read_csv(f"{DB_PATH}{di}.csv")
         for pi in range(int(si-1), int(ei)):
-            if df1['domain_path'].isnull().values.any():     #if any value is NaN, so the style is (domain p1) (domain p2) (domain p3) (domain p4)... not (d1 p1) (d2 p2) (d3 p3) (d4 p4)...
-                all_d.append(str(root_path)+'/'+df1['domain_path'][0])
+            if df['domain_path'].isnull().values.any():     #if any value is NaN, so the style is (domain p1) (domain p2) (domain p3) (domain p4)... not (d1 p1) (d2 p2) (d3 p3) (d4 p4)...               
+                all_d.append(df['domain_path'][0])
             else:
-                all_d.append(str(root_path)+'/'+df1['domain_path'][pi])                   
-            all_p.append(str(root_path)+'/'+df1['problem_path'][pi])
+                all_d.append(df['domain_path'][pi])           
+            all_p.append(df['problem_path'][pi])
             all_planner.append(planneri)
     return all_d, all_p, all_planner
- 
-#the function create instance of Planner classs by name
-def create_planner(planner_name): 
-    # read file
-    with open(json_path, 'r') as json_file:
-        # parse file
-        data = json.load(json_file)
-
-    # get values
-    for d in data['planners']:
-        if(planner_name==d['name']):
-            planner = Planner(d['name'],d['src_path'], d['result_path'],d['command'],d['optional_command'],d['key_words'])
-            break
-       
-    return planner
-
-#the function create a new copy of planner src, avoid bug while parallel
-def temp_dir(src_dir, i):
-    src_dir = src_dir[:-1]
-    return str(src_dir+str(i))
 
 
-#the function generate command line for assigned planner
-def generate_command(domain_path, problem_path, planner):
-    #reduce the prefix of file name
-    problem_name = problem_path.replace("/", "_")
-    problem_name = problem_name[51:]
-    problem_name = problem_name.replace('.pddl', '')
-    command = (planner.command + ' ' + domain_path + ' ' + problem_path + ' ' + planner.optional_command + 
-              ' | egrep -w ' + planner.key_words + 
-              ' >' + str(root_path) + planner.result_path + problem_name + '.txt')
+def run_planner(d, p, planner, job_id):
+    result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id}", capture_output=True, shell=True)
+    print(result.stdout.decode("utf-8"))
+    return result.stdout
 
-    return command        
+
+
+
+def get_files_path():
+    #get the name of task file
+    parser = argparse.ArgumentParser()
+    parser.add_argument("task")
+    args = parser.parse_args()
+    task_path = os.path.join(TASK_PATH, args.task)
+
+    try:
+        df = pd.read_csv(task_path) 
+    except:
+        print("Task does not exist!\nPlease use command: python3 run.py [task.csv]")
     
+    return df['domain_name'],df['start_problem'],df['end_problem'],df['planner']
 
 
-#the function run planner with domain and problem    
-def run_planner(d, p, planner_name,i):  
-    #create planner instance by planner name
-    planner = create_planner(planner_name)
-
-    src_path = str(str(root_path)+planner.src_path)
-    temp_src_path =temp_dir(src_path,i)
-
-    #call copy_tree in temp_dir() function will have bug, attributeerror: 'NoneType' object has no attribute 'endswith'
-    copy_tree(src_path,temp_src_path)
-
-    os.chdir(temp_src_path)
-    subprocess.call(generate_command(d, p, planner), shell=True)
-
-    remove_tree(str(temp_src_path)) 
-
-
-
-#get the name of task file
-parser = argparse.ArgumentParser()
-parser.add_argument("task")
-args = parser.parse_args()
-
-
-#if task exist
-if os.path.exists(task_path+args.task):
-    df = pd.read_csv(task_path+args.task) 
-    d = df['domain_name']
-    s = df['start_problem']    
-    e = df['end_problem']
-    p = df['planner']
-     
+if __name__ == '__main__':
+    (d,s,e,p) = get_files_path()
     #all task domain files and problem files
     all_d = []
     all_p = []
@@ -151,41 +98,26 @@ if os.path.exists(task_path+args.task):
     (all_d,all_p,all_planner)=get_path(d, s, e, p)
 
     futures=[]
+    cluster = set_cluster(len(all_p))
+    client = Client(cluster,asynchronous=True)
 
-    if __name__ == '__main__':
+    st = time.time()
 
-        cluster = set_cluster()
-        client = Client(cluster,asynchronous=True)
+    #'''
+    for i in range(len(all_p)):    
+        #run_planner(all_d[i], all_p[i], all_planner[i], i)  
+        future = client.submit(run_planner, all_d[i], all_p[i], all_planner[i], i)             
+        futures.append(future)
+    results = client.gather(futures)
+    '''
+    for result in results:
+        print(result.decode("utf-8"))
+    '''
+    #print(results)
+ 
+    et = time.time()
+    print(f"Finish {len(all_p)} jobs using {et - st}(s)")
 
-        st = time.time()
-        count=0
-        #dask.config.set(scheduler='threads')
-
-        #'''
-        for i in range(len(all_p)):
-            count+=1         
-            #future = client.submit(run_planner1, i,i) 
-            future = client.submit(run_planner, all_d[i], all_p[i], all_planner[i], i) 
-            futures.append(future)
-        #'''
-        '''
-        for i in range(len(all_p)):
-            run_planner(all_d[i], all_p[i], all_planner[i])
-        '''    
-
-        #more efficient
-        results = client.gather(futures)
-        
-        #print(client.get_worker_logs())
-        
-        #print(results)
-        #progress(results)  
-        et = time.time()
-        print(et - st)
-        print('count:'+str(count))
-
-else:    
-    print('Task does not exist!\nPlease use command: python3 run.py task')
-    exit()
     
-        
+
+
