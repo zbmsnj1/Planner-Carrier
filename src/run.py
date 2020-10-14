@@ -39,7 +39,7 @@ def set_cluster(jobs_sum):
                     connect_options={"known_hosts": None, },
                     worker_options={"nthreads": 5, "nprocs": 1},
                     scheduler_options={"port": 0, "dashboard_address": ":8790"},)   
-                    print("Start {jobs_sum} jobs on SHH cluster....\n")   
+                    print(f"Start {jobs_sum} jobs on SHH cluster....\n")   
                 break
         except (ValueError):
             pass
@@ -65,7 +65,7 @@ def get_path(d, s, e, p):
     return all_d, all_p, all_planner
 
 
-def run_planner(d, p, planner, job_id):
+def run_jobs(d, p, planner, job_id):
     result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id}", capture_output=True, shell=True)
     print(result.stdout.decode("utf-8"))
     return result.stdout
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     #'''
     for i in range(len(all_p)):    
         #run_planner(all_d[i], all_p[i], all_planner[i], i)  
-        future = client.submit(run_planner, all_d[i], all_p[i], all_planner[i], i)             
+        future = client.submit(run_jobs, all_d[i], all_p[i], all_planner[i], i)             
         futures.append(future)
     results = client.gather(futures)
     '''
