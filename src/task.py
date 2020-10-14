@@ -1,87 +1,84 @@
 import pandas as pd
 import os 
-import glob
 import re
-
+from enum import Enum
+from utils import get_project_root
 #import mysql.connector
 #from mysql.connector import Error
-from utils import get_project_root
 
 
+PLANNERS_ID = [1,2]
+PLANNERS_NAME = ['prp','sat']
+ROOT_PATH = get_project_root()
+TASK_PATH = os.path.join(ROOT_PATH, "src/task")
+PATH_DB_PATH = os.path.join(ROOT_PATH, "Database/path")
+BENCHMARK_PATH= os.path.join(ROOT_PATH, "benchmarks")
+BENCHMARKS_DB_PATH = os.path.join(ROOT_PATH, "Database/benchmarks.csv")
+list_benchmarks=os.listdir(BENCHMARK_PATH)
+list_benchmarks.sort()
 
-problems_sum = []
-root_path = get_project_root()
-fpath=str(root_path)+'/benchmarks/' 
-
-
-folder_name=os.listdir(fpath)
-folder_name.sort()
-
-#this file is help users to decide 1.which domain 2.how many problems 3.which planner 4.how many cpus
-cpu_max = 4
+#this file is help users to decide 1.which domain 2.how many problems 3.which planner 
 #1.prp 2.sat
-planners = [[1,2],
-            ['prp','sat']]
-
-domain_indexs=[]
-domain_names=[]
-prob_start_points = []
-prob_end_points = []
-chosed_planners = []
 
 
-def listdir(path, char_, list_name):  
-    
+def listdir(path, char_):  
+    list_ = []
     for file in os.listdir(path):
         file_path = os.path.join(path, file)
         if os.path.isdir(file_path):
-            listdir(file_path, list_name)
-                
+            pass                
         elif os.path.splitext(file_path)[1] == '.pddl':
             f_name=os.path.splitext(file_path)[0]
             f_name=os.path.split(f_name)[1]
             if char_ in f_name:
-                list_name.append(file_path)
-            
+                list_.append(file_path)
+    
+    return list_
 	                  
 
-                
- 
-def save_file_path_to_csv():
-    domain_path=[]
-    problem_path=[]
-    listdir(path,'d',domain_path)
-    listdir(path,'p',problem_path)
+            
+def save_file_path_to_csv(path, i):
+
+    domain_path = listdir(path,'d')
+    problem_path = listdir(path,'p')
     domain_path.sort()
     problem_path.sort()
-    
-    problems_sum.append(len(problem_path))
+
     csv_list = [domain_path, problem_path]
 
     df = pd.DataFrame(csv_list)
     df=df.T
     df.columns=['domain_path','problem_path']
     df.index += 1 
-    df.to_csv(str(root_path)+'/Database/path/'+folder_name[i]+'.csv', index_label='index')
+    benchmark_name = f"{list_benchmarks[i]}.csv"
+    file_path = os.path.join(PATH_DB_PATH, benchmark_name )
+    df.to_csv(file_path, index_label='index')
 
     #print(df)
+    return len(problem_path)
 
-def save_folder_to_csv():  
-    csv_list = [folder_name, problems_sum]
+def save_folder_to_csv(problems_sum):  
+    
+    csv_list = [list_benchmarks, problems_sum]
     df = pd.DataFrame(csv_list)
     df=df.T
     df.columns=['domain_name','problem_size']
     df.index += 1 
-    df.to_csv(str(root_path)+'/Database/benchmarks.csv', index_label='index')
+   
+    df.to_csv(BENCHMARKS_DB_PATH, index_label='index')
 
     #print(df)  
 
 
 
-def get_range(input_range,show_str):
+def get_range(input_range,show_str, reverse):
     regex1 = re.compile('\d+')  
     regex2 = re.compile('\d+-\d+')   
-    
+    if(isinstance(input_range, int)):
+        list_input_range = []
+        for i in range(1,input_range+1):   
+            list_input_range.append(i)
+
     while True:
         list_s1=[]
         list_s2=[]
@@ -110,18 +107,24 @@ def get_range(input_range,show_str):
                 #if the input include 0, return all domains
                 if(int(s)==0):
                     if(isinstance(input_range, int)):
-                        list_sum = []
-                        for i in range(1,input_range+1):   
-                            list_sum.append(i)
+                        list_sum = list_input_range                       
                     elif(isinstance(input_range, list)):
                         list_sum = input_range
-                    break
+                    return list_sum
                 #else, return selected domains
                 else:
                     list_sum.append(int(s))
 
-            #remove duplicates elements in list
-            list_sum = list(set(list_sum))
+            #if reverse==True, return the list not select
+            if reverse:
+                if(isinstance(input_range, list)):
+                    list_sum = list(set(input_range) - set(list_sum) ) 
+                elif(isinstance(input_range, int)):
+                    list_sum = list(set(list_input_range) - set(list_sum) ) 
+            else:
+                #remove duplicates elements in list
+                list_sum = list(set(list_sum))
+            list_sum.sort()
             #check selected domains in range
             if(isinstance(input_range, int)):
                 if list_sum[-1] in range(1,input_range+1) and list_sum[0] in range(1,input_range+1):                               
@@ -133,6 +136,7 @@ def get_range(input_range,show_str):
             pass
         print('Wrong input vaule!')
         continue
+    
     return list_sum
 
 #get the index of which domain users want to test
@@ -140,7 +144,7 @@ def get_domain_index(rowcount):
     show_str=('Please chose which domain you want to test:\n'+
               '0.All\n'+
               'a,b-c.From range'+' 1-'+ str(rowcount)+' select a,b-c domains\n')
-    return get_range(rowcount,show_str)
+    return get_range(rowcount,show_str,False)
     
 
 
@@ -151,8 +155,10 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
     prob_ep=[]
     show_str = ('Please select problems range for testing:\n'+ 
                 '0.All problems for all selected domains\n'+
-                'a,b-c.All problems for selected a,b-c domains'+ ', custom specific problems range for remaining domains\n')
-    domain_prob_all =  get_range(domain_idxs,show_str)
+                'a,b-c.Custom specific problems range for selected a,b-c domains'+ ',All problems for remaining domains\n')
+    domain_prob_all =  get_range(domain_idxs,show_str, True)
+    domain_prob_spec = list(set(domain_idxs)-set(domain_prob_all))
+    domain_prob_spec.sort()
 
     for d in domain_prob_all:
         new_domain_idxs.append(d)
@@ -161,8 +167,7 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
         #print(prob_sizes)
         prob_ep.append(prob_sizes[domain_idxs.index(d)])
         #print(prob_ep)
-    domain_prob_spec = list(set(domain_idxs)-set(domain_prob_all))
-
+    
     show_str1 = ('Please select problems range for testing:\n'+
                  '0.All problems for selected domain\n'+
                  'a,b-c.Custom specific problems range for selected domain\n')
@@ -170,8 +175,8 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
     
     for d in domain_prob_spec:
         prob_size=[]
-        print('\n',d,'  ', domain_namess[domain_idxs.index(d)],'   size:', prob_sizes[domain_idxs.index(d)])
-        prob_size = get_range(int(prob_sizes[domain_idxs.index(d)]),show_str1)
+        print(f"\n{d}  {domain_namess[domain_idxs.index(d)]}   size:{prob_sizes[domain_idxs.index(d)]}")
+        prob_size = get_range(int(prob_sizes[domain_idxs.index(d)]),show_str1, False)
         new_domain_idxs.append(d)
         prob_sp.append(prob_size[0])
         for p in prob_size:
@@ -194,12 +199,12 @@ def get_planner( d, s, e ):
     show_str = ('\nPlease select one planner for testing:\n 1.prp\n 2.sat\n'+
                  '0.All planners\n'+
                  'a,b-c.Select specific planners\n')
-    select_planners = get_range(planners[0],show_str)
+    select_planners = get_range(PLANNERS_ID,show_str, False)
     planners_=[]
 
     for planner_id in select_planners:
         for i in d:
-            planners_.append(planners[1][planners[0].index(planner_id)])  
+            planners_.append(PLANNERS_NAME[PLANNERS_ID.index(planner_id)])  
         d_ = d_+ d
         s_ = s_+ s
         e_ = e_+ e
@@ -208,10 +213,10 @@ def get_planner( d, s, e ):
     
 
 #end program
-def check_end():
+def check_end(input_str):
     while True:
         try:
-            input_num = int(input('\nHave you finished entering data?\n 1.Yes\n 2.No, I wish to contiune\n'))
+            input_num = int(input(input_str))
             if input_num in range(1,3):  
                 if input_num == 1:
                     return True
@@ -286,65 +291,83 @@ finally:
         cursor.close()
         print("MySQL connection is closed")
 '''
+if __name__ == '__main__':
 
-#update database before create task
-for i in range(len(folder_name)):
-    path='benchmarks/'+folder_name[i]+'/'   
-    os.chdir(root_path)
-    save_file_path_to_csv()
+    problems_sum = []
 
-save_folder_to_csv()
+    domain_names=[]
+    prob_start_points = []
+    prob_end_points = []
+    chosed_planners = []
 
+    #clear all database
+    list_csv =  os.listdir(PATH_DB_PATH)
+    for f in list_csv:
+        os.remove(os.path.join(PATH_DB_PATH, f))
 
-#create task
-#the virtual database in local
-while True:
-    bm = pd.read_csv(str(root_path) +'/Database/benchmarks.csv') 
-    print('\n') 
-    print(bm.to_string(index=False))
+    #update database before create task
+    for i in range(len(list_benchmarks)):
+        path = os.path.join("benchmarks", list_benchmarks[i])
     
-    domain_indexs = get_domain_index(len(bm)) 
-    domain_names_ = []
-    problem_sizes_ = []
-    print('Selected domains are:', domain_indexs, '\n')   
+        os.chdir(ROOT_PATH)
+        prob_sum = save_file_path_to_csv(path, i)
+        problems_sum.append(prob_sum)
 
-    
-    for i in domain_indexs:
-        domain_names_.append(bm['domain_name'][i-1])
-        problem_sizes_.append(bm['problem_size'][i-1] )
+    save_folder_to_csv(problems_sum)
 
 
-    prob_start_points_=[]
-    prob_end_points_=[]
 
-    (domain_indexs,prob_start_points_,prob_end_points_) = get_prob_size(domain_indexs, problem_sizes_, domain_names_)
-    
-    
+    #create task
+    #the virtual database in local
+    while True:
+        bm = pd.read_csv(BENCHMARKS_DB_PATH) 
+        print('\n') 
+        print(bm.to_string(index=False))
+        
+        domain_indexs = get_domain_index(len(bm)) 
+        domain_names_ = []
+        problem_sizes_ = []
+        print(f"Selected domains are: {domain_indexs}\n" )   
 
-    (chosed_planners_,domain_indexs,prob_start_points_,prob_end_points_)  = get_planner(domain_indexs, prob_start_points_,prob_end_points_)
-    chosed_planners = chosed_planners + chosed_planners_
-
-    for i in domain_indexs:
-        domain_names.append(bm['domain_name'][i-1])
-    prob_start_points = prob_start_points + prob_start_points_
-    prob_end_points = prob_end_points + prob_end_points_
-
-    
-    if check_end():
-        task_name=input('Please enter a task name(exclude ".csv") for saving your task data into a csv file:\n')
-        break            
-                
+        
+        for i in domain_indexs:
+            domain_names_.append(bm['domain_name'][i-1])
+            problem_sizes_.append(bm['problem_size'][i-1] )
 
 
-#write task data into csv
-csv_list = [ domain_names, prob_start_points, prob_end_points, chosed_planners]
-csv_list = [[row[i] for row in csv_list] for i in range(len(csv_list[0]))]
+        prob_start_points_=[]
+        prob_end_points_=[]
 
-df = pd.DataFrame(csv_list, columns=[ 'domain_name', 'start_problem', 'end_problem', 'planner'])
-df.index += 1 
-df.to_csv(str(root_path)+'/src/task/'+task_name+'.csv', index_label='index')
+        (domain_indexs,prob_start_points_,prob_end_points_) = get_prob_size(domain_indexs, problem_sizes_, domain_names_)
+        
+        
 
-print(df)
+        (chosed_planners_,domain_indexs,prob_start_points_,prob_end_points_)  = get_planner(domain_indexs, prob_start_points_,prob_end_points_)
+        chosed_planners = chosed_planners + chosed_planners_
+
+        for i in domain_indexs:
+            domain_names.append(bm['domain_name'][i-1])
+        prob_start_points = prob_start_points + prob_start_points_
+        prob_end_points = prob_end_points + prob_end_points_
+
+        input_str = '\nHave you finished entering data?\n 1.Yes\n 2.No, I wish to contiune\n'
+        if check_end(input_str):
+            task_name=input('Please enter a task name(exclude ".csv") for saving your task data into a csv file:\n')
+            break            
+                    
+
+
+    #write task data into csv
+    csv_list = [ domain_names, prob_start_points, prob_end_points, chosed_planners]
+    csv_list = [[row[i] for row in csv_list] for i in range(len(csv_list[0]))]
+
+    df = pd.DataFrame(csv_list, columns=[ 'domain_name', 'start_problem', 'end_problem', 'planner'])
+    df.index += 1 
+    task_name = f"{task_name}.csv"
+    task_path = os.path.join(TASK_PATH, task_name)
+    df.to_csv(task_path, index_label='index')
+
+    print(df)
 
 
 
