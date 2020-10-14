@@ -1,7 +1,6 @@
 import pandas as pd
 import csv
 import os 
-import glob
 import re
 from enum import Enum
 from utils import get_project_root
