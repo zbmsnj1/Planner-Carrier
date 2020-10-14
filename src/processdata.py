@@ -4,7 +4,7 @@ import os
 import re
 from enum import Enum
 from utils import get_project_root
-from task import get_range, check_end, PLANNERS_ID, PLANNERS_NAME
+from gentask import get_range, check_end, PLANNERS_ID, PLANNERS_NAME
 
 ROOT_PATH = get_project_root() 
 KEY_IGNORE = "@@KEY^^IGNORE"
@@ -35,7 +35,7 @@ class Basedata:
 								
 		return lines
 
-	def file_name_id(self,file, getboth):
+	def file_name_id(self,file, getboth: bool=False):
 		if getboth:
 			p_name = re.sub(_ABC_NUM_DOT_ABC, "", file)
 			p_id = re.sub(ABC_, "",file)
@@ -96,7 +96,7 @@ class Basedata:
 		filename = ""
 
 		for file in output_files:
-			(tempfn, p_id) = self.file_name_id(file, True)
+			(tempfn, p_id) = self.file_name_id(file, getboth=True)
 			
 
 			data = self.get_keydata(abs_res_path, file, list_keywords, list_keyfunc, list_keyignore)
@@ -125,7 +125,7 @@ class Basedata:
 		list_size = []
 		indx=0
 		for csvf in csv_files:
-			csv_name = self.file_name_id(csvf, False)
+			csv_name = self.file_name_id(csvf)
 			df = pd.read_csv(os.path.join(abs_res_path, csvf))
 			csv_size = len(df.index)
 			indx += 1
@@ -145,7 +145,7 @@ class Basedata:
 					'0.All problems for all domains\n'+
 					'a,b-c.Custom specific problems range for selected a,b-c domains'+ ', All problems for remaining domains\n')
 		
-		list_all =  get_range(list_indx,show_str, True)
+		list_all =  get_range(list_indx,show_str, reverse=True)
 		list_spec = list(set(list_indx)-set(list_all))
 		list_spec.sort()
 
@@ -169,7 +169,7 @@ class Basedata:
 				while True:
 					size=[]
 					print('\n',d,'  ', list_name[list_indx.index(d)],'   size:', list_size[list_indx.index(d)])
-					size = get_range(int(list_size[list_indx.index(d)]),show_str1,False)
+					size = get_range(int(list_size[list_indx.index(d)]),show_str1)
 					size = [i - 1 for i in size]
 					new_list_name.append(list_name[list_indx.index(d)])
 					sizes.append(size)
@@ -204,7 +204,7 @@ class Basedata:
 		new_list_name = []
 		for i in range(len(list_name)):
 			for csvf in csv_files:
-				csv_name = self.file_name_id(csvf, False)
+				csv_name = self.file_name_id(csvf)
 				if list_name[i]==csv_name:
 					means = self.calcu_mean(csvf, abs_res_path, column_names, list_sizes[i] )
 					all_means.append(means)
@@ -272,7 +272,7 @@ def choose_planner( ):
     show_str = ("\nPlease select which planner's results for data processing:\n 1.prp\n 2.sat\n"+
                  "0.All planners \n"+
                  'a,b-c.Select specific planners\n')
-    select_planners = get_range(PLANNERS_ID,show_str, False)
+    select_planners = get_range(PLANNERS_ID,show_str)
     planners_name = []
     for planner_id in select_planners:
         planners_name.append(PLANNERS_NAME[PLANNERS_ID.index(planner_id)])  
