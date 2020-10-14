@@ -71,7 +71,7 @@ def save_folder_to_csv(problems_sum):
 
 
 
-def get_range(input_range,show_str, reverse):
+def get_range(input_range,show_str, reverse:bool=False):
     regex1 = re.compile('\d+')  
     regex2 = re.compile('\d+-\d+')   
     if(isinstance(input_range, int)):
@@ -144,7 +144,7 @@ def get_domain_index(rowcount):
     show_str=('Please chose which domain you want to test:\n'+
               '0.All\n'+
               'a,b-c.From range'+' 1-'+ str(rowcount)+' select a,b-c domains\n')
-    return get_range(rowcount,show_str,False)
+    return get_range(rowcount,show_str)
     
 
 
@@ -156,7 +156,7 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
     show_str = ('Please select problems range for testing:\n'+ 
                 '0.All problems for all selected domains\n'+
                 'a,b-c.Custom specific problems range for selected a,b-c domains'+ ',All problems for remaining domains\n')
-    domain_prob_all =  get_range(domain_idxs,show_str, True)
+    domain_prob_all =  get_range(domain_idxs,show_str, reverse=True)
     domain_prob_spec = list(set(domain_idxs)-set(domain_prob_all))
     domain_prob_spec.sort()
 
@@ -176,7 +176,7 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
     for d in domain_prob_spec:
         prob_size=[]
         print(f"\n{d}  {domain_namess[domain_idxs.index(d)]}   size:{prob_sizes[domain_idxs.index(d)]}")
-        prob_size = get_range(int(prob_sizes[domain_idxs.index(d)]),show_str1, False)
+        prob_size = get_range(int(prob_sizes[domain_idxs.index(d)]),show_str1)
         new_domain_idxs.append(d)
         prob_sp.append(prob_size[0])
         for p in prob_size:
@@ -199,7 +199,7 @@ def get_planner( d, s, e ):
     show_str = ('\nPlease select one planner for testing:\n 1.prp\n 2.sat\n'+
                  '0.All planners\n'+
                  'a,b-c.Select specific planners\n')
-    select_planners = get_range(PLANNERS_ID,show_str, False)
+    select_planners = get_range(PLANNERS_ID,show_str)
     planners_=[]
 
     for planner_id in select_planners:

@@ -1,10 +1,10 @@
 restarts              : 0
 conflicts             : 0              (0 /sec)
 decisions             : 0              (0 /sec)
-propagations          : 191            (165225 /sec)
+propagations          : 191            (160369 /sec)
 conflict literals     : 0              ( nan % deleted)
 Memory used           : 1.67 MB
-CPU time              : 0.001156 s
+CPU time              : 0.001191 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -29,12 +29,12 @@ UNSATISFIABLE
 |         0 |    5128    12958 |    1709       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 32             (6131 /sec)
-decisions             : 66             (12646 /sec)
-propagations          : 3498           (670243 /sec)
-conflict literals     : 136            (21.84 % deleted)
-Memory used           : 1.81 MB
-CPU time              : 0.005219 s
+conflicts             : 27             (4827 /sec)
+decisions             : 55             (9832 /sec)
+propagations          : 3125           (558634 /sec)
+conflict literals     : 111            (24.49 % deleted)
+Memory used           : 1.80 MB
+CPU time              : 0.005594 s
 
 SATISFIABLE
 ('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
@@ -52,21 +52,21 @@ Setting relevant actions
 Setting splitting
 Setting compatible actions
 (0, '/', 80)
-0.00428605079651
+0.00411796569824
 =================================================
 Trying with 2 states
 Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.020641
+SAT formula generation time = 0.019122
 # Clauses = 2877
 # Variables = 276
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.002360
-Cumulated solver time: 0.002360
+Done solver. Round time: 0.003069
+Cumulated solver time: 0.003069
 UNSATISFIABLE
 =================================================
 Trying with 3 states
@@ -74,14 +74,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.032651
+SAT formula generation time = 0.040927
 # Clauses = 4917
 # Variables = 450
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.004325
-Cumulated solver time: 0.006685
+Done solver. Round time: 0.005777
+Cumulated solver time: 0.008846
 UNSATISFIABLE
 =================================================
 Trying with 4 states
@@ -89,17 +89,17 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.059952
+SAT formula generation time = 0.044049
 # Clauses = 7458
 # Variables = 656
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.011871
-Cumulated solver time: 0.018556
-Elapsed total time (s): 0.292796
-Elapsed solver time (s): 0.018556
-Elapsed solver time (s): [0.002360105514526367, 0.004324913024902344, 0.011871099472045898]
+Done solver. Round time: 0.012308
+Cumulated solver time: 0.021154
+Elapsed total time (s): 0.275068
+Elapsed solver time (s): 0.021154
+Elapsed solver time (s): [0.003069162368774414, 0.005777120590209961, 0.012307882308959961]
 Looking for strong plans: False
 Fair actions: True
 Done
