@@ -2,6 +2,7 @@ import argparse
 import os
 import time
 import subprocess
+from subprocess import PIPE
 import multiprocessing
 import pandas as pd
 #from dask import dataframe as dd 
@@ -66,7 +67,8 @@ def get_path(d, s, e, p):
 
 
 def run_jobs(d, p, planner, job_id):
-    result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id}", capture_output=True, shell=True)
+    #if pyhton version >3.6, change stdout=PIPE to capture_output=True
+    result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id}", stdout=PIPE, shell=True)
     print(result.stdout.decode("utf-8"))
     return result.stdout
 
@@ -74,7 +76,7 @@ def run_jobs(d, p, planner, job_id):
 
 
 def get_files_path():
-    #get the name of task file
+    #get the name of task file 
     parser = argparse.ArgumentParser()
     parser.add_argument("task")
     args = parser.parse_args()
