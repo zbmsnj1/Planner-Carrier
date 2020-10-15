@@ -11,8 +11,8 @@ KEY_IGNORE = "@@KEY^^IGNORE"
 RE_FLOAT = r"\d+\.\d+|\d+"
 RE_INT = r"\d+"
 DOT_ABC = r"\.[a-z]*"
-_ABC_NUM_DOT_ABC = r"_[a-z]*\d*.[a-z]*"
-ABC_ = r"[a-z]*_"
+NUM_TXT = r"\d+.txt"
+_PNUM_TXT = r"_p\d+.txt"
 
 #Basedata methods
 class Basem(Enum): 
@@ -37,9 +37,9 @@ class Basedata:
 
 	def file_name_id(self,file, getboth: bool=False):
 		if getboth:
-			p_name = re.sub(_ABC_NUM_DOT_ABC, "", file)
-			p_id = re.sub(ABC_, "",file)
-			p_id = re.findall(RE_INT, p_id)
+			p_name = re.sub(_PNUM_TXT, "", file)
+			p_id = re.findall(NUM_TXT, file)
+			p_id = re.findall(RE_INT, p_id[0])
 			return p_name, p_id[0]
 		else:
 			p_name = re.sub(DOT_ABC, "", file)
@@ -90,6 +90,13 @@ class Basedata:
 		return output_files
 
 	def save_into_csv(self, rel_res_path, rel_data_path, csv_head, list_keywords, list_keyfunc, list_keyignore):
+		#clear all files in /results/output folder before process data
+		abs_data_path = os.path.join(ROOT_PATH, rel_data_path)
+		old_files =  os.listdir(abs_data_path)
+		for f in old_files:
+			os.remove(os.path.join(abs_data_path, f))
+
+		#get all txt files in /results/output folder
 		abs_res_path = os.path.join(ROOT_PATH, rel_res_path )
 		output_files = os.listdir(abs_res_path)
 		output_files.sort()
@@ -105,12 +112,12 @@ class Basedata:
 			if(filename != tempfn):
 				filename = tempfn	
 				#print(filename)
-				with open(os.path.join(ROOT_PATH, rel_data_path,f"{filename}.csv"), 'w') as csvf:
+				with open(os.path.join(abs_data_path,f"{filename}.csv"), 'w') as csvf:
 					data_writer = csv.writer(csvf)
 					data_writer.writerow(csv_head)
 					data_writer.writerow(data)
 			else:
-				with open(os.path.join(ROOT_PATH, rel_data_path,f"{filename}.csv"), 'a+') as csvf:
+				with open(os.path.join(abs_data_path,f"{filename}.csv"), 'a+') as csvf:
 					data_writer = csv.writer(csvf)
 					data_writer.writerow( data)
 
@@ -139,7 +146,7 @@ class Basedata:
 		(list_indx, list_name, list_size) = self.get_csv_size(rel_data_path)
 
 		new_list_name=[]
-		sizes=[]
+		new_list_size=[]
 	
 		show_str = ('\nPlease select data range for processing:\n'+ 
 					'0.All problems for all domains\n'+
@@ -149,17 +156,18 @@ class Basedata:
 		list_spec = list(set(list_indx)-set(list_all))
 		list_spec.sort()
 
-		print(f"\nCustom range for domains {list_spec}")
+		print(f"\nCustom range for domains Id={list_spec}")
 		for d in list_all:
 			new_list_name.append(list_name[list_indx.index(d)])
 			size = []
 			for i in range(list_size[list_indx.index(d)]):    
 				size.append(i)
 
-			sizes.append(size)
+			new_list_size.append(size)
 			#print(prob_ep)
 
 		end_input_str = '\nMove to next domain?\n 1.Yes\n 2.No, I wish to contiune\n'
+		same_list_str = '\nDo you want to use the same range for remaining planners?\n 1.Yes\n 2.No, I wish to custom range remaining planners\n'
 
 		if list_spec:
 			show_str1 = ('Please select problems range for testing:\n'+
@@ -172,15 +180,16 @@ class Basedata:
 					size = get_range(int(list_size[list_indx.index(d)]),show_str1)
 					size = [i - 1 for i in size]
 					new_list_name.append(list_name[list_indx.index(d)])
-					sizes.append(size)
+					new_list_size.append(size)
 					print(size)
 					if check_end(end_input_str):
 						break
-
+		
+		same_list = check_end(same_list_str)
 		#print(new_list_name)
-		#print(sizes)
+		#print(new_list_size)
 
-		return new_list_name, sizes
+		return new_list_name, new_list_size, same_list
 	
 	def calcu_mean(self, csvfile, abs_res_path, column_names, list_size):
 		df = pd.read_csv(os.path.join(abs_res_path, csvfile))
@@ -194,8 +203,8 @@ class Basedata:
 		#print(means)
 		return  means
 	
-	def data_mean(self, rel_data_path, rel_mean_path, column_names, title):
-		(list_name, list_sizes) = self.generate_list(rel_data_path)
+	def data_mean(self, rel_data_path, rel_mean_path, column_names, title, list_name, list_size):
+		#(list_name, list_size) = self.generate_list(rel_data_path)
 		abs_res_path = os.path.join(ROOT_PATH, rel_data_path )
 		csv_files = os.listdir(abs_res_path)
 		csv_files.sort()
@@ -206,13 +215,13 @@ class Basedata:
 			for csvf in csv_files:
 				csv_name = self.file_name_id(csvf)
 				if list_name[i]==csv_name:
-					means = self.calcu_mean(csvf, abs_res_path, column_names, list_sizes[i] )
+					means = self.calcu_mean(csvf, abs_res_path, column_names, list_size[i] )
 					all_means.append(means)
 					break
 			name_ = list_name[i]
-			size_ = len(list_sizes[i])
-			first_ = list_sizes[i][0]+1
-			last_ = list_sizes[i][-1]+1
+			size_ = len(list_size[i])
+			first_ = list_size[i][0]+1
+			last_ = list_size[i][-1]+1
 			name = f"{name_}({size_}:{first_}-{last_})"
 			new_list_name.append(name)
 				
@@ -243,8 +252,12 @@ class SATdata(Basedata):
 		print("Collecting data:SAT......")
 		super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE)
 
-	def data_mean(self):
-		super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE)	
+	def generate_list(self):
+		return super().generate_list(self.REL_DATA_PATH)
+
+
+	def data_mean(self, list_name, list_size):
+		super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)	
 
 class PRPdata(Basedata):
 	def __init__(self):
@@ -262,9 +275,11 @@ class PRPdata(Basedata):
 		print("Collecting data:PRP......")
 		super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE )
 		
+	def generate_list(self):
+		return super().generate_list(self.REL_DATA_PATH)
 			
-	def data_mean(self):
-		super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE)
+	def data_mean(self, list_name, list_size):
+		super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
 
 
 def choose_planner( ):
@@ -282,15 +297,18 @@ def choose_planner( ):
 	
 
 if __name__ == '__main__':
-
+	same_list = False
 	select_planners = choose_planner()
 	for planner_name in select_planners:
 		if planner_name == 'prp':
 			planner = PRPdata()
 		elif planner_name == 'sat':
 			planner = SATdata()
+
 		planner.save_into_csv()
-		planner.data_mean()
+		if not same_list:
+			(list_name, list_size, same_list) = planner.generate_list()			
+		planner.data_mean(list_name, list_size)
 
 	
 
