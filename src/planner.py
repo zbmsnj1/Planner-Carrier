@@ -176,7 +176,7 @@ class SAT(Planner):
         self.COLUMN_NAMES = ["Id","Atoms","Actions","Solve","Time","Size"]
         self.TITLE = ['Domain (# inst)','#at','#acts','%solve',"time",'size']
         self.KEY_WORDS = ["Atoms","Actions","SATISFIABLE","Cumulated solver time","Trying with"]
-        self.KEY_WORDS_METHOD = [processdata.KF.MAX_INT, processdata.KF.MAX_INT, processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT,  processdata.KF.MAX_INT]
+        self.KEY_WORDS_FUNCTION = [processdata.KF.MAX_INT, processdata.KF.MAX_INT, processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT,  processdata.KF.MAX_INT]
         self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE]
         super().__init__()
 
@@ -195,7 +195,7 @@ class SAT(Planner):
 
     def save_into_csv(self):
         print("Collecting data:SAT......")
-        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE)
+        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE)
 
     def generate_list(self):
         return super().generate_list(self.REL_DATA_PATH)
@@ -213,7 +213,7 @@ class PRP(Planner):
         self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
         self.TITLE = ['Domain (# inst)','%solve',"time",'size']
         self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-        self.KEY_WORDS_METHOD = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
         self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, "Forbidden"]
         super().__init__()
 
@@ -232,7 +232,7 @@ class PRP(Planner):
 
     def save_into_csv(self):
         print("Collecting data:PRP......")
-        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE )
+        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE )
         
     def generate_list(self):
         return super().generate_list(self.REL_DATA_PATH)
