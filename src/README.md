@@ -312,10 +312,12 @@ $ python3 gentask.py
        ```     
 ## Planner class
 
-* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **data_mean()**) path. Also need to customize the KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE. Now we only implement the **data_mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Planner** and let subclasss **newPlanner** to inherit.
+* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **data_mean()**) path. Also need to customize the COLUMN_NAMES, TITLE, KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE. Now we only implement the **data_mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Planner** and let subclasss **newPlanner** to inherit.
+  * COLUMN_NAMES: the column names corresponds to key word, used for collecting key words data and saving in `.csv` (*should be one size larger than the size of KEY_WORDS, coz of Id for each problem*)
+  * TITLE: the column names corresponds to key word, used for processing collected data and saving in `.csv` (*should be one size larger than the size of KEY_WORDS, coz of Domain(# inst) for each domain(range of problems)*)
   * KEY_WORDS: to find data corresponding with the key words
-  * KEY_WORDS_FUNCTION: the funtion of in `processdata.py` to apply for each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
-  * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. (*for example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation*)
+  * KEY_WORDS_FUNCTION: the funtion of `processdata.py` to apply for each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file (*should be same size as the size of KEY_WORDS*)
+  * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. For example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation (*should be same size as the size of KEY_WORDS*)
 
 * Below is an example of subclass: **PRP(Planner)**)
   ```python
