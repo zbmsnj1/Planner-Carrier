@@ -5,16 +5,16 @@
 ## Table of Contents
 
 * [Generate tasks](#background)
-	* [Command](##command)
-	* [Details](##details)
+	* [Command](#command)
+	* [Details](#details)
 * [Run planner](#usage)
-	* [Command](##command)
-	* [Details](##details)
-	* [Planner class](###planner-class)
+	* [Command](#command)
+	* [Details](#details)
+	* [Planner class](#planner-class)
 * [Process data](#process-data)
-	* [Command](##command)
-	* [Details](##details)
-	* [Planner class](###basedata-class)
+	* [Command](#command)
+	* [Details](#details)
+	* [Planner class](#basedata-class)
 
 
 ## Generate tasks
