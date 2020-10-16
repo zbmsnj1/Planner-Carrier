@@ -43,7 +43,7 @@ $ python3 gentask.py
 
 * Step 1: Choose range of domains for testing, based on the table.
   * 0: Choose all domains
-  * a,b-c: Choose a custom range of domains
+  * [a,b-c](#Usage-of-a-b-c): Choose a custom range of domains
     ```
     Please chose which domain you want to test:
     0.All
