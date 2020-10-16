@@ -8,7 +8,7 @@
 	* [Command](#command)
 	* [Details](#details)
 * [Run planner](#run-planner)
-	* [Command](#command)
+	* [Command](#command in #run-planner)
 	* [Details](#details)
 	* [Planner class](#planner-class)
 * [Process data](#process-data)
