@@ -317,7 +317,7 @@ $ python3 gentask.py
   * KEY_WORDS_FUNCTION: the funtion of in `processdata.py` to apply for each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
   * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. (*for example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation*)
 
-* Below is an example of subclass: **SAT(Planner)**)
+* Below is an example of subclass: **PRP(Planner)**)
   ```python
   class PRP(Planner):
     def __init__(self):
