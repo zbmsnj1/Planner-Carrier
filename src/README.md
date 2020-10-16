@@ -8,7 +8,7 @@
 * [Run planner](#run-planner)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
-* [Usage of a b-c](#Usage-of-a-b-c)
+* [Appendix](#Appendix)
 
 
 ## Generate tasks
@@ -53,7 +53,7 @@ $ python3 gentask.py
 
 * Step 2: Choose range of domains of selected domains for customizing problems size.
   * 0: Choose all problems for all selected domains
-  * a,b-c: Choose a custom range of domains to customize specific problem sizes, all remaining domains will automatically choose complete problem sizes. (*We usually test the complete problems size, this function is designed just in case we want to test part of the problems.*)
+  * [a,b-c](#Usage-of-a-b-c): Choose a custom range of domains to customize specific problem sizes, all remaining domains will automatically choose complete problem sizes. (*We usually test the complete problems size, this function is designed just in case we want to test part of the problems.*)
 
     ```
     Selected domains are: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -66,7 +66,7 @@ $ python3 gentask.py
 
 * Step 3: Choose range of problems size for selected domains one by one. (*If choose 0 in Step 2, the Step 3 will not appear.*)
   * 0: Choose all problems for current domain
-  * a,b-c: Choose specific problem sizes for current domain 
+  * [a,b-c](#Usage-of-a-b-c): Choose specific problem sizes for current domain 
   
     ```
     7  faults-ipc08   size:55
@@ -103,7 +103,7 @@ $ python3 gentask.py
 
 * Step 4: Choose range of planners for testing selected domains. (*Current only two planners.*)
   * 0: Choose all planners 
-  * a,b-c: Choose specific planners
+  * [a,b-c](#Usage-of-a-b-c): Choose specific planners
     ```
     Please select one planner for testing:
      1.prp
@@ -224,7 +224,7 @@ $ python3 gentask.py
  
 * Step 1: Choose range of planners for processing data.
   * 0: Process data for all planners
-  * a,b-c: Process data for specific planners
+  * [a,b-c](#Usage-of-a-b-c): Process data for specific planners
  
     ```
     Please select which planner's results for data processing:
@@ -246,7 +246,7 @@ $ python3 gentask.py
  
 * Step 2: Start from the first planner of selected planners, customzie the problems size for processing data.
   * 0: Choose all problems for all domains to process data.
-  * a,b-c: Choose specific domains to customize problems size, and automatically choose complete problems size for remaining domains. (*This function can split the large problems size to small pieces, customized size is very convenient for data analysis.*)
+  * [a,b-c](#Usage-of-a-b-c): Choose specific domains to customize problems size, and automatically choose complete problems size for remaining domains. (*This function can split the large problems size to small pieces, customized size is very convenient for data analysis.*)
   * **Start from first planner in list: PRP**
   
     ```
@@ -355,8 +355,10 @@ $ python3 gentask.py
     def data_mean(self, list_name, list_size):
         super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
 
-  ```     
-## Usage of a b-c
+  ```   
+ 
+## Appendix
+### Usage of a b-c
 * Select single: use either `space` or `,` to separate numbers
 	```
 	1, 4 5 9, 15 19
