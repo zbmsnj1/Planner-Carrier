@@ -8,7 +8,7 @@
 * [Run planner](#run-planner)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
-	* [Basedata class](#basedata-class)
+* [a,b-c](#a,b-c)
 
 
 ## Generate tasks
@@ -312,9 +312,9 @@ $ python3 gentask.py
        ```     
 ## Planner class
 
-* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **mean()**) path. Also need to customize the KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE.
+* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **data_mean()**) path. Also need to customize the KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE. Now we only implement the **data_mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Planner** and let subclasss **newPlanner** to inherit.
   * KEY_WORDS: to find data corresponding with the key words
-  * KEY_WORDS_METHOD: the funtion of **Basedata** to apply to each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
+  * KEY_WORDS_FUNCTION: the funtion of in `processdata.py` to apply for each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
   * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. (*for example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation*)
 
 * Below is an example of subclass: **SAT(Planner)**)
@@ -328,7 +328,7 @@ $ python3 gentask.py
         self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
         self.TITLE = ['Domain (# inst)','%solve',"time",'size']
         self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-        self.KEY_WORDS_METHOD = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
         self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, "Forbidden"]
         super().__init__()
 
@@ -347,7 +347,7 @@ $ python3 gentask.py
 
     def save_into_csv(self):
         print("Collecting data:PRP......")
-        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE )
+        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE )
         
     def generate_list(self):
         return super().generate_list(self.REL_DATA_PATH)
@@ -356,6 +356,8 @@ $ python3 gentask.py
         super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
 
   ```     
+## a,b-c
 
 
-* Now we only implement the **mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Basedata** and let subclasss **newPlannerdata** to inherit.
+
+
