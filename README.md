@@ -8,7 +8,7 @@
 * [Background](#background)
 * [Install](#install)
 * [Usage](#usage)
-* [Directory StructureI](#directory)
+* [Directory Structure](#directory)
 * [Contributing](#contributing)
 * [License](#license)
 
