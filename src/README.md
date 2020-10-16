@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
-* [Generate tasks](#background)
+* [Generate tasks](#generate-tasks)
 	* [Command](#command)
 	* [Details](#details)
-* [Run planner](#usage)
+* [Run planner](#run-planner)
 	* [Command](#command)
 	* [Details](#details)
 	* [Planner class](#planner-class)
