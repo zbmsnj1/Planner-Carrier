@@ -5,10 +5,10 @@
 ## Table of Contents
 
 * [Generate tasks](#generate-tasks)
-	* [Command](#generate-tasks#command)
+	* [Command](#generate-tasks #command)
 	* [Details](##details)
 * [Run planner](#run-planner)
-	* [Command](#run-planner#command)
+	* [Command](#run-planner #command)
 	* [Details](##details)
 	* [Planner class](#planner-class)
 * [Process data](#process-data)
