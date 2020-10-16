@@ -18,15 +18,15 @@ In my honour year project about FOND planning, we have large numbers of benchmar
 
 
 ## Install
-#### Prerequisites
+### Prerequisites
 * Linux (tested on Ubuntu 20.04.1)
 * Python3.6 or above
 * [Dask](https://dask.org/)
-#### Clone repo from GitHub
+### Clone repo from GitHub
 ```
 $ git clone https://github.com/lslll0302/Planner-Carrier.git
 ```
-#### Install complete Dask 
+### Install complete Dask 
 ```
 $ python -m pip install "dask[complete]"
 ```
@@ -54,7 +54,7 @@ Check details in [usage-readme]()
 Feel free to dive in! [Open an issue](https://github.com/lslll0302/Planner-Carrier/issues/new) or submit PRs.
 
 
-#### Acknowledgement
+### Acknowledgement
 
 This project exists thanks to my supervisor [Sebastian Sardina](https://sites.google.com/view/ssardina/home)
 
