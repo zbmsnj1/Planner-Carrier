@@ -6,8 +6,8 @@
 
 * [Generate tasks](#generate-tasks)
 * [Run planner](#run-planner)
-	* [Planner class](#planner-class)
 * [Process data](#process-data)
+* [Planner class](#planner-class)
 	* [Basedata class](#basedata-class)
 
 
@@ -211,32 +211,6 @@ $ python3 gentask.py
 	    ```
 
   * Step background: All **standard output** (**stdout**) of each job will be stored as `.txt` files in `results/corresponding-planner-folder/output/domain_name_problem_id.txt` .
-  
-### Planner class
-
-* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path and relative output path. 
-
-* Below is an example of subclass: **SAT(Planner)**)
-  ```python
-  class SAT(Planner):
-      def __init__(self):
-          self.REL_SRC_PATH = "planners/SAT/src"  
-          self.REL_RES_PATH = "results/SAT/output" 
-          super().__init__()
-
-      def get_command(self, rel_d_path, rel_p_path):
-          command=f"python main.py {super().get_command(rel_d_path, rel_p_path)}"
-          return command
-
-      def create_tempsrc(self, job_id):      
-          return super().create_tempsrc(self.REL_SRC_PATH, job_id)
-
-      def remove_tempsrc(self, job_id):
-          super().remove_tempsrc(self.REL_SRC_PATH, job_id)
-
-      def output_path(self, rel_p_path):
-          return super().output_path(self.REL_RES_PATH, rel_p_path)
-  ```
 
 
 ## Process data
@@ -336,38 +310,52 @@ $ python3 gentask.py
         0  islands(5:1-5)  30.6   80.0     1.0  0.031659   4.0
 
        ```     
-     
+## Planner class
 
-### Basedata class
-* It is very easy to add new planner-data subclass inherit from the class (**Basedata**), just create a new subclass in `planner.py` with relative output path, relative daat path and relative result path for methods(e.g. **mean()**) path. Also need to customize the KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE.
+* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **mean()**) path. Also need to customize the KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE.
   * KEY_WORDS: to find data corresponding with the key words
-  * KEY_WORDS_METHOD: the method of **Basedata** to apply to each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
+  * KEY_WORDS_METHOD: the funtion of **Basedata** to apply to each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file
   * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. (*for example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation*)
 
-* Below is an example of subclass: **PRPdata(Basedata)**
-
+* Below is an example of subclass: **SAT(Planner)**)
   ```python
-  class PRPdata(Basedata):
-	def __init__(self):
-		self.REL_RES_PATH = "results/PRP/output"
-		self.REL_DATA_PATH = "results/PRP/data"
-		self.REL_MEAN_PATH = "results/PRP/mean"
-		self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
-		self.TITLE = ['Domain (# inst)','%solve',"time",'size']
-		self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-		self.KEY_WORDS_METHOD = [Basem.FIND_KW, Basem.MAX_FLOAT, Basem.MAX_INT]
-		self.KEY_WORDS_IGNORE = [KEY_IGNORE, KEY_IGNORE, "Forbidden"]
-		super().__init__()
+  class PRP(Planner):
+    def __init__(self):
+        self.REL_SRC_PATH = "planners/PRP/src" 
+        self.REL_RES_PATH = "results/PRP/output"
+        self.REL_DATA_PATH = "results/PRP/data"
+        self.REL_MEAN_PATH = "results/PRP/mean"
+        self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
+        self.TITLE = ['Domain (# inst)','%solve',"time",'size']
+        self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
+        self.KEY_WORDS_METHOD = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, "Forbidden"]
+        super().__init__()
 
-	def save_into_csv(self):
-		print("Collecting data:PRP......")
-		super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE )
-		
-	def generate_list(self):
-		return super().generate_list(self.REL_DATA_PATH)
-			
-	def data_mean(self, list_name, list_size):
-		super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
+    def get_command(self, rel_d_path, rel_p_path):
+        command=f"./prp {super().get_command(rel_d_path, rel_p_path)} --dump-policy 2"
+        return command
 
-  ```
+    def create_tempsrc(self, job_id):    
+        return super().create_tempsrc(self.REL_SRC_PATH, job_id)
+
+    def remove_tempsrc(self, job_id):
+        super().remove_tempsrc(self.REL_SRC_PATH, job_id)
+
+    def output_path(self, rel_p_path):
+        return super().output_path(self.REL_RES_PATH, rel_p_path)
+
+    def save_into_csv(self):
+        print("Collecting data:PRP......")
+        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_METHOD, self.KEY_WORDS_IGNORE )
+        
+    def generate_list(self):
+        return super().generate_list(self.REL_DATA_PATH)
+            
+    def data_mean(self, list_name, list_size):
+        super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
+
+  ```     
+
+
 * Now we only implement the **mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Basedata** and let subclasss **newPlannerdata** to inherit.
