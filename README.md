@@ -32,7 +32,7 @@ $ python -m pip install "dask[complete]"
 ```
 ## Usage
 
-Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob/master/src/)
+Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob/master/src/README.md)
 
 ## Directory Structure
 * `Database/`: 
