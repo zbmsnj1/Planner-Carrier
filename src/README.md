@@ -180,6 +180,7 @@ $ python3 gentask.py
     ["localhost",  "118.138.246.177", "romote2 ip", "romote3 ip"],
     connect_options={"known_hosts": None, 'username':'root', 'password':'pword'},
     ```
+   * **console**:
     ```
     Which mode you wish to run tasks?
      1.Local machine
