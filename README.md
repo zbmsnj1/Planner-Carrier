@@ -1,5 +1,5 @@
 # Planner Carrier
-![icon](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/PlannerCarrier.png)
+![icon](https://github.com/lslll0302/Planner-Carrier/blob/master/images/PlannerCarrier.png)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 **This is a simple framework to help testing vast [AI planning](https://planning.wiki/) benchmarks in parallel with multiple planners, collecting and analyzing data with customizable keywords. Done in pure Python.**
@@ -58,8 +58,8 @@ Feel free to dive in! [Open an issue](https://github.com/lslll0302/Planner-Carri
 #### Acknowledgement
 
 This project exists thanks to my supervisor [Sebastian Sardina](https://sites.google.com/view/ssardina/home)
-
-<a href="https://github.com/ssardina"><div style="width: 80px;height: 80px; border-radius:250px;overflow: hidden;"><img src="https://avatars2.githubusercontent.com/u/2368384?s=400&u=66275e73f91dbe6a40e17392e9ec5c0a4950ee1d&v=4" class="round_icon" title="Sebastian Sardina" width="80" height="80"></div></a>
+<div style="width: 80px;height: 80px; border-radius:250px;overflow: hidden;">
+<a href="https://github.com/ssardina"><img src="https://github.com/lslll0302/Planner-Carrier/blob/master/images/Sebastian%20Sardina.jfif" class="round_icon" title="Sebastian Sardina" width="80" height="80"></a></div>
 
 
 ## License
