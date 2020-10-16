@@ -8,7 +8,7 @@
 * [Run planner](#run-planner)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
-* [Usage of a,b-c](#Usage-of)
+* [a,b-c](#a,b-c)
 
 
 ## Generate tasks
@@ -356,7 +356,7 @@ $ python3 gentask.py
         super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
 
   ```     
-## Usage of a,b-c
+## a,b-c
 * Select single: use either `space` or `,` to separate numbers
 	```
 	1, 4 5 9, 15 19
