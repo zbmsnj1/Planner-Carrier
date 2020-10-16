@@ -58,7 +58,7 @@ Feel free to dive in! [Open an issue](https://github.com/lslll0302/Planner-Carri
 
 This project exists thanks to my supervisor [Sebastian Sardina](https://sites.google.com/view/ssardina/home)
 
-<a href="https://github.com/ssardina"><div style="width: 80px;height: 80px; border-radius:250px;overflow: hidden;"><img src="https://github.com/lslll0302/Planner-Carrier/blob/master/images/Sebastian%20Sardina.png" class="round_icon" title="Sebastian Sardina" width="80" height="80"></div></a>
+<a href="https://github.com/ssardina"><div style="width: 80px;height: 80px; border-radius:250px;overflow: hidden;"><img src="https://github.com/lslll0302/Planner-Carrier/blob/master/images/Sebastian%20Sardina.jfif" class="round_icon" title="Sebastian Sardina" width="80" height="80"></div></a>
 
 
 ## License
