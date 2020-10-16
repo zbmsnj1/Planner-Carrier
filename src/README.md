@@ -8,7 +8,7 @@
 * [Run planner](#run-planner)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
-* [Usage of a,b-c](#Usage-of*)
+* [Usage of a,b-c](#Usage-of)
 
 
 ## Generate tasks
