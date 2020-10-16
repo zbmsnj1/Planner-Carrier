@@ -1,5 +1,4 @@
-# Planner Carrier
-![icon](https://github.com/lslll0302/Eval-of-FOND-planners-/blob/master/IMG_readme/PlannerCarrier.png)
+![icon](https://github.com/lslll0302/Planner-Carrier/blob/master/images/PlannerCarrier.png)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 **This is a simple framework to help testing vast [AI planning](https://planning.wiki/) benchmarks in parallel with multiple planners, collecting and analyzing data with customizable keywords. Done in pure Python.**
