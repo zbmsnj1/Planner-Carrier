@@ -8,7 +8,7 @@
 * [Run planner](#run-planner)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
-* [a,b-c](#a,b-c)
+* [Usage of a,b-c](#Usage-of-a,b-c)
 
 
 ## Generate tasks
@@ -356,8 +356,22 @@ $ python3 gentask.py
         super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
 
   ```     
-## a,b-c
-
-
+## Usage of a,b-c
+* Select single: use either `space` or `,` to separate numbers
+	```
+	1, 4 5 9, 15 19
+	```
+* Select range: use `-` to indicates the connection range
+	```
+	1-20 25-60, 70-80, 90-100
+	```
+* Combination:
+	```
+	1 5-10,15 19,25-30 40-50 65
+	```
+*  Wrong usage:
+	```
+	-10 20-30-40 50-a 
+	```
 
 
