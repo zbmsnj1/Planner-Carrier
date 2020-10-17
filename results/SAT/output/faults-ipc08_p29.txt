@@ -7,12 +7,12 @@ UNSATISFIABLE
 |         0 |    1191     3746 |     397       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 3              (inf /sec)
-decisions             : 52             (inf /sec)
-propagations          : 233            (inf /sec)
+conflicts             : 3              (1296 /sec)
+decisions             : 52             (22462 /sec)
+propagations          : 233            (100648 /sec)
 conflict literals     : 3              (0.00 % deleted)
 Memory used           : 1.68 MB
-CPU time              : 0 s
+CPU time              : 0.002315 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -22,12 +22,12 @@ UNSATISFIABLE
 |         0 |    3161     9247 |    1053       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 13             (11971 /sec)
-decisions             : 24             (22099 /sec)
-propagations          : 626            (576427 /sec)
+conflicts             : 13             (4159 /sec)
+decisions             : 24             (7678 /sec)
+propagations          : 626            (200256 /sec)
 conflict literals     : 29             (6.45 % deleted)
 Memory used           : 1.81 MB
-CPU time              : 0.001086 s
+CPU time              : 0.003126 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -37,12 +37,12 @@ UNSATISFIABLE
 |         0 |    5115    15353 |    1705       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 59             (17161 /sec)
-decisions             : 226            (65736 /sec)
-propagations          : 3942           (1146597 /sec)
+conflicts             : 59             (10770 /sec)
+decisions             : 226            (41256 /sec)
+propagations          : 3942           (719606 /sec)
 conflict literals     : 334            (15.44 % deleted)
-Memory used           : 1.80 MB
-CPU time              : 0.003438 s
+Memory used           : 1.81 MB
+CPU time              : 0.005478 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -53,12 +53,12 @@ UNSATISFIABLE
 |       104 |    7624    23182 |    2792      95     1618    17.0 | 12.802 % |
 ==============================================================================
 restarts              : 2
-conflicts             : 248            (28704 /sec)
-decisions             : 554            (64120 /sec)
-propagations          : 20660          (2391204 /sec)
+conflicts             : 248            (20422 /sec)
+decisions             : 554            (45619 /sec)
+propagations          : 20660          (1701252 /sec)
 conflict literals     : 2908           (26.57 % deleted)
 Memory used           : 1.94 MB
-CPU time              : 0.00864 s
+CPU time              : 0.012144 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -71,12 +71,12 @@ UNSATISFIABLE
 |       478 |   10742    32845 |    4753     447     8544    19.1 | 19.816 % |
 ==============================================================================
 restarts              : 4
-conflicts             : 651            (22910 /sec)
-decisions             : 1591           (55990 /sec)
-propagations          : 61131          (2151288 /sec)
+conflicts             : 651            (23152 /sec)
+decisions             : 1591           (56581 /sec)
+propagations          : 61131          (2174010 /sec)
 conflict literals     : 10816          (30.69 % deleted)
-Memory used           : 2.07 MB
-CPU time              : 0.028416 s
+Memory used           : 2.08 MB
+CPU time              : 0.028119 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -90,12 +90,12 @@ UNSATISFIABLE
 |       820 |   14482    44453 |    7055     795    22038    27.7 |  9.986 % |
 ==============================================================================
 restarts              : 5
-conflicts             : 1200           (22876 /sec)
-decisions             : 2880           (54903 /sec)
-propagations          : 153945         (2934745 /sec)
+conflicts             : 1200           (21276 /sec)
+decisions             : 2880           (51062 /sec)
+propagations          : 153945         (2729424 /sec)
 conflict literals     : 26235          (29.40 % deleted)
 Memory used           : 2.36 MB
-CPU time              : 0.052456 s
+CPU time              : 0.056402 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -112,12 +112,12 @@ UNSATISFIABLE
 |      3226 |   16577    52565 |   12271    3063    73489    24.0 | 22.564 % |
 ==============================================================================
 restarts              : 8
-conflicts             : 3661           (26417 /sec)
-decisions             : 9114           (65765 /sec)
-propagations          : 563770         (4068045 /sec)
+conflicts             : 3661           (22243 /sec)
+decisions             : 9114           (55375 /sec)
+propagations          : 563770         (3425341 /sec)
 conflict literals     : 80099          (31.29 % deleted)
-Memory used           : 2.74 MB
-CPU time              : 0.138585 s
+Memory used           : 2.73 MB
+CPU time              : 0.164588 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -136,12 +136,12 @@ UNSATISFIABLE
 |      7490 |   22004    69363 |   18913    7308   258183    35.3 | 16.206 % |
 ==============================================================================
 restarts              : 10
-conflicts             : 9203           (13989 /sec)
-decisions             : 21855          (33221 /sec)
-propagations          : 1581485        (2403977 /sec)
+conflicts             : 9203           (20331 /sec)
+decisions             : 21855          (48282 /sec)
+propagations          : 1581485        (3493782 /sec)
 conflict literals     : 298347         (35.36 % deleted)
 Memory used           : 3.98 MB
-CPU time              : 0.657862 s
+CPU time              : 0.452657 s
 
 UNSATISFIABLE
 Setting atoms
@@ -158,21 +158,21 @@ Setting relevant actions
 Setting splitting
 Setting compatible actions
 (0, '/', 25)
-0.00174617767334
+0.000717878341675
 =================================================
 Trying with 2 states
 Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.022322
+SAT formula generation time = 0.008044
 # Clauses = 1294
 # Variables = 180
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.017724
-Cumulated solver time: 0.017724
+Done solver. Round time: 0.031941
+Cumulated solver time: 0.031941
 UNSATISFIABLE
 =================================================
 Trying with 3 states
@@ -180,14 +180,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.045770
+SAT formula generation time = 0.015020
 # Clauses = 2527
 # Variables = 297
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.028222
-Cumulated solver time: 0.045946
+Done solver. Round time: 0.023816
+Cumulated solver time: 0.055757
 UNSATISFIABLE
 =================================================
 Trying with 4 states
@@ -195,14 +195,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.088563
+SAT formula generation time = 0.100726
 # Clauses = 4227
 # Variables = 440
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.026410
-Cumulated solver time: 0.072356
+Done solver. Round time: 0.025916
+Cumulated solver time: 0.081673
 UNSATISFIABLE
 =================================================
 Trying with 5 states
@@ -210,14 +210,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.153100
+SAT formula generation time = 0.095346
 # Clauses = 6441
 # Variables = 615
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.033150
-Cumulated solver time: 0.105506
+Done solver. Round time: 0.016549
+Cumulated solver time: 0.098222
 UNSATISFIABLE
 =================================================
 Trying with 6 states
@@ -225,14 +225,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.216801
+SAT formula generation time = 0.250491
 # Clauses = 9217
 # Variables = 828
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.060145
-Cumulated solver time: 0.165651
+Done solver. Round time: 0.079148
+Cumulated solver time: 0.177370
 UNSATISFIABLE
 =================================================
 Trying with 7 states
@@ -240,14 +240,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.321607
+SAT formula generation time = 0.241359
 # Clauses = 12603
 # Variables = 1085
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3598 seconds
-Done solver. Round time: 0.098685
-Cumulated solver time: 0.264336
+Done solver. Round time: 0.117237
+Cumulated solver time: 0.294607
 UNSATISFIABLE
 =================================================
 Trying with 8 states
@@ -255,14 +255,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.257916
+SAT formula generation time = 0.341643
 # Clauses = 16647
 # Variables = 1392
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3598 seconds
-Done solver. Round time: 0.156366
-Cumulated solver time: 0.420702
+Done solver. Round time: 0.145861
+Cumulated solver time: 0.440468
 UNSATISFIABLE
 =================================================
 Trying with 9 states
@@ -270,14 +270,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.380982
+SAT formula generation time = 0.411053
 # Clauses = 21397
 # Variables = 1755
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3597 seconds
-Done solver. Round time: 0.341168
-Cumulated solver time: 0.761870
+Done solver. Round time: 0.350239
+Cumulated solver time: 0.790707
 UNSATISFIABLE
 =================================================
 Trying with 10 states
@@ -285,20 +285,20 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.637828
+SAT formula generation time = 0.317483
 # Clauses = 26901
 # Variables = 2180
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 3596 seconds
-Done solver. Round time: 1.487392
-Cumulated solver time: 2.249262
+SAT solver called with 4096 MB and 3597 seconds
+Done solver. Round time: 1.055387
+Cumulated solver time: 1.846094
 UNSATISFIABLE
 =================================================
 Trying with 11 states
 Looking for strong plans: False
 Fair actions: True
-# Atoms==================================[MINISAT]===================================
+# Atom==================================[MINISAT]===================================
 | Conflicts |     ORIGINAL     |              LEARNT              | Progress |
 |           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
 ==============================================================================
@@ -316,12 +316,12 @@ Fair actions: True
 |     17105 |   26582    83834 |   28556   16612   717602    43.2 | 17.209 % |
 ==============================================================================
 restarts              : 12
-conflicts             : 19085          (8864 /sec)
-decisions             : 42911          (19930 /sec)
-propagations          : 3730327        (1732584 /sec)
+conflicts             : 19085          (9203 /sec)
+decisions             : 42911          (20693 /sec)
+propagations          : 3730327        (1798883 /sec)
 conflict literals     : 796131         (41.51 % deleted)
 Memory used           : 6.51 MB
-CPU time              : 2.15304 s
+CPU time              : 2.07369 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -344,12 +344,12 @@ UNSATISFIABLE
 |     38734 |   29207    95405 |   42376   25559  1035309    40.5 | 37.994 % |
 ==============================================================================
 restarts              : 14
-conflicts             : 39033          (4806 /sec)
-decisions             : 81515          (10036 /sec)
-propagations          : 8282997        (1019753 /sec)
+conflicts             : 39033          (7963 /sec)
+decisions             : 81515          (16630 /sec)
+propagations          : 8282997        (1689866 /sec)
 conflict literals     : 1820718        (39.21 % deleted)
-Memory used           : 11.27 MB
-CPU time              : 8.12255 s
+Memory used           : 11.28 MB
+CPU time              : 4.90157 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -374,12 +374,12 @@ UNSATISFIABLE
 |     87384 |   36380   116255 |   61969   50825  2873665    56.5 | 22.382 % |
 ==============================================================================
 restarts              : 16
-conflicts             : 101529         (3802 /sec)
-decisions             : 207587         (7774 /sec)
-propagations          : 23812589       (891750 /sec)
+conflicts             : 101529         (4301 /sec)
+decisions             : 207587         (8793 /sec)
+propagations          : 23812589       (1008665 /sec)
 conflict literals     : 6872196        (45.00 % deleted)
 Memory used           : 22.23 MB
-CPU time              : 26.7032 s
+CPU time              : 23.608 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -406,12 +406,12 @@ UNSATISFIABLE
 |    196855 |   43042   137774 |   89499   28201  1515050    53.7 | 22.186 % |
 ==============================================================================
 restarts              : 18
-conflicts             : 256730         (2740 /sec)
-decisions             : 523748         (5590 /sec)
-propagations          : 67554716       (721041 /sec)
+conflicts             : 256730         (2875 /sec)
+decisions             : 523748         (5865 /sec)
+propagations          : 67554716       (756468 /sec)
 conflict literals     : 19734383       (43.51 % deleted)
 Memory used           : 31.99 MB
-CPU time              : 93.6906 s
+CPU time              : 89.3029 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -442,12 +442,12 @@ UNSATISFIABLE
 |    997386 |   49971   159031 |  154702  122346 10350065    84.6 | 25.308 % |
 ==============================================================================
 restarts              : 22
-conflicts             : 1163934        (1273 /sec)
-decisions             : 2118032        (2317 /sec)
-propagations          : 346500146      (379047 /sec)
+conflicts             : 1163934        (1587 /sec)
+decisions             : 2118032        (2887 /sec)
+propagations          : 346500146      (472297 /sec)
 conflict literals     : 111861443      (47.48 % deleted)
 Memory used           : 64.21 MB
-CPU time              : 914.135 s
+CPU time              : 733.649 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -482,24 +482,24 @@ UNSATISFIABLE
 |   5050039 |   56955   181801 |  264854   80045  5561543    69.5 | 27.937 % |
 ==============================================================================
 restarts              : 26
-conflicts             : 7402778        (680 /sec)
-decisions             : 13618270       (1251 /sec)
-propagations          : 2425472344     (222862 /sec)
+conflicts             : 7402778        (1106 /sec)
+decisions             : 13618270       (2035 /sec)
+propagations          : 2425472344     (362408 /sec)
 conflict literals     : 929126019      (52.68 % deleted)
 Memory used           : 183.57 MB
-CPU time              : 10883.3 s
+CPU time              : 6692.66 s
 
 UNSATISFIABLE
-: 47
+s: 47
 # Actions: 25
-SAT formula generation time = 0.611959
+SAT formula generation time = 0.405740
 # Clauses = 33207
 # Variables = 2673
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 3594 seconds
-Done solver. Round time: 2.670131
-Cumulated solver time: 4.919393
+SAT solver called with 4096 MB and 3595 seconds
+Done solver. Round time: 3.647755
+Cumulated solver time: 5.493849
 UNSATISFIABLE
 =================================================
 Trying with 12 states
@@ -507,14 +507,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.486919
+SAT formula generation time = 0.489163
 # Clauses = 40363
 # Variables = 3240
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3591 seconds
-Done solver. Round time: 12.488418
-Cumulated solver time: 17.407811
+Done solver. Round time: 8.172635
+Cumulated solver time: 13.666484
 UNSATISFIABLE
 =================================================
 Trying with 13 states
@@ -522,14 +522,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.941290
+SAT formula generation time = 0.806718
 # Clauses = 48417
 # Variables = 3887
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 3578 seconds
-Done solver. Round time: 47.113699
-Cumulated solver time: 64.521510
+SAT solver called with 4096 MB and 3582 seconds
+Done solver. Round time: 28.711441
+Cumulated solver time: 42.377925
 UNSATISFIABLE
 =================================================
 Trying with 14 states
@@ -537,14 +537,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 0.875369
+SAT formula generation time = 0.802515
 # Clauses = 57417
 # Variables = 4620
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 3530 seconds
-Done solver. Round time: 244.851759
-Cumulated solver time: 309.373269
+SAT solver called with 4096 MB and 3553 seconds
+Done solver. Round time: 96.984992
+Cumulated solver time: 139.362917
 UNSATISFIABLE
 =================================================
 Trying with 15 states
@@ -552,14 +552,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 1.316262
+SAT formula generation time = 0.454291
 # Clauses = 67411
 # Variables = 5445
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 3283 seconds
-Done solver. Round time: 1404.933970
-Cumulated solver time: 1714.307239
+SAT solver called with 4096 MB and 3455 seconds
+Done solver. Round time: 1113.278873
+Cumulated solver time: 1252.641790
 UNSATISFIABLE
 =================================================
 Trying with 16 states
@@ -567,13 +567,13 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 47
 # Actions: 25
-SAT formula generation time = 1.229148
+SAT formula generation time = 0.899894
 # Clauses = 78447
 # Variables = 6368
 Creating formula...
 Done creating formula. Calling solver...
-SAT solver called with 4096 MB and 1877 seconds
-Done solver. Round time: 12511.514334
-Cumulated solver time: 14225.821573
+SAT solver called with 4096 MB and 2341 seconds
+Done solver. Round time: 7085.866848
+Cumulated solver time: 8338.508638
 UNSATISFIABLE
 -> OUT OF TIME
