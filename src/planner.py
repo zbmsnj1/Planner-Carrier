@@ -110,24 +110,24 @@ class Planner:
             new_list_size.append(size)
             #print(prob_ep)
 
-        end_input_str = '\nMove to next domain?\n 1.Yes\n 2.No, I wish to contiune\n'
         same_list_str = '\nDo you want to use the same range for remaining planners?\n 1.Yes\n 2.No, I wish to custom range remaining planners\n'
 
         if list_spec:
             show_str1 = ('Please select problems range for testing:\n'+
-                    '0.All problems for selected domain\n'+
+                    '0.Move to next domain\n'+
                     'a,b-c.Custom specific problems range for selected domain\n')
             for d in list_spec:
                 while True:
                     size=[]
                     print('\n',d,'  ', list_name[list_indx.index(d)],'   size:', list_size[list_indx.index(d)])
-                    size = gentask.get_range(int(list_size[list_indx.index(d)]),show_str1)
+                    size = gentask.get_range(int(list_size[list_indx.index(d)]),show_str1, true_zero=True)
+                    if not size:
+                        break
+                    print(size)     
                     size = [i - 1 for i in size]
                     new_list_name.append(list_name[list_indx.index(d)])
                     new_list_size.append(size)
-                    print(size)
-                    if gentask.check_end(end_input_str):
-                        break
+                                      
         
         same_list = gentask.check_end(same_list_str)
         #print(new_list_name)
@@ -210,11 +210,11 @@ class PRP(Planner):
         self.REL_RES_PATH = "results/PRP/output"
         self.REL_DATA_PATH = "results/PRP/data"
         self.REL_MEAN_PATH = "results/PRP/mean"
-        self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
+        self.COLUMN_NAMES = ["Id","Solve", "Time","Size"]
         self.TITLE = ['Domain (# inst)','%solve',"time",'size']
         self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
-        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, "Forbidden"]
+        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW,  processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE,  processdata.KEY_IGNORE, "Forbidden"]
         super().__init__()
 
     def get_command(self, rel_d_path, rel_p_path):

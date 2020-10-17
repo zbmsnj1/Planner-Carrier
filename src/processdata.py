@@ -46,10 +46,12 @@ def file_name_id(file, getboth: bool=False):
 def find_keyword(keyword, keyword_ignore, file):
     find = 1
     not_find = 0
-    if not match_keyword(keyword, keyword_ignore, file):
-        return not_find
-    else:
+
+    if match_keyword(keyword, keyword_ignore, file):
         return find
+    else:
+        return not_find
+        
 
 def max_number(keyword, keyword_ignore,file, regex):
     lines = match_keyword(keyword, keyword_ignore, file)
@@ -60,7 +62,7 @@ def max_number(keyword, keyword_ignore,file, regex):
             if(float(number) > temp):
                 temp = float(number)
         except:
-            print("ERROR: Not find key word!!!")
+            print(f"ERROR: Not find key word!!!  {file.name}")
     return temp
 
 def get_keydata(abs_res_path, file, list_keywords, list_keyfunc, list_keyignore):

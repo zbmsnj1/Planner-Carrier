@@ -60,7 +60,7 @@ def save_folder_to_csv(problems_sum):
 
 
 
-def get_range(input_range,show_str, reverse:bool=False):
+def get_range(input_range,show_str, reverse:bool=False, true_zero: bool=False):
     regex1 = re.compile(r'\d+')  
     regex2 = re.compile(r'\d+-\d+')   
     if(isinstance(input_range, int)):
@@ -95,10 +95,14 @@ def get_range(input_range,show_str, reverse:bool=False):
             for s in list_s1:
                 #if the input include 0, return all domains
                 if(int(s)==0):
-                    if(isinstance(input_range, int)):
-                        list_sum = list_input_range                       
-                    elif(isinstance(input_range, list)):
-                        list_sum = input_range
+                    if true_zero:
+                        list_sum=[]
+                    else:
+                        if(isinstance(input_range, int)):
+                            list_sum = list_input_range                       
+                        elif(isinstance(input_range, list)):
+                            list_sum = input_range
+                    
                     return list_sum
                 #else, return selected domains
                 else:
@@ -130,7 +134,7 @@ def get_range(input_range,show_str, reverse:bool=False):
 
 #get the index of which domain users want to test
 def get_domain_index(rowcount):
-    show_str=('Please chose which domain you want to test:\n'+
+    show_str=('Please choose which domain you want to test:\n'+
               '0.All\n'+
               'a,b-c.From range'+' 1-'+ str(rowcount)+' select a,b-c domains\n')
     return get_range(rowcount,show_str)
@@ -142,7 +146,7 @@ def get_prob_size(domain_idxs, prob_sizes, domain_namess):
     new_domain_idxs=[]
     prob_sp=[]
     prob_ep=[]
-    show_str = ('Please select problems range for testing:\n'+ 
+    show_str = ('Please choose which domain you want to custom problem range of all selected domains:\n'+ 
                 '0.All problems for all selected domains\n'+
                 'a,b-c.Custom specific problems range for selected a,b-c domains'+ ',All problems for remaining domains\n')
     domain_prob_all =  get_range(domain_idxs,show_str, reverse=True)
@@ -308,41 +312,38 @@ if __name__ == '__main__':
 
     #create task
     #the virtual database in local
-    while True:
-        bm = pd.read_csv(utils.DB_BENCHMARKS_PATH) 
-        print('\n') 
-        print(bm.to_string(index=False))
+    bm = pd.read_csv(utils.DB_BENCHMARKS_PATH) 
+    print('\n') 
+    print(bm.to_string(index=False))
+    
+    domain_indexs = get_domain_index(len(bm)) 
+    domain_names_ = []
+    problem_sizes_ = []
+    print(f"Selected domains are: {domain_indexs}\n" )   
+
+    
+    for i in domain_indexs:
+        domain_names_.append(bm['domain_name'][i-1])
+        problem_sizes_.append(bm['problem_size'][i-1] )
+
+
+    prob_start_points_=[]
+    prob_end_points_=[]
+
+    (domain_indexs,prob_start_points_,prob_end_points_) = get_prob_size(domain_indexs, problem_sizes_, domain_names_)
+    
+    
+
+    (chosed_planners_,domain_indexs,prob_start_points_,prob_end_points_)  = get_planner(domain_indexs, prob_start_points_,prob_end_points_)
+    chosed_planners = chosed_planners + chosed_planners_
+
+    for i in domain_indexs:
+        domain_names.append(bm['domain_name'][i-1])
+    prob_start_points = prob_start_points + prob_start_points_
+    prob_end_points = prob_end_points + prob_end_points_
+    task_name=input('Please enter a task name(exclude ".csv") for saving your task data into a csv file:\n')
         
-        domain_indexs = get_domain_index(len(bm)) 
-        domain_names_ = []
-        problem_sizes_ = []
-        print(f"Selected domains are: {domain_indexs}\n" )   
-
-        
-        for i in domain_indexs:
-            domain_names_.append(bm['domain_name'][i-1])
-            problem_sizes_.append(bm['problem_size'][i-1] )
-
-
-        prob_start_points_=[]
-        prob_end_points_=[]
-
-        (domain_indexs,prob_start_points_,prob_end_points_) = get_prob_size(domain_indexs, problem_sizes_, domain_names_)
-        
-        
-
-        (chosed_planners_,domain_indexs,prob_start_points_,prob_end_points_)  = get_planner(domain_indexs, prob_start_points_,prob_end_points_)
-        chosed_planners = chosed_planners + chosed_planners_
-
-        for i in domain_indexs:
-            domain_names.append(bm['domain_name'][i-1])
-        prob_start_points = prob_start_points + prob_start_points_
-        prob_end_points = prob_end_points + prob_end_points_
-
-        input_str = '\nHave you finished entering data?\n 1.Yes\n 2.No, I wish to contiune\n'
-        if check_end(input_str):
-            task_name=input('Please enter a task name(exclude ".csv") for saving your task data into a csv file:\n')
-            break            
+    
                     
 
 
