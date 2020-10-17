@@ -1,25 +1,14 @@
 import pandas as pd
 import os 
 import re
-from enum import Enum
-from utils import get_project_root
+import planner
 #import mysql.connector
 #from mysql.connector import Error
+import utils
 
 
-PLANNERS_ID = [1,2]
-PLANNERS_NAME = ['prp','sat']
-ROOT_PATH = get_project_root()
-TASK_PATH = os.path.join(ROOT_PATH, "src/task")
-PATH_DB_PATH = os.path.join(ROOT_PATH, "Database/path")
-BENCHMARK_PATH= os.path.join(ROOT_PATH, "benchmarks")
-BENCHMARKS_DB_PATH = os.path.join(ROOT_PATH, "Database/benchmarks.csv")
-list_benchmarks=os.listdir(BENCHMARK_PATH)
+list_benchmarks=os.listdir(utils.BENCHMARK_PATH)
 list_benchmarks.sort()
-
-#this file is help users to decide 1.which domain 2.how many problems 3.which planner 
-#1.prp 2.sat
-
 
 def listdir(path, char_):  
     list_ = []
@@ -51,7 +40,7 @@ def save_file_path_to_csv(path, i):
     df.columns=['domain_path','problem_path']
     df.index += 1 
     benchmark_name = f"{list_benchmarks[i]}.csv"
-    file_path = os.path.join(PATH_DB_PATH, benchmark_name )
+    file_path = os.path.join(utils.DB_PATH_PATH, benchmark_name )
     df.to_csv(file_path, index_label='index')
 
     #print(df)
@@ -65,15 +54,15 @@ def save_folder_to_csv(problems_sum):
     df.columns=['domain_name','problem_size']
     df.index += 1 
    
-    df.to_csv(BENCHMARKS_DB_PATH, index_label='index')
+    df.to_csv(utils.DB_BENCHMARKS_PATH, index_label='index')
 
     #print(df)  
 
 
 
 def get_range(input_range,show_str, reverse:bool=False):
-    regex1 = re.compile('\d+')  
-    regex2 = re.compile('\d+-\d+')   
+    regex1 = re.compile(r'\d+')  
+    regex2 = re.compile(r'\d+-\d+')   
     if(isinstance(input_range, int)):
         list_input_range = []
         for i in range(1,input_range+1):   
@@ -199,12 +188,12 @@ def get_planner( d, s, e ):
     show_str = ('\nPlease select one planner for testing:\n 1.prp\n 2.sat\n'+
                  '0.All planners\n'+
                  'a,b-c.Select specific planners\n')
-    select_planners = get_range(PLANNERS_ID,show_str)
+    select_planners = get_range(planner.PLANNERS_ID,show_str)
     planners_=[]
 
     for planner_id in select_planners:
         for i in d:
-            planners_.append(PLANNERS_NAME[PLANNERS_ID.index(planner_id)])  
+            planners_.append(planner.PLANNERS_NAME[planner.PLANNERS_ID.index(planner_id)])  
         d_ = d_+ d
         s_ = s_+ s
         e_ = e_+ e
@@ -301,15 +290,15 @@ if __name__ == '__main__':
     chosed_planners = []
 
     #clear all database
-    list_csv =  os.listdir(PATH_DB_PATH)
+    list_csv =  os.listdir(utils.DB_PATH_PATH)
     for f in list_csv:
-        os.remove(os.path.join(PATH_DB_PATH, f))
+        os.remove(os.path.join(utils.DB_PATH_PATH, f))
 
     #update database before create task
     for i in range(len(list_benchmarks)):
         path = os.path.join("benchmarks", list_benchmarks[i])
     
-        os.chdir(ROOT_PATH)
+        os.chdir(utils.ROOT_PATH)
         prob_sum = save_file_path_to_csv(path, i)
         problems_sum.append(prob_sum)
 
@@ -320,7 +309,7 @@ if __name__ == '__main__':
     #create task
     #the virtual database in local
     while True:
-        bm = pd.read_csv(BENCHMARKS_DB_PATH) 
+        bm = pd.read_csv(utils.DB_BENCHMARKS_PATH) 
         print('\n') 
         print(bm.to_string(index=False))
         
@@ -364,7 +353,7 @@ if __name__ == '__main__':
     df = pd.DataFrame(csv_list, columns=[ 'domain_name', 'start_problem', 'end_problem', 'planner'])
     df.index += 1 
     task_name = f"{task_name}.csv"
-    task_path = os.path.join(TASK_PATH, task_name)
+    task_path = os.path.join(utils.TASK_PATH, task_name)
     df.to_csv(task_path, index_label='index')
 
     print(df)

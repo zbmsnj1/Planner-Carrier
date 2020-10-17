@@ -7,19 +7,9 @@ import multiprocessing
 import pandas as pd
 #from dask import dataframe as dd 
 from distutils.dir_util import copy_tree, remove_tree
-from utils import get_project_root
 import dask
 from dask.distributed import Client, SSHCluster, LocalCluster, progress
-
-#logging.basicConfig(level='DEBUG')
-
-
-
-
-ROOT_PATH = get_project_root()
-TASK_PATH = os.path.join(ROOT_PATH, 'src/task/')
-DB_PATH = os.path.join(ROOT_PATH, 'Database/path/')
-
+import utils
 
 
 def set_cluster(jobs_sum):
@@ -55,7 +45,8 @@ def set_cluster(jobs_sum):
 #get all problem and domain paths 
 def get_path(d, s, e, p):    
     for di,si,ei, planneri in zip(d,s,e,p):
-        df=pd.read_csv(f"{DB_PATH}{di}.csv")
+        di_file = f"{di}.csv"
+        df=pd.read_csv(os.path.join(utils.DB_PATH_PATH, di_file))
         for pi in range(int(si-1), int(ei)):
             if df['domain_path'].isnull().values.any():     #if any value is NaN, so the style is (domain p1) (domain p2) (domain p3) (domain p4)... not (d1 p1) (d2 p2) (d3 p3) (d4 p4)...               
                 all_d.append(df['domain_path'][0])
@@ -80,7 +71,7 @@ def get_files_path():
     parser = argparse.ArgumentParser()
     parser.add_argument("task")
     args = parser.parse_args()
-    task_path = os.path.join(TASK_PATH, args.task)
+    task_path = os.path.join(utils.TASK_PATH, args.task)
 
     try:
         df = pd.read_csv(task_path) 
