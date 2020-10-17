@@ -1,0 +1,676 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.010s CPU, 0.012s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.010s CPU, 0.006s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
+Preparing model... [0.020s CPU, 0.019s wall-clock]
+Generated 18 rules.
+Computing model... [0.080s CPU, 0.097s wall-clock]
+4607 relevant atoms
+4603 auxiliary atoms
+9210 final queue length
+10232 total queue pushes
+Completing instantiation... [0.070s CPU, 0.064s wall-clock]
+Instantiating: [0.180s CPU, 0.195s wall-clock]
+Computing fact groups...
+Finding invariants...
+3 initial candidates
+Finding invariants: [0.000s CPU, 0.001s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+1 uncovered facts
+Choosing groups: [0.000s CPU, 0.002s wall-clock]
+Building translation key... [0.000s CPU, 0.001s wall-clock]
+Computing fact groups: [0.010s CPU, 0.011s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.005s wall-clock]
+Translating task: [0.060s CPU, 0.067s wall-clock]
+511 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+0 operators removed
+1 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.008s wall-clock]
+Translator variables: 2
+Translator derived variables: 0
+Translator facts: 514
+Translator goal facts: 2
+Translator mutex groups: 1
+Translator total mutex groups size: 512
+Translator operators: 1534
+Translator axioms: 0
+Translator task size: 7677
+Translator peak memory: 39696 KB
+Writing output... [0.010s CPU, 0.013s wall-clock]
+Done! [0.290s CPU, 0.316s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+2 variables of 2 necessary
+0 of 1 mutex groups necessary.
+1534 of 1534 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 514
+Preprocessor derived variables: 0
+Preprocessor task size: 7165
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 2
+Bytes per state: 4
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Switch from bucket-based to heap-based queue at key = 100, num_pushes = 52
+Generated 1023 state(s).
+Dead ends: 0 state(s). (0 recorded)
+climb p0 (1)
+walk-on-beam_DETDUP_0 p0 p1 (1)
+walk-on-beam_DETDUP_0 p1 p2 (1)
+walk-on-beam_DETDUP_0 p2 p3 (1)
+walk-on-beam_DETDUP_0 p3 p4 (1)
+walk-on-beam_DETDUP_0 p4 p5 (1)
+walk-on-beam_DETDUP_0 p5 p6 (1)
+walk-on-beam_DETDUP_0 p6 p7 (1)
+walk-on-beam_DETDUP_0 p7 p8 (1)
+walk-on-beam_DETDUP_0 p8 p9 (1)
+walk-on-beam_DETDUP_0 p9 p10 (1)
+walk-on-beam_DETDUP_0 p10 p11 (1)
+walk-on-beam_DETDUP_0 p11 p12 (1)
+walk-on-beam_DETDUP_0 p12 p13 (1)
+walk-on-beam_DETDUP_0 p13 p14 (1)
+walk-on-beam_DETDUP_0 p14 p15 (1)
+walk-on-beam_DETDUP_0 p15 p16 (1)
+walk-on-beam_DETDUP_0 p16 p17 (1)
+walk-on-beam_DETDUP_0 p17 p18 (1)
+walk-on-beam_DETDUP_0 p18 p19 (1)
+walk-on-beam_DETDUP_0 p19 p20 (1)
+walk-on-beam_DETDUP_0 p20 p21 (1)
+walk-on-beam_DETDUP_0 p21 p22 (1)
+walk-on-beam_DETDUP_0 p22 p23 (1)
+walk-on-beam_DETDUP_0 p23 p24 (1)
+walk-on-beam_DETDUP_0 p24 p25 (1)
+walk-on-beam_DETDUP_0 p25 p26 (1)
+walk-on-beam_DETDUP_0 p26 p27 (1)
+walk-on-beam_DETDUP_0 p27 p28 (1)
+walk-on-beam_DETDUP_0 p28 p29 (1)
+walk-on-beam_DETDUP_0 p29 p30 (1)
+walk-on-beam_DETDUP_0 p30 p31 (1)
+walk-on-beam_DETDUP_0 p31 p32 (1)
+walk-on-beam_DETDUP_0 p32 p33 (1)
+walk-on-beam_DETDUP_0 p33 p34 (1)
+walk-on-beam_DETDUP_0 p34 p35 (1)
+walk-on-beam_DETDUP_0 p35 p36 (1)
+walk-on-beam_DETDUP_0 p36 p37 (1)
+walk-on-beam_DETDUP_0 p37 p38 (1)
+walk-on-beam_DETDUP_0 p38 p39 (1)
+walk-on-beam_DETDUP_0 p39 p40 (1)
+walk-on-beam_DETDUP_0 p40 p41 (1)
+walk-on-beam_DETDUP_0 p41 p42 (1)
+walk-on-beam_DETDUP_0 p42 p43 (1)
+walk-on-beam_DETDUP_0 p43 p44 (1)
+walk-on-beam_DETDUP_0 p44 p45 (1)
+walk-on-beam_DETDUP_0 p45 p46 (1)
+walk-on-beam_DETDUP_0 p46 p47 (1)
+walk-on-beam_DETDUP_0 p47 p48 (1)
+walk-on-beam_DETDUP_0 p48 p49 (1)
+walk-on-beam_DETDUP_0 p49 p50 (1)
+walk-on-beam_DETDUP_0 p50 p51 (1)
+walk-on-beam_DETDUP_0 p51 p52 (1)
+walk-on-beam_DETDUP_0 p52 p53 (1)
+walk-on-beam_DETDUP_0 p53 p54 (1)
+walk-on-beam_DETDUP_0 p54 p55 (1)
+walk-on-beam_DETDUP_0 p55 p56 (1)
+walk-on-beam_DETDUP_0 p56 p57 (1)
+walk-on-beam_DETDUP_0 p57 p58 (1)
+walk-on-beam_DETDUP_0 p58 p59 (1)
+walk-on-beam_DETDUP_0 p59 p60 (1)
+walk-on-beam_DETDUP_0 p60 p61 (1)
+walk-on-beam_DETDUP_0 p61 p62 (1)
+walk-on-beam_DETDUP_0 p62 p63 (1)
+walk-on-beam_DETDUP_0 p63 p64 (1)
+walk-on-beam_DETDUP_0 p64 p65 (1)
+walk-on-beam_DETDUP_0 p65 p66 (1)
+walk-on-beam_DETDUP_0 p66 p67 (1)
+walk-on-beam_DETDUP_0 p67 p68 (1)
+walk-on-beam_DETDUP_0 p68 p69 (1)
+walk-on-beam_DETDUP_0 p69 p70 (1)
+walk-on-beam_DETDUP_0 p70 p71 (1)
+walk-on-beam_DETDUP_0 p71 p72 (1)
+walk-on-beam_DETDUP_0 p72 p73 (1)
+walk-on-beam_DETDUP_0 p73 p74 (1)
+walk-on-beam_DETDUP_0 p74 p75 (1)
+walk-on-beam_DETDUP_0 p75 p76 (1)
+walk-on-beam_DETDUP_0 p76 p77 (1)
+walk-on-beam_DETDUP_0 p77 p78 (1)
+walk-on-beam_DETDUP_0 p78 p79 (1)
+walk-on-beam_DETDUP_0 p79 p80 (1)
+walk-on-beam_DETDUP_0 p80 p81 (1)
+walk-on-beam_DETDUP_0 p81 p82 (1)
+walk-on-beam_DETDUP_0 p82 p83 (1)
+walk-on-beam_DETDUP_0 p83 p84 (1)
+walk-on-beam_DETDUP_0 p84 p85 (1)
+walk-on-beam_DETDUP_0 p85 p86 (1)
+walk-on-beam_DETDUP_0 p86 p87 (1)
+walk-on-beam_DETDUP_0 p87 p88 (1)
+walk-on-beam_DETDUP_0 p88 p89 (1)
+walk-on-beam_DETDUP_0 p89 p90 (1)
+walk-on-beam_DETDUP_0 p90 p91 (1)
+walk-on-beam_DETDUP_0 p91 p92 (1)
+walk-on-beam_DETDUP_0 p92 p93 (1)
+walk-on-beam_DETDUP_0 p93 p94 (1)
+walk-on-beam_DETDUP_0 p94 p95 (1)
+walk-on-beam_DETDUP_0 p95 p96 (1)
+walk-on-beam_DETDUP_0 p96 p97 (1)
+walk-on-beam_DETDUP_0 p97 p98 (1)
+walk-on-beam_DETDUP_0 p98 p99 (1)
+walk-on-beam_DETDUP_0 p99 p100 (1)
+walk-on-beam_DETDUP_0 p100 p101 (1)
+walk-on-beam_DETDUP_0 p101 p102 (1)
+walk-on-beam_DETDUP_0 p102 p103 (1)
+walk-on-beam_DETDUP_0 p103 p104 (1)
+walk-on-beam_DETDUP_0 p104 p105 (1)
+walk-on-beam_DETDUP_0 p105 p106 (1)
+walk-on-beam_DETDUP_0 p106 p107 (1)
+walk-on-beam_DETDUP_0 p107 p108 (1)
+walk-on-beam_DETDUP_0 p108 p109 (1)
+walk-on-beam_DETDUP_0 p109 p110 (1)
+walk-on-beam_DETDUP_0 p110 p111 (1)
+walk-on-beam_DETDUP_0 p111 p112 (1)
+walk-on-beam_DETDUP_0 p112 p113 (1)
+walk-on-beam_DETDUP_0 p113 p114 (1)
+walk-on-beam_DETDUP_0 p114 p115 (1)
+walk-on-beam_DETDUP_0 p115 p116 (1)
+walk-on-beam_DETDUP_0 p116 p117 (1)
+walk-on-beam_DETDUP_0 p117 p118 (1)
+walk-on-beam_DETDUP_0 p118 p119 (1)
+walk-on-beam_DETDUP_0 p119 p120 (1)
+walk-on-beam_DETDUP_0 p120 p121 (1)
+walk-on-beam_DETDUP_0 p121 p122 (1)
+walk-on-beam_DETDUP_0 p122 p123 (1)
+walk-on-beam_DETDUP_0 p123 p124 (1)
+walk-on-beam_DETDUP_0 p124 p125 (1)
+walk-on-beam_DETDUP_0 p125 p126 (1)
+walk-on-beam_DETDUP_0 p126 p127 (1)
+walk-on-beam_DETDUP_0 p127 p128 (1)
+walk-on-beam_DETDUP_0 p128 p129 (1)
+walk-on-beam_DETDUP_0 p129 p130 (1)
+walk-on-beam_DETDUP_0 p130 p131 (1)
+walk-on-beam_DETDUP_0 p131 p132 (1)
+walk-on-beam_DETDUP_0 p132 p133 (1)
+walk-on-beam_DETDUP_0 p133 p134 (1)
+walk-on-beam_DETDUP_0 p134 p135 (1)
+walk-on-beam_DETDUP_0 p135 p136 (1)
+walk-on-beam_DETDUP_0 p136 p137 (1)
+walk-on-beam_DETDUP_0 p137 p138 (1)
+walk-on-beam_DETDUP_0 p138 p139 (1)
+walk-on-beam_DETDUP_0 p139 p140 (1)
+walk-on-beam_DETDUP_0 p140 p141 (1)
+walk-on-beam_DETDUP_0 p141 p142 (1)
+walk-on-beam_DETDUP_0 p142 p143 (1)
+walk-on-beam_DETDUP_0 p143 p144 (1)
+walk-on-beam_DETDUP_0 p144 p145 (1)
+walk-on-beam_DETDUP_0 p145 p146 (1)
+walk-on-beam_DETDUP_0 p146 p147 (1)
+walk-on-beam_DETDUP_0 p147 p148 (1)
+walk-on-beam_DETDUP_0 p148 p149 (1)
+walk-on-beam_DETDUP_0 p149 p150 (1)
+walk-on-beam_DETDUP_0 p150 p151 (1)
+walk-on-beam_DETDUP_0 p151 p152 (1)
+walk-on-beam_DETDUP_0 p152 p153 (1)
+walk-on-beam_DETDUP_0 p153 p154 (1)
+walk-on-beam_DETDUP_0 p154 p155 (1)
+walk-on-beam_DETDUP_0 p155 p156 (1)
+walk-on-beam_DETDUP_0 p156 p157 (1)
+walk-on-beam_DETDUP_0 p157 p158 (1)
+walk-on-beam_DETDUP_0 p158 p159 (1)
+walk-on-beam_DETDUP_0 p159 p160 (1)
+walk-on-beam_DETDUP_0 p160 p161 (1)
+walk-on-beam_DETDUP_0 p161 p162 (1)
+walk-on-beam_DETDUP_0 p162 p163 (1)
+walk-on-beam_DETDUP_0 p163 p164 (1)
+walk-on-beam_DETDUP_0 p164 p165 (1)
+walk-on-beam_DETDUP_0 p165 p166 (1)
+walk-on-beam_DETDUP_0 p166 p167 (1)
+walk-on-beam_DETDUP_0 p167 p168 (1)
+walk-on-beam_DETDUP_0 p168 p169 (1)
+walk-on-beam_DETDUP_0 p169 p170 (1)
+walk-on-beam_DETDUP_0 p170 p171 (1)
+walk-on-beam_DETDUP_0 p171 p172 (1)
+walk-on-beam_DETDUP_0 p172 p173 (1)
+walk-on-beam_DETDUP_0 p173 p174 (1)
+walk-on-beam_DETDUP_0 p174 p175 (1)
+walk-on-beam_DETDUP_0 p175 p176 (1)
+walk-on-beam_DETDUP_0 p176 p177 (1)
+walk-on-beam_DETDUP_0 p177 p178 (1)
+walk-on-beam_DETDUP_0 p178 p179 (1)
+walk-on-beam_DETDUP_0 p179 p180 (1)
+walk-on-beam_DETDUP_0 p180 p181 (1)
+walk-on-beam_DETDUP_0 p181 p182 (1)
+walk-on-beam_DETDUP_0 p182 p183 (1)
+walk-on-beam_DETDUP_0 p183 p184 (1)
+walk-on-beam_DETDUP_0 p184 p185 (1)
+walk-on-beam_DETDUP_0 p185 p186 (1)
+walk-on-beam_DETDUP_0 p186 p187 (1)
+walk-on-beam_DETDUP_0 p187 p188 (1)
+walk-on-beam_DETDUP_0 p188 p189 (1)
+walk-on-beam_DETDUP_0 p189 p190 (1)
+walk-on-beam_DETDUP_0 p190 p191 (1)
+walk-on-beam_DETDUP_0 p191 p192 (1)
+walk-on-beam_DETDUP_0 p192 p193 (1)
+walk-on-beam_DETDUP_0 p193 p194 (1)
+walk-on-beam_DETDUP_0 p194 p195 (1)
+walk-on-beam_DETDUP_0 p195 p196 (1)
+walk-on-beam_DETDUP_0 p196 p197 (1)
+walk-on-beam_DETDUP_0 p197 p198 (1)
+walk-on-beam_DETDUP_0 p198 p199 (1)
+walk-on-beam_DETDUP_0 p199 p200 (1)
+walk-on-beam_DETDUP_0 p200 p201 (1)
+walk-on-beam_DETDUP_0 p201 p202 (1)
+walk-on-beam_DETDUP_0 p202 p203 (1)
+walk-on-beam_DETDUP_0 p203 p204 (1)
+walk-on-beam_DETDUP_0 p204 p205 (1)
+walk-on-beam_DETDUP_0 p205 p206 (1)
+walk-on-beam_DETDUP_0 p206 p207 (1)
+walk-on-beam_DETDUP_0 p207 p208 (1)
+walk-on-beam_DETDUP_0 p208 p209 (1)
+walk-on-beam_DETDUP_0 p209 p210 (1)
+walk-on-beam_DETDUP_0 p210 p211 (1)
+walk-on-beam_DETDUP_0 p211 p212 (1)
+walk-on-beam_DETDUP_0 p212 p213 (1)
+walk-on-beam_DETDUP_0 p213 p214 (1)
+walk-on-beam_DETDUP_0 p214 p215 (1)
+walk-on-beam_DETDUP_0 p215 p216 (1)
+walk-on-beam_DETDUP_0 p216 p217 (1)
+walk-on-beam_DETDUP_0 p217 p218 (1)
+walk-on-beam_DETDUP_0 p218 p219 (1)
+walk-on-beam_DETDUP_0 p219 p220 (1)
+walk-on-beam_DETDUP_0 p220 p221 (1)
+walk-on-beam_DETDUP_0 p221 p222 (1)
+walk-on-beam_DETDUP_0 p222 p223 (1)
+walk-on-beam_DETDUP_0 p223 p224 (1)
+walk-on-beam_DETDUP_0 p224 p225 (1)
+walk-on-beam_DETDUP_0 p225 p226 (1)
+walk-on-beam_DETDUP_0 p226 p227 (1)
+walk-on-beam_DETDUP_0 p227 p228 (1)
+walk-on-beam_DETDUP_0 p228 p229 (1)
+walk-on-beam_DETDUP_0 p229 p230 (1)
+walk-on-beam_DETDUP_0 p230 p231 (1)
+walk-on-beam_DETDUP_0 p231 p232 (1)
+walk-on-beam_DETDUP_0 p232 p233 (1)
+walk-on-beam_DETDUP_0 p233 p234 (1)
+walk-on-beam_DETDUP_0 p234 p235 (1)
+walk-on-beam_DETDUP_0 p235 p236 (1)
+walk-on-beam_DETDUP_0 p236 p237 (1)
+walk-on-beam_DETDUP_0 p237 p238 (1)
+walk-on-beam_DETDUP_0 p238 p239 (1)
+walk-on-beam_DETDUP_0 p239 p240 (1)
+walk-on-beam_DETDUP_0 p240 p241 (1)
+walk-on-beam_DETDUP_0 p241 p242 (1)
+walk-on-beam_DETDUP_0 p242 p243 (1)
+walk-on-beam_DETDUP_0 p243 p244 (1)
+walk-on-beam_DETDUP_0 p244 p245 (1)
+walk-on-beam_DETDUP_0 p245 p246 (1)
+walk-on-beam_DETDUP_0 p246 p247 (1)
+walk-on-beam_DETDUP_0 p247 p248 (1)
+walk-on-beam_DETDUP_0 p248 p249 (1)
+walk-on-beam_DETDUP_0 p249 p250 (1)
+walk-on-beam_DETDUP_0 p250 p251 (1)
+walk-on-beam_DETDUP_0 p251 p252 (1)
+walk-on-beam_DETDUP_0 p252 p253 (1)
+walk-on-beam_DETDUP_0 p253 p254 (1)
+walk-on-beam_DETDUP_0 p254 p255 (1)
+walk-on-beam_DETDUP_0 p255 p256 (1)
+walk-on-beam_DETDUP_0 p256 p257 (1)
+walk-on-beam_DETDUP_0 p257 p258 (1)
+walk-on-beam_DETDUP_0 p258 p259 (1)
+walk-on-beam_DETDUP_0 p259 p260 (1)
+walk-on-beam_DETDUP_0 p260 p261 (1)
+walk-on-beam_DETDUP_0 p261 p262 (1)
+walk-on-beam_DETDUP_0 p262 p263 (1)
+walk-on-beam_DETDUP_0 p263 p264 (1)
+walk-on-beam_DETDUP_0 p264 p265 (1)
+walk-on-beam_DETDUP_0 p265 p266 (1)
+walk-on-beam_DETDUP_0 p266 p267 (1)
+walk-on-beam_DETDUP_0 p267 p268 (1)
+walk-on-beam_DETDUP_0 p268 p269 (1)
+walk-on-beam_DETDUP_0 p269 p270 (1)
+walk-on-beam_DETDUP_0 p270 p271 (1)
+walk-on-beam_DETDUP_0 p271 p272 (1)
+walk-on-beam_DETDUP_0 p272 p273 (1)
+walk-on-beam_DETDUP_0 p273 p274 (1)
+walk-on-beam_DETDUP_0 p274 p275 (1)
+walk-on-beam_DETDUP_0 p275 p276 (1)
+walk-on-beam_DETDUP_0 p276 p277 (1)
+walk-on-beam_DETDUP_0 p277 p278 (1)
+walk-on-beam_DETDUP_0 p278 p279 (1)
+walk-on-beam_DETDUP_0 p279 p280 (1)
+walk-on-beam_DETDUP_0 p280 p281 (1)
+walk-on-beam_DETDUP_0 p281 p282 (1)
+walk-on-beam_DETDUP_0 p282 p283 (1)
+walk-on-beam_DETDUP_0 p283 p284 (1)
+walk-on-beam_DETDUP_0 p284 p285 (1)
+walk-on-beam_DETDUP_0 p285 p286 (1)
+walk-on-beam_DETDUP_0 p286 p287 (1)
+walk-on-beam_DETDUP_0 p287 p288 (1)
+walk-on-beam_DETDUP_0 p288 p289 (1)
+walk-on-beam_DETDUP_0 p289 p290 (1)
+walk-on-beam_DETDUP_0 p290 p291 (1)
+walk-on-beam_DETDUP_0 p291 p292 (1)
+walk-on-beam_DETDUP_0 p292 p293 (1)
+walk-on-beam_DETDUP_0 p293 p294 (1)
+walk-on-beam_DETDUP_0 p294 p295 (1)
+walk-on-beam_DETDUP_0 p295 p296 (1)
+walk-on-beam_DETDUP_0 p296 p297 (1)
+walk-on-beam_DETDUP_0 p297 p298 (1)
+walk-on-beam_DETDUP_0 p298 p299 (1)
+walk-on-beam_DETDUP_0 p299 p300 (1)
+walk-on-beam_DETDUP_0 p300 p301 (1)
+walk-on-beam_DETDUP_0 p301 p302 (1)
+walk-on-beam_DETDUP_0 p302 p303 (1)
+walk-on-beam_DETDUP_0 p303 p304 (1)
+walk-on-beam_DETDUP_0 p304 p305 (1)
+walk-on-beam_DETDUP_0 p305 p306 (1)
+walk-on-beam_DETDUP_0 p306 p307 (1)
+walk-on-beam_DETDUP_0 p307 p308 (1)
+walk-on-beam_DETDUP_0 p308 p309 (1)
+walk-on-beam_DETDUP_0 p309 p310 (1)
+walk-on-beam_DETDUP_0 p310 p311 (1)
+walk-on-beam_DETDUP_0 p311 p312 (1)
+walk-on-beam_DETDUP_0 p312 p313 (1)
+walk-on-beam_DETDUP_0 p313 p314 (1)
+walk-on-beam_DETDUP_0 p314 p315 (1)
+walk-on-beam_DETDUP_0 p315 p316 (1)
+walk-on-beam_DETDUP_0 p316 p317 (1)
+walk-on-beam_DETDUP_0 p317 p318 (1)
+walk-on-beam_DETDUP_0 p318 p319 (1)
+walk-on-beam_DETDUP_0 p319 p320 (1)
+walk-on-beam_DETDUP_0 p320 p321 (1)
+walk-on-beam_DETDUP_0 p321 p322 (1)
+walk-on-beam_DETDUP_0 p322 p323 (1)
+walk-on-beam_DETDUP_0 p323 p324 (1)
+walk-on-beam_DETDUP_0 p324 p325 (1)
+walk-on-beam_DETDUP_0 p325 p326 (1)
+walk-on-beam_DETDUP_0 p326 p327 (1)
+walk-on-beam_DETDUP_0 p327 p328 (1)
+walk-on-beam_DETDUP_0 p328 p329 (1)
+walk-on-beam_DETDUP_0 p329 p330 (1)
+walk-on-beam_DETDUP_0 p330 p331 (1)
+walk-on-beam_DETDUP_0 p331 p332 (1)
+walk-on-beam_DETDUP_0 p332 p333 (1)
+walk-on-beam_DETDUP_0 p333 p334 (1)
+walk-on-beam_DETDUP_0 p334 p335 (1)
+walk-on-beam_DETDUP_0 p335 p336 (1)
+walk-on-beam_DETDUP_0 p336 p337 (1)
+walk-on-beam_DETDUP_0 p337 p338 (1)
+walk-on-beam_DETDUP_0 p338 p339 (1)
+walk-on-beam_DETDUP_0 p339 p340 (1)
+walk-on-beam_DETDUP_0 p340 p341 (1)
+walk-on-beam_DETDUP_0 p341 p342 (1)
+walk-on-beam_DETDUP_0 p342 p343 (1)
+walk-on-beam_DETDUP_0 p343 p344 (1)
+walk-on-beam_DETDUP_0 p344 p345 (1)
+walk-on-beam_DETDUP_0 p345 p346 (1)
+walk-on-beam_DETDUP_0 p346 p347 (1)
+walk-on-beam_DETDUP_0 p347 p348 (1)
+walk-on-beam_DETDUP_0 p348 p349 (1)
+walk-on-beam_DETDUP_0 p349 p350 (1)
+walk-on-beam_DETDUP_0 p350 p351 (1)
+walk-on-beam_DETDUP_0 p351 p352 (1)
+walk-on-beam_DETDUP_0 p352 p353 (1)
+walk-on-beam_DETDUP_0 p353 p354 (1)
+walk-on-beam_DETDUP_0 p354 p355 (1)
+walk-on-beam_DETDUP_0 p355 p356 (1)
+walk-on-beam_DETDUP_0 p356 p357 (1)
+walk-on-beam_DETDUP_0 p357 p358 (1)
+walk-on-beam_DETDUP_0 p358 p359 (1)
+walk-on-beam_DETDUP_0 p359 p360 (1)
+walk-on-beam_DETDUP_0 p360 p361 (1)
+walk-on-beam_DETDUP_0 p361 p362 (1)
+walk-on-beam_DETDUP_0 p362 p363 (1)
+walk-on-beam_DETDUP_0 p363 p364 (1)
+walk-on-beam_DETDUP_0 p364 p365 (1)
+walk-on-beam_DETDUP_0 p365 p366 (1)
+walk-on-beam_DETDUP_0 p366 p367 (1)
+walk-on-beam_DETDUP_0 p367 p368 (1)
+walk-on-beam_DETDUP_0 p368 p369 (1)
+walk-on-beam_DETDUP_0 p369 p370 (1)
+walk-on-beam_DETDUP_0 p370 p371 (1)
+walk-on-beam_DETDUP_0 p371 p372 (1)
+walk-on-beam_DETDUP_0 p372 p373 (1)
+walk-on-beam_DETDUP_0 p373 p374 (1)
+walk-on-beam_DETDUP_0 p374 p375 (1)
+walk-on-beam_DETDUP_0 p375 p376 (1)
+walk-on-beam_DETDUP_0 p376 p377 (1)
+walk-on-beam_DETDUP_0 p377 p378 (1)
+walk-on-beam_DETDUP_0 p378 p379 (1)
+walk-on-beam_DETDUP_0 p379 p380 (1)
+walk-on-beam_DETDUP_0 p380 p381 (1)
+walk-on-beam_DETDUP_0 p381 p382 (1)
+walk-on-beam_DETDUP_0 p382 p383 (1)
+walk-on-beam_DETDUP_0 p383 p384 (1)
+walk-on-beam_DETDUP_0 p384 p385 (1)
+walk-on-beam_DETDUP_0 p385 p386 (1)
+walk-on-beam_DETDUP_0 p386 p387 (1)
+walk-on-beam_DETDUP_0 p387 p388 (1)
+walk-on-beam_DETDUP_0 p388 p389 (1)
+walk-on-beam_DETDUP_0 p389 p390 (1)
+walk-on-beam_DETDUP_0 p390 p391 (1)
+walk-on-beam_DETDUP_0 p391 p392 (1)
+walk-on-beam_DETDUP_0 p392 p393 (1)
+walk-on-beam_DETDUP_0 p393 p394 (1)
+walk-on-beam_DETDUP_0 p394 p395 (1)
+walk-on-beam_DETDUP_0 p395 p396 (1)
+walk-on-beam_DETDUP_0 p396 p397 (1)
+walk-on-beam_DETDUP_0 p397 p398 (1)
+walk-on-beam_DETDUP_0 p398 p399 (1)
+walk-on-beam_DETDUP_0 p399 p400 (1)
+walk-on-beam_DETDUP_0 p400 p401 (1)
+walk-on-beam_DETDUP_0 p401 p402 (1)
+walk-on-beam_DETDUP_0 p402 p403 (1)
+walk-on-beam_DETDUP_0 p403 p404 (1)
+walk-on-beam_DETDUP_0 p404 p405 (1)
+walk-on-beam_DETDUP_0 p405 p406 (1)
+walk-on-beam_DETDUP_0 p406 p407 (1)
+walk-on-beam_DETDUP_0 p407 p408 (1)
+walk-on-beam_DETDUP_0 p408 p409 (1)
+walk-on-beam_DETDUP_0 p409 p410 (1)
+walk-on-beam_DETDUP_0 p410 p411 (1)
+walk-on-beam_DETDUP_0 p411 p412 (1)
+walk-on-beam_DETDUP_0 p412 p413 (1)
+walk-on-beam_DETDUP_0 p413 p414 (1)
+walk-on-beam_DETDUP_0 p414 p415 (1)
+walk-on-beam_DETDUP_0 p415 p416 (1)
+walk-on-beam_DETDUP_0 p416 p417 (1)
+walk-on-beam_DETDUP_0 p417 p418 (1)
+walk-on-beam_DETDUP_0 p418 p419 (1)
+walk-on-beam_DETDUP_0 p419 p420 (1)
+walk-on-beam_DETDUP_0 p420 p421 (1)
+walk-on-beam_DETDUP_0 p421 p422 (1)
+walk-on-beam_DETDUP_0 p422 p423 (1)
+walk-on-beam_DETDUP_0 p423 p424 (1)
+walk-on-beam_DETDUP_0 p424 p425 (1)
+walk-on-beam_DETDUP_0 p425 p426 (1)
+walk-on-beam_DETDUP_0 p426 p427 (1)
+walk-on-beam_DETDUP_0 p427 p428 (1)
+walk-on-beam_DETDUP_0 p428 p429 (1)
+walk-on-beam_DETDUP_0 p429 p430 (1)
+walk-on-beam_DETDUP_0 p430 p431 (1)
+walk-on-beam_DETDUP_0 p431 p432 (1)
+walk-on-beam_DETDUP_0 p432 p433 (1)
+walk-on-beam_DETDUP_0 p433 p434 (1)
+walk-on-beam_DETDUP_0 p434 p435 (1)
+walk-on-beam_DETDUP_0 p435 p436 (1)
+walk-on-beam_DETDUP_0 p436 p437 (1)
+walk-on-beam_DETDUP_0 p437 p438 (1)
+walk-on-beam_DETDUP_0 p438 p439 (1)
+walk-on-beam_DETDUP_0 p439 p440 (1)
+walk-on-beam_DETDUP_0 p440 p441 (1)
+walk-on-beam_DETDUP_0 p441 p442 (1)
+walk-on-beam_DETDUP_0 p442 p443 (1)
+walk-on-beam_DETDUP_0 p443 p444 (1)
+walk-on-beam_DETDUP_0 p444 p445 (1)
+walk-on-beam_DETDUP_0 p445 p446 (1)
+walk-on-beam_DETDUP_0 p446 p447 (1)
+walk-on-beam_DETDUP_0 p447 p448 (1)
+walk-on-beam_DETDUP_0 p448 p449 (1)
+walk-on-beam_DETDUP_0 p449 p450 (1)
+walk-on-beam_DETDUP_0 p450 p451 (1)
+walk-on-beam_DETDUP_0 p451 p452 (1)
+walk-on-beam_DETDUP_0 p452 p453 (1)
+walk-on-beam_DETDUP_0 p453 p454 (1)
+walk-on-beam_DETDUP_0 p454 p455 (1)
+walk-on-beam_DETDUP_0 p455 p456 (1)
+walk-on-beam_DETDUP_0 p456 p457 (1)
+walk-on-beam_DETDUP_0 p457 p458 (1)
+walk-on-beam_DETDUP_0 p458 p459 (1)
+walk-on-beam_DETDUP_0 p459 p460 (1)
+walk-on-beam_DETDUP_0 p460 p461 (1)
+walk-on-beam_DETDUP_0 p461 p462 (1)
+walk-on-beam_DETDUP_0 p462 p463 (1)
+walk-on-beam_DETDUP_0 p463 p464 (1)
+walk-on-beam_DETDUP_0 p464 p465 (1)
+walk-on-beam_DETDUP_0 p465 p466 (1)
+walk-on-beam_DETDUP_0 p466 p467 (1)
+walk-on-beam_DETDUP_0 p467 p468 (1)
+walk-on-beam_DETDUP_0 p468 p469 (1)
+walk-on-beam_DETDUP_0 p469 p470 (1)
+walk-on-beam_DETDUP_0 p470 p471 (1)
+walk-on-beam_DETDUP_0 p471 p472 (1)
+walk-on-beam_DETDUP_0 p472 p473 (1)
+walk-on-beam_DETDUP_0 p473 p474 (1)
+walk-on-beam_DETDUP_0 p474 p475 (1)
+walk-on-beam_DETDUP_0 p475 p476 (1)
+walk-on-beam_DETDUP_0 p476 p477 (1)
+walk-on-beam_DETDUP_0 p477 p478 (1)
+walk-on-beam_DETDUP_0 p478 p479 (1)
+walk-on-beam_DETDUP_0 p479 p480 (1)
+walk-on-beam_DETDUP_0 p480 p481 (1)
+walk-on-beam_DETDUP_0 p481 p482 (1)
+walk-on-beam_DETDUP_0 p482 p483 (1)
+walk-on-beam_DETDUP_0 p483 p484 (1)
+walk-on-beam_DETDUP_0 p484 p485 (1)
+walk-on-beam_DETDUP_0 p485 p486 (1)
+walk-on-beam_DETDUP_0 p486 p487 (1)
+walk-on-beam_DETDUP_0 p487 p488 (1)
+walk-on-beam_DETDUP_0 p488 p489 (1)
+walk-on-beam_DETDUP_0 p489 p490 (1)
+walk-on-beam_DETDUP_0 p490 p491 (1)
+walk-on-beam_DETDUP_0 p491 p492 (1)
+walk-on-beam_DETDUP_0 p492 p493 (1)
+walk-on-beam_DETDUP_0 p493 p494 (1)
+walk-on-beam_DETDUP_0 p494 p495 (1)
+walk-on-beam_DETDUP_0 p495 p496 (1)
+walk-on-beam_DETDUP_0 p496 p497 (1)
+walk-on-beam_DETDUP_0 p497 p498 (1)
+walk-on-beam_DETDUP_0 p498 p499 (1)
+walk-on-beam_DETDUP_0 p499 p500 (1)
+walk-on-beam_DETDUP_0 p500 p501 (1)
+walk-on-beam_DETDUP_0 p501 p502 (1)
+walk-on-beam_DETDUP_0 p502 p503 (1)
+walk-on-beam_DETDUP_0 p503 p504 (1)
+walk-on-beam_DETDUP_0 p504 p505 (1)
+walk-on-beam_DETDUP_0 p505 p506 (1)
+walk-on-beam_DETDUP_0 p506 p507 (1)
+walk-on-beam_DETDUP_0 p507 p508 (1)
+walk-on-beam_DETDUP_0 p508 p509 (1)
+walk-on-beam_DETDUP_0 p509 p510 (1)
+walk-on-beam_DETDUP_0 p510 p511 (1)
+Plan length: 512 step(s).
+Plan cost: 512
+Initial search time: 0.02s
+Initial total time: 0.04s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+Generated 101 state(s).
+Dead ends: 0 state(s).
+Generated 511 state(s).
+Dead ends: 0 state(s). (0 recorded)
+
+Could not close 0 of 1 open leaf states.
+Investigated 1536 states for the strong cyclic plan.
+Went through another policy of score 0
+
+Could not close 0 of 0 open leaf states.
+Investigated 1 states for the strong cyclic plan.
+Marking policy strong cyclic.
+Went through another policy of score 1
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 1000 +/- 0
+                       Replans: 0 +/- 0
+                       Actions: 1000 +/- 0
+             Recorded Deadends: 0
+            State-Action Pairs: 1024
+  Forbidden State-Action Pairs: 0
+               Strongly Cyclic: True
+                  Policy Score: 1
+                     Succeeded: 0 / 1
+ Depth limit (of 1000) reached: 1 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 0.06s
+           Policy Construction: 0s
+ Evaluating the policy quality: 11.12s
+              Using the policy: 6.06s
+          Just-in-case Repairs: 12.6s
+                Simulator time: 0s
+                    Total time: 13.28s
+
+
+
+Dumping the policy and fsaps...
+Strong cyclic plan found.
+Peak memory: 6552 KB

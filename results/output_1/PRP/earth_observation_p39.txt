@@ -1,0 +1,254 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.010s CPU, 0.010s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program...
+Trivial rules: Converted to facts.
+Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
+Preparing model... [0.010s CPU, 0.009s wall-clock]
+Generated 22 rules.
+Computing model... [0.050s CPU, 0.050s wall-clock]
+1108 relevant atoms
+1438 auxiliary atoms
+2546 final queue length
+2771 total queue pushes
+Completing instantiation... [0.020s CPU, 0.023s wall-clock]
+Instantiating: [0.090s CPU, 0.093s wall-clock]
+Computing fact groups...
+Finding invariants...
+4 initial candidates
+Finding invariants: [0.000s CPU, 0.002s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+12 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.006s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.002s wall-clock]
+Translating task: [0.010s CPU, 0.014s wall-clock]
+12 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+0 operators removed
+1 propositions removed
+Detecting unreachable propositions: [0.000s CPU, 0.002s wall-clock]
+Translator variables: 13
+Translator derived variables: 0
+Translator facts: 134
+Translator goal facts: 12
+Translator mutex groups: 1
+Translator total mutex groups size: 110
+Translator operators: 334
+Translator axioms: 0
+Translator task size: 1307
+Translator peak memory: 31268 KB
+Writing output... [0.000s CPU, 0.016s wall-clock]
+Done! [0.120s CPU, 0.142s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+13 variables of 13 necessary
+0 of 1 mutex groups necessary.
+334 of 334 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 134
+Preprocessor derived variables: 0
+Preprocessor task size: 1197
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 13
+Bytes per state: 4
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 530 state(s).
+Dead ends: 0 state(s). (0 recorded)
+slew p16 p27 north-east (1)
+slew p27 p36 south-east (1)
+slew p36 p47 north-east (1)
+slew p47 p56 south-east (1)
+slew p56 p66 (1)
+take-image_DETDUP_0 p66 p76 (1)
+slew p76 p87 north-east (1)
+take-image_DETDUP_0 p87 p97 (1)
+slew p97 p108 north-east (1)
+slew p108 p18 (1)
+take-image_DETDUP_0 p18 p28 (1)
+take-image_DETDUP_0 p28 p38 (1)
+slew p38 p47 south-east (1)
+slew p47 p56 south-east (1)
+slew p56 p67 north-east (1)
+slew p67 p78 north-east (1)
+slew p78 p89 north-east (1)
+take-image_DETDUP_0 p89 p99 (1)
+slew p99 p109 (1)
+slew p109 p19 (1)
+slew p19 p210 north-east (1)
+slew p210 p39 south-east (1)
+take-image_DETDUP_0 p39 p49 (1)
+take-image_DETDUP_0 p49 p59 (1)
+slew p59 p610 north-east (1)
+slew p610 p79 south-east (1)
+slew p79 p88 south-east (1)
+slew p88 p97 south-east (1)
+slew p97 p106 south-east (1)
+slew p106 p15 south-east (1)
+slew p15 p25 (1)
+slew p25 p34 south-east (1)
+slew p34 p43 south-east (1)
+slew p43 p54 north-east (1)
+take-image_DETDUP_0 p54 p64 (1)
+slew p64 p75 north-east (1)
+slew p75 p86 north-east (1)
+slew p86 p97 north-east (1)
+slew p97 p108 north-east (1)
+slew p108 p19 north-east (1)
+slew p19 p210 north-east (1)
+slew p210 p311 north-east (1)
+take-image_DETDUP_0 p311 p411 (1)
+slew p411 p510 south-east (1)
+slew p510 p69 south-east (1)
+slew p69 p78 south-east (1)
+slew p78 p87 south-east (1)
+slew p87 p96 south-east (1)
+slew p96 p105 south-east (1)
+slew p105 p14 south-east (1)
+slew p14 p23 south-east (1)
+slew p23 p32 south-east (1)
+slew p32 p42 (1)
+slew p42 p52 (1)
+slew p52 p61 south-east (1)
+take-image_DETDUP_0 p61 p71 (1)
+slew p71 p81 (1)
+take-image_DETDUP_0 p81 p91 (1)
+slew p91 p102 north-east (1)
+slew p102 p13 north-east (1)
+slew p13 p24 north-east (1)
+slew p24 p33 south-east (1)
+slew p33 p44 north-east (1)
+slew p44 p53 south-east (1)
+slew p53 p64 north-east (1)
+slew p64 p73 south-east (1)
+slew p73 p84 north-east (1)
+slew p84 p93 south-east (1)
+take-image_DETDUP_0 p93 p103 (1)
+Plan length: 69 step(s).
+Plan cost: 69
+Initial search time: 0s
+Initial total time: 0s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+Generated 3 state(s).
+Dead ends: 0 state(s).
+Generated 29 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+Generated 18 state(s).
+Dead ends: 0 state(s).
+Generated 15 state(s).
+Dead ends: 0 state(s).
+Generated 27 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+Generated 31 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 26 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 12 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 12 open leaf states.
+Investigated 209 states for the strong cyclic plan.
+Went through another policy of score 1
+
+Could not close 0 of 0 open leaf states.
+Investigated 1 states for the strong cyclic plan.
+Marking policy strong cyclic.
+Went through another policy of score 1
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+...achieved the goal!
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 100 +/- 0
+                       Replans: 0 +/- 0
+                       Actions: 100 +/- 0
+             Recorded Deadends: 0
+            State-Action Pairs: 153
+  Forbidden State-Action Pairs: 0
+               Strongly Cyclic: True
+                  Policy Score: 1
+                     Succeeded: 1 / 1
+ Depth limit (of 1000) reached: 0 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 0s
+           Policy Construction: 0s
+ Evaluating the policy quality: 0.44s
+              Using the policy: 0.24s
+          Just-in-case Repairs: 0.44s
+                Simulator time: 0s
+                    Total time: 0.44s
+
+
+
+Dumping the policy and fsaps...
+Strong cyclic plan found.
+Peak memory: 5356 KB

@@ -1,0 +1,121 @@
+Trivial problem
+UNSATISFIABLE
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (0 /sec)
+propagations          : 140            (127273 /sec)
+conflict literals     : 0              ( nan % deleted)
+Memory used           : 1.68 MB
+CPU time              : 0.0011 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |    2557     7365 |     852       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 6              (3601 /sec)
+decisions             : 7              (4202 /sec)
+propagations          : 450            (270108 /sec)
+conflict literals     : 13             (0.00 % deleted)
+Memory used           : 1.81 MB
+CPU time              : 0.001666 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |    4368    12368 |    1456       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 26             (9720 /sec)
+decisions             : 107            (40000 /sec)
+propagations          : 2898           (1083364 /sec)
+conflict literals     : 219            (0.45 % deleted)
+Memory used           : 1.80 MB
+CPU time              : 0.002675 s
+
+SATISFIABLE
+Setting atoms
+# Atoms: 23
+Setting initial
+Setting goal
+Setting actions
+# Actions: 38
+	Setting other actions
+(0, '/', 38)
+	Setting action card
+Setting mutexes
+Setting relevant actions
+Setting splitting
+Setting compatible actions
+(0, '/', 38)
+0.00106906890869
+=================================================
+Trying with 2 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 23
+# Actions: 38
+SAT formula generation time = 0.006228
+# Clauses = 1190
+# Variables = 206
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.002581
+Cumulated solver time: 0.002581
+UNSATISFIABLE
+=================================================
+Trying with 3 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 23
+# Actions: 38
+SAT formula generation time = 0.012042
+# Clauses = 2278
+# Variables = 360
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.005884
+Cumulated solver time: 0.008465
+UNSATISFIABLE
+=================================================
+Trying with 4 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 23
+# Actions: 38
+SAT formula generation time = 0.021932
+# Clauses = 3831
+# Variables = 556
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.004049
+Cumulated solver time: 0.012514
+UNSATISFIABLE
+=================================================
+Trying with 5 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 23
+# Actions: 38
+SAT formula generation time = 0.034260
+# Clauses = 5944
+# Variables = 800
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.005346
+Cumulated solver time: 0.017860
+Elapsed total time (s): 0.313717
+Elapsed solver time (s): 0.017860
+Elapsed solver time (s): [0.002580881118774414, 0.005883932113647461, 0.004049062728881836, 0.005346059799194336]
+Looking for strong plans: False
+Fair actions: True
+Done

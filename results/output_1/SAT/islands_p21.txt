@@ -1,0 +1,168 @@
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (0 /sec)
+propagations          : 1369           (28730 /sec)
+conflict literals     : 0              ( nan % deleted)
+Memory used           : 3.14 MB
+CPU time              : 0.047651 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |  306773   621129 |  102257       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 7              (86 /sec)
+decisions             : 10             (123 /sec)
+propagations          : 3994           (49308 /sec)
+conflict literals     : 14             (17.65 % deleted)
+Memory used           : 4.41 MB
+CPU time              : 0.081001 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |  463140   942566 |  154380       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 47             (293 /sec)
+decisions             : 61             (381 /sec)
+propagations          : 19361          (120875 /sec)
+conflict literals     : 192            (20.66 % deleted)
+Memory used           : 5.96 MB
+CPU time              : 0.160174 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |  621701  1271999 |  207233       0        0     nan |  0.000 % |
+|       100 |  621703  1271999 |  227956      98      979    10.0 | 20.167 % |
+==============================================================================
+restarts              : 2
+conflicts             : 174            (1222 /sec)
+decisions             : 271            (1902 /sec)
+propagations          : 84851          (595676 /sec)
+conflict literals     : 1617           (26.60 % deleted)
+Memory used           : 7.56 MB
+CPU time              : 0.142445 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |  782522  1609575 |  260840       0        0     nan |  0.000 % |
+|       100 |  782525  1609575 |  286924      97     1802    18.6 | 16.724 % |
+|       251 |  782534  1609575 |  315616     239     4279    17.9 | 16.724 % |
+==============================================================================
+restarts              : 3
+conflicts             : 426            (2205 /sec)
+decisions             : 809            (4188 /sec)
+propagations          : 261918         (1355950 /sec)
+conflict literals     : 6259           (29.19 % deleted)
+Memory used           : 9.20 MB
+CPU time              : 0.193162 s
+
+SATISFIABLE
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+Setting atoms
+# Atoms: 175
+Setting initial
+Setting goal
+Setting actions
+# Actions: 610
+	Setting other actions
+(0, '/', 610)
+	Setting action card
+Setting mutexes
+Setting relevant actions
+Setting splitting
+Setting compatible actions
+(0, '/', 610)
+0.418123006821
+=================================================
+Trying with 2 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 175
+# Actions: 610
+SAT formula generation time = 1.008226
+# Clauses = 306283
+# Variables = 1624
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3598 seconds
+Done solver. Round time: 0.060195
+Cumulated solver time: 0.060195
+UNSATISFIABLE
+=================================================
+Trying with 3 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 175
+# Actions: 610
+SAT formula generation time = 1.556693
+# Clauses = 462423
+# Variables = 2472
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3596 seconds
+Done solver. Round time: 0.094826
+Cumulated solver time: 0.155021
+UNSATISFIABLE
+=================================================
+Trying with 4 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 175
+# Actions: 610
+SAT formula generation time = 2.396217
+# Clauses = 620708
+# Variables = 3352
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3593 seconds
+Done solver. Round time: 0.194801
+Cumulated solver time: 0.349822
+UNSATISFIABLE
+=================================================
+Trying with 5 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 175
+# Actions: 610
+SAT formula generation time = 3.054518
+# Clauses = 781203
+# Variables = 4270
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3590 seconds
+Done solver. Round time: 0.174631
+Cumulated solver time: 0.524453
+UNSATISFIABLE
+=================================================
+Trying with 6 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 175
+# Actions: 610
+SAT formula generation time = 3.351596
+# Clauses = 943974
+# Variables = 5232
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3586 seconds
+Done solver. Round time: 0.222291
+Cumulated solver time: 0.746744
+Elapsed total time (s): 13.602151
+Elapsed solver time (s): 0.746744
+Elapsed solver time (s): [0.060194969177246094, 0.09482598304748535, 0.19480085372924805, 0.17463111877441406, 0.2222909927368164]
+Looking for strong plans: False
+Fair actions: True
+Done

@@ -1,0 +1,285 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.010s CPU, 0.004s wall-clock]
+Normalizing task... [0.000s CPU, 0.001s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.009s wall-clock]
+Preparing model... [0.000s CPU, 0.005s wall-clock]
+Generated 105 rules.
+Computing model... [0.310s CPU, 0.367s wall-clock]
+19094 relevant atoms
+4354 auxiliary atoms
+23448 final queue length
+41094 total queue pushes
+Completing instantiation... [4.740s CPU, 5.728s wall-clock]
+Instantiating: [5.090s CPU, 6.141s wall-clock]
+Computing fact groups...
+Finding invariants...
+32 initial candidates
+Finding invariants: [0.050s CPU, 0.057s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.010s CPU, 0.012s wall-clock]
+Collecting mutex groups... [0.010s CPU, 0.002s wall-clock]
+Choosing groups...
+20 uncovered facts
+Choosing groups: [0.000s CPU, 0.009s wall-clock]
+Building translation key... [0.000s CPU, 0.003s wall-clock]
+Computing fact groups: [0.080s CPU, 0.095s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.002s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.002s wall-clock]
+Building mutex information...
+Building mutex information: [0.010s CPU, 0.002s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.370s CPU, 0.432s wall-clock]
+Translating task: [2.530s CPU, 2.794s wall-clock]
+1920 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+Removed false proposition: 1 = <none of those>
+Removed false proposition: 2 = <none of those>
+Removed false proposition: 3 = <none of those>
+Removed false proposition: 4 = <none of those>
+Removed false proposition: 5 = <none of those>
+Removed false proposition: 6 = <none of those>
+Removed false proposition: 7 = <none of those>
+Removed false proposition: 8 = <none of those>
+Removed false proposition: 9 = <none of those>
+Removed false proposition: 10 = <none of those>
+Removed false proposition: 11 = <none of those>
+Removed false proposition: 12 = <none of those>
+Removed false proposition: 13 = <none of those>
+Removed false proposition: 14 = <none of those>
+Removed false proposition: 15 = <none of those>
+Removed false proposition: 16 = <none of those>
+Removed false proposition: 17 = <none of those>
+Removed false proposition: 18 = <none of those>
+Removed false proposition: 19 = <none of those>
+Removed false proposition: 20 = <none of those>
+Removed false proposition: 21 = <none of those>
+Removed false proposition: 42 = <none of those>
+Removed false proposition: 43 = <none of those>
+Removed false proposition: 44 = <none of those>
+Removed false proposition: 45 = <none of those>
+Removed false proposition: 46 = <none of those>
+Removed false proposition: 47 = <none of those>
+0 operators removed
+28 propositions removed
+Detecting unreachable propositions: [0.230s CPU, 0.234s wall-clock]
+Translator variables: 48
+Translator derived variables: 0
+Translator facts: 710
+Translator goal facts: 10
+Translator mutex groups: 28
+Translator total mutex groups size: 670
+Translator operators: 15672
+Translator axioms: 0
+Translator task size: 294838
+Translator peak memory: 225932 KB
+Writing output... [0.310s CPU, 0.332s wall-clock]
+Done! [8.470s CPU, 9.826s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+48 variables of 48 necessary
+0 of 28 mutex groups necessary.
+15672 of 15672 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 710
+Preprocessor derived variables: 0
+Preprocessor task size: 294168
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 48
+Bytes per state: 20
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 57417 state(s).
+Dead ends: 0 state(s). (0 recorded)
+start-boarding p2 a0 c14 (1)
+complete-boarding_DETDUP_1 p2 a0 c14 (1)
+start-zooming a0 c14 c2 f3 f2 f1 (1)
+complete-zooming_DETDUP_1 a0 c2 f3 f2 f1 (1)
+start-debarking p2 a0 c2 (1)
+complete-debarking_DETDUP_1 p2 a0 c2 (1)
+start-boarding p3 a5 c5 (1)
+complete-boarding_DETDUP_1 p3 a5 c5 (1)
+start-zooming a5 c5 c8 f3 f2 f1 (1)
+start-zooming a4 c2 c1 f4 f3 f2 (1)
+complete-zooming_DETDUP_1 a5 c8 f3 f2 f1 (1)
+start-debarking p3 a5 c8 (1)
+complete-debarking_DETDUP_1 p3 a5 c8 (1)
+start-boarding p4 a5 c8 (1)
+complete-boarding_DETDUP_1 p4 a5 c8 (1)
+start-flying a5 c8 c7 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c7 f1 f0 (1)
+start-debarking p4 a5 c7 (1)
+complete-debarking_DETDUP_1 p4 a5 c7 (1)
+start-flying a3 c9 c1 f1 f0 (1)
+start-zooming a2 c10 c1 f3 f2 f1 (1)
+start-zooming a1 c13 c8 f4 f3 f2 (1)
+start-flying a0 c2 c5 f1 f0 (1)
+complete-zooming_DETDUP_1 a2 c1 f3 f2 f1 (1)
+start-flying a2 c1 c5 f1 f0 (1)
+complete-flying_DETDUP_1 a0 c5 f1 f0 (1)
+complete-zooming_DETDUP_1 a1 c8 f4 f3 f2 (1)
+start-zooming a1 c8 c1 f2 f1 f0 (1)
+complete-flying_DETDUP_1 a2 c5 f1 f0 (1)
+start-refueling a2 c5 f0 f1 (1)
+complete-refuling_DETDUP_1 a2 f0 f1 (1)
+start-flying a2 c5 c6 f1 f0 (1)
+complete-flying_DETDUP_1 a2 c6 f1 f0 (1)
+start-refueling a2 c6 f0 f1 (1)
+start-boarding p5 a2 c6 (1)
+complete-zooming_DETDUP_1 a4 c1 f4 f3 f2 (1)
+complete-boarding_DETDUP_1 p5 a2 c6 (1)
+complete-refuling_DETDUP_1 a2 f0 f1 (1)
+start-flying a2 c6 c5 f1 f0 (1)
+complete-flying_DETDUP_1 a2 c5 f1 f0 (1)
+start-debarking p5 a2 c5 (1)
+complete-debarking_DETDUP_1 p5 a2 c5 (1)
+start-zooming a4 c1 c3 f2 f1 f0 (1)
+complete-zooming_DETDUP_1 a4 c3 f2 f1 f0 (1)
+start-refueling a4 c3 f0 f1 (1)
+complete-refuling_DETDUP_1 a4 f0 f1 (1)
+start-boarding p0 a4 c3 (1)
+complete-boarding_DETDUP_1 p0 a4 c3 (1)
+start-flying a4 c3 c4 f1 f0 (1)
+complete-flying_DETDUP_1 a4 c4 f1 f0 (1)
+start-refueling a4 c4 f0 f1 (1)
+complete-refuling_DETDUP_1 a4 f0 f1 (1)
+start-boarding p1 a4 c4 (1)
+complete-boarding_DETDUP_1 p1 a4 c4 (1)
+start-boarding p8 a4 c4 (1)
+complete-boarding_DETDUP_1 p8 a4 c4 (1)
+start-flying a4 c4 c1 f1 f0 (1)
+complete-flying_DETDUP_1 a4 c1 f1 f0 (1)
+start-debarking p0 a4 c1 (1)
+complete-debarking_DETDUP_1 p0 a4 c1 (1)
+start-refueling a4 c1 f0 f1 (1)
+complete-refuling_DETDUP_1 a4 f0 f1 (1)
+start-debarking p8 a4 c1 (1)
+complete-debarking_DETDUP_1 p8 a4 c1 (1)
+start-flying a4 c1 c8 f1 f0 (1)
+complete-flying_DETDUP_1 a4 c8 f1 f0 (1)
+start-debarking p1 a4 c8 (1)
+complete-debarking_DETDUP_1 p1 a4 c8 (1)
+complete-zooming_DETDUP_1 a1 c1 f2 f1 f0 (1)
+complete-flying_DETDUP_1 a3 c1 f1 f0 (1)
+start-refueling a5 c7 f0 f1 (1)
+complete-refuling_DETDUP_1 a5 f0 f1 (1)
+start-flying a5 c7 c12 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c12 f1 f0 (1)
+start-refueling a5 c12 f0 f1 (1)
+complete-refuling_DETDUP_1 a5 f0 f1 (1)
+start-boarding p9 a5 c12 (1)
+complete-boarding_DETDUP_1 p9 a5 c12 (1)
+start-flying a5 c12 c11 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c11 f1 f0 (1)
+start-refueling a5 c11 f0 f1 (1)
+complete-refuling_DETDUP_1 a5 f0 f1 (1)
+start-boarding p6 a5 c11 (1)
+complete-boarding_DETDUP_1 p6 a5 c11 (1)
+start-boarding p7 a5 c11 (1)
+complete-boarding_DETDUP_1 p7 a5 c11 (1)
+start-flying a5 c11 c12 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c12 f1 f0 (1)
+start-debarking p6 a5 c12 (1)
+complete-debarking_DETDUP_1 p6 a5 c12 (1)
+start-refueling a5 c12 f0 f1 (1)
+complete-refuling_DETDUP_1 a5 f0 f1 (1)
+start-flying a5 c12 c15 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c15 f1 f0 (1)
+start-debarking p7 a5 c15 (1)
+complete-debarking_DETDUP_1 p7 a5 c15 (1)
+start-refueling a5 c15 f0 f1 (1)
+complete-refuling_DETDUP_1 a5 f0 f1 (1)
+start-flying a5 c15 c9 f1 f0 (1)
+complete-flying_DETDUP_1 a5 c9 f1 f0 (1)
+start-debarking p9 a5 c9 (1)
+complete-debarking_DETDUP_1 p9 a5 c9 (1)
+Plan length: 102 step(s).
+Plan cost: 102
+Initial search time: 3.98s
+Initial total time: 4.98s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+
+Could not close 0 of 0 open leaf states.
+Investigated 1 states for the strong cyclic plan.
+Marking policy strong cyclic.
+Went through another policy of score 1
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+...achieved the goal!
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 100 +/- 0
+                       Replans: 0 +/- 0
+                       Actions: 100 +/- 0
+             Recorded Deadends: 0
+            State-Action Pairs: 103
+  Forbidden State-Action Pairs: 0
+               Strongly Cyclic: True
+                  Policy Score: 1
+                     Succeeded: 1 / 1
+ Depth limit (of 1000) reached: 0 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 3.98s
+           Policy Construction: 0.12s
+ Evaluating the policy quality: 0.34s
+              Using the policy: 0.2s
+          Just-in-case Repairs: 4.44s
+                Simulator time: 0s
+                    Total time: 5.44s
+
+
+
+Dumping the policy and fsaps...
+Strong cyclic plan found.
+Peak memory: 33924 KB

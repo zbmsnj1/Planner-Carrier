@@ -1,0 +1,91 @@
+Trivial problem
+UNSATISFIABLE
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (0 /sec)
+propagations          : 132            (211878 /sec)
+conflict literals     : 0              ( nan % deleted)
+Memory used           : 1.68 MB
+CPU time              : 0.000623 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |    1165     3248 |     388       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 4              (4073 /sec)
+decisions             : 21             (21385 /sec)
+propagations          : 576            (586558 /sec)
+conflict literals     : 12             (0.00 % deleted)
+Memory used           : 1.68 MB
+CPU time              : 0.000982 s
+
+SATISFIABLE
+Setting atoms
+# Atoms: 10
+Setting initial
+Setting goal
+Setting actions
+# Actions: 8
+	Setting other actions
+(0, '/', 8)
+	Setting action card
+Setting mutexes
+Setting relevant actions
+Setting splitting
+Setting compatible actions
+(0, '/', 8)
+2.50339508057e-05
+=================================================
+Trying with 2 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 10
+# Actions: 8
+SAT formula generation time = 0.001868
+# Clauses = 413
+# Variables = 96
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.002432
+Cumulated solver time: 0.002432
+UNSATISFIABLE
+=================================================
+Trying with 3 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 10
+# Actions: 8
+SAT formula generation time = 0.003893
+# Clauses = 877
+# Variables = 183
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.003463
+Cumulated solver time: 0.005895
+UNSATISFIABLE
+=================================================
+Trying with 4 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 10
+# Actions: 8
+SAT formula generation time = 0.008071
+# Clauses = 1614
+# Variables = 304
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.003177
+Cumulated solver time: 0.009072
+Elapsed total time (s): 0.130972
+Elapsed solver time (s): 0.009072
+Elapsed solver time (s): [0.0024318695068359375, 0.0034630298614501953, 0.003177165985107422]
+Looking for strong plans: False
+Fair actions: True
+Done

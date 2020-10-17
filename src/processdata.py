@@ -70,7 +70,10 @@ def get_keydata(abs_res_path, file, list_keywords, list_keyfunc, list_keyignore)
     for i in range(len(list_keyfunc)):
         if(list_keyfunc[i]==KF.FIND_KW):
             with open(os.path.join(abs_res_path, file), 'r') as f:
-                d = find_keyword(list_keywords[i], list_keyignore[i], f)		
+                d = find_keyword(list_keywords[i], list_keyignore[i], f)
+                if d==0:
+                    data.append(d)
+                    break		
         elif(list_keyfunc[i]==KF.MAX_FLOAT):
             with open(os.path.join(abs_res_path, file), 'r') as f:
                 d = max_number(list_keywords[i], list_keyignore[i],f,RE_FLOAT)

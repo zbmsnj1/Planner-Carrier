@@ -170,9 +170,9 @@ class Planner:
 class SAT(Planner):
     def __init__(self):
         self.REL_SRC_PATH = "planners/SAT/src"  
-        self.REL_RES_PATH = "results/SAT/output"
-        self.REL_DATA_PATH = "results/SAT/data"
-        self.REL_MEAN_PATH = "results/SAT/mean"
+        self.REL_RES_PATH = "results/output/SAT"
+        self.REL_DATA_PATH = "results/data/SAT"
+        self.REL_MEAN_PATH = "results/mean/SAT"
         self.COLUMN_NAMES = ["Id","Atoms","Actions","Solve","Time","Size"]
         self.TITLE = ['Domain (# inst)','#at','#acts','%solve',"time",'size']
         self.KEY_WORDS = ["Atoms","Actions","SATISFIABLE","Cumulated solver time","Trying with"]
@@ -207,9 +207,9 @@ class SAT(Planner):
 class PRP(Planner):
     def __init__(self):
         self.REL_SRC_PATH = "planners/PRP/src" 
-        self.REL_RES_PATH = "results/PRP/output"
-        self.REL_DATA_PATH = "results/PRP/data"
-        self.REL_MEAN_PATH = "results/PRP/mean"
+        self.REL_RES_PATH = "results/output/PRP"
+        self.REL_DATA_PATH = "results/data/PRP"
+        self.REL_MEAN_PATH = "results/mean/PRP"
         self.COLUMN_NAMES = ["Id","Solve", "Time","Size"]
         self.TITLE = ['Domain (# inst)','%solve',"time",'size']
         self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]

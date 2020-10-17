@@ -1,0 +1,75 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Warning: Atom fire(l2) is specified twice in initial state specification
+Warning: Atom fire(l1) is specified twice in initial state specification
+Warning: Atom fire(l2) is specified twice in initial state specification
+Warning: Atom fire(l1) is specified twice in initial state specification
+Warning: Atom fire(l3) is specified twice in initial state specification
+Warning: Atom fire(l2) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Parsing: [0.000s CPU, 0.005s wall-clock]
+Normalizing task... [0.000s CPU, 0.001s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.006s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
+Generated 68 rules.
+Computing model... [0.000s CPU, 0.006s wall-clock]
+198 relevant atoms
+232 auxiliary atoms
+430 final queue length
+468 total queue pushes
+Completing instantiation... [0.010s CPU, 0.003s wall-clock]
+Instantiating: [0.020s CPU, 0.019s wall-clock]
+No relaxed solution! Generating unsolvable task...
+Translator variables: 1
+Translator derived variables: 0
+Translator facts: 2
+Translator goal facts: 1
+Translator mutex groups: 0
+Translator total mutex groups size: 0
+Translator operators: 0
+Translator axioms: 0
+Translator task size: 4
+Translator peak memory: 29012 KB
+Writing output... [0.000s CPU, 0.000s wall-clock]
+Done! [0.020s CPU, 0.024s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is acyclic.
+1 variables of 1 necessary
+0 of 0 mutex groups necessary.
+0 of 0 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 2
+Preprocessor derived variables: 0
+Preprocessor task size: 4
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 1
+Bytes per state: 4
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Initial search time: 0s
+Initial total time: 0s
+No solution -- aborting repairs.
+Peak memory: 4544 KB

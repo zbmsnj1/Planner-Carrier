@@ -1,0 +1,2333 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.010s CPU, 0.003s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
+Preparing model... [0.010s CPU, 0.001s wall-clock]
+Generated 71 rules.
+Computing model... [0.000s CPU, 0.008s wall-clock]
+419 relevant atoms
+298 auxiliary atoms
+717 final queue length
+901 total queue pushes
+Completing instantiation... [0.010s CPU, 0.007s wall-clock]
+Instantiating: [0.020s CPU, 0.022s wall-clock]
+Computing fact groups...
+Finding invariants...
+12 initial candidates
+Finding invariants: [0.000s CPU, 0.003s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+7 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.005s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.010s CPU, 0.010s wall-clock]
+22 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+Removed true proposition: None = Atom free(n0)
+Removed false proposition: None = NegatedAtom free(n0)
+Removed false proposition: 19 = <none of those>
+0 operators removed
+4 propositions removed
+Detecting unreachable propositions: [0.000s CPU, 0.002s wall-clock]
+Translator variables: 20
+Translator derived variables: 0
+Translator facts: 120
+Translator goal facts: 1
+Translator mutex groups: 14
+Translator total mutex groups size: 96
+Translator operators: 238
+Translator axioms: 0
+Translator task size: 1385
+Translator peak memory: 29912 KB
+Writing output... [0.000s CPU, 0.002s wall-clock]
+Done! [0.050s CPU, 0.046s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+20 variables of 20 necessary
+0 of 14 mutex groups necessary.
+238 of 238 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 120
+Preprocessor derived variables: 0
+Preprocessor task size: 1289
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 20
+Bytes per state: 8
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 75 state(s).
+Dead ends: 0 state(s). (0 recorded)
+move-car-normal n0 n1 (1)
+move-car-normal n1 n2 (1)
+move-car-normal n2 n3 (1)
+move-car-spiky_DETDUP_0 n3 n4 (1)
+move-car-normal n4 ng (1)
+Plan length: 5 step(s).
+Plan cost: 5
+Initial search time: 0s
+Initial total time: 0s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+
+Could not close 1 of 1 open leaf states.
+Investigated 7 states for the strong cyclic plan.
+Went through another policy of score 0.498
+Generated 88 state(s).
+Dead ends: 1 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 102 state(s).
+Dead ends: 2 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 116 state(s).
+Dead ends: 3 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 130 state(s).
+Dead ends: 4 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 144 state(s).
+Dead ends: 5 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 158 state(s).
+Dead ends: 6 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 172 state(s).
+Dead ends: 7 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 186 state(s).
+Dead ends: 8 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 200 state(s).
+Dead ends: 9 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 214 state(s).
+Dead ends: 10 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 228 state(s).
+Dead ends: 11 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 242 state(s).
+Dead ends: 12 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 269 state(s).
+Dead ends: 13 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 283 state(s).
+Dead ends: 14 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 297 state(s).
+Dead ends: 15 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 311 state(s).
+Dead ends: 16 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 325 state(s).
+Dead ends: 17 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 339 state(s).
+Dead ends: 18 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 353 state(s).
+Dead ends: 19 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 367 state(s).
+Dead ends: 20 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 381 state(s).
+Dead ends: 21 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 395 state(s).
+Dead ends: 22 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 409 state(s).
+Dead ends: 23 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 437 state(s).
+Dead ends: 24 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 451 state(s).
+Dead ends: 25 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 465 state(s).
+Dead ends: 26 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 479 state(s).
+Dead ends: 27 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 493 state(s).
+Dead ends: 28 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 507 state(s).
+Dead ends: 29 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 521 state(s).
+Dead ends: 30 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 535 state(s).
+Dead ends: 31 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 549 state(s).
+Dead ends: 32 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 563 state(s).
+Dead ends: 33 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 591 state(s).
+Dead ends: 34 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 605 state(s).
+Dead ends: 35 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 619 state(s).
+Dead ends: 36 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 633 state(s).
+Dead ends: 37 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 647 state(s).
+Dead ends: 38 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 661 state(s).
+Dead ends: 39 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 675 state(s).
+Dead ends: 40 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 689 state(s).
+Dead ends: 41 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 703 state(s).
+Dead ends: 42 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 731 state(s).
+Dead ends: 43 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 745 state(s).
+Dead ends: 44 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 759 state(s).
+Dead ends: 45 state(s).
+
+Could not close 1 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 773 state(s).
+Dead ends: 46 state(s).
+Generated 773 state(s).
+Dead ends: 46 state(s). (46 recorded)
+Generated 75 state(s).
+Dead ends: 0 state(s).
+Generated 14 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 7 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 67 state(s).
+Dead ends: 0 state(s).
+Generated 8 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 92 state(s).
+Dead ends: 0 state(s).
+Generated 39 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 106 state(s).
+Dead ends: 0 state(s).
+Generated 55 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 120 state(s).
+Dead ends: 0 state(s).
+Generated 71 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 134 state(s).
+Dead ends: 0 state(s).
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 148 state(s).
+Dead ends: 0 state(s).
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 162 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 176 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 190 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 204 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 218 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 232 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 246 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 9 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 238 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 258 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 282 state(s).
+Dead ends: 0 state(s).
+Generated 55 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 296 state(s).
+Dead ends: 0 state(s).
+Generated 71 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 310 state(s).
+Dead ends: 0 state(s).
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 324 state(s).
+Dead ends: 0 state(s).
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 338 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 352 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 366 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 380 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 394 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 408 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 422 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 431 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 455 state(s).
+Dead ends: 0 state(s).
+Generated 71 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 469 state(s).
+Dead ends: 0 state(s).
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 483 state(s).
+Dead ends: 0 state(s).
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 497 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 511 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 525 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 539 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 553 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 567 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 581 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 590 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 614 state(s).
+Dead ends: 0 state(s).
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 628 state(s).
+Dead ends: 0 state(s).
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 642 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 656 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 670 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 684 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 698 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 712 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 726 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 735 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 759 state(s).
+Dead ends: 0 state(s).
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 773 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 787 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 801 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 815 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 829 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 843 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 857 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 866 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 890 state(s).
+Dead ends: 0 state(s).
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 904 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 918 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 932 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 946 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 960 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 974 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 983 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1007 state(s).
+Dead ends: 0 state(s).
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1021 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1035 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1049 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1063 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1077 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1086 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1110 state(s).
+Dead ends: 0 state(s).
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1124 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1138 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1152 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1166 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1175 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1199 state(s).
+Dead ends: 0 state(s).
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1213 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1227 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1241 state(s).
+Dead ends: 0 state(s).
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1250 state(s).
+Dead ends: 0 state(s).
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1274 state(s).
+Dead ends: 0 state(s).
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1288 state(s).
+Dead ends: 0 state(s).
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1302 state(s).
+Dead ends: 0 state(s).
+Generated 1302 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1311 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1335 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1349 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1358 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1382 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1391 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 17 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 11 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1396 state(s).
+Dead ends: 0 state(s). (0 recorded)
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1400 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 10 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1421 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1444 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 71 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1458 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1472 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1486 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1500 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1514 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1528 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1542 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1556 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1570 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1581 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1604 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1618 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1632 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1646 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1660 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1674 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1688 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1702 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1716 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1727 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1750 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1764 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1778 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1792 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1806 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1820 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1834 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1848 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1859 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1882 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1896 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1910 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1924 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1938 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1952 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1966 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 1977 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2000 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2014 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2028 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2042 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2056 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2070 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2081 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2104 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2118 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2132 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2146 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2160 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2171 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2194 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2208 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2222 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2236 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2247 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2270 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2284 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2298 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2309 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2332 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2346 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2357 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2380 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2391 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2395 state(s).
+Dead ends: 0 state(s). (0 recorded)
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2399 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 10 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2420 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2443 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 87 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2457 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2471 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2485 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2499 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2513 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2527 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2541 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2555 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2566 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2589 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 103 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2603 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2617 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2631 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2645 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2659 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2673 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2687 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2698 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2721 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 119 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2735 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2749 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2763 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2777 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2791 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2805 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2816 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2839 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 135 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2853 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2867 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2881 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2895 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2909 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2920 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2943 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 151 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2957 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2971 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2985 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 2999 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 215 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 3010 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 28 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 3033 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 167 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 3047 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 183 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+Generated 1299 state(s).
+Dead ends: 0 state(s).
+Generated 3061 state(s).
+Dead ends: 0 state(s). (0 recorded)
+Generated 199 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 2 open leaf states.
+Investigated 13 states for the strong cyclic plan.
+Went through another policy of score 0
+
+Could not close 0 of 0 open leaf states.
+Investigated 0 states for the strong cyclic plan.
+Went through another policy of score 0
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+Got into a dead-end state...
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 4 +/- 0
+                       Replans: 1 +/- 0
+                       Actions: 5 +/- 0
+             Recorded Deadends: 207
+            State-Action Pairs: 6
+  Forbidden State-Action Pairs: 2770
+               Strongly Cyclic: False
+                  Policy Score: 0.498
+                     Succeeded: 0 / 1
+ Depth limit (of 1000) reached: 0 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0.02s
+         Engine Initialization: 0.04s
+                   Search Time: 2.4s
+           Policy Construction: 0.56s
+ Evaluating the policy quality: 1814.64s
+              Using the policy: 1071.34s
+          Just-in-case Repairs: 1815.32s
+                Simulator time: 0s
+                    Total time: 1817.96s
+
+
+
+Dumping the policy and fsaps...
+Plan found, but not strong cyclic.
+Peak memory: 174024 KB

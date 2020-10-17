@@ -1,0 +1,646 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Warning: Atom water-at(l9) is specified twice in initial state specification
+Warning: Atom water-at(l8) is specified twice in initial state specification
+Warning: Atom water-at(l7) is specified twice in initial state specification
+Warning: Atom water-at(l7) is specified twice in initial state specification
+Warning: Atom water-at(l6) is specified twice in initial state specification
+Warning: Atom fire(l4) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l5) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l5) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l5) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l4) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l5) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l5) is specified twice in initial state specification
+Warning: Atom adjacent(l5, l5) is specified twice in initial state specification
+Parsing: [0.000s CPU, 0.003s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.005s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 68 rules.
+Computing model... [0.040s CPU, 0.047s wall-clock]
+3564 relevant atoms
+1815 auxiliary atoms
+5379 final queue length
+7736 total queue pushes
+Completing instantiation... [0.090s CPU, 0.097s wall-clock]
+Instantiating: [0.150s CPU, 0.154s wall-clock]
+Computing fact groups...
+Finding invariants...
+21 initial candidates
+Finding invariants: [0.000s CPU, 0.004s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.010s CPU, 0.002s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+19 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.009s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.010s CPU, 0.007s wall-clock]
+Translating task: [0.140s CPU, 0.134s wall-clock]
+573 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+Removed false proposition: 1 = <none of those>
+Removed false proposition: 2 = <none of those>
+Removed false proposition: 3 = <none of those>
+Removed false proposition: 4 = <none of those>
+Removed false proposition: 5 = <none of those>
+Removed false proposition: 6 = <none of those>
+Removed false proposition: 7 = <none of those>
+Removed false proposition: 8 = <none of those>
+Removed false proposition: 9 = <none of those>
+Removed false proposition: 10 = <none of those>
+Removed false proposition: 11 = <none of those>
+Removed false proposition: 12 = <none of those>
+Removed false proposition: 13 = <none of those>
+Removed false proposition: 14 = <none of those>
+Removed false proposition: 15 = <none of those>
+Removed false proposition: 16 = <none of those>
+Removed false proposition: 17 = <none of those>
+Removed false proposition: 19 = <none of those>
+Removed false proposition: 20 = <none of those>
+Removed false proposition: 21 = <none of those>
+Removed false proposition: 22 = <none of those>
+Removed false proposition: 23 = <none of those>
+Removed false proposition: 24 = <none of those>
+Removed false proposition: 25 = <none of those>
+Removed false proposition: 26 = <none of those>
+Removed false proposition: 27 = <none of those>
+Removed operator: (drive-fire-unit_v2 f1 l1 l2)
+Removed operator: (drive-fire-unit_v2 f1 l1 l3)
+Removed operator: (drive-fire-unit_v2 f1 l1 l4)
+Removed operator: (drive-fire-unit_v2 f1 l1 l6)
+Removed operator: (drive-fire-unit_v2 f1 l1 l7)
+Removed operator: (drive-fire-unit_v2 f1 l1 l8)
+Removed operator: (drive-fire-unit_v2 f1 l1 l9)
+Removed operator: (drive-fire-unit_v2 f1 l2 l1)
+Removed operator: (drive-fire-unit_v2 f1 l2 l3)
+Removed operator: (drive-fire-unit_v2 f1 l2 l4)
+Removed operator: (drive-fire-unit_v2 f1 l2 l6)
+Removed operator: (drive-fire-unit_v2 f1 l2 l7)
+Removed operator: (drive-fire-unit_v2 f1 l2 l8)
+Removed operator: (drive-fire-unit_v2 f1 l2 l9)
+Removed operator: (drive-fire-unit_v2 f1 l3 l1)
+Removed operator: (drive-fire-unit_v2 f1 l3 l2)
+Removed operator: (drive-fire-unit_v2 f1 l3 l4)
+Removed operator: (drive-fire-unit_v2 f1 l3 l6)
+Removed operator: (drive-fire-unit_v2 f1 l3 l7)
+Removed operator: (drive-fire-unit_v2 f1 l3 l8)
+Removed operator: (drive-fire-unit_v2 f1 l3 l9)
+Removed operator: (drive-fire-unit_v2 f1 l4 l1)
+Removed operator: (drive-fire-unit_v2 f1 l4 l2)
+Removed operator: (drive-fire-unit_v2 f1 l4 l3)
+Removed operator: (drive-fire-unit_v2 f1 l4 l6)
+Removed operator: (drive-fire-unit_v2 f1 l4 l7)
+Removed operator: (drive-fire-unit_v2 f1 l4 l8)
+Removed operator: (drive-fire-unit_v2 f1 l4 l9)
+Removed operator: (drive-fire-unit_v2 f1 l5 l1)
+Removed operator: (drive-fire-unit_v2 f1 l5 l2)
+Removed operator: (drive-fire-unit_v2 f1 l5 l3)
+Removed operator: (drive-fire-unit_v2 f1 l5 l4)
+Removed operator: (drive-fire-unit_v2 f1 l5 l6)
+Removed operator: (drive-fire-unit_v2 f1 l6 l1)
+Removed operator: (drive-fire-unit_v2 f1 l6 l2)
+Removed operator: (drive-fire-unit_v2 f1 l6 l3)
+Removed operator: (drive-fire-unit_v2 f1 l6 l4)
+Removed operator: (drive-fire-unit_v2 f1 l7 l1)
+Removed operator: (drive-fire-unit_v2 f1 l7 l2)
+Removed operator: (drive-fire-unit_v2 f1 l7 l3)
+Removed operator: (drive-fire-unit_v2 f1 l7 l4)
+Removed operator: (drive-fire-unit_v2 f1 l8 l1)
+Removed operator: (drive-fire-unit_v2 f1 l8 l2)
+Removed operator: (drive-fire-unit_v2 f1 l8 l3)
+Removed operator: (drive-fire-unit_v2 f1 l8 l4)
+Removed operator: (drive-fire-unit_v2 f1 l9 l1)
+Removed operator: (drive-fire-unit_v2 f1 l9 l2)
+Removed operator: (drive-fire-unit_v2 f1 l9 l3)
+Removed operator: (drive-fire-unit_v2 f1 l9 l4)
+Removed operator: (drive-medical-unit_v2 m1 l1 l2)
+Removed operator: (drive-medical-unit_v2 m1 l1 l3)
+Removed operator: (drive-medical-unit_v2 m1 l1 l4)
+Removed operator: (drive-medical-unit_v2 m1 l1 l6)
+Removed operator: (drive-medical-unit_v2 m1 l1 l7)
+Removed operator: (drive-medical-unit_v2 m1 l1 l8)
+Removed operator: (drive-medical-unit_v2 m1 l1 l9)
+Removed operator: (drive-medical-unit_v2 m1 l2 l1)
+Removed operator: (drive-medical-unit_v2 m1 l2 l3)
+Removed operator: (drive-medical-unit_v2 m1 l2 l4)
+Removed operator: (drive-medical-unit_v2 m1 l2 l6)
+Removed operator: (drive-medical-unit_v2 m1 l2 l7)
+Removed operator: (drive-medical-unit_v2 m1 l2 l8)
+Removed operator: (drive-medical-unit_v2 m1 l2 l9)
+Removed operator: (drive-medical-unit_v2 m1 l3 l1)
+Removed operator: (drive-medical-unit_v2 m1 l3 l2)
+Removed operator: (drive-medical-unit_v2 m1 l3 l4)
+Removed operator: (drive-medical-unit_v2 m1 l3 l6)
+Removed operator: (drive-medical-unit_v2 m1 l3 l7)
+Removed operator: (drive-medical-unit_v2 m1 l3 l8)
+Removed operator: (drive-medical-unit_v2 m1 l3 l9)
+Removed operator: (drive-medical-unit_v2 m1 l4 l1)
+Removed operator: (drive-medical-unit_v2 m1 l4 l2)
+Removed operator: (drive-medical-unit_v2 m1 l4 l3)
+Removed operator: (drive-medical-unit_v2 m1 l4 l6)
+Removed operator: (drive-medical-unit_v2 m1 l4 l7)
+Removed operator: (drive-medical-unit_v2 m1 l4 l8)
+Removed operator: (drive-medical-unit_v2 m1 l4 l9)
+Removed operator: (drive-medical-unit_v2 m1 l5 l1)
+Removed operator: (drive-medical-unit_v2 m1 l5 l2)
+Removed operator: (drive-medical-unit_v2 m1 l5 l3)
+Removed operator: (drive-medical-unit_v2 m1 l5 l4)
+Removed operator: (drive-medical-unit_v2 m1 l5 l6)
+Removed operator: (drive-medical-unit_v2 m1 l6 l1)
+Removed operator: (drive-medical-unit_v2 m1 l6 l2)
+Removed operator: (drive-medical-unit_v2 m1 l6 l3)
+Removed operator: (drive-medical-unit_v2 m1 l6 l4)
+Removed operator: (drive-medical-unit_v2 m1 l7 l1)
+Removed operator: (drive-medical-unit_v2 m1 l7 l2)
+Removed operator: (drive-medical-unit_v2 m1 l7 l3)
+Removed operator: (drive-medical-unit_v2 m1 l7 l4)
+Removed operator: (drive-medical-unit_v2 m1 l8 l1)
+Removed operator: (drive-medical-unit_v2 m1 l8 l2)
+Removed operator: (drive-medical-unit_v2 m1 l8 l3)
+Removed operator: (drive-medical-unit_v2 m1 l8 l4)
+Removed operator: (drive-medical-unit_v2 m1 l9 l1)
+Removed operator: (drive-medical-unit_v2 m1 l9 l2)
+Removed operator: (drive-medical-unit_v2 m1 l9 l3)
+Removed operator: (drive-medical-unit_v2 m1 l9 l4)
+Removed operator: (drive-medical-unit_v2 m2 l1 l2)
+Removed operator: (drive-medical-unit_v2 m2 l1 l3)
+Removed operator: (drive-medical-unit_v2 m2 l1 l4)
+Removed operator: (drive-medical-unit_v2 m2 l1 l6)
+Removed operator: (drive-medical-unit_v2 m2 l1 l7)
+Removed operator: (drive-medical-unit_v2 m2 l1 l8)
+Removed operator: (drive-medical-unit_v2 m2 l1 l9)
+Removed operator: (drive-medical-unit_v2 m2 l2 l1)
+Removed operator: (drive-medical-unit_v2 m2 l2 l3)
+Removed operator: (drive-medical-unit_v2 m2 l2 l4)
+Removed operator: (drive-medical-unit_v2 m2 l2 l6)
+Removed operator: (drive-medical-unit_v2 m2 l2 l7)
+Removed operator: (drive-medical-unit_v2 m2 l2 l8)
+Removed operator: (drive-medical-unit_v2 m2 l2 l9)
+Removed operator: (drive-medical-unit_v2 m2 l3 l1)
+Removed operator: (drive-medical-unit_v2 m2 l3 l2)
+Removed operator: (drive-medical-unit_v2 m2 l3 l4)
+Removed operator: (drive-medical-unit_v2 m2 l3 l6)
+Removed operator: (drive-medical-unit_v2 m2 l3 l7)
+Removed operator: (drive-medical-unit_v2 m2 l3 l8)
+Removed operator: (drive-medical-unit_v2 m2 l3 l9)
+Removed operator: (drive-medical-unit_v2 m2 l4 l1)
+Removed operator: (drive-medical-unit_v2 m2 l4 l2)
+Removed operator: (drive-medical-unit_v2 m2 l4 l3)
+Removed operator: (drive-medical-unit_v2 m2 l4 l6)
+Removed operator: (drive-medical-unit_v2 m2 l4 l7)
+Removed operator: (drive-medical-unit_v2 m2 l4 l8)
+Removed operator: (drive-medical-unit_v2 m2 l4 l9)
+Removed operator: (drive-medical-unit_v2 m2 l5 l1)
+Removed operator: (drive-medical-unit_v2 m2 l5 l2)
+Removed operator: (drive-medical-unit_v2 m2 l5 l3)
+Removed operator: (drive-medical-unit_v2 m2 l5 l4)
+Removed operator: (drive-medical-unit_v2 m2 l5 l6)
+Removed operator: (drive-medical-unit_v2 m2 l6 l1)
+Removed operator: (drive-medical-unit_v2 m2 l6 l2)
+Removed operator: (drive-medical-unit_v2 m2 l6 l3)
+Removed operator: (drive-medical-unit_v2 m2 l6 l4)
+Removed operator: (drive-medical-unit_v2 m2 l7 l1)
+Removed operator: (drive-medical-unit_v2 m2 l7 l2)
+Removed operator: (drive-medical-unit_v2 m2 l7 l3)
+Removed operator: (drive-medical-unit_v2 m2 l7 l4)
+Removed operator: (drive-medical-unit_v2 m2 l8 l1)
+Removed operator: (drive-medical-unit_v2 m2 l8 l2)
+Removed operator: (drive-medical-unit_v2 m2 l8 l3)
+Removed operator: (drive-medical-unit_v2 m2 l8 l4)
+Removed operator: (drive-medical-unit_v2 m2 l9 l1)
+Removed operator: (drive-medical-unit_v2 m2 l9 l2)
+Removed operator: (drive-medical-unit_v2 m2 l9 l3)
+Removed operator: (drive-medical-unit_v2 m2 l9 l4)
+Removed operator: (drive-medical-unit_v2 m3 l1 l2)
+Removed operator: (drive-medical-unit_v2 m3 l1 l3)
+Removed operator: (drive-medical-unit_v2 m3 l1 l4)
+Removed operator: (drive-medical-unit_v2 m3 l1 l6)
+Removed operator: (drive-medical-unit_v2 m3 l1 l7)
+Removed operator: (drive-medical-unit_v2 m3 l1 l8)
+Removed operator: (drive-medical-unit_v2 m3 l1 l9)
+Removed operator: (drive-medical-unit_v2 m3 l2 l1)
+Removed operator: (drive-medical-unit_v2 m3 l2 l3)
+Removed operator: (drive-medical-unit_v2 m3 l2 l4)
+Removed operator: (drive-medical-unit_v2 m3 l2 l6)
+Removed operator: (drive-medical-unit_v2 m3 l2 l7)
+Removed operator: (drive-medical-unit_v2 m3 l2 l8)
+Removed operator: (drive-medical-unit_v2 m3 l2 l9)
+Removed operator: (drive-medical-unit_v2 m3 l3 l1)
+Removed operator: (drive-medical-unit_v2 m3 l3 l2)
+Removed operator: (drive-medical-unit_v2 m3 l3 l4)
+Removed operator: (drive-medical-unit_v2 m3 l3 l6)
+Removed operator: (drive-medical-unit_v2 m3 l3 l7)
+Removed operator: (drive-medical-unit_v2 m3 l3 l8)
+Removed operator: (drive-medical-unit_v2 m3 l3 l9)
+Removed operator: (drive-medical-unit_v2 m3 l4 l1)
+Removed operator: (drive-medical-unit_v2 m3 l4 l2)
+Removed operator: (drive-medical-unit_v2 m3 l4 l3)
+Removed operator: (drive-medical-unit_v2 m3 l4 l6)
+Removed operator: (drive-medical-unit_v2 m3 l4 l7)
+Removed operator: (drive-medical-unit_v2 m3 l4 l8)
+Removed operator: (drive-medical-unit_v2 m3 l4 l9)
+Removed operator: (drive-medical-unit_v2 m3 l5 l1)
+Removed operator: (drive-medical-unit_v2 m3 l5 l2)
+Removed operator: (drive-medical-unit_v2 m3 l5 l3)
+Removed operator: (drive-medical-unit_v2 m3 l5 l4)
+Removed operator: (drive-medical-unit_v2 m3 l5 l6)
+Removed operator: (drive-medical-unit_v2 m3 l6 l1)
+Removed operator: (drive-medical-unit_v2 m3 l6 l2)
+Removed operator: (drive-medical-unit_v2 m3 l6 l3)
+Removed operator: (drive-medical-unit_v2 m3 l6 l4)
+Removed operator: (drive-medical-unit_v2 m3 l7 l1)
+Removed operator: (drive-medical-unit_v2 m3 l7 l2)
+Removed operator: (drive-medical-unit_v2 m3 l7 l3)
+Removed operator: (drive-medical-unit_v2 m3 l7 l4)
+Removed operator: (drive-medical-unit_v2 m3 l8 l1)
+Removed operator: (drive-medical-unit_v2 m3 l8 l2)
+Removed operator: (drive-medical-unit_v2 m3 l8 l3)
+Removed operator: (drive-medical-unit_v2 m3 l8 l4)
+Removed operator: (drive-medical-unit_v2 m3 l9 l1)
+Removed operator: (drive-medical-unit_v2 m3 l9 l2)
+Removed operator: (drive-medical-unit_v2 m3 l9 l3)
+Removed operator: (drive-medical-unit_v2 m3 l9 l4)
+Removed operator: (drive-medical-unit_v2 m4 l1 l2)
+Removed operator: (drive-medical-unit_v2 m4 l1 l3)
+Removed operator: (drive-medical-unit_v2 m4 l1 l4)
+Removed operator: (drive-medical-unit_v2 m4 l1 l6)
+Removed operator: (drive-medical-unit_v2 m4 l1 l7)
+Removed operator: (drive-medical-unit_v2 m4 l1 l8)
+Removed operator: (drive-medical-unit_v2 m4 l1 l9)
+Removed operator: (drive-medical-unit_v2 m4 l2 l1)
+Removed operator: (drive-medical-unit_v2 m4 l2 l3)
+Removed operator: (drive-medical-unit_v2 m4 l2 l4)
+Removed operator: (drive-medical-unit_v2 m4 l2 l6)
+Removed operator: (drive-medical-unit_v2 m4 l2 l7)
+Removed operator: (drive-medical-unit_v2 m4 l2 l8)
+Removed operator: (drive-medical-unit_v2 m4 l2 l9)
+Removed operator: (drive-medical-unit_v2 m4 l3 l1)
+Removed operator: (drive-medical-unit_v2 m4 l3 l2)
+Removed operator: (drive-medical-unit_v2 m4 l3 l4)
+Removed operator: (drive-medical-unit_v2 m4 l3 l6)
+Removed operator: (drive-medical-unit_v2 m4 l3 l7)
+Removed operator: (drive-medical-unit_v2 m4 l3 l8)
+Removed operator: (drive-medical-unit_v2 m4 l3 l9)
+Removed operator: (drive-medical-unit_v2 m4 l4 l1)
+Removed operator: (drive-medical-unit_v2 m4 l4 l2)
+Removed operator: (drive-medical-unit_v2 m4 l4 l3)
+Removed operator: (drive-medical-unit_v2 m4 l4 l6)
+Removed operator: (drive-medical-unit_v2 m4 l4 l7)
+Removed operator: (drive-medical-unit_v2 m4 l4 l8)
+Removed operator: (drive-medical-unit_v2 m4 l4 l9)
+Removed operator: (drive-medical-unit_v2 m4 l5 l1)
+Removed operator: (drive-medical-unit_v2 m4 l5 l2)
+Removed operator: (drive-medical-unit_v2 m4 l5 l3)
+Removed operator: (drive-medical-unit_v2 m4 l5 l4)
+Removed operator: (drive-medical-unit_v2 m4 l5 l6)
+Removed operator: (drive-medical-unit_v2 m4 l6 l1)
+Removed operator: (drive-medical-unit_v2 m4 l6 l2)
+Removed operator: (drive-medical-unit_v2 m4 l6 l3)
+Removed operator: (drive-medical-unit_v2 m4 l6 l4)
+Removed operator: (drive-medical-unit_v2 m4 l7 l1)
+Removed operator: (drive-medical-unit_v2 m4 l7 l2)
+Removed operator: (drive-medical-unit_v2 m4 l7 l3)
+Removed operator: (drive-medical-unit_v2 m4 l7 l4)
+Removed operator: (drive-medical-unit_v2 m4 l8 l1)
+Removed operator: (drive-medical-unit_v2 m4 l8 l2)
+Removed operator: (drive-medical-unit_v2 m4 l8 l3)
+Removed operator: (drive-medical-unit_v2 m4 l8 l4)
+Removed operator: (drive-medical-unit_v2 m4 l9 l1)
+Removed operator: (drive-medical-unit_v2 m4 l9 l2)
+Removed operator: (drive-medical-unit_v2 m4 l9 l3)
+Removed operator: (drive-medical-unit_v2 m4 l9 l4)
+Removed operator: (drive-medical-unit_v2 m5 l1 l2)
+Removed operator: (drive-medical-unit_v2 m5 l1 l3)
+Removed operator: (drive-medical-unit_v2 m5 l1 l4)
+Removed operator: (drive-medical-unit_v2 m5 l1 l6)
+Removed operator: (drive-medical-unit_v2 m5 l1 l7)
+Removed operator: (drive-medical-unit_v2 m5 l1 l8)
+Removed operator: (drive-medical-unit_v2 m5 l1 l9)
+Removed operator: (drive-medical-unit_v2 m5 l2 l1)
+Removed operator: (drive-medical-unit_v2 m5 l2 l3)
+Removed operator: (drive-medical-unit_v2 m5 l2 l4)
+Removed operator: (drive-medical-unit_v2 m5 l2 l6)
+Removed operator: (drive-medical-unit_v2 m5 l2 l7)
+Removed operator: (drive-medical-unit_v2 m5 l2 l8)
+Removed operator: (drive-medical-unit_v2 m5 l2 l9)
+Removed operator: (drive-medical-unit_v2 m5 l3 l1)
+Removed operator: (drive-medical-unit_v2 m5 l3 l2)
+Removed operator: (drive-medical-unit_v2 m5 l3 l4)
+Removed operator: (drive-medical-unit_v2 m5 l3 l6)
+Removed operator: (drive-medical-unit_v2 m5 l3 l7)
+Removed operator: (drive-medical-unit_v2 m5 l3 l8)
+Removed operator: (drive-medical-unit_v2 m5 l3 l9)
+Removed operator: (drive-medical-unit_v2 m5 l4 l1)
+Removed operator: (drive-medical-unit_v2 m5 l4 l2)
+Removed operator: (drive-medical-unit_v2 m5 l4 l3)
+Removed operator: (drive-medical-unit_v2 m5 l4 l6)
+Removed operator: (drive-medical-unit_v2 m5 l4 l7)
+Removed operator: (drive-medical-unit_v2 m5 l4 l8)
+Removed operator: (drive-medical-unit_v2 m5 l4 l9)
+Removed operator: (drive-medical-unit_v2 m5 l5 l1)
+Removed operator: (drive-medical-unit_v2 m5 l5 l2)
+Removed operator: (drive-medical-unit_v2 m5 l5 l3)
+Removed operator: (drive-medical-unit_v2 m5 l5 l4)
+Removed operator: (drive-medical-unit_v2 m5 l5 l6)
+Removed operator: (drive-medical-unit_v2 m5 l6 l1)
+Removed operator: (drive-medical-unit_v2 m5 l6 l2)
+Removed operator: (drive-medical-unit_v2 m5 l6 l3)
+Removed operator: (drive-medical-unit_v2 m5 l6 l4)
+Removed operator: (drive-medical-unit_v2 m5 l7 l1)
+Removed operator: (drive-medical-unit_v2 m5 l7 l2)
+Removed operator: (drive-medical-unit_v2 m5 l7 l3)
+Removed operator: (drive-medical-unit_v2 m5 l7 l4)
+Removed operator: (drive-medical-unit_v2 m5 l8 l1)
+Removed operator: (drive-medical-unit_v2 m5 l8 l2)
+Removed operator: (drive-medical-unit_v2 m5 l8 l3)
+Removed operator: (drive-medical-unit_v2 m5 l8 l4)
+Removed operator: (drive-medical-unit_v2 m5 l9 l1)
+Removed operator: (drive-medical-unit_v2 m5 l9 l2)
+Removed operator: (drive-medical-unit_v2 m5 l9 l3)
+Removed operator: (drive-medical-unit_v2 m5 l9 l4)
+Removed operator: (drive-medical-unit_v2 m6 l1 l2)
+Removed operator: (drive-medical-unit_v2 m6 l1 l3)
+Removed operator: (drive-medical-unit_v2 m6 l1 l4)
+Removed operator: (drive-medical-unit_v2 m6 l1 l6)
+Removed operator: (drive-medical-unit_v2 m6 l1 l7)
+Removed operator: (drive-medical-unit_v2 m6 l1 l8)
+Removed operator: (drive-medical-unit_v2 m6 l1 l9)
+Removed operator: (drive-medical-unit_v2 m6 l2 l1)
+Removed operator: (drive-medical-unit_v2 m6 l2 l3)
+Removed operator: (drive-medical-unit_v2 m6 l2 l4)
+Removed operator: (drive-medical-unit_v2 m6 l2 l6)
+Removed operator: (drive-medical-unit_v2 m6 l2 l7)
+Removed operator: (drive-medical-unit_v2 m6 l2 l8)
+Removed operator: (drive-medical-unit_v2 m6 l2 l9)
+Removed operator: (drive-medical-unit_v2 m6 l3 l1)
+Removed operator: (drive-medical-unit_v2 m6 l3 l2)
+Removed operator: (drive-medical-unit_v2 m6 l3 l4)
+Removed operator: (drive-medical-unit_v2 m6 l3 l6)
+Removed operator: (drive-medical-unit_v2 m6 l3 l7)
+Removed operator: (drive-medical-unit_v2 m6 l3 l8)
+Removed operator: (drive-medical-unit_v2 m6 l3 l9)
+Removed operator: (drive-medical-unit_v2 m6 l4 l1)
+Removed operator: (drive-medical-unit_v2 m6 l4 l2)
+Removed operator: (drive-medical-unit_v2 m6 l4 l3)
+Removed operator: (drive-medical-unit_v2 m6 l4 l6)
+Removed operator: (drive-medical-unit_v2 m6 l4 l7)
+Removed operator: (drive-medical-unit_v2 m6 l4 l8)
+Removed operator: (drive-medical-unit_v2 m6 l4 l9)
+Removed operator: (drive-medical-unit_v2 m6 l5 l1)
+Removed operator: (drive-medical-unit_v2 m6 l5 l2)
+Removed operator: (drive-medical-unit_v2 m6 l5 l3)
+Removed operator: (drive-medical-unit_v2 m6 l5 l4)
+Removed operator: (drive-medical-unit_v2 m6 l5 l6)
+Removed operator: (drive-medical-unit_v2 m6 l6 l1)
+Removed operator: (drive-medical-unit_v2 m6 l6 l2)
+Removed operator: (drive-medical-unit_v2 m6 l6 l3)
+Removed operator: (drive-medical-unit_v2 m6 l6 l4)
+Removed operator: (drive-medical-unit_v2 m6 l7 l1)
+Removed operator: (drive-medical-unit_v2 m6 l7 l2)
+Removed operator: (drive-medical-unit_v2 m6 l7 l3)
+Removed operator: (drive-medical-unit_v2 m6 l7 l4)
+Removed operator: (drive-medical-unit_v2 m6 l8 l1)
+Removed operator: (drive-medical-unit_v2 m6 l8 l2)
+Removed operator: (drive-medical-unit_v2 m6 l8 l3)
+Removed operator: (drive-medical-unit_v2 m6 l8 l4)
+Removed operator: (drive-medical-unit_v2 m6 l9 l1)
+Removed operator: (drive-medical-unit_v2 m6 l9 l2)
+Removed operator: (drive-medical-unit_v2 m6 l9 l3)
+Removed operator: (drive-medical-unit_v2 m6 l9 l4)
+Removed operator: (drive-medical-unit_v2 m7 l1 l2)
+Removed operator: (drive-medical-unit_v2 m7 l1 l3)
+Removed operator: (drive-medical-unit_v2 m7 l1 l4)
+Removed operator: (drive-medical-unit_v2 m7 l1 l6)
+Removed operator: (drive-medical-unit_v2 m7 l1 l7)
+Removed operator: (drive-medical-unit_v2 m7 l1 l8)
+Removed operator: (drive-medical-unit_v2 m7 l1 l9)
+Removed operator: (drive-medical-unit_v2 m7 l2 l1)
+Removed operator: (drive-medical-unit_v2 m7 l2 l3)
+Removed operator: (drive-medical-unit_v2 m7 l2 l4)
+Removed operator: (drive-medical-unit_v2 m7 l2 l6)
+Removed operator: (drive-medical-unit_v2 m7 l2 l7)
+Removed operator: (drive-medical-unit_v2 m7 l2 l8)
+Removed operator: (drive-medical-unit_v2 m7 l2 l9)
+Removed operator: (drive-medical-unit_v2 m7 l3 l1)
+Removed operator: (drive-medical-unit_v2 m7 l3 l2)
+Removed operator: (drive-medical-unit_v2 m7 l3 l4)
+Removed operator: (drive-medical-unit_v2 m7 l3 l6)
+Removed operator: (drive-medical-unit_v2 m7 l3 l7)
+Removed operator: (drive-medical-unit_v2 m7 l3 l8)
+Removed operator: (drive-medical-unit_v2 m7 l3 l9)
+Removed operator: (drive-medical-unit_v2 m7 l4 l1)
+Removed operator: (drive-medical-unit_v2 m7 l4 l2)
+Removed operator: (drive-medical-unit_v2 m7 l4 l3)
+Removed operator: (drive-medical-unit_v2 m7 l4 l6)
+Removed operator: (drive-medical-unit_v2 m7 l4 l7)
+Removed operator: (drive-medical-unit_v2 m7 l4 l8)
+Removed operator: (drive-medical-unit_v2 m7 l4 l9)
+Removed operator: (drive-medical-unit_v2 m7 l5 l1)
+Removed operator: (drive-medical-unit_v2 m7 l5 l2)
+Removed operator: (drive-medical-unit_v2 m7 l5 l3)
+Removed operator: (drive-medical-unit_v2 m7 l5 l4)
+Removed operator: (drive-medical-unit_v2 m7 l5 l6)
+Removed operator: (drive-medical-unit_v2 m7 l6 l1)
+Removed operator: (drive-medical-unit_v2 m7 l6 l2)
+Removed operator: (drive-medical-unit_v2 m7 l6 l3)
+Removed operator: (drive-medical-unit_v2 m7 l6 l4)
+Removed operator: (drive-medical-unit_v2 m7 l7 l1)
+Removed operator: (drive-medical-unit_v2 m7 l7 l2)
+Removed operator: (drive-medical-unit_v2 m7 l7 l3)
+Removed operator: (drive-medical-unit_v2 m7 l7 l4)
+Removed operator: (drive-medical-unit_v2 m7 l8 l1)
+Removed operator: (drive-medical-unit_v2 m7 l8 l2)
+Removed operator: (drive-medical-unit_v2 m7 l8 l3)
+Removed operator: (drive-medical-unit_v2 m7 l8 l4)
+Removed operator: (drive-medical-unit_v2 m7 l9 l1)
+Removed operator: (drive-medical-unit_v2 m7 l9 l2)
+Removed operator: (drive-medical-unit_v2 m7 l9 l3)
+Removed operator: (drive-medical-unit_v2 m7 l9 l4)
+Removed operator: (drive-medical-unit_v2 m8 l1 l2)
+Removed operator: (drive-medical-unit_v2 m8 l1 l3)
+Removed operator: (drive-medical-unit_v2 m8 l1 l4)
+Removed operator: (drive-medical-unit_v2 m8 l1 l6)
+Removed operator: (drive-medical-unit_v2 m8 l1 l7)
+Removed operator: (drive-medical-unit_v2 m8 l1 l8)
+Removed operator: (drive-medical-unit_v2 m8 l1 l9)
+Removed operator: (drive-medical-unit_v2 m8 l2 l1)
+Removed operator: (drive-medical-unit_v2 m8 l2 l3)
+Removed operator: (drive-medical-unit_v2 m8 l2 l4)
+Removed operator: (drive-medical-unit_v2 m8 l2 l6)
+Removed operator: (drive-medical-unit_v2 m8 l2 l7)
+Removed operator: (drive-medical-unit_v2 m8 l2 l8)
+Removed operator: (drive-medical-unit_v2 m8 l2 l9)
+Removed operator: (drive-medical-unit_v2 m8 l3 l1)
+Removed operator: (drive-medical-unit_v2 m8 l3 l2)
+Removed operator: (drive-medical-unit_v2 m8 l3 l4)
+Removed operator: (drive-medical-unit_v2 m8 l3 l6)
+Removed operator: (drive-medical-unit_v2 m8 l3 l7)
+Removed operator: (drive-medical-unit_v2 m8 l3 l8)
+Removed operator: (drive-medical-unit_v2 m8 l3 l9)
+Removed operator: (drive-medical-unit_v2 m8 l4 l1)
+Removed operator: (drive-medical-unit_v2 m8 l4 l2)
+Removed operator: (drive-medical-unit_v2 m8 l4 l3)
+Removed operator: (drive-medical-unit_v2 m8 l4 l6)
+Removed operator: (drive-medical-unit_v2 m8 l4 l7)
+Removed operator: (drive-medical-unit_v2 m8 l4 l8)
+Removed operator: (drive-medical-unit_v2 m8 l4 l9)
+Removed operator: (drive-medical-unit_v2 m8 l5 l1)
+Removed operator: (drive-medical-unit_v2 m8 l5 l2)
+Removed operator: (drive-medical-unit_v2 m8 l5 l3)
+Removed operator: (drive-medical-unit_v2 m8 l5 l4)
+Removed operator: (drive-medical-unit_v2 m8 l5 l6)
+Removed operator: (drive-medical-unit_v2 m8 l6 l1)
+Removed operator: (drive-medical-unit_v2 m8 l6 l2)
+Removed operator: (drive-medical-unit_v2 m8 l6 l3)
+Removed operator: (drive-medical-unit_v2 m8 l6 l4)
+Removed operator: (drive-medical-unit_v2 m8 l7 l1)
+Removed operator: (drive-medical-unit_v2 m8 l7 l2)
+Removed operator: (drive-medical-unit_v2 m8 l7 l3)
+Removed operator: (drive-medical-unit_v2 m8 l7 l4)
+Removed operator: (drive-medical-unit_v2 m8 l8 l1)
+Removed operator: (drive-medical-unit_v2 m8 l8 l2)
+Removed operator: (drive-medical-unit_v2 m8 l8 l3)
+Removed operator: (drive-medical-unit_v2 m8 l8 l4)
+Removed operator: (drive-medical-unit_v2 m8 l9 l1)
+Removed operator: (drive-medical-unit_v2 m8 l9 l2)
+Removed operator: (drive-medical-unit_v2 m8 l9 l3)
+Removed operator: (drive-medical-unit_v2 m8 l9 l4)
+Removed operator: (drive-medical-unit_v2 m9 l1 l2)
+Removed operator: (drive-medical-unit_v2 m9 l1 l3)
+Removed operator: (drive-medical-unit_v2 m9 l1 l4)
+Removed operator: (drive-medical-unit_v2 m9 l1 l6)
+Removed operator: (drive-medical-unit_v2 m9 l1 l7)
+Removed operator: (drive-medical-unit_v2 m9 l1 l8)
+Removed operator: (drive-medical-unit_v2 m9 l1 l9)
+Removed operator: (drive-medical-unit_v2 m9 l2 l1)
+Removed operator: (drive-medical-unit_v2 m9 l2 l3)
+Removed operator: (drive-medical-unit_v2 m9 l2 l4)
+Removed operator: (drive-medical-unit_v2 m9 l2 l6)
+Removed operator: (drive-medical-unit_v2 m9 l2 l7)
+Removed operator: (drive-medical-unit_v2 m9 l2 l8)
+Removed operator: (drive-medical-unit_v2 m9 l2 l9)
+Removed operator: (drive-medical-unit_v2 m9 l3 l1)
+Removed operator: (drive-medical-unit_v2 m9 l3 l2)
+Removed operator: (drive-medical-unit_v2 m9 l3 l4)
+Removed operator: (drive-medical-unit_v2 m9 l3 l6)
+Removed operator: (drive-medical-unit_v2 m9 l3 l7)
+Removed operator: (drive-medical-unit_v2 m9 l3 l8)
+Removed operator: (drive-medical-unit_v2 m9 l3 l9)
+Removed operator: (drive-medical-unit_v2 m9 l4 l1)
+Removed operator: (drive-medical-unit_v2 m9 l4 l2)
+Removed operator: (drive-medical-unit_v2 m9 l4 l3)
+Removed operator: (drive-medical-unit_v2 m9 l4 l6)
+Removed operator: (drive-medical-unit_v2 m9 l4 l7)
+Removed operator: (drive-medical-unit_v2 m9 l4 l8)
+Removed operator: (drive-medical-unit_v2 m9 l4 l9)
+Removed operator: (drive-medical-unit_v2 m9 l5 l1)
+Removed operator: (drive-medical-unit_v2 m9 l5 l2)
+Removed operator: (drive-medical-unit_v2 m9 l5 l3)
+Removed operator: (drive-medical-unit_v2 m9 l5 l4)
+Removed operator: (drive-medical-unit_v2 m9 l5 l6)
+Removed operator: (drive-medical-unit_v2 m9 l6 l1)
+Removed operator: (drive-medical-unit_v2 m9 l6 l2)
+Removed operator: (drive-medical-unit_v2 m9 l6 l3)
+Removed operator: (drive-medical-unit_v2 m9 l6 l4)
+Removed operator: (drive-medical-unit_v2 m9 l7 l1)
+Removed operator: (drive-medical-unit_v2 m9 l7 l2)
+Removed operator: (drive-medical-unit_v2 m9 l7 l3)
+Removed operator: (drive-medical-unit_v2 m9 l7 l4)
+Removed operator: (drive-medical-unit_v2 m9 l8 l1)
+Removed operator: (drive-medical-unit_v2 m9 l8 l2)
+Removed operator: (drive-medical-unit_v2 m9 l8 l3)
+Removed operator: (drive-medical-unit_v2 m9 l8 l4)
+Removed operator: (drive-medical-unit_v2 m9 l9 l1)
+Removed operator: (drive-medical-unit_v2 m9 l9 l2)
+Removed operator: (drive-medical-unit_v2 m9 l9 l3)
+Removed operator: (drive-medical-unit_v2 m9 l9 l4)
+490 operators removed
+27 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.015s wall-clock]
+Translator variables: 46
+Translator derived variables: 0
+Translator facts: 306
+Translator goal facts: 17
+Translator mutex groups: 27
+Translator total mutex groups size: 268
+Translator operators: 2575
+Translator axioms: 0
+Translator task size: 11954
+Translator peak memory: 42196 KB
+Writing output... [0.020s CPU, 0.020s wall-clock]
+Done! [0.340s CPU, 0.347s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+46 variables of 46 necessary
+0 of 27 mutex groups necessary.
+2575 of 2575 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 306
+Preprocessor derived variables: 0
+Preprocessor task size: 11686
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 46
+Bytes per state: 16
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Initial search time: 0.02s
+Initial total time: 0.06s
+No solution -- aborting repairs.
+Peak memory: 10248 KB
