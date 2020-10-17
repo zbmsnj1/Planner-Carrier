@@ -112,18 +112,8 @@ $ python3 gentask.py
     a,b-c.Select specific planners
     0
     ```
-
-* Step 5: Decide whether to end the choosing. 
-  * 1: End choosing 
-  * 2: Go back to Step 1, start choosing  again
-    ```
-    Have you finished entering data?
-     1.Yes
-     2.No, I wish to contiune
-     1
-    ```
-
-* Step 6: Save selected testing data in a csv file.
+    
+* Step 5: Save selected testing data in a csv file.
   * Enter a name to save the selected domains for testing in `.csv` file. (*name should exclude ".csv"*)
   * It will also show the `test1.csv`  on console.
     ```
