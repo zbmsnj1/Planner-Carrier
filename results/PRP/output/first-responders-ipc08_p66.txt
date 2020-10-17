@@ -1,0 +1,155 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Warning: Atom fire(l3) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l2, l2) is specified twice in initial state specification
+Warning: Atom adjacent(l3, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l3) is specified twice in initial state specification
+Warning: Atom adjacent(l4, l1) is specified twice in initial state specification
+Warning: Atom adjacent(l1, l4) is specified twice in initial state specification
+Parsing: [0.000s CPU, 0.003s wall-clock]
+Normalizing task... [0.010s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.005s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
+Generated 68 rules.
+Computing model... [0.010s CPU, 0.011s wall-clock]
+419 relevant atoms
+592 auxiliary atoms
+1011 final queue length
+1159 total queue pushes
+Completing instantiation... [0.010s CPU, 0.007s wall-clock]
+Instantiating: [0.030s CPU, 0.026s wall-clock]
+Computing fact groups...
+Finding invariants...
+21 initial candidates
+Finding invariants: [0.000s CPU, 0.004s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+13 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.000s CPU, 0.005s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.010s CPU, 0.012s wall-clock]
+96 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+Removed false proposition: 1 = <none of those>
+Removed false proposition: 2 = <none of those>
+Removed false proposition: 3 = <none of those>
+Removed false proposition: 4 = <none of those>
+Removed false proposition: 5 = <none of those>
+Removed false proposition: 6 = <none of those>
+Removed false proposition: 7 = <none of those>
+Removed false proposition: 8 = <none of those>
+Removed false proposition: 9 = <none of those>
+Removed false proposition: 10 = <none of those>
+Removed false proposition: 11 = <none of those>
+Removed false proposition: 13 = <none of those>
+Removed operator: (drive-fire-unit_v2 f1 l1 l2)
+Removed operator: (drive-fire-unit_v2 f1 l1 l3)
+Removed operator: (drive-fire-unit_v2 f1 l1 l4)
+Removed operator: (drive-fire-unit_v2 f1 l1 l5)
+Removed operator: (drive-fire-unit_v2 f1 l1 l6)
+Removed operator: (drive-fire-unit_v2 f1 l2 l3)
+Removed operator: (drive-fire-unit_v2 f1 l2 l4)
+Removed operator: (drive-fire-unit_v2 f1 l2 l5)
+Removed operator: (drive-fire-unit_v2 f1 l2 l6)
+Removed operator: (drive-fire-unit_v2 f1 l3 l2)
+Removed operator: (drive-fire-unit_v2 f1 l3 l5)
+Removed operator: (drive-fire-unit_v2 f1 l3 l6)
+Removed operator: (drive-fire-unit_v2 f1 l4 l2)
+Removed operator: (drive-fire-unit_v2 f1 l4 l6)
+Removed operator: (drive-fire-unit_v2 f1 l5 l2)
+Removed operator: (drive-fire-unit_v2 f1 l5 l3)
+Removed operator: (drive-fire-unit_v2 f1 l6 l2)
+Removed operator: (drive-fire-unit_v2 f1 l6 l3)
+Removed operator: (drive-fire-unit_v2 f1 l6 l4)
+Removed operator: (drive-medical-unit_v2 m1 l1 l2)
+Removed operator: (drive-medical-unit_v2 m1 l1 l3)
+Removed operator: (drive-medical-unit_v2 m1 l1 l4)
+Removed operator: (drive-medical-unit_v2 m1 l1 l5)
+Removed operator: (drive-medical-unit_v2 m1 l1 l6)
+Removed operator: (drive-medical-unit_v2 m1 l2 l3)
+Removed operator: (drive-medical-unit_v2 m1 l2 l4)
+Removed operator: (drive-medical-unit_v2 m1 l2 l5)
+Removed operator: (drive-medical-unit_v2 m1 l2 l6)
+Removed operator: (drive-medical-unit_v2 m1 l3 l2)
+Removed operator: (drive-medical-unit_v2 m1 l3 l5)
+Removed operator: (drive-medical-unit_v2 m1 l3 l6)
+Removed operator: (drive-medical-unit_v2 m1 l4 l2)
+Removed operator: (drive-medical-unit_v2 m1 l4 l6)
+Removed operator: (drive-medical-unit_v2 m1 l5 l2)
+Removed operator: (drive-medical-unit_v2 m1 l5 l3)
+Removed operator: (drive-medical-unit_v2 m1 l6 l2)
+Removed operator: (drive-medical-unit_v2 m1 l6 l3)
+Removed operator: (drive-medical-unit_v2 m1 l6 l4)
+38 operators removed
+13 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.002s wall-clock]
+Translator variables: 26
+Translator derived variables: 0
+Translator facts: 90
+Translator goal facts: 11
+Translator mutex groups: 13
+Translator total mutex groups size: 64
+Translator operators: 218
+Translator axioms: 0
+Translator task size: 1171
+Translator peak memory: 29848 KB
+Writing output... [0.000s CPU, 0.004s wall-clock]
+Done! [0.060s CPU, 0.053s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+26 variables of 26 necessary
+0 of 13 mutex groups necessary.
+218 of 218 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 90
+Preprocessor derived variables: 0
+Preprocessor task size: 1107
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 26
+Bytes per state: 8
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Initial search time: 0s
+Initial total time: 0s
+No solution -- aborting repairs.
+Peak memory: 4940 KB

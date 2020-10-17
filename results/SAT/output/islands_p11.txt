@@ -1,0 +1,115 @@
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (0 /sec)
+propagations          : 609            (34380 /sec)
+conflict literals     : 0              ( nan % deleted)
+Memory used           : 2.06 MB
+CPU time              : 0.017714 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |   64712   134963 |   21570       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 7              (194 /sec)
+decisions             : 10             (278 /sec)
+propagations          : 1887           (52398 /sec)
+conflict literals     : 14             (12.50 % deleted)
+Memory used           : 2.45 MB
+CPU time              : 0.036013 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |   99315   210618 |   33105       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 33             (816 /sec)
+decisions             : 104            (2572 /sec)
+propagations          : 8683           (214724 /sec)
+conflict literals     : 133            (23.12 % deleted)
+Memory used           : 2.96 MB
+CPU time              : 0.040438 s
+
+SATISFIABLE
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+Setting atoms
+# Atoms: 114
+Setting initial
+Setting goal
+Setting actions
+# Actions: 288
+	Setting other actions
+(0, '/', 288)
+	Setting action card
+Setting mutexes
+Setting relevant actions
+Setting splitting
+Setting compatible actions
+(0, '/', 288)
+0.164306879044
+=================================================
+Trying with 2 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 114
+# Actions: 288
+SAT formula generation time = 0.388129
+# Clauses = 63675
+# Variables = 858
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.026247
+Cumulated solver time: 0.026247
+UNSATISFIABLE
+=================================================
+Trying with 3 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 114
+# Actions: 288
+SAT formula generation time = 0.630501
+# Clauses = 97910
+# Variables = 1323
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3598 seconds
+Done solver. Round time: 0.041989
+Cumulated solver time: 0.068236
+UNSATISFIABLE
+=================================================
+Trying with 4 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 114
+# Actions: 288
+SAT formula generation time = 0.888313
+# Clauses = 133868
+# Variables = 1820
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3597 seconds
+Done solver. Round time: 0.059446
+Cumulated solver time: 0.127682
+Elapsed total time (s): 2.638844
+Elapsed solver time (s): 0.127682
+Elapsed solver time (s): [0.026247024536132812, 0.04198908805847168, 0.059446096420288086]
+Looking for strong plans: False
+Fair actions: True
+Done

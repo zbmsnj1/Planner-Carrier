@@ -1,0 +1,121 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.000s CPU, 0.004s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
+Preparing model... [0.010s CPU, 0.004s wall-clock]
+Generated 35 rules.
+Computing model... [0.050s CPU, 0.054s wall-clock]
+3174 relevant atoms
+2816 auxiliary atoms
+5990 final queue length
+8078 total queue pushes
+Completing instantiation... [0.070s CPU, 0.063s wall-clock]
+Instantiating: [0.130s CPU, 0.127s wall-clock]
+Computing fact groups...
+Finding invariants...
+10 initial candidates
+Finding invariants: [0.000s CPU, 0.003s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.002s wall-clock]
+Collecting mutex groups... [0.010s CPU, 0.000s wall-clock]
+Choosing groups...
+1 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.001s wall-clock]
+Computing fact groups: [0.010s CPU, 0.011s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.004s wall-clock]
+Translating task: [0.070s CPU, 0.070s wall-clock]
+12 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+Removed false proposition: 1 = <none of those>
+Removed false proposition: 2 = <none of those>
+Removed false proposition: 3 = <none of those>
+Removed false proposition: 4 = <none of those>
+Removed false proposition: 5 = <none of those>
+Removed false proposition: 6 = <none of those>
+0 operators removed
+7 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.010s wall-clock]
+Translator variables: 9
+Translator derived variables: 0
+Translator facts: 515
+Translator goal facts: 1
+Translator mutex groups: 9
+Translator total mutex groups size: 519
+Translator operators: 2160
+Translator axioms: 0
+Translator task size: 8712
+Translator peak memory: 38468 KB
+Writing output... [0.010s CPU, 0.015s wall-clock]
+Done! [0.240s CPU, 0.246s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+9 variables of 9 necessary
+1 of 9 mutex groups necessary.
+2160 of 2160 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 515
+Preprocessor derived variables: 0
+Preprocessor task size: 8200
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 9
+Bytes per state: 8
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 34 state(s).
+Dead ends: 0 state(s). (0 recorded)
+swim_DETDUP_0 l66-1 l61-2 (1)
+Plan length: 1 step(s).
+Plan cost: 1
+Initial search time: 0s
+Initial total time: 0.02s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+Generated 2905 state(s).
+Dead ends: 0 state(s).
+Failed to allocate memory. Released memory buffer.
+Memory limit has been reached.
+Peak memory: Failed to allocate memory. Released memory buffer.
+Memory limit has been reached.

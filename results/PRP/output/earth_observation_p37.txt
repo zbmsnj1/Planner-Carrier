@@ -1,0 +1,357 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.000s CPU, 0.004s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Trivial rules: Converted to facts.
+Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
+Preparing model... [0.010s CPU, 0.003s wall-clock]
+Generated 22 rules.
+Computing model... [0.020s CPU, 0.020s wall-clock]
+789 relevant atoms
+1026 auxiliary atoms
+1815 final queue length
+2014 total queue pushes
+Completing instantiation... [0.010s CPU, 0.011s wall-clock]
+Instantiating: [0.040s CPU, 0.040s wall-clock]
+Computing fact groups...
+Finding invariants...
+4 initial candidates
+Finding invariants: [0.000s CPU, 0.001s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+39 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.000s CPU, 0.004s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.010s CPU, 0.011s wall-clock]
+39 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 0 = <none of those>
+0 operators removed
+1 propositions removed
+Detecting unreachable propositions: [0.000s CPU, 0.002s wall-clock]
+Translator variables: 40
+Translator derived variables: 0
+Translator facts: 148
+Translator goal facts: 39
+Translator mutex groups: 1
+Translator total mutex groups size: 70
+Translator operators: 268
+Translator axioms: 0
+Translator task size: 1218
+Translator peak memory: 30588 KB
+Writing output... [0.000s CPU, 0.003s wall-clock]
+Done! [0.050s CPU, 0.066s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+40 variables of 40 necessary
+0 of 1 mutex groups necessary.
+268 of 268 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 148
+Preprocessor derived variables: 0
+Preprocessor task size: 1148
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 40
+Bytes per state: 8
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 1907 state(s).
+Dead ends: 0 state(s). (0 recorded)
+slew p14 p23 south-east (1)
+take-image_DETDUP_0 p23 p33 (1)
+take-image_DETDUP_0 p33 p43 (1)
+slew p43 p53 (1)
+take-image_DETDUP_0 p53 p63 (1)
+slew p63 p72 south-east (1)
+slew p72 p82 (1)
+slew p82 p91 south-east (1)
+slew p91 p101 (1)
+take-image_DETDUP_0 p101 p11 (1)
+slew p11 p22 north-east (1)
+take-image_DETDUP_0 p22 p32 (1)
+take-image_DETDUP_0 p32 p42 (1)
+slew p42 p52 (1)
+slew p52 p61 south-east (1)
+take-image_DETDUP_0 p61 p71 (1)
+slew p71 p82 north-east (1)
+slew p82 p91 south-east (1)
+take-image_DETDUP_0 p91 p101 (1)
+slew p101 p12 north-east (1)
+take-image_DETDUP_0 p12 p22 (1)
+slew p22 p31 south-east (1)
+take-image_DETDUP_0 p31 p41 (1)
+slew p41 p52 north-east (1)
+take-image_DETDUP_0 p52 p62 (1)
+slew p62 p72 (1)
+slew p72 p82 (1)
+take-image_DETDUP_0 p82 p92 (1)
+slew p92 p103 north-east (1)
+slew p103 p12 south-east (1)
+slew p12 p23 north-east (1)
+slew p23 p34 north-east (1)
+take-image_DETDUP_0 p34 p44 (1)
+slew p44 p54 (1)
+take-image_DETDUP_0 p54 p64 (1)
+take-image_DETDUP_0 p64 p74 (1)
+slew p74 p83 south-east (1)
+slew p83 p93 (1)
+slew p93 p102 south-east (1)
+slew p102 p11 south-east (1)
+take-image_DETDUP_0 p11 p21 (1)
+slew p21 p32 north-east (1)
+slew p32 p42 (1)
+slew p42 p51 south-east (1)
+take-image_DETDUP_0 p51 p61 (1)
+slew p61 p72 north-east (1)
+slew p72 p83 north-east (1)
+slew p83 p92 south-east (1)
+take-image_DETDUP_0 p92 p102 (1)
+slew p102 p13 north-east (1)
+slew p13 p23 (1)
+slew p23 p34 north-east (1)
+slew p34 p45 north-east (1)
+slew p45 p56 north-east (1)
+take-image_DETDUP_0 p56 p66 (1)
+take-image_DETDUP_0 p66 p76 (1)
+slew p76 p85 south-east (1)
+slew p85 p94 south-east (1)
+slew p94 p103 south-east (1)
+take-image_DETDUP_0 p103 p13 (1)
+take-image_DETDUP_0 p13 p23 (1)
+slew p23 p34 north-east (1)
+slew p34 p44 (1)
+slew p44 p54 (1)
+slew p54 p65 north-east (1)
+slew p65 p75 (1)
+take-image_DETDUP_0 p75 p85 (1)
+slew p85 p94 south-east (1)
+take-image_DETDUP_0 p94 p104 (1)
+take-image_DETDUP_0 p104 p14 (1)
+slew p14 p25 north-east (1)
+slew p25 p36 north-east (1)
+slew p36 p45 south-east (1)
+slew p45 p54 south-east (1)
+slew p54 p63 south-east (1)
+slew p63 p74 north-east (1)
+take-image_DETDUP_0 p74 p84 (1)
+slew p84 p95 north-east (1)
+take-image_DETDUP_0 p95 p105 (1)
+take-image_DETDUP_0 p105 p15 (1)
+take-image_DETDUP_0 p15 p25 (1)
+take-image_DETDUP_0 p25 p35 (1)
+slew p35 p44 south-east (1)
+slew p44 p54 (1)
+slew p54 p63 south-east (1)
+take-image_DETDUP_0 p63 p73 (1)
+slew p73 p84 north-east (1)
+slew p84 p95 north-east (1)
+slew p95 p106 north-east (1)
+take-image_DETDUP_0 p106 p16 (1)
+take-image_DETDUP_0 p16 p26 (1)
+slew p26 p37 north-east (1)
+slew p37 p47 (1)
+slew p47 p57 (1)
+slew p57 p67 (1)
+slew p67 p76 south-east (1)
+take-image_DETDUP_0 p76 p86 (1)
+slew p86 p97 north-east (1)
+take-image_DETDUP_0 p97 p107 (1)
+take-image_DETDUP_0 p107 p17 (1)
+slew p17 p27 (1)
+take-image_DETDUP_0 p27 p37 (1)
+slew p37 p47 (1)
+slew p47 p57 (1)
+slew p57 p67 (1)
+slew p67 p77 (1)
+take-image_DETDUP_0 p77 p87 (1)
+slew p87 p96 south-east (1)
+slew p96 p105 south-east (1)
+slew p105 p16 north-east (1)
+slew p16 p25 south-east (1)
+slew p25 p36 north-east (1)
+slew p36 p45 south-east (1)
+slew p45 p56 north-east (1)
+slew p56 p65 south-east (1)
+slew p65 p76 north-east (1)
+slew p76 p85 south-east (1)
+take-image_DETDUP_0 p85 p95 (1)
+Plan length: 118 step(s).
+Plan cost: 118
+Initial search time: 0s
+Initial total time: 0s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+Generated 3 state(s).
+Dead ends: 0 state(s).
+Generated 10 state(s).
+Dead ends: 0 state(s).
+Generated 18 state(s).
+Dead ends: 0 state(s).
+Generated 22 state(s).
+Dead ends: 0 state(s).
+Generated 24 state(s).
+Dead ends: 0 state(s).
+Generated 11 state(s).
+Dead ends: 0 state(s).
+Generated 30 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 21 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 38 state(s).
+Dead ends: 0 state(s).
+Generated 36 state(s).
+Dead ends: 0 state(s).
+Generated 40 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 36 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 36 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 30 state(s).
+Dead ends: 0 state(s).
+Generated 22 state(s).
+Dead ends: 0 state(s).
+Generated 25 state(s).
+Dead ends: 0 state(s).
+Generated 38 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 42 state(s).
+Dead ends: 0 state(s).
+Generated 28 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 29 state(s).
+Dead ends: 0 state(s).
+Generated 34 state(s).
+Dead ends: 0 state(s).
+Generated 27 state(s).
+Dead ends: 0 state(s).
+Generated 26 state(s).
+Dead ends: 0 state(s).
+Generated 36 state(s).
+Dead ends: 0 state(s).
+Generated 42 state(s).
+Dead ends: 0 state(s).
+Generated 25 state(s).
+Dead ends: 0 state(s).
+Generated 32 state(s).
+Dead ends: 0 state(s).
+Generated 42 state(s).
+Dead ends: 0 state(s).
+Generated 40 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 39 open leaf states.
+Investigated 634 states for the strong cyclic plan.
+Went through another policy of score 1
+
+Could not close 0 of 0 open leaf states.
+Investigated 63 states for the strong cyclic plan.
+Marking policy strong cyclic.
+Went through another policy of score 1
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+...achieved the goal!
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 499 +/- 0
+                       Replans: 0 +/- 0
+                       Actions: 499 +/- 0
+             Recorded Deadends: 0
+            State-Action Pairs: 436
+  Forbidden State-Action Pairs: 0
+               Strongly Cyclic: True
+                  Policy Score: 1
+                     Succeeded: 1 / 1
+ Depth limit (of 1000) reached: 0 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 0s
+           Policy Construction: 0s
+ Evaluating the policy quality: 1.44s
+              Using the policy: 0.78s
+          Just-in-case Repairs: 1.52s
+                Simulator time: 0.02s
+                    Total time: 1.54s
+
+
+
+Dumping the policy and fsaps...
+Strong cyclic plan found.
+Peak memory: 6256 KB

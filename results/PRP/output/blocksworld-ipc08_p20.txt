@@ -1,0 +1,196 @@
+1. Running translator
+Second argument is a file name: use two translator arguments.
+Parsing...
+Parsing: [0.000s CPU, 0.057s wall-clock]
+Normalizing task... [0.010s CPU, 0.001s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.010s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 67 rules.
+Computing model... [0.210s CPU, 0.216s wall-clock]
+4692 relevant atoms
+3650 auxiliary atoms
+8342 final queue length
+15464 total queue pushes
+Completing instantiation... [0.660s CPU, 0.660s wall-clock]
+Instantiating: [0.880s CPU, 0.897s wall-clock]
+Computing fact groups...
+Finding invariants...
+10 initial candidates
+Finding invariants: [0.010s CPU, 0.011s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+11 uncovered facts
+Choosing groups: [0.000s CPU, 0.002s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.015s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.020s CPU, 0.030s wall-clock]
+Translating task: [0.370s CPU, 0.397s wall-clock]
+2090 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+Removed false proposition: 11 = <none of those>
+Removed false proposition: 12 = <none of those>
+Removed false proposition: 13 = <none of those>
+Removed false proposition: 14 = <none of those>
+Removed false proposition: 15 = <none of those>
+Removed false proposition: 16 = <none of those>
+Removed false proposition: 17 = <none of those>
+Removed false proposition: 18 = <none of those>
+Removed false proposition: 19 = <none of those>
+Removed false proposition: 20 = <none of those>
+0 operators removed
+10 propositions removed
+Detecting unreachable propositions: [0.050s CPU, 0.053s wall-clock]
+Translator variables: 21
+Translator derived variables: 0
+Translator facts: 142
+Translator goal facts: 16
+Translator mutex groups: 11
+Translator total mutex groups size: 131
+Translator operators: 3200
+Translator axioms: 0
+Translator task size: 21460
+Translator peak memory: 50980 KB
+Writing output... [0.060s CPU, 0.063s wall-clock]
+Done! [1.410s CPU, 1.509s wall-clock]
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is not acyclic.
+21 variables of 21 necessary
+1 of 11 mutex groups necessary.
+3200 of 3200 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 142
+Preprocessor derived variables: 0
+Preprocessor task size: 21340
+Writing output...
+done
+
+
+3. Running search
+./search/downward ipc policy-repair --dump-policy 2
+This is a unit task.
+./search/downward-release --heuristic "h=ff(cost_type=1)" --search "lazy_greedy([h],preferred=[h])" --random-seed 814102613 --dump-policy 2 < output
+Simplifying transitions... done!
+Variables: 21
+Bytes per state: 8
+
+Total allotted time (s): 1800
+Max time for core JIC (remaining used in final-round repairs): 1800
+Max time for each of the 1 epochs: 1800
+
+ !! Warning: Disabling the simplification of unary operators !!
+ !!           to keep the non-deterministic planning sound.  !!
+Generated 530 state(s).
+Dead ends: 0 state(s). (0 recorded)
+pick-up_DETDUP_0 b4 b9 (1)
+put-down b4 (1)
+pick-up_DETDUP_1 b7 b5 (1)
+pick-up_DETDUP_0 b5 b3 (1)
+put-down b5 (1)
+pick-tower_DETDUP_1 b9 b1 b6 (1)
+put-on-block_DETDUP_0 b1 b9 (1)
+pick-up_DETDUP_0 b6 b10 (1)
+put-on-block_DETDUP_0 b6 b7 (1)
+pick-tower_DETDUP_1 b1 b9 b1 (1)
+put-on-block_DETDUP_0 b9 b6 (1)
+pick-up_DETDUP_0 b10 b2 (1)
+put-on-block_DETDUP_0 b10 b3 (1)
+pick-up_DETDUP_0 b2 b8 (1)
+put-on-block_DETDUP_0 b2 b1 (1)
+Plan length: 15 step(s).
+Plan cost: 15
+Initial search time: 0.02s
+Initial total time: 0.24s
+
+
+Creating the simulator...
+
+
+Regressing the plan...
+
+
+Generating an initial policy...
+
+
+Computing just-in-time repairs...
+Generated 12 state(s).
+Dead ends: 0 state(s).
+Generated 12 state(s).
+Dead ends: 0 state(s).
+Generated 11 state(s).
+Dead ends: 0 state(s).
+Generated 12 state(s).
+Dead ends: 0 state(s).
+Generated 11 state(s).
+Dead ends: 0 state(s).
+Generated 7 state(s).
+Dead ends: 0 state(s).
+
+Could not close 0 of 6 open leaf states.
+Investigated 45 states for the strong cyclic plan.
+Went through another policy of score 1
+
+Could not close 0 of 0 open leaf states.
+Investigated 1 states for the strong cyclic plan.
+Marking policy strong cyclic.
+Went through another policy of score 1
+
+
+Running a final SCD check...
+
+
+Running the simulation...
+...achieved the goal!
+
+
+
+                  -{ General Statistics }-
+
+        FSAP Combination Count: 0
+       Monotonicity violations: 0
+             Successful states: 23 +/- 0
+                       Replans: 0 +/- 0
+                       Actions: 23 +/- 0
+             Recorded Deadends: 0
+            State-Action Pairs: 22
+  Forbidden State-Action Pairs: 0
+               Strongly Cyclic: True
+                  Policy Score: 1
+                     Succeeded: 1 / 1
+ Depth limit (of 1000) reached: 0 / 1
+
+
+                  -{ Timing Statistics }-
+
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 0.02s
+           Policy Construction: 0.04s
+ Evaluating the policy quality: 0.16s
+              Using the policy: 0.12s
+          Just-in-case Repairs: 0.22s
+                Simulator time: 0s
+                    Total time: 0.42s
+
+
+
+Dumping the policy and fsaps...
+Strong cyclic plan found.
+Peak memory: 9736 KB
