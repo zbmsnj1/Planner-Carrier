@@ -246,7 +246,7 @@ $ python3 gentask.py
 	  
    	
 
- * **Console with Step 2(Generate list), no input list**
+ * **Console(without input list, need to generate list manually)**:
 	```
 	Please select which planner's results for data processing:
 	1.prp
@@ -399,7 +399,7 @@ $ python3 gentask.py
 	26       triangle-tireworld(20:21-40)  4129.500000  9006.000000  0.000000   1268.615202  14.750000
 
 	```     
- * **Console with existing list**
+ * **Console(using existing list)**:
 	```
 	Please select which planner's results for data processing:
 	 1.prp
