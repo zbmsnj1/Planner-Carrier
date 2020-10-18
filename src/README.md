@@ -42,6 +42,8 @@ $ python3 gentask.py
 * **Console**:
 
 	```
+	$python3 gentask.py 
+	
 	index             domain_name  problem_size
 	1              acrobatics             8
 	2               beam-walk            11
@@ -167,6 +169,8 @@ $ python3 gentask.py
     ```
  * **Console**:
     ```
+    	$python3 run.py task1.csv
+	
 	Please enter a folder name for saving output data of all jobs:
 	task1
 
@@ -248,7 +252,7 @@ $ python3 gentask.py
 
  * **Console(without input list, need to generate list manually)**:
 	```
-	$ python3 process* task1 nolist
+	$ python3 processdata.py task1 nolist
 	
 	Please select which planner's results for data processing:
 	1.prp
@@ -403,7 +407,7 @@ $ python3 gentask.py
 	```     
  * **Console(using existing list)**:
 	```
-	$ python3 process* task1 paper.txt
+	$ python3 processdata.py task1 paper.txt
 
 	Please select which planner's results for data processing:
 	 1.prp
