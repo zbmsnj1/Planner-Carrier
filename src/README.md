@@ -40,111 +40,111 @@ $ python3 gentask.py
   * Enter a name to save the selected domains for testing in `.csv` file. (*name should exclude ".csv"*)
   * It will also show the `test1.csv`  on console.
 
-   * **console**:
+* **console**:
 
-		```
-		index             domain_name  problem_size
-		1              acrobatics             8
-		2               beam-walk            11
-		3       blocksworld-ipc08            30
-		4                   doors            15
-		5       earth_observation            40
-		6               elevators            15
-		7            faults-ipc08            55
-		8  first-responders-ipc08           100
-		9                 islands            60
-		10                  miner            50
-		11        spiky-tireworld            11
-		12              tireworld            15
-		13        tireworld-truck            74
-		14     triangle-tireworld            40
-		15             zenotravel            15
+	```
+	index             domain_name  problem_size
+	1              acrobatics             8
+	2               beam-walk            11
+	3       blocksworld-ipc08            30
+	4                   doors            15
+	5       earth_observation            40
+	6               elevators            15
+	7            faults-ipc08            55
+	8  first-responders-ipc08           100
+	9                 islands            60
+	10                  miner            50
+	11        spiky-tireworld            11
+	12              tireworld            15
+	13        tireworld-truck            74
+	14     triangle-tireworld            40
+	15             zenotravel            15
 
 
-		Please chose which domain you want to test:
-		0.All
-		a,b-c.From range 1-15 select a,b-c domains
-		0
+	Please chose which domain you want to test:
+	0.All
+	a,b-c.From range 1-15 select a,b-c domains
+	0
 
-		Selected domains are: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+	Selected domains are: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-		Please select problems range for testing:
-		0.All problems for all selected domains
-		a,b-c.Custom specific problems range for selected a,b-c domains,All problems for remaining domains
-		7-10 13
+	Please select problems range for testing:
+	0.All problems for all selected domains
+	a,b-c.Custom specific problems range for selected a,b-c domains,All problems for remaining domains
+	7-10 13
 
-		7  faults-ipc08   size:55
-		Please select problems range for testing:
-		0.All problems for selected domain
-		a,b-c.Custom specific problems range for selected domain
-		1-40
+	7  faults-ipc08   size:55
+	Please select problems range for testing:
+	0.All problems for selected domain
+	a,b-c.Custom specific problems range for selected domain
+	1-40
 
-		8  first-responders-ipc08   size:100
-		Please select problems range for testing:
-		0.All problems for selected domain
-		a,b-c.Custom specific problems range for selected domain
-		20-60
+	8  first-responders-ipc08   size:100
+	Please select problems range for testing:
+	0.All problems for selected domain
+	a,b-c.Custom specific problems range for selected domain
+	20-60
 
-		9  islands   size:60
-		Please select problems range for testing:
-		0.All problems for selected domain
-		a,b-c.Custom specific problems range for selected domain
-		30-60
+	9  islands   size:60
+	Please select problems range for testing:
+	0.All problems for selected domain
+	a,b-c.Custom specific problems range for selected domain
+	30-60
 
-		10  miner   size:50
-		Please select problems range for testing:
-		0.All problems for selected domain
-		a,b-c.Custom specific problems range for selected domain
-		20-40
+	10  miner   size:50
+	Please select problems range for testing:
+	0.All problems for selected domain
+	a,b-c.Custom specific problems range for selected domain
+	20-40
 
-		13  tireworld-truck   size:74
-		Please select problems range for testing:
-		0.All problems for selected domain
-		a,b-c.Custom specific problems range for selected domain
-		12-65
+	13  tireworld-truck   size:74
+	Please select problems range for testing:
+	0.All problems for selected domain
+	a,b-c.Custom specific problems range for selected domain
+	12-65
 
-		Please select one planner for testing:
-		1.prp
-		2.sat
-		0.All planners
-		a,b-c.Select specific planners
-		0
+	Please select one planner for testing:
+	1.prp
+	2.sat
+	0.All planners
+	a,b-c.Select specific planners
+	0
 
-		Please enter a task name(exclude ".csv") for saving your task data into a csv file:
-		test1
-			   domain_name  start_problem  end_problem planner
-		1               acrobatics              1            8     prp
-		2                beam-walk              1           11     prp
-		3        blocksworld-ipc08              1           30     prp
-		4                    doors              1           15     prp
-		5        earth_observation              1           40     prp
-		6                elevators              1           15     prp
-		7          spiky-tireworld              1           11     prp
-		8                tireworld              1           15     prp
-		9       triangle-tireworld              1           40     prp
-		10              zenotravel              1           15     prp
-		11            faults-ipc08              1           40     prp
-		12  first-responders-ipc08             20           60     prp
-		13                 islands             30           60     prp
-		14                   miner             20           40     prp
-		15         tireworld-truck             12           65     prp
-		16              acrobatics              1            8     sat
-		17               beam-walk              1           11     sat
-		18       blocksworld-ipc08              1           30     sat
-		19                   doors              1           15     sat
-		20       earth_observation              1           40     sat
-		21               elevators              1           15     sat
-		22         spiky-tireworld              1           11     sat
-		23               tireworld              1           15     sat
-		24      triangle-tireworld              1           40     sat
-		25              zenotravel              1           15     sat
-		26            faults-ipc08              1           40     sat
-		27  first-responders-ipc08             20           60     sat
-		28                 islands             30           60     sat
-		29                   miner             20           40     sat
-		30         tireworld-truck             12           65     sat
+	Please enter a task name(exclude ".csv") for saving your task data into a csv file:
+	test1
+		   domain_name  start_problem  end_problem planner
+	1               acrobatics              1            8     prp
+	2                beam-walk              1           11     prp
+	3        blocksworld-ipc08              1           30     prp
+	4                    doors              1           15     prp
+	5        earth_observation              1           40     prp
+	6                elevators              1           15     prp
+	7          spiky-tireworld              1           11     prp
+	8                tireworld              1           15     prp
+	9       triangle-tireworld              1           40     prp
+	10              zenotravel              1           15     prp
+	11            faults-ipc08              1           40     prp
+	12  first-responders-ipc08             20           60     prp
+	13                 islands             30           60     prp
+	14                   miner             20           40     prp
+	15         tireworld-truck             12           65     prp
+	16              acrobatics              1            8     sat
+	17               beam-walk              1           11     sat
+	18       blocksworld-ipc08              1           30     sat
+	19                   doors              1           15     sat
+	20       earth_observation              1           40     sat
+	21               elevators              1           15     sat
+	22         spiky-tireworld              1           11     sat
+	23               tireworld              1           15     sat
+	24      triangle-tireworld              1           40     sat
+	25              zenotravel              1           15     sat
+	26            faults-ipc08              1           40     sat
+	27  first-responders-ipc08             20           60     sat
+	28                 islands             30           60     sat
+	29                   miner             20           40     sat
+	30         tireworld-truck             12           65     sat
 
-		```
+	```
 
 ## Run planner
 ### Command:
@@ -166,47 +166,47 @@ $ python3 gentask.py
     ["localhost",  "118.138.246.177", "romote2 ip", "romote3 ip"],
     connect_options={"known_hosts": None, 'username':'root', 'password':'pword'},
     ```
-   * **console**:
-	    ```
-	    	Please enter a folder name for saving output data of all jobs:
-		task1
-		
-		Which mode you wish to run tasks?
-		 1.Local machine
-		 2.SSH Cluster
-		1
-		Start 539 jobs on local machine....
+ * **console**:
+    ```
+	Please enter a folder name for saving output data of all jobs:
+	task1
 
-		Start job 16:
-		Create sat planner successfully
-		Create temporary work environment successfully
-		Start running the planning job...
-		Writing stdout into /home/yifan/plan/Planner-Carrier/results/output/task1/PRP/islands_p04.txt
-		Finish running the planning job!
-		Remove temporary work environment successfully
+	Which mode you wish to run tasks?
+	 1.Local machine
+	 2.SSH Cluster
+	1
+	Start 539 jobs on local machine....
 
-		Start job 17:
-		Create sat planner successfully
-		Create temporary work environment successfully
-		Start running the planning job...
-		Writing stdout into /home/yifan/plan/Planner-Carrier/results/output/task1/PRP/islands_p05.txt
-		Finish running the planning job!
-		Remove temporary work environment successfully
+	Start job 16:
+	Create sat planner successfully
+	Create temporary work environment successfully
+	Start running the planning job...
+	Writing stdout into /home/yifan/plan/Planner-Carrier/results/output/task1/PRP/islands_p04.txt
+	Finish running the planning job!
+	Remove temporary work environment successfully
+
+	Start job 17:
+	Create sat planner successfully
+	Create temporary work environment successfully
+	Start running the planning job...
+	Writing stdout into /home/yifan/plan/Planner-Carrier/results/output/task1/PRP/islands_p05.txt
+	Finish running the planning job!
+	Remove temporary work environment successfully
 
 
-	        .......
+	.......
 
-		Start job 441:
-		Create prp planner successfully
-		Create temporary work environment successfully
-		Start running the planning job...
-		Writing stdout into /home/yifan/Planner-Carrier/results/output/task1/PRP/tireworld-truck_p33.txt
-		Finish running the planning job!
-		Remove temporary work environment successfully
+	Start job 441:
+	Create prp planner successfully
+	Create temporary work environment successfully
+	Start running the planning job...
+	Writing stdout into /home/yifan/Planner-Carrier/results/output/task1/PRP/tireworld-truck_p33.txt
+	Finish running the planning job!
+	Remove temporary work environment successfully
 
-		Finish 539 jobs using 19193.952842712402(s)
+	Finish 539 jobs using 19193.952842712402(s)
 
-	    ```
+    ```
 ## Process data
 ### Command:
 ```
