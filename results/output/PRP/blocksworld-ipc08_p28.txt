@@ -1,42 +1,42 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.029s wall-clock]
+Parsing: [0.010s CPU, 0.005s wall-clock]
 Normalizing task... [0.000s CPU, 0.001s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
-Preparing model... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.009s wall-clock]
+Preparing model... [0.010s CPU, 0.003s wall-clock]
 Generated 67 rules.
-Computing model... [0.500s CPU, 0.505s wall-clock]
+Computing model... [0.440s CPU, 0.539s wall-clock]
 14987 relevant atoms
 10350 auxiliary atoms
 25337 final queue length
 48094 total queue pushes
-Completing instantiation... [0.810s CPU, 0.810s wall-clock]
-Instantiating: [1.330s CPU, 1.335s wall-clock]
+Completing instantiation... [0.780s CPU, 1.042s wall-clock]
+Instantiating: [1.250s CPU, 1.623s wall-clock]
 Computing fact groups...
 Finding invariants...
 10 initial candidates
-Finding invariants: [0.010s CPU, 0.014s wall-clock]
+Finding invariants: [0.010s CPU, 0.021s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.003s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 16 uncovered facts
 Choosing groups: [0.000s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.018s wall-clock]
+Computing fact groups: [0.010s CPU, 0.028s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
-Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Building mutex information: [0.000s CPU, 0.010s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.040s CPU, 0.041s wall-clock]
-Translating task: [1.290s CPU, 1.307s wall-clock]
+Processing axioms: [0.040s CPU, 0.071s wall-clock]
+Translating task: [0.820s CPU, 1.049s wall-clock]
 6960 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -57,7 +57,7 @@ Removed false proposition: 29 = <none of those>
 Removed false proposition: 30 = <none of those>
 0 operators removed
 15 propositions removed
-Detecting unreachable propositions: [0.120s CPU, 0.117s wall-clock]
+Detecting unreachable propositions: [0.100s CPU, 0.098s wall-clock]
 Translator variables: 31
 Translator derived variables: 0
 Translator facts: 287
@@ -67,9 +67,9 @@ Translator total mutex groups size: 271
 Translator operators: 10575
 Translator axioms: 0
 Translator task size: 70735
-Translator peak memory: 100380 KB
-Writing output... [0.110s CPU, 0.115s wall-clock]
-Done! [2.920s CPU, 2.979s wall-clock]
+Translator peak memory: 100340 KB
+Writing output... [0.110s CPU, 0.121s wall-clock]
+Done! [2.370s CPU, 3.006s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -129,8 +129,8 @@ pick-up-from-table_DETDUP_1 b6 (1)
 put-on-block_DETDUP_0 b6 b14 (1)
 Plan length: 23 step(s).
 Plan cost: 23
-Initial search time: 0.06s
-Initial total time: 0.6s
+Initial search time: 0.04s
+Initial total time: 0.36s
 
 
 Creating the simulator...
@@ -194,13 +194,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.08s
+                   Search Time: 0.04s
            Policy Construction: 0.08s
- Evaluating the policy quality: 0.2s
-              Using the policy: 0.08s
-          Just-in-case Repairs: 0.3s
+ Evaluating the policy quality: 0.12s
+              Using the policy: 0.04s
+          Just-in-case Repairs: 0.18s
                 Simulator time: 0s
-                    Total time: 0.84s
+                    Total time: 0.5s
 
 
 

@@ -7,19 +7,19 @@ Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
 Normalizing Datalog program: [0.010s CPU, 0.009s wall-clock]
-Preparing model... [0.000s CPU, 0.003s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 130 rules.
 Computing model... [0.010s CPU, 0.010s wall-clock]
 138 relevant atoms
 526 auxiliary atoms
 664 final queue length
 802 total queue pushes
-Completing instantiation... [0.010s CPU, 0.004s wall-clock]
-Instantiating: [0.030s CPU, 0.027s wall-clock]
+Completing instantiation... [0.000s CPU, 0.004s wall-clock]
+Instantiating: [0.020s CPU, 0.027s wall-clock]
 Computing fact groups...
 Finding invariants...
 7 initial candidates
-Finding invariants: [0.000s CPU, 0.005s wall-clock]
+Finding invariants: [0.010s CPU, 0.004s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -27,7 +27,7 @@ Choosing groups...
 15 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.000s CPU, 0.006s wall-clock]
+Computing fact groups: [0.010s CPU, 0.005s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -43,7 +43,7 @@ Detecting unreachable propositions...
 Removed false proposition: 15 = <none of those>
 0 operators removed
 1 propositions removed
-Detecting unreachable propositions: [0.010s CPU, 0.001s wall-clock]
+Detecting unreachable propositions: [0.000s CPU, 0.001s wall-clock]
 Translator variables: 16
 Translator derived variables: 0
 Translator facts: 38
@@ -53,9 +53,9 @@ Translator total mutex groups size: 8
 Translator operators: 53
 Translator axioms: 0
 Translator task size: 450
-Translator peak memory: 29660 KB
+Translator peak memory: 29724 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.040s CPU, 0.043s wall-clock]
+Done! [0.030s CPU, 0.044s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -278,11 +278,11 @@ Running the simulation...
          Engine Initialization: 0s
                    Search Time: 0s
            Policy Construction: 0s
- Evaluating the policy quality: 0.04s
-              Using the policy: 0.04s
-          Just-in-case Repairs: 0.08s
+ Evaluating the policy quality: 0.06s
+              Using the policy: 0.02s
+          Just-in-case Repairs: 0.06s
                 Simulator time: 0s
-                    Total time: 0.08s
+                    Total time: 0.06s
 
 
 

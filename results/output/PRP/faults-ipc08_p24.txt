@@ -1,7 +1,7 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.007s wall-clock]
+Parsing: [0.000s CPU, 0.003s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
@@ -9,13 +9,13 @@ Normalizing Datalog program...
 Normalizing Datalog program: [0.010s CPU, 0.004s wall-clock]
 Preparing model... [0.000s CPU, 0.001s wall-clock]
 Generated 47 rules.
-Computing model... [0.000s CPU, 0.002s wall-clock]
+Computing model... [0.000s CPU, 0.003s wall-clock]
 137 relevant atoms
 84 auxiliary atoms
 221 final queue length
 351 total queue pushes
-Completing instantiation... [0.000s CPU, 0.004s wall-clock]
-Instantiating: [0.010s CPU, 0.011s wall-clock]
+Completing instantiation... [0.000s CPU, 0.003s wall-clock]
+Instantiating: [0.010s CPU, 0.012s wall-clock]
 Computing fact groups...
 Finding invariants...
 14 initial candidates
@@ -55,9 +55,9 @@ Translator total mutex groups size: 52
 Translator operators: 64
 Translator axioms: 0
 Translator task size: 671
-Translator peak memory: 29004 KB
+Translator peak memory: 29000 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.030s CPU, 0.035s wall-clock]
+Done! [0.030s CPU, 0.031s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -168,12 +168,12 @@ Running the simulation...
         Regression Computation: 0s
          Engine Initialization: 0s
                    Search Time: 0s
-           Policy Construction: 0.02s
+           Policy Construction: 0s
  Evaluating the policy quality: 0.04s
-              Using the policy: 0.02s
-          Just-in-case Repairs: 0.06s
+              Using the policy: 0s
+          Just-in-case Repairs: 0.04s
                 Simulator time: 0s
-                    Total time: 0.06s
+                    Total time: 0.04s
 
 
 

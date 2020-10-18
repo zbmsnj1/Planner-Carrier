@@ -6,16 +6,16 @@ Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.005s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.004s wall-clock]
 Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 67 rules.
-Computing model... [0.280s CPU, 0.285s wall-clock]
+Computing model... [0.310s CPU, 0.365s wall-clock]
 14987 relevant atoms
 10350 auxiliary atoms
 25337 final queue length
 48094 total queue pushes
-Completing instantiation... [1.210s CPU, 1.214s wall-clock]
-Instantiating: [1.510s CPU, 1.516s wall-clock]
+Completing instantiation... [1.120s CPU, 1.666s wall-clock]
+Instantiating: [1.450s CPU, 2.065s wall-clock]
 Computing fact groups...
 Finding invariants...
 10 initial candidates
@@ -36,7 +36,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.040s CPU, 0.039s wall-clock]
-Translating task: [1.050s CPU, 1.100s wall-clock]
+Translating task: [0.710s CPU, 0.800s wall-clock]
 6960 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -57,7 +57,7 @@ Removed false proposition: 29 = <none of those>
 Removed false proposition: 30 = <none of those>
 0 operators removed
 15 propositions removed
-Detecting unreachable propositions: [0.140s CPU, 0.135s wall-clock]
+Detecting unreachable propositions: [0.100s CPU, 0.107s wall-clock]
 Translator variables: 31
 Translator derived variables: 0
 Translator facts: 287
@@ -67,9 +67,9 @@ Translator total mutex groups size: 271
 Translator operators: 10575
 Translator axioms: 0
 Translator task size: 70735
-Translator peak memory: 100532 KB
-Writing output... [0.120s CPU, 0.120s wall-clock]
-Done! [2.890s CPU, 2.955s wall-clock]
+Translator peak memory: 100492 KB
+Writing output... [0.120s CPU, 0.117s wall-clock]
+Done! [2.450s CPU, 3.159s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -131,8 +131,8 @@ pick-up_DETDUP_0 b12 b3 (1)
 put-on-block_DETDUP_0 b12 b7 (1)
 Plan length: 25 step(s).
 Plan cost: 25
-Initial search time: 0.06s
-Initial total time: 0.36s
+Initial search time: 0.08s
+Initial total time: 0.34s
 
 
 Creating the simulator...
@@ -208,13 +208,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.06s
+                   Search Time: 0.1s
            Policy Construction: 0.06s
  Evaluating the policy quality: 0.1s
-              Using the policy: 0.04s
-          Just-in-case Repairs: 0.22s
+              Using the policy: 0.02s
+          Just-in-case Repairs: 0.24s
                 Simulator time: 0s
-                    Total time: 0.52s
+                    Total time: 0.5s
 
 
 

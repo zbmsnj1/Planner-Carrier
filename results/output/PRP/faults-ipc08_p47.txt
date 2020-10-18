@@ -1,25 +1,25 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.010s CPU, 0.004s wall-clock]
+Parsing: [0.010s CPU, 0.005s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
-Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
 Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
 Preparing model... [0.000s CPU, 0.001s wall-clock]
 Generated 32 rules.
-Computing model... [0.000s CPU, 0.003s wall-clock]
+Computing model... [0.010s CPU, 0.002s wall-clock]
 143 relevant atoms
 80 auxiliary atoms
 223 final queue length
 341 total queue pushes
-Completing instantiation... [0.010s CPU, 0.003s wall-clock]
+Completing instantiation... [0.000s CPU, 0.003s wall-clock]
 Instantiating: [0.010s CPU, 0.012s wall-clock]
 Computing fact groups...
 Finding invariants...
 14 initial candidates
-Finding invariants: [0.000s CPU, 0.005s wall-clock]
+Finding invariants: [0.000s CPU, 0.004s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -54,9 +54,9 @@ Translator total mutex groups size: 52
 Translator operators: 61
 Translator axioms: 0
 Translator task size: 615
-Translator peak memory: 29004 KB
+Translator peak memory: 29000 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.030s CPU, 0.030s wall-clock]
+Done! [0.030s CPU, 0.031s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -177,11 +177,11 @@ Running the simulation...
          Engine Initialization: 0s
                    Search Time: 0s
            Policy Construction: 0s
- Evaluating the policy quality: 0.06s
-              Using the policy: 0s
-          Just-in-case Repairs: 0.06s
+ Evaluating the policy quality: 0.08s
+              Using the policy: 0.06s
+          Just-in-case Repairs: 0.08s
                 Simulator time: 0s
-                    Total time: 0.06s
+                    Total time: 0.08s
 
 
 

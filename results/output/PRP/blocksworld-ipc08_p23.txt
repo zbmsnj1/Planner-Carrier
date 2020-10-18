@@ -1,42 +1,42 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.012s wall-clock]
-Normalizing task... [0.010s CPU, 0.001s wall-clock]
+Parsing: [0.000s CPU, 0.074s wall-clock]
+Normalizing task... [0.000s CPU, 0.001s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.012s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.008s wall-clock]
 Preparing model... [0.000s CPU, 0.003s wall-clock]
 Generated 67 rules.
-Computing model... [0.630s CPU, 0.677s wall-clock]
+Computing model... [0.530s CPU, 0.544s wall-clock]
 14987 relevant atoms
 10350 auxiliary atoms
 25337 final queue length
 48096 total queue pushes
-Completing instantiation... [0.970s CPU, 1.022s wall-clock]
-Instantiating: [1.630s CPU, 1.729s wall-clock]
+Completing instantiation... [1.000s CPU, 1.149s wall-clock]
+Instantiating: [1.550s CPU, 1.717s wall-clock]
 Computing fact groups...
 Finding invariants...
 10 initial candidates
-Finding invariants: [0.000s CPU, 0.008s wall-clock]
+Finding invariants: [0.010s CPU, 0.006s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.010s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 16 uncovered facts
-Choosing groups: [0.000s CPU, 0.002s wall-clock]
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.014s wall-clock]
+Computing fact groups: [0.010s CPU, 0.010s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
-Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.060s CPU, 0.064s wall-clock]
-Translating task: [0.870s CPU, 0.992s wall-clock]
+Processing axioms: [0.040s CPU, 0.037s wall-clock]
+Translating task: [0.750s CPU, 1.078s wall-clock]
 6960 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -57,7 +57,7 @@ Removed false proposition: 29 = <none of those>
 Removed false proposition: 30 = <none of those>
 0 operators removed
 15 propositions removed
-Detecting unreachable propositions: [0.090s CPU, 0.094s wall-clock]
+Detecting unreachable propositions: [0.100s CPU, 0.105s wall-clock]
 Translator variables: 31
 Translator derived variables: 0
 Translator facts: 287
@@ -67,9 +67,9 @@ Translator total mutex groups size: 271
 Translator operators: 10575
 Translator axioms: 0
 Translator task size: 70734
-Translator peak memory: 100612 KB
-Writing output... [0.110s CPU, 0.111s wall-clock]
-Done! [2.770s CPU, 3.008s wall-clock]
+Translator peak memory: 100600 KB
+Writing output... [0.190s CPU, 0.198s wall-clock]
+Done! [2.670s CPU, 3.244s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -139,7 +139,7 @@ put-on-block_DETDUP_0 b10 b13 (1)
 Plan length: 32 step(s).
 Plan cost: 32
 Initial search time: 0.08s
-Initial total time: 0.38s
+Initial total time: 0.34s
 
 
 Creating the simulator...
@@ -209,13 +209,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.08s
-           Policy Construction: 0.06s
- Evaluating the policy quality: 0.16s
-              Using the policy: 0.1s
-          Just-in-case Repairs: 0.34s
+                   Search Time: 0.1s
+           Policy Construction: 0.04s
+ Evaluating the policy quality: 0.28s
+              Using the policy: 0.12s
+          Just-in-case Repairs: 0.4s
                 Simulator time: 0s
-                    Total time: 0.64s
+                    Total time: 0.66s
 
 
 

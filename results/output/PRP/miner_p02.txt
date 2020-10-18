@@ -1,27 +1,27 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.003s wall-clock]
+Parsing: [0.010s CPU, 0.005s wall-clock]
 Normalizing task... [0.000s CPU, 0.001s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.006s wall-clock]
-Preparing model... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 54 rules.
-Computing model... [0.000s CPU, 0.013s wall-clock]
+Computing model... [0.010s CPU, 0.015s wall-clock]
 519 relevant atoms
 396 auxiliary atoms
 915 final queue length
 1066 total queue pushes
 Completing instantiation... [0.010s CPU, 0.009s wall-clock]
-Instantiating: [0.020s CPU, 0.030s wall-clock]
+Instantiating: [0.020s CPU, 0.032s wall-clock]
 Computing fact groups...
 Finding invariants...
 17 initial candidates
 Finding invariants: [0.010s CPU, 0.007s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 8 uncovered facts
@@ -36,7 +36,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.001s wall-clock]
-Translating task: [0.010s CPU, 0.011s wall-clock]
+Translating task: [0.010s CPU, 0.012s wall-clock]
 27 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -60,9 +60,9 @@ Translator total mutex groups size: 127
 Translator operators: 269
 Translator axioms: 0
 Translator task size: 1644
-Translator peak memory: 30172 KB
-Writing output... [0.010s CPU, 0.003s wall-clock]
-Done! [0.050s CPU, 0.061s wall-clock]
+Translator peak memory: 30156 KB
+Writing output... [0.000s CPU, 0.003s wall-clock]
+Done! [0.060s CPU, 0.067s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -171,13 +171,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.04s
+                   Search Time: 0.02s
            Policy Construction: 0s
- Evaluating the policy quality: 0.1s
-              Using the policy: 0.04s
-          Just-in-case Repairs: 0.14s
+ Evaluating the policy quality: 0.06s
+              Using the policy: 0.02s
+          Just-in-case Repairs: 0.08s
                 Simulator time: 0s
-                    Total time: 0.14s
+                    Total time: 0.08s
 
 
 

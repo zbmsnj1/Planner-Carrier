@@ -1,7 +1,7 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.005s wall-clock]
+Parsing: [0.000s CPU, 0.004s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
@@ -19,7 +19,7 @@ Instantiating: [0.020s CPU, 0.023s wall-clock]
 Computing fact groups...
 Finding invariants...
 7 initial candidates
-Finding invariants: [0.000s CPU, 0.005s wall-clock]
+Finding invariants: [0.000s CPU, 0.004s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -35,8 +35,8 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.000s wall-clock]
-Translating task: [0.010s CPU, 0.002s wall-clock]
+Processing axioms: [0.010s CPU, 0.000s wall-clock]
+Translating task: [0.010s CPU, 0.003s wall-clock]
 68 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -53,9 +53,9 @@ Translator total mutex groups size: 6
 Translator operators: 37
 Translator axioms: 0
 Translator task size: 314
-Translator peak memory: 29592 KB
+Translator peak memory: 29656 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.030s CPU, 0.039s wall-clock]
+Done! [0.030s CPU, 0.037s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -204,11 +204,11 @@ Running the simulation...
          Engine Initialization: 0s
                    Search Time: 0s
            Policy Construction: 0s
- Evaluating the policy quality: 0.04s
+ Evaluating the policy quality: 0.02s
               Using the policy: 0s
-          Just-in-case Repairs: 0.04s
+          Just-in-case Repairs: 0.02s
                 Simulator time: 0s
-                    Total time: 0.04s
+                    Total time: 0.02s
 
 
 

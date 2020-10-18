@@ -2,49 +2,49 @@
 Second argument is a file name: use two translator arguments.
 Parsing...
 Warning: Atom spare-in(l-51-1) is specified twice in initial state specification
-Parsing: [0.060s CPU, 0.110s wall-clock]
-Normalizing task... [0.000s CPU, 0.009s wall-clock]
+Parsing: [0.060s CPU, 0.066s wall-clock]
+Normalizing task... [0.000s CPU, 0.002s wall-clock]
 Instantiating...
-Generating Datalog program... [0.050s CPU, 0.121s wall-clock]
+Generating Datalog program... [0.070s CPU, 0.068s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.015s wall-clock]
-Preparing model... [0.150s CPU, 0.296s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.006s wall-clock]
+Preparing model... [0.170s CPU, 0.170s wall-clock]
 Generated 14 rules.
-Computing model... [0.660s CPU, 1.367s wall-clock]
+Computing model... [0.670s CPU, 0.711s wall-clock]
 18329 relevant atoms
 13751 auxiliary atoms
 32080 final queue length
 36654 total queue pushes
-Completing instantiation... [0.540s CPU, 1.115s wall-clock]
-Instantiating: [1.470s CPU, 3.020s wall-clock]
+Completing instantiation... [0.520s CPU, 0.535s wall-clock]
+Instantiating: [1.450s CPU, 1.523s wall-clock]
 Computing fact groups...
 Finding invariants...
 5 initial candidates
 Finding invariants: [0.000s CPU, 0.003s wall-clock]
-Checking invariant weight... [0.010s CPU, 0.038s wall-clock]
-Instantiating groups... [0.020s CPU, 0.037s wall-clock]
-Collecting mutex groups... [0.010s CPU, 0.017s wall-clock]
+Checking invariant weight... [0.020s CPU, 0.018s wall-clock]
+Instantiating groups... [0.010s CPU, 0.015s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.004s wall-clock]
 Choosing groups...
 700 uncovered facts
-Choosing groups: [0.010s CPU, 0.034s wall-clock]
-Building translation key... [0.000s CPU, 0.018s wall-clock]
-Computing fact groups: [0.110s CPU, 0.260s wall-clock]
-Building STRIPS to SAS dictionary... [0.010s CPU, 0.005s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.015s wall-clock]
+Choosing groups: [0.020s CPU, 0.013s wall-clock]
+Building translation key... [0.000s CPU, 0.008s wall-clock]
+Computing fact groups: [0.120s CPU, 0.132s wall-clock]
+Building STRIPS to SAS dictionary... [0.010s CPU, 0.004s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.004s wall-clock]
 Building mutex information...
-Building mutex information: [0.010s CPU, 0.027s wall-clock]
+Building mutex information: [0.010s CPU, 0.007s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.030s CPU, 0.098s wall-clock]
-Translating task: [0.560s CPU, 1.203s wall-clock]
+Processing axioms: [0.030s CPU, 0.028s wall-clock]
+Translating task: [0.490s CPU, 0.526s wall-clock]
 3299 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 Removed false proposition: 700 = <none of those>
 0 operators removed
 1 propositions removed
-Detecting unreachable propositions: [0.090s CPU, 0.172s wall-clock]
+Detecting unreachable propositions: [0.080s CPU, 0.084s wall-clock]
 Translator variables: 701
 Translator derived variables: 0
 Translator facts: 2726
@@ -54,9 +54,9 @@ Translator total mutex groups size: 1326
 Translator operators: 5899
 Translator axioms: 0
 Translator task size: 31649
-Translator peak memory: 67996 KB
-Writing output... [0.090s CPU, 0.093s wall-clock]
-Done! [2.440s CPU, 4.965s wall-clock]
+Translator peak memory: 68000 KB
+Writing output... [0.090s CPU, 0.107s wall-clock]
+Done! [2.360s CPU, 2.497s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -143,8 +143,8 @@ move-car_DETDUP_0 l-1-49 l-1-50 (1)
 move-car_DETDUP_0 l-1-50 l-1-51 (1)
 Plan length: 50 step(s).
 Plan cost: 50
-Initial search time: 0.04s
-Initial total time: 0.88s
+Initial search time: 0.02s
+Initial total time: 0.84s
 
 
 Creating the simulator...
@@ -298,15 +298,15 @@ Running the simulation...
 
                   -{ Timing Statistics }-
 
-        Regression Computation: 0.04s
-         Engine Initialization: 0.06s
-                   Search Time: 3.78s
-           Policy Construction: 1.24s
- Evaluating the policy quality: 2s
-              Using the policy: 3.88s
-          Just-in-case Repairs: 68.5s
-                Simulator time: 0.02s
-                    Total time: 69.4s
+        Regression Computation: 0s
+         Engine Initialization: 0s
+                   Search Time: 2.54s
+           Policy Construction: 0.72s
+ Evaluating the policy quality: 1.5s
+              Using the policy: 2.92s
+          Just-in-case Repairs: 46.2s
+                Simulator time: 0s
+                    Total time: 47.08s
 
 
 

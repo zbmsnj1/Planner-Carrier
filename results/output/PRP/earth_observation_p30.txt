@@ -7,20 +7,20 @@ Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
 Trivial rules: Converted to facts.
-Normalizing Datalog program: [0.010s CPU, 0.004s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
 Preparing model... [0.000s CPU, 0.004s wall-clock]
 Generated 22 rules.
-Computing model... [0.020s CPU, 0.022s wall-clock]
+Computing model... [0.020s CPU, 0.024s wall-clock]
 941 relevant atoms
 1220 auxiliary atoms
 2161 final queue length
 2376 total queue pushes
-Completing instantiation... [0.010s CPU, 0.014s wall-clock]
-Instantiating: [0.040s CPU, 0.045s wall-clock]
+Completing instantiation... [0.010s CPU, 0.011s wall-clock]
+Instantiating: [0.030s CPU, 0.044s wall-clock]
 Computing fact groups...
 Finding invariants...
 4 initial candidates
-Finding invariants: [0.000s CPU, 0.001s wall-clock]
+Finding invariants: [0.010s CPU, 0.001s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -37,7 +37,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.001s wall-clock]
-Translating task: [0.010s CPU, 0.009s wall-clock]
+Translating task: [0.010s CPU, 0.008s wall-clock]
 27 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -56,7 +56,7 @@ Translator axioms: 0
 Translator task size: 1272
 Translator peak memory: 31024 KB
 Writing output... [0.000s CPU, 0.002s wall-clock]
-Done! [0.060s CPU, 0.066s wall-clock]
+Done! [0.050s CPU, 0.066s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -276,7 +276,7 @@ take-image_DETDUP_0 p62 p72 (1)
 Plan length: 182 step(s).
 Plan cost: 182
 Initial search time: 0s
-Initial total time: 0.02s
+Initial total time: 0s
 
 
 Creating the simulator...
@@ -378,13 +378,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.02s
-           Policy Construction: 0s
+                   Search Time: 0s
+           Policy Construction: 0.04s
  Evaluating the policy quality: 0.96s
-              Using the policy: 0.66s
-          Just-in-case Repairs: 1.06s
+              Using the policy: 0.5s
+          Just-in-case Repairs: 1.02s
                 Simulator time: 0s
-                    Total time: 1.08s
+                    Total time: 1.04s
 
 
 

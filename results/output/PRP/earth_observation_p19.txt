@@ -1,26 +1,26 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.000s CPU, 0.003s wall-clock]
+Parsing: [0.000s CPU, 0.009s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
 Trivial rules: Converted to facts.
-Normalizing Datalog program: [0.000s CPU, 0.015s wall-clock]
-Preparing model... [0.000s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.005s wall-clock]
+Preparing model... [0.000s CPU, 0.004s wall-clock]
 Generated 22 rules.
-Computing model... [0.010s CPU, 0.012s wall-clock]
+Computing model... [0.020s CPU, 0.020s wall-clock]
 453 relevant atoms
 582 auxiliary atoms
 1035 final queue length
 1138 total queue pushes
-Completing instantiation... [0.000s CPU, 0.005s wall-clock]
-Instantiating: [0.020s CPU, 0.036s wall-clock]
+Completing instantiation... [0.010s CPU, 0.010s wall-clock]
+Instantiating: [0.040s CPU, 0.041s wall-clock]
 Computing fact groups...
 Finding invariants...
 4 initial candidates
-Finding invariants: [0.010s CPU, 0.001s wall-clock]
+Finding invariants: [0.000s CPU, 0.002s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -28,7 +28,7 @@ Choosing groups...
 15 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.002s wall-clock]
+Computing fact groups: [0.000s CPU, 0.004s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -36,8 +36,8 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.000s wall-clock]
-Translating task: [0.000s CPU, 0.005s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.010s CPU, 0.009s wall-clock]
 15 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -54,9 +54,9 @@ Translator total mutex groups size: 42
 Translator operators: 144
 Translator axioms: 0
 Translator task size: 622
-Translator peak memory: 29656 KB
-Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.030s CPU, 0.049s wall-clock]
+Translator peak memory: 29528 KB
+Writing output... [0.010s CPU, 0.008s wall-clock]
+Done! [0.060s CPU, 0.075s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -243,13 +243,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0s
+                   Search Time: 0.02s
            Policy Construction: 0s
- Evaluating the policy quality: 0.46s
-              Using the policy: 0.28s
-          Just-in-case Repairs: 0.48s
+ Evaluating the policy quality: 0.34s
+              Using the policy: 0.12s
+          Just-in-case Repairs: 0.36s
                 Simulator time: 0s
-                    Total time: 0.48s
+                    Total time: 0.36s
 
 
 

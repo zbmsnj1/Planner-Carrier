@@ -6,8 +6,8 @@ Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.007s wall-clock]
-Preparing model... [0.000s CPU, 0.004s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
+Preparing model... [0.000s CPU, 0.001s wall-clock]
 Generated 71 rules.
 Computing model... [0.010s CPU, 0.005s wall-clock]
 222 relevant atoms
@@ -15,11 +15,11 @@ Computing model... [0.010s CPU, 0.005s wall-clock]
 423 final queue length
 518 total queue pushes
 Completing instantiation... [0.000s CPU, 0.003s wall-clock]
-Instantiating: [0.010s CPU, 0.019s wall-clock]
+Instantiating: [0.010s CPU, 0.015s wall-clock]
 Computing fact groups...
 Finding invariants...
 12 initial candidates
-Finding invariants: [0.000s CPU, 0.004s wall-clock]
+Finding invariants: [0.000s CPU, 0.002s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -27,7 +27,7 @@ Choosing groups...
 7 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.000s CPU, 0.005s wall-clock]
+Computing fact groups: [0.000s CPU, 0.003s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -56,9 +56,9 @@ Translator total mutex groups size: 40
 Translator operators: 96
 Translator axioms: 0
 Translator task size: 598
-Translator peak memory: 29268 KB
+Translator peak memory: 29256 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.030s CPU, 0.034s wall-clock]
+Done! [0.030s CPU, 0.028s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -3577,15 +3577,15 @@ Running the simulation...
 
                   -{ Timing Statistics }-
 
-        Regression Computation: 0.28s
-         Engine Initialization: 0.18s
-                   Search Time: 50.1s
-           Policy Construction: 8.6s
- Evaluating the policy quality: 253.78s
-              Using the policy: 139.14s
-          Just-in-case Repairs: 308.38s
+        Regression Computation: 0.26s
+         Engine Initialization: 0.14s
+                   Search Time: 49.14s
+           Policy Construction: 6.52s
+ Evaluating the policy quality: 272.4s
+              Using the policy: 149.82s
+          Just-in-case Repairs: 325.7s
                 Simulator time: 0s
-                    Total time: 308.38s
+                    Total time: 325.7s
 
 
 

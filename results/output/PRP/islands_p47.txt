@@ -1,28 +1,28 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.010s CPU, 0.003s wall-clock]
+Parsing: [0.000s CPU, 0.003s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
 Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
-Preparing model... [0.000s CPU, 0.003s wall-clock]
+Preparing model... [0.010s CPU, 0.003s wall-clock]
 Generated 35 rules.
-Computing model... [0.060s CPU, 0.062s wall-clock]
+Computing model... [0.060s CPU, 0.059s wall-clock]
 3236 relevant atoms
 2752 auxiliary atoms
 5988 final queue length
 8258 total queue pushes
-Completing instantiation... [0.090s CPU, 0.088s wall-clock]
-Instantiating: [0.150s CPU, 0.160s wall-clock]
+Completing instantiation... [0.070s CPU, 0.073s wall-clock]
+Instantiating: [0.140s CPU, 0.142s wall-clock]
 Computing fact groups...
 Finding invariants...
 10 initial candidates
 Finding invariants: [0.000s CPU, 0.003s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.002s wall-clock]
-Collecting mutex groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.010s CPU, 0.001s wall-clock]
 Choosing groups...
 1 uncovered facts
 Choosing groups: [0.000s CPU, 0.002s wall-clock]
@@ -36,7 +36,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.010s CPU, 0.004s wall-clock]
-Translating task: [0.080s CPU, 0.079s wall-clock]
+Translating task: [0.080s CPU, 0.080s wall-clock]
 10 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -63,9 +63,9 @@ Translator total mutex groups size: 573
 Translator operators: 2310
 Translator axioms: 0
 Translator task size: 9332
-Translator peak memory: 38964 KB
-Writing output... [0.010s CPU, 0.017s wall-clock]
-Done! [0.270s CPU, 0.289s wall-clock]
+Translator peak memory: 38960 KB
+Writing output... [0.020s CPU, 0.018s wall-clock]
+Done! [0.260s CPU, 0.276s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -104,7 +104,7 @@ swim_DETDUP_0 l55-1 l51-2 (1)
 Plan length: 1 step(s).
 Plan cost: 1
 Initial search time: 0s
-Initial total time: 0.04s
+Initial total time: 0.02s
 
 
 Creating the simulator...
@@ -121,4 +121,4 @@ Generated 4282 state(s).
 Dead ends: 0 state(s).
 Failed to allocate memory. Released memory buffer.
 Memory limit has been reached.
-Peak memory: 4096012 KB
+Peak memory: 4096712 KB

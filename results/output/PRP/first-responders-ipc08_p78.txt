@@ -21,21 +21,21 @@ Warning: Atom adjacent(l5, l3) is specified twice in initial state specification
 Warning: Atom adjacent(l3, l5) is specified twice in initial state specification
 Warning: Atom adjacent(l5, l5) is specified twice in initial state specification
 Warning: Atom adjacent(l5, l5) is specified twice in initial state specification
-Parsing: [0.000s CPU, 0.003s wall-clock]
+Parsing: [0.000s CPU, 0.004s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
-Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
-Preparing model... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.006s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 68 rules.
 Computing model... [0.020s CPU, 0.022s wall-clock]
 1151 relevant atoms
 926 auxiliary atoms
 2077 final queue length
 2742 total queue pushes
-Completing instantiation... [0.030s CPU, 0.026s wall-clock]
-Instantiating: [0.060s CPU, 0.058s wall-clock]
+Completing instantiation... [0.030s CPU, 0.027s wall-clock]
+Instantiating: [0.060s CPU, 0.059s wall-clock]
 Computing fact groups...
 Finding invariants...
 21 initial candidates
@@ -55,8 +55,8 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.002s wall-clock]
-Translating task: [0.040s CPU, 0.035s wall-clock]
+Processing axioms: [0.010s CPU, 0.003s wall-clock]
+Translating task: [0.040s CPU, 0.036s wall-clock]
 157 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -101,7 +101,7 @@ Removed operator: (drive-medical-unit_v2 m4 l5 l2)
 Removed operator: (drive-medical-unit_v2 m4 l7 l2)
 25 operators removed
 14 propositions removed
-Detecting unreachable propositions: [0.000s CPU, 0.005s wall-clock]
+Detecting unreachable propositions: [0.000s CPU, 0.004s wall-clock]
 Translator variables: 31
 Translator derived variables: 0
 Translator facts: 159
@@ -113,7 +113,7 @@ Translator axioms: 0
 Translator task size: 3452
 Translator peak memory: 32480 KB
 Writing output... [0.010s CPU, 0.007s wall-clock]
-Done! [0.110s CPU, 0.118s wall-clock]
+Done! [0.110s CPU, 0.120s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -162,7 +162,7 @@ treat-victim-at-hospital v3 l1 (1)
 Plan length: 11 step(s).
 Plan cost: 11
 Initial search time: 0s
-Initial total time: 0.02s
+Initial total time: 0s
 
 
 Creating the simulator...
@@ -212,9 +212,9 @@ Running the simulation...
          Engine Initialization: 0s
                    Search Time: 0s
            Policy Construction: 0s
- Evaluating the policy quality: 0.02s
-              Using the policy: 0.02s
-          Just-in-case Repairs: 0.02s
+ Evaluating the policy quality: 0.04s
+              Using the policy: 0s
+          Just-in-case Repairs: 0.04s
                 Simulator time: 0s
                     Total time: 0.04s
 

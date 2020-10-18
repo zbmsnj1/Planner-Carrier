@@ -1,22 +1,22 @@
 1. Running translator
 Second argument is a file name: use two translator arguments.
 Parsing...
-Parsing: [0.010s CPU, 0.002s wall-clock]
+Parsing: [0.000s CPU, 0.002s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
-Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
 Normalizing Datalog program...
 Trivial rules: Converted to facts.
-Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.003s wall-clock]
 Preparing model... [0.000s CPU, 0.001s wall-clock]
 Generated 22 rules.
-Computing model... [0.010s CPU, 0.005s wall-clock]
+Computing model... [0.000s CPU, 0.006s wall-clock]
 249 relevant atoms
 313 auxiliary atoms
 562 final queue length
 625 total queue pushes
-Completing instantiation... [0.000s CPU, 0.003s wall-clock]
-Instantiating: [0.010s CPU, 0.013s wall-clock]
+Completing instantiation... [0.010s CPU, 0.003s wall-clock]
+Instantiating: [0.020s CPU, 0.015s wall-clock]
 Computing fact groups...
 Finding invariants...
 4 initial candidates
@@ -30,7 +30,7 @@ Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
 Computing fact groups: [0.000s CPU, 0.002s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
 Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
@@ -54,9 +54,9 @@ Translator total mutex groups size: 21
 Translator operators: 83
 Translator axioms: 0
 Translator task size: 383
-Translator peak memory: 29080 KB
+Translator peak memory: 29020 KB
 Writing output... [0.000s CPU, 0.001s wall-clock]
-Done! [0.020s CPU, 0.023s wall-clock]
+Done! [0.020s CPU, 0.025s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -197,11 +197,11 @@ Running the simulation...
          Engine Initialization: 0s
                    Search Time: 0s
            Policy Construction: 0s
- Evaluating the policy quality: 0.14s
-              Using the policy: 0.02s
-          Just-in-case Repairs: 0.14s
+ Evaluating the policy quality: 0.16s
+              Using the policy: 0.08s
+          Just-in-case Repairs: 0.16s
                 Simulator time: 0s
-                    Total time: 0.14s
+                    Total time: 0.16s
 
 
 

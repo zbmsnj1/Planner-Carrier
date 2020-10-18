@@ -11,42 +11,42 @@ Warning: Atom fire(l2) is specified twice in initial state specification
 Warning: Atom fire(l2) is specified twice in initial state specification
 Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
 Warning: Atom adjacent(l1, l1) is specified twice in initial state specification
-Parsing: [0.010s CPU, 0.023s wall-clock]
+Parsing: [0.010s CPU, 0.020s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.000s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.008s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.006s wall-clock]
 Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 68 rules.
-Computing model... [0.010s CPU, 0.007s wall-clock]
+Computing model... [0.010s CPU, 0.006s wall-clock]
 211 relevant atoms
 275 auxiliary atoms
 486 final queue length
 532 total queue pushes
 Completing instantiation... [0.000s CPU, 0.003s wall-clock]
-Instantiating: [0.010s CPU, 0.021s wall-clock]
+Instantiating: [0.010s CPU, 0.017s wall-clock]
 Computing fact groups...
 Finding invariants...
 21 initial candidates
-Finding invariants: [0.010s CPU, 0.005s wall-clock]
+Finding invariants: [0.010s CPU, 0.004s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 19 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.006s wall-clock]
+Computing fact groups: [0.010s CPU, 0.005s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
-Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.000s wall-clock]
-Translating task: [0.000s CPU, 0.004s wall-clock]
+Translating task: [0.000s CPU, 0.005s wall-clock]
 37 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -69,7 +69,7 @@ Removed operator: (drive-medical-unit_v2 m1 l1 l2)
 Removed operator: (drive-medical-unit_v2 m1 l2 l1)
 4 operators removed
 13 propositions removed
-Detecting unreachable propositions: [0.000s CPU, 0.001s wall-clock]
+Detecting unreachable propositions: [0.000s CPU, 0.002s wall-clock]
 Translator variables: 32
 Translator derived variables: 0
 Translator facts: 73
@@ -79,9 +79,9 @@ Translator total mutex groups size: 35
 Translator operators: 78
 Translator axioms: 0
 Translator task size: 514
-Translator peak memory: 29272 KB
-Writing output... [0.000s CPU, 0.003s wall-clock]
-Done! [0.030s CPU, 0.060s wall-clock]
+Translator peak memory: 29268 KB
+Writing output... [0.010s CPU, 0.013s wall-clock]
+Done! [0.040s CPU, 0.064s wall-clock]
 
 2. Running preprocessor
 Building causal graph...

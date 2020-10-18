@@ -19,33 +19,33 @@ Warning: Atom adjacent(l4, l1) is specified twice in initial state specification
 Warning: Atom adjacent(l1, l4) is specified twice in initial state specification
 Warning: Atom adjacent(l5, l2) is specified twice in initial state specification
 Warning: Atom adjacent(l2, l5) is specified twice in initial state specification
-Parsing: [0.000s CPU, 0.026s wall-clock]
-Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Parsing: [0.000s CPU, 0.007s wall-clock]
+Normalizing task... [0.000s CPU, 0.001s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.006s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.008s wall-clock]
 Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 68 rules.
-Computing model... [0.030s CPU, 0.036s wall-clock]
+Computing model... [0.030s CPU, 0.034s wall-clock]
 2419 relevant atoms
 1323 auxiliary atoms
 3742 final queue length
 5159 total queue pushes
-Completing instantiation... [0.060s CPU, 0.073s wall-clock]
-Instantiating: [0.100s CPU, 0.121s wall-clock]
+Completing instantiation... [0.060s CPU, 0.060s wall-clock]
+Instantiating: [0.100s CPU, 0.106s wall-clock]
 Computing fact groups...
 Finding invariants...
 21 initial candidates
 Finding invariants: [0.010s CPU, 0.004s wall-clock]
-Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.002s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 26 uncovered facts
 Choosing groups: [0.000s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.010s wall-clock]
+Computing fact groups: [0.010s CPU, 0.008s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -53,8 +53,8 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.007s wall-clock]
-Translating task: [0.130s CPU, 0.132s wall-clock]
+Processing axioms: [0.010s CPU, 0.005s wall-clock]
+Translating task: [0.090s CPU, 0.088s wall-clock]
 642 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -351,7 +351,7 @@ Removed operator: (drive-medical-unit_v2 m6 l6 l3)
 Removed operator: (drive-medical-unit_v2 m6 l6 l4)
 264 operators removed
 27 propositions removed
-Detecting unreachable propositions: [0.010s CPU, 0.014s wall-clock]
+Detecting unreachable propositions: [0.010s CPU, 0.010s wall-clock]
 Translator variables: 53
 Translator derived variables: 0
 Translator facts: 254
@@ -361,9 +361,9 @@ Translator total mutex groups size: 202
 Translator operators: 1698
 Translator axioms: 0
 Translator task size: 8306
-Translator peak memory: 37504 KB
-Writing output... [0.010s CPU, 0.014s wall-clock]
-Done! [0.270s CPU, 0.326s wall-clock]
+Translator peak memory: 37500 KB
+Writing output... [0.020s CPU, 0.014s wall-clock]
+Done! [0.230s CPU, 0.241s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -430,7 +430,7 @@ unload-fire-unit_DETDUP_1 f1 l1 l5 (1)
 Plan length: 29 step(s).
 Plan cost: 29
 Initial search time: 0.02s
-Initial total time: 0.04s
+Initial total time: 0.08s
 
 
 Creating the simulator...
@@ -487,12 +487,12 @@ Running the simulation...
         Regression Computation: 0s
          Engine Initialization: 0s
                    Search Time: 0.02s
-           Policy Construction: 0s
- Evaluating the policy quality: 0.14s
-              Using the policy: 0.04s
-          Just-in-case Repairs: 0.16s
+           Policy Construction: 0.02s
+ Evaluating the policy quality: 0.24s
+              Using the policy: 0.14s
+          Just-in-case Repairs: 0.26s
                 Simulator time: 0s
-                    Total time: 0.18s
+                    Total time: 0.32s
 
 
 

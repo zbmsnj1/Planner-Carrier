@@ -63,42 +63,42 @@ Warning: Atom adjacent(l9, l1) is specified twice in initial state specification
 Warning: Atom adjacent(l1, l9) is specified twice in initial state specification
 Warning: Atom adjacent(l9, l2) is specified twice in initial state specification
 Warning: Atom adjacent(l2, l9) is specified twice in initial state specification
-Parsing: [0.000s CPU, 0.080s wall-clock]
+Parsing: [0.000s CPU, 0.004s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.006s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.005s wall-clock]
 Preparing model... [0.000s CPU, 0.003s wall-clock]
 Generated 68 rules.
-Computing model... [0.070s CPU, 0.070s wall-clock]
+Computing model... [0.080s CPU, 0.072s wall-clock]
 5476 relevant atoms
 2420 auxiliary atoms
 7896 final queue length
 11376 total queue pushes
-Completing instantiation... [0.160s CPU, 0.176s wall-clock]
-Instantiating: [0.250s CPU, 0.260s wall-clock]
+Completing instantiation... [0.180s CPU, 0.186s wall-clock]
+Instantiating: [0.270s CPU, 0.269s wall-clock]
 Computing fact groups...
 Finding invariants...
 21 initial candidates
-Finding invariants: [0.010s CPU, 0.005s wall-clock]
+Finding invariants: [0.010s CPU, 0.004s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.003s wall-clock]
+Instantiating groups... [0.000s CPU, 0.002s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 24 uncovered facts
 Choosing groups: [0.000s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.013s wall-clock]
+Computing fact groups: [0.010s CPU, 0.010s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.010s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
 Building mutex information...
 Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.016s wall-clock]
-Translating task: [0.270s CPU, 0.301s wall-clock]
+Processing axioms: [0.010s CPU, 0.012s wall-clock]
+Translating task: [0.250s CPU, 0.255s wall-clock]
 1704 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -1016,7 +1016,7 @@ Removed operator: (drive-medical-unit_v2 m8 l9 l3)
 Removed operator: (drive-medical-unit_v2 m8 l9 l4)
 880 operators removed
 32 propositions removed
-Detecting unreachable propositions: [0.030s CPU, 0.033s wall-clock]
+Detecting unreachable propositions: [0.020s CPU, 0.023s wall-clock]
 Translator variables: 56
 Translator derived variables: 0
 Translator facts: 368
@@ -1026,9 +1026,9 @@ Translator total mutex groups size: 320
 Translator operators: 4128
 Translator axioms: 0
 Translator task size: 19800
-Translator peak memory: 50224 KB
-Writing output... [0.030s CPU, 0.053s wall-clock]
-Done! [0.620s CPU, 0.762s wall-clock]
+Translator peak memory: 50220 KB
+Writing output... [0.030s CPU, 0.032s wall-clock]
+Done! [0.600s CPU, 0.610s wall-clock]
 
 2. Running preprocessor
 Building causal graph...
@@ -1093,8 +1093,8 @@ unload-medical-unit m7 l9 v2 (1)
 treat-victim-at-hospital v2 l9 (1)
 Plan length: 28 step(s).
 Plan cost: 28
-Initial search time: 0.02s
-Initial total time: 0.1s
+Initial search time: 0.06s
+Initial total time: 0.2s
 
 
 Creating the simulator...
@@ -1148,13 +1148,13 @@ Running the simulation...
 
         Regression Computation: 0s
          Engine Initialization: 0s
-                   Search Time: 0.02s
+                   Search Time: 0.06s
            Policy Construction: 0.02s
- Evaluating the policy quality: 0.16s
-              Using the policy: 0.1s
-          Just-in-case Repairs: 0.18s
+ Evaluating the policy quality: 0.28s
+              Using the policy: 0.12s
+          Just-in-case Repairs: 0.34s
                 Simulator time: 0s
-                    Total time: 0.26s
+                    Total time: 0.48s
 
 
 
