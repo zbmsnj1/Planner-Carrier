@@ -246,7 +246,7 @@ $ python3 gentask.py
 	  
    	
 
- * **Console**
+ * **Console with Step 2(Generate list), no input list**
 	```
 	Please select which planner's results for data processing:
 	1.prp
@@ -397,6 +397,98 @@ $ python3 gentask.py
 	24          tireworld-truck(25:50-74)   101.680000   198.720000  0.680000   2729.839874  17.280000
 	25        triangle-tireworld(20:1-20)   669.500000  1406.000000  0.100000   5110.786480  19.100000
 	26       triangle-tireworld(20:21-40)  4129.500000  9006.000000  0.000000   1268.615202  14.750000
+
+	```     
+ * **Console with existing list**
+	```
+	Please select which planner's results for data processing:
+	 1.prp
+	 2.sat
+	0.All planners 
+	a,b-c.Select specific planners
+	0
+	Selected planners: ['prp', 'sat']
+
+	Collecting data:PRP......
+
+	Please enter a task name(exclude ".csv") for saving mean data into a csv file:
+	prp
+			      Domain (# inst)    %solve        time         size
+	0                   acrobatics(8:1-8)  1.000000   17.012500   127.500000
+	1                  beam-walk(11:1-11)  1.000000   25.843636  1488.727273
+	2                      doors(15:1-15)  0.800000    1.776667    22.000000
+	3            spiky-tireworld(11:1-11)  0.090909   69.560000    23.000000
+	4                  tireworld(15:1-15)  0.800000    0.076667    10.083333
+	5                 zenotravel(15:1-15)  1.000000    3.246667    54.600000
+	6          blocksworld-ipc08(15:1-15)  1.000000    0.112000    15.133333
+	7         blocksworld-ipc08(15:16-30)  1.000000    0.468000    33.666667
+	8          earth_observation(20:1-20)  1.000000    0.190000    62.500000
+	9         earth_observation(20:21-40)  1.000000    0.908000   234.400000
+	10                 elevators(10:1-10)  1.000000    0.086000    29.100000
+	11                 elevators(5:11-15)  1.000000    0.576000    81.400000
+	12              faults-ipc08(20:1-20)  1.000000    0.026000     9.800000
+	13             faults-ipc08(20:21-40)  1.000000    0.065000    16.650000
+	14             faults-ipc08(15:41-55)  1.000000    0.093333    20.400000
+	15    first-responders-ipc08(30:1-30)  0.766667    0.066957    13.913043
+	16   first-responders-ipc08(40:31-70)  0.675000    1.539259    17.629630
+	17  first-responders-ipc08(30:71-100)  0.833333    0.108000    22.400000
+	18                   islands(30:1-30)  0.766667  117.415652     5.391304
+	19                  islands(30:31-60)  0.266667  184.857500    11.000000
+	20                     miner(30:1-30)  0.333333  399.074000    19.800000
+	21                    miner(20:31-50)  0.050000  816.260000    29.000000
+	22           tireworld-truck(24:1-24)  0.375000  242.773333    18.777778
+	23          tireworld-truck(25:25-49)  0.280000  349.045714    27.857143
+	24          tireworld-truck(25:50-74)  0.160000  440.750000    21.000000
+	25        triangle-tireworld(20:1-20)  1.000000    3.674000   125.000000
+	26       triangle-tireworld(20:21-40)  1.000000  312.669000   365.000000
+
+	Collecting data:SAT......
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/beam-walk_p03.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p03.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p16.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p21.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/faults-ipc08_p16.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/faults-ipc08_p22.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p24.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p25.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p33.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p34.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p35.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p57.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p58.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p59.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/triangle-tireworld_p02.txt
+
+	Please enter a task name(exclude ".csv") for saving mean data into a csv file:
+	sat
+			      Domain (# inst)          #at        #acts    %solve         time       size
+	0                   acrobatics(8:1-8)    67.500000   623.500000  0.375000     6.066671   9.333333
+	1                  beam-walk(11:1-11)   746.363636  2231.090909  0.181818     9.339560  12.000000
+	2                      doors(15:1-15)    48.000000    69.000000  0.600000   485.842953  13.000000
+	3            spiky-tireworld(11:1-11)   243.454545   462.545455  0.181818  2751.657836  23.000000
+	4                  tireworld(15:1-15)    63.933333   304.000000  0.800000     1.138916   5.583333
+	5                 zenotravel(15:1-15)   377.333333  8424.000000  0.333333    58.700949  12.800000
+	6          blocksworld-ipc08(15:1-15)    78.666667  1350.000000  0.666667    26.698214  11.000000
+	7         blocksworld-ipc08(15:16-30)   238.666667  8116.666667  0.000000          NaN        NaN
+	8          earth_observation(20:1-20)    46.300000    87.700000  0.250000    11.790682   9.800000
+	9         earth_observation(20:21-40)   110.100000   224.300000  0.000000          NaN        NaN
+	10                 elevators(10:1-10)    64.000000    58.800000  0.600000   462.480578  14.666667
+	11                 elevators(5:11-15)   123.000000   116.400000  0.000000          NaN        NaN
+	12              faults-ipc08(20:1-20)    43.650000    35.500000  1.000000    23.488362   9.800000
+	13             faults-ipc08(20:21-40)    84.550000    92.500000  0.400000  1751.640754  14.875000
+	14             faults-ipc08(15:41-55)   129.600000   174.000000  0.000000          NaN        NaN
+	15    first-responders-ipc08(30:1-30)    83.000000   567.066667  0.600000   808.720770   9.222222
+	16   first-responders-ipc08(40:31-70)    68.900000   243.450000  0.375000  1061.495365  10.066667
+	17  first-responders-ipc08(30:71-100)   167.833333  1078.833333  0.333333   313.299976  10.400000
+	18                   islands(30:1-30)   100.800000   333.400000  1.000000     0.495620   5.600000
+	19                  islands(30:31-60)   388.966667  1588.600000  1.000000    85.690146  10.400000
+	20                     miner(30:1-30)   598.266667  1230.866667  1.000000   162.791618  19.100000
+	21                    miner(20:31-50)  1445.600000  2993.750000  0.800000   753.263142  22.187500
+	22           tireworld-truck(24:1-24)    64.083333   111.750000  1.000000    60.914601  11.708333
+	23          tireworld-truck(25:25-49)    80.800000   150.400000  0.960000  1279.819242  15.833333
+	24          tireworld-truck(25:50-74)   101.680000   198.720000  0.680000  1031.202705  16.705882
+	25        triangle-tireworld(20:1-20)   669.500000  1406.000000  0.100000    25.081657  12.000000
+	26       triangle-tireworld(20:21-40)  4129.500000  9006.000000  0.000000          NaN        NaN
 
 	```     
      
