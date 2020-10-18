@@ -206,7 +206,7 @@ class Planner:
         mean_outfolder_path = os.path.join(utils.RESULTS_MEAN_PATH, output_folder)
         if not os.path.exists(mean_outfolder_path):
             os.makedirs(mean_outfolder_path)
-        mean_planner_path = os.path.join(mean_outfolder_path, output_folder)
+        mean_planner_path = os.path.join(mean_outfolder_path, planner_name)
         if not os.path.exists(mean_planner_path):
             os.makedirs(mean_planner_path)
         abs_mean_path = os.path.join(mean_planner_path, save_file_name)
