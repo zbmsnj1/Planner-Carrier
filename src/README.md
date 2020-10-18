@@ -32,12 +32,12 @@ $ python3 gentask.py
       7            faults-ipc08            55
       8  first-responders-ipc08           100
       9                 islands            60
-      10                   miner            50
-      11         spiky-tireworld            11
-      12               tireworld            15
-      13         tireworld-truck            74
-      14      triangle-tireworld            40
-      15              zenotravel            15
+      10                  miner            50
+      11        spiky-tireworld            11
+      12              tireworld            15
+      13        tireworld-truck            74
+      14     triangle-tireworld            40
+      15             zenotravel            15
 
       ```
 

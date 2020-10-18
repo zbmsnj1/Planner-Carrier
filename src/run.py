@@ -1,6 +1,7 @@
 import argparse
 import os
 import time
+import sys
 import subprocess
 from subprocess import PIPE
 import multiprocessing
@@ -57,9 +58,9 @@ def get_path(d, s, e, p):
     return all_d, all_p, all_planner
 
 
-def run_jobs(d, p, planner, job_id):
+def run_jobs(d, p, planner, job_id, output_folder):
     #if pyhton version >3.6, change stdout=PIPE to capture_output=True
-    result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id}", stdout=PIPE, shell=True)
+    result = subprocess.run(f"python3 planner.py {d} {p} {planner} {job_id} {output_folder}", stdout=PIPE, shell=True)
     print(result.stdout.decode("utf-8"))
     return result.stdout
 
@@ -77,8 +78,18 @@ def get_files_path():
         df = pd.read_csv(task_path) 
     except:
         print("Task does not exist!\nPlease use command: python3 run.py [task.csv]")
+        sys.exit()
     
     return df['domain_name'],df['start_problem'],df['end_problem'],df['planner']
+
+def get_input_str(input_str):
+    
+    save_file_name=input(input_str)
+    if not (save_file_name=="" or save_file_name.isspace()):
+        return save_file_name
+    else:
+        print("Error: folder name can not be empty!")
+        sys.exit()
 
 
 if __name__ == '__main__':
@@ -88,18 +99,22 @@ if __name__ == '__main__':
     all_p = []
     all_planner=[] 
      
+    # get all jobs  
     (all_d,all_p,all_planner)=get_path(d, s, e, p)
-
-    futures=[]
+    # get output folder name
+    str = '\nPlease enter a folder name for saving output data of all jobs:\n'
+    output_folder = get_input_str(str)
+  
+    #set cluster 
     cluster = set_cluster(len(all_p))
     client = Client(cluster,asynchronous=True)
 
     st = time.time()
-
+    futures=[]
     #'''
     for i in range(len(all_p)):    
         #run_planner(all_d[i], all_p[i], all_planner[i], i)  
-        future = client.submit(run_jobs, all_d[i], all_p[i], all_planner[i], i)             
+        future = client.submit(run_jobs, all_d[i], all_p[i], all_planner[i], i, output_folder)             
         futures.append(future)
     results = client.gather(futures)
     '''

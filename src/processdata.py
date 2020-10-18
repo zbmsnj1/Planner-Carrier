@@ -6,6 +6,8 @@ from enum import Enum
 import gentask
 import planner
 import utils
+import argparse
+import sys
 
 
 KEY_IGNORE = "@@KEY^^IGNORE"
@@ -65,35 +67,28 @@ def max_number(keyword, keyword_ignore,file, regex):
             print(f"ERROR: Not find key word!!!  {file.name}")
     return temp
 
-def get_keydata(abs_res_path, file, list_keywords, list_keyfunc, list_keyignore):
+def get_keydata(abs_output_path, file, list_keywords, list_keyfunc, list_keyignore):
     data=[]				
     for i in range(len(list_keyfunc)):
         if(list_keyfunc[i]==KF.FIND_KW):
-            with open(os.path.join(abs_res_path, file), 'r') as f:
+            with open(os.path.join(abs_output_path, file), 'r') as f:
                 d = find_keyword(list_keywords[i], list_keyignore[i], f)
                 if d==0:
                     data.append(d)
                     break		
         elif(list_keyfunc[i]==KF.MAX_FLOAT):
-            with open(os.path.join(abs_res_path, file), 'r') as f:
+            with open(os.path.join(abs_output_path, file), 'r') as f:
                 d = max_number(list_keywords[i], list_keyignore[i],f,RE_FLOAT)
         elif(list_keyfunc[i]==KF.MAX_INT):
-            with open(os.path.join(abs_res_path, file), 'r') as f:
+            with open(os.path.join(abs_output_path, file), 'r') as f:
                 d = max_number(list_keywords[i], list_keyignore[i],f, RE_INT)
                 d = int(d)
         data.append(d)
     
     return data
 
-def get_allfiles(rel_res_path):
-    abs_res_path = os.path.join(utils.ROOT_PATH, rel_res_path )
-    output_files = os.listdir(abs_res_path)
-    output_files.sort()
-    return output_files
-
-def get_csv_size(rel_data_path):
-    abs_res_path = os.path.join(utils.ROOT_PATH, rel_data_path )
-    csv_files = os.listdir(abs_res_path)
+def get_csv_size(abs_data_path):
+    csv_files = os.listdir(abs_data_path)
     csv_files.sort()
     list_indx = []
     list_name = []
@@ -101,7 +96,7 @@ def get_csv_size(rel_data_path):
     indx=0
     for csvf in csv_files:
         csv_name = file_name_id(csvf)
-        df = pd.read_csv(os.path.join(abs_res_path, csvf))
+        df = pd.read_csv(os.path.join(abs_data_path, csvf))
         csv_size = len(df.index)
         indx += 1
         list_indx.append(indx)
@@ -110,8 +105,8 @@ def get_csv_size(rel_data_path):
         print(f"{indx} {csv_name}({csv_size})")
     return list_indx, list_name, list_size
 
-def calcu_mean( csvfile, abs_res_path, column_names, list_size):
-    df = pd.read_csv(os.path.join(abs_res_path, csvfile))
+def calcu_mean( csvfile, abs_output_path, column_names, list_size):
+    df = pd.read_csv(os.path.join(abs_output_path, csvfile))
     #remove Id from list but not change the orignal list, we dont need calculate the mean of Id
     column_names = column_names[1:]
     means= []
@@ -134,18 +129,44 @@ def choose_planner( ):
     print(f"Selected planners: {planners_name}\n")
 
     return planners_name
+
+def get_output_folder_and_list():
+    #get the name of task file 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("output_folder")
+    parser.add_argument("list")
+    args = parser.parse_args()
+    output_folder_path = os.path.join(utils.RESULTS_OUTPUT_PATH, args.output_folder)
+    list_path = os.path.join(utils.RESULTS_LIST_PATH, args.output_folder, args.list)
+
+
+    if os.path.exists(output_folder_path):
+        if os.path.exists(list_path):
+            return args.output_folder, args.list
+        elif args.list=="nolist":
+            return args.output_folder, False
+        else:
+            print("Error: can not find the list!")
+            print("Please use command: python3 processdata.py [output folder] [list]")
+            print("If no suitable lists, input 'nolist' in [list], then you can generate a list manually")
+            sys.exit()
+        
+    else:
+        print("Error: can not find the folder!")
+        sys.exit()
+
 	
 
-if __name__ == '__main__':
-	same_list = False
-	select_planners = choose_planner()
-	for planner_name in select_planners:
-		planner_instance = planner.create_planner(planner_name, 0, hide_info=True)
-
-		planner_instance.save_into_csv()
-		if not same_list:
-			(list_name, list_size, same_list) = planner_instance.generate_list()			
-		planner_instance.data_mean(list_name, list_size)
+if __name__ == '__main__':    
+    same_list = False
+    (output_folder, alist) = get_output_folder_and_list()           
+    select_planners = choose_planner()
+    for planner_name in select_planners:
+        planner_instance = planner.create_planner(planner_name, 0, hide_info=True)
+        planner_instance.save_into_csv(output_folder)
+        if not same_list:
+            (list_name, list_size, same_list) = planner_instance.generate_list(output_folder, alist)			
+        planner_instance.data_mean(list_name, list_size, output_folder)
 
 	
 

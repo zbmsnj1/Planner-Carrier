@@ -1,0 +1,105 @@
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (0 /sec)
+propagations          : 242            (93256 /sec)
+conflict literals     : 0              ( nan % deleted)
+Memory used           : 1.68 MB
+CPU time              : 0.002595 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |    6001    13654 |    2000       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 7              (2420 /sec)
+decisions             : 12             (4149 /sec)
+propagations          : 850            (293914 /sec)
+conflict literals     : 15             (0.00 % deleted)
+Memory used           : 1.80 MB
+CPU time              : 0.002892 s
+
+UNSATISFIABLE
+==================================[MINISAT]===================================
+| Conflicts |     ORIGINAL     |              LEARNT              | Progress |
+|           | Clauses Literals |   Limit Clauses Literals  Lit/Cl |          |
+==============================================================================
+|         0 |    9811    23061 |    3270       0        0     nan |  0.000 % |
+==============================================================================
+restarts              : 1
+conflicts             : 31             (7620 /sec)
+decisions             : 59             (14503 /sec)
+propagations          : 3990           (980826 /sec)
+conflict literals     : 132            (15.92 % deleted)
+Memory used           : 1.80 MB
+CPU time              : 0.004068 s
+
+SATISFIABLE
+('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
+Setting atoms
+# Atoms: 40
+Setting initial
+Setting goal
+Setting actions
+# Actions: 106
+	Setting other actions
+(0, '/', 106)
+	Setting action card
+Setting mutexes
+Setting relevant actions
+Setting splitting
+Setting compatible actions
+(0, '/', 106)
+0.0077748298645
+=================================================
+Trying with 2 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 40
+# Actions: 106
+SAT formula generation time = 0.033033
+# Clauses = 5863
+# Variables = 346
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.004083
+Cumulated solver time: 0.004083
+UNSATISFIABLE
+=================================================
+Trying with 3 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 40
+# Actions: 106
+SAT formula generation time = 0.047934
+# Clauses = 9527
+# Variables = 555
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.004204
+Cumulated solver time: 0.008287
+UNSATISFIABLE
+=================================================
+Trying with 4 states
+Looking for strong plans: False
+Fair actions: True
+# Atoms: 40
+# Actions: 106
+SAT formula generation time = 0.058608
+# Clauses = 13782
+# Variables = 796
+Creating formula...
+Done creating formula. Calling solver...
+SAT solver called with 4096 MB and 3599 seconds
+Done solver. Round time: 0.005846
+Cumulated solver time: 0.014133
+Elapsed total time (s): 0.311841
+Elapsed solver time (s): 0.014133
+Elapsed solver time (s): [0.004083156585693359, 0.0042040348052978516, 0.0058460235595703125]
+Looking for strong plans: False
+Fair actions: True
+Done
