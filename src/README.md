@@ -248,6 +248,8 @@ $ python3 gentask.py
 
  * **Console(without input list, need to generate list manually)**:
 	```
+	$ python3 process* task1 nolist
+	
 	Please select which planner's results for data processing:
 	1.prp
 	2.sat
@@ -401,6 +403,8 @@ $ python3 gentask.py
 	```     
  * **Console(using existing list)**:
 	```
+	$ python3 process* task1 paper.txt
+
 	Please select which planner's results for data processing:
 	 1.prp
 	 2.sat
