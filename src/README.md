@@ -213,7 +213,7 @@ $ python3 gentask.py
 ## Process data
 ### Command:
 ```
- $ python3 processdata.py [output folder] [list]
+ $ python3 processdata.py [output folder] [list.txt]
 ```
 
 ### Details:
