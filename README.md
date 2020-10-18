@@ -44,20 +44,20 @@ Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob
     * Not yet: [MBP](http://mbp.fbk.eu/), [myND](https://bitbucket.org/robertmattmueller/mynd), [Gamer](http://fai.cs.uni-saarland.de/kissmann/planning/downloads/),  [FIP](http://cs2.uco.edu/~fu/research.html)([Code+Sample Problems] can be found in the end of the publication: *Fast strong planning for fully observable nondeterministic planning problems*)
 * `results/`:
 	* `data/`: all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
-		* `[tast_name]/`:
-			* `[planner_name]/`(*for now: PRP or SAT*): 
 	* `mean/`: the average of the data in `data/` with customized sizes stored in `.csv` files
-		* `[tast_name]/`:
-			* `[planner_name]/`(*for now: PRP or SAT*): 
 	* `output/`: all **standard output** (**stdout**) of tested experiments stored in `.txt` files
-		* `[tast_name]/`:
-			* `[planner_name]/`(*for now: PRP or SAT*): 
-	* `list/`: 
-		* `[tast_name]/`:
-			* `[planner_name]/`(*for now: PRP or SAT*): 
+	* `list/`: all lists contain customized problems size that use for analyze output data stored in `.txt` files
+	* inside of `data/`, `mean/`, `output/`, `list/`: all folder are divided by task name
+		* `[task_name]/`: for each task, the output range are different, so they cannot share `data/`, `list/` or `mean/`
+			* `[planner_name]/`(*for now: PRP or SAT*): inside of task folder, all folders are divided by planner name.
 
-* `src/`: including the code files to updat database, to create task file, to run the planning benchmarks in parallel on a single machine or on a distrubted cluster
-
+* `src/`: including the code files to updat database, to create task file, to run the planning benchmarks , and to analyze the output data
+	* `task/`: all created tasks stored in `.txt` files
+	* `utils.py`: include all important realtive paths
+	* `gentask.py`: updat database, and create task file
+	* `run.py`: run the planning benchmarks on a single machine or cluster
+	* `processdata.py`: process the output data of a task, catch numbers by keywords, calculate mean of catched numbers
+	* `planner.py`: include class **Planner()**, contain methods to run planner, and analyze data. now we implement subclass **PRP(Planner)** and **SAT(Planner)**
 ## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/lslll0302/Planner-Carrier/issues/new) or submit PRs.
