@@ -353,25 +353,21 @@ $ python3 gentask.py
 	25        triangle-tireworld(20:1-20)  1.000000     3.674000   125.000000
 	26       triangle-tireworld(20:21-40)  1.000000   312.669000   365.000000
 	Collecting data:SAT......
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/beam-walk_p03.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/earth_observation_p03.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/earth_observation_p09.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/earth_observation_p12.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/earth_observation_p16.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/earth_observation_p21.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/faults-ipc08_p16.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/faults-ipc08_p22.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/faults-ipc08_p29.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/spiky-tireworld_p06.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p24.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p25.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p33.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p34.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p35.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p57.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p58.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/tireworld-truck_p59.txt
-	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/SAT/output/triangle-tireworld_p02.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/beam-walk_p03.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p03.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p16.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/earth_observation_p21.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/faults-ipc08_p16.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/faults-ipc08_p22.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p24.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p25.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p33.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p34.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p35.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p57.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p58.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/tireworld-truck_p59.txt
+	ERROR: Not find key word!!!  /home/yifan/plan/Planner-Carrier/results/output/task1/SAT/triangle-tireworld_p02.txt
 
 	Please enter a task name(exclude ".csv") for saving mean data into a csv file:
 	sat
