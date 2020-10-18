@@ -43,10 +43,10 @@ Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob
     * Implemented: [PRP](https://github.com/QuMuLab/planner-for-relevant-policies), [SAT](https://github.com/tomsons22/FOND-SAT)
     * Not yet: [MBP](http://mbp.fbk.eu/), [myND](https://bitbucket.org/robertmattmueller/mynd), [Gamer](http://fai.cs.uni-saarland.de/kissmann/planning/downloads/),  [FIP](http://cs2.uco.edu/~fu/research.html)([Code+Sample Problems] can be found in the end of the publication: *Fast strong planning for fully observable nondeterministic planning problems*)
 * `results/`:
-	* `PRP/`or `SAT/`:
-		* `data/`: all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
-		* `mean/`: the average of the data in `data/` with customized sizes stored in `.csv` files
-		* ` output/`: all **standard output** (**stdout**) of tested experiments stored in `.txt` files
+	* `data/planner`(*planner=PRP/SAT*): all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
+	* `mean/planner`(*planner=PRP/SAT*): the average of the data in `data/` with customized sizes stored in `.csv` files
+	* `output/planner`(*planner=PRP/SAT*): all **standard output** (**stdout**) of tested experiments stored in `.txt` files
+
 * `src/`: including the code files to updat database, to create task file, to run the planning benchmarks in parallel on a single machine or on a distrubted cluster
 
 ## Contributing

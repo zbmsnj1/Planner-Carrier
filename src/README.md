@@ -173,31 +173,33 @@ $ python3 gentask.py
     ```
    * **console**:
 	    ```
-	    Which mode you wish to run tasks?
-	     1.Local machine
-	     2.SSH Cluster
-	    1
-	    Start 18 jobs on local machine....
+		Which mode you wish to run tasks?
+		1.Local machine
+		2.SSH Cluster
+		1
+		Start 539 jobs on local machine....
 
-	    Start job 13:
-	    Create sat planner successfully
-	    Create temporary work environment successfully
-	    Start running the planning job...
-	    Writing stdout into /home/yifan/plan/Planner-Carrier/results/SAT/output/islands_p01.txt
-	    Finish running the planning job!
-	    Remove temporary work environment successfully
+		Start job 1:
+		Create prp planner successfully
+		Create temporary work environment successfully
+		Start running the planning job...
+		Writing stdout into /home/yifan/Eval-of-FOND-planners-/results/output/PRP/tireworld-truck_p48.txt
+		Finish running the planning job!
+		Remove temporary work environment successfully
 
-	    .......
 
-	    Start job 1:
-	    Create prp planner successfully
-	    Create temporary work environment successfully
-	    Start running the planning job...
-	    Writing stdout into /home/yifan/plan/Planner-Carrier/results/PRP/output/islands_p02.txt
-	    Finish running the planning job!
-	    Remove temporary work environment successfully
+	        .......
 
-	    Finish 18 jobs using 31.810213327407837(s)
+		Start job 441:
+		Create prp planner successfully
+		Create temporary work environment successfully
+		Start running the planning job...
+		Writing stdout into /home/yifan/Eval-of-FOND-planners-/results/output/PRP/tireworld-truck_p33.txt
+		Finish running the planning job!
+		Remove temporary work environment successfully
+
+		Finish 539 jobs using 19193.952842712402(s)
+
 	    ```
 
   * Step background: All **standard output** (**stdout**) of each job will be stored as `.txt` files in `results/corresponding-planner-folder/output/domain_name_problem_id.txt` .
