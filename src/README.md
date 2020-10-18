@@ -402,7 +402,7 @@ $ python3 gentask.py
      
 ## Planner class
 
-* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with relative source code path, relative output path, relative daat path and relative result path for methods(e.g. **data_mean()**) path. Also need to customize the COLUMN_NAMES, TITLE, KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE. Now we only implement the **data_mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Planner** and let subclasss **newPlanner** to inherit.
+* It is very easy to add new planner subclass inherit from the class (**Planner**), just need add the source code of new planner in `planners/`, and create a new subclass in `planner.py` with name, COLUMN_NAMES, TITLE, KEY_WORDS, KEY_WORDS_METHOD and KEY_WORDS_IGNORE. Now we only implement the **data_mean()** method. If  more methods are needed in future, we can easily add new methods in class : **Planner** and let subclasss **newPlanner** to inherit.
   * COLUMN_NAMES: the column names corresponds to key word, used for collecting key words data and saving in `.csv` (*should be one size larger than the size of KEY_WORDS, coz of Id for each problem*)
   * TITLE: the column names corresponds to key word, used for processing collected data and saving in `.csv` (*should be one size larger than the size of KEY_WORDS, coz of Domain(# inst) for each domain(range of problems)*)
   * KEY_WORDS: to find data corresponding with the key words
@@ -413,15 +413,12 @@ $ python3 gentask.py
   ```python
   class PRP(Planner):
     def __init__(self):
-        self.REL_SRC_PATH = "planners/PRP/src" 
-        self.REL_RES_PATH = "results/PRP/output"
-        self.REL_DATA_PATH = "results/PRP/data"
-        self.REL_MEAN_PATH = "results/PRP/mean"
-        self.COLUMN_NAMES = ["Id","Solve","Time","Size"]
+        self.name = "PRP"
+        self.COLUMN_NAMES = ["Id","Solve", "Time","Size"]
         self.TITLE = ['Domain (# inst)','%solve',"time",'size']
         self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
-        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, "Forbidden"]
+        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW,  processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE,  processdata.KEY_IGNORE, "Forbidden"]
         super().__init__()
 
     def get_command(self, rel_d_path, rel_p_path):
@@ -429,23 +426,23 @@ $ python3 gentask.py
         return command
 
     def create_tempsrc(self, job_id):    
-        return super().create_tempsrc(self.REL_SRC_PATH, job_id)
+        return super().create_tempsrc(self.name, job_id)
 
     def remove_tempsrc(self, job_id):
-        super().remove_tempsrc(self.REL_SRC_PATH, job_id)
+        super().remove_tempsrc(self.name, job_id)
 
-    def output_path(self, rel_p_path):
-        return super().output_path(self.REL_RES_PATH, rel_p_path)
+    def output_path(self, rel_p_path, output_folder):
+        return super().output_path( rel_p_path, output_folder, self.name)
 
-    def save_into_csv(self):
+    def save_into_csv(self, output_folder):
         print("Collecting data:PRP......")
-        super().save_into_csv(self.REL_RES_PATH, self.REL_DATA_PATH, self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE )
+        super().save_into_csv(output_folder, self.name,  self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE )
         
-    def generate_list(self):
-        return super().generate_list(self.REL_DATA_PATH)
+    def generate_list(self, output_folder, alist):
+        return super().generate_list(self.name, output_folder, alist)
             
-    def data_mean(self, list_name, list_size):
-        super().data_mean(self.REL_DATA_PATH, self.REL_MEAN_PATH, self.COLUMN_NAMES, self.TITLE, list_name, list_size)
+    def data_mean(self, list_name, list_size, output_folder):
+        super().data_mean(self.name, output_folder, self.COLUMN_NAMES, self.TITLE, list_name, list_size)  
 
   ```   
  
