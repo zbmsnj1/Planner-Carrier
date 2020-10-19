@@ -31,7 +31,7 @@ $ git clone https://github.com/lslll0302/Planner-Carrier.git
 $ python -m pip install "dask[complete]"
 ```
 ## Usage
-### Main Commans
+### Main Commands
 * Generate task:
 	```
 	python3 gentask.py 
