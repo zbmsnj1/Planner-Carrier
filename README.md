@@ -31,19 +31,19 @@ $ git clone https://github.com/lslll0302/Planner-Carrier.git
 $ python -m pip install "dask[complete]"
 ```
 ## Usage
-### To generate task:
+### Generate task:
 ```
 python3 gentask.py 
 ```
-### To run system:
+### Run system:
 ```
 python3 run.py [task.csv]
 ```
-### To process data:
+### Process data:
 ```
 python3 processdata.py [output folder] [list.txt]
 ```
-
+### More details:
 Check more details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob/master/src/README.md)
 
 ## Directory Structure
