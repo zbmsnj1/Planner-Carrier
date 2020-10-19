@@ -33,17 +33,17 @@ $ python -m pip install "dask[complete]"
 ## Usage
 ### Main Commans
 * Generate task:
-```
-python3 gentask.py 
-```
+	```
+	python3 gentask.py 
+	```
 * Run system:
-```
-python3 run.py [task.csv]
-```
+	```
+	python3 run.py [task.csv]
+	```
 * Process data:
-```
-python3 processdata.py [output folder] [list.txt]
-```
+	```
+	python3 processdata.py [output folder] [list.txt]
+	```
 ### Specific Details:
 Check more details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob/master/src/README.md)
 
