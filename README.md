@@ -47,9 +47,8 @@ Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob
 	* `data/[task]/[planner]/`: all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
 	* `mean/[task]/[planner]/`: the average of the data in `data/` with customized sizes stored in `.csv` files	
 	* `list/[task]/`: all lists contain customized problems size that use for analyze output data stored in `.txt` files
-		* for each `/[task]`, its corresping `output/` is different, so it cannot share `data/`, `list/` or `mean/` with each other
-			* for `output/[task]/`, `data/[task]/` and `mean/[task]/`, each planner has its own `/[planner]` folder because each planner has different output data
-			* but for `list/[task]/`, all planners use the shared list, so we don't need `/[planner]` folders
+		* for `output/[task]/`, `data/[task]/` and `mean/[task]/`, each planner has its own `/[planner]` folder because each planner has different output data
+		* but for `list/[task]/`, all planners use the shared list, so we don't need `/[planner]` folders
 
 * `src/`: including the code files to updat database, to create task file, to run the planning benchmarks , and to analyze the output data
 	* `task/`: all created tasks stored in `.txt` files
