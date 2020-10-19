@@ -253,7 +253,7 @@ class SAT(Planner):
         self.name ="SAT" 
         self.COLUMN_NAMES = ["Id","Atoms","Actions","Solve","Time","Size"]
         self.TITLE = ['Domain (# inst)','#at','#acts','%solve',"time",'size']
-        self.KEY_WORDS = ["Atoms","Actions","SATISFIABLE","Cumulated solver time","Trying with"]
+        self.KEY_WORDS = ["Atoms","Actions","SATISFIABLE","Elapsed total time","Trying with"]
         self.KEY_WORDS_FUNCTION = [processdata.KF.MAX_INT, processdata.KF.MAX_INT, processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT,  processdata.KF.MAX_INT]
         self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE]
         super().__init__()

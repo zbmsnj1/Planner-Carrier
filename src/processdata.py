@@ -73,7 +73,7 @@ def get_keydata(abs_output_path, file, list_keywords, list_keyfunc, list_keyigno
         if(list_keyfunc[i]==KF.FIND_KW):
             with open(os.path.join(abs_output_path, file), 'r') as f:
                 d = find_keyword(list_keywords[i], list_keyignore[i], f)
-                if d==0:
+                if d==0 :
                     data.append(d)
                     break		
         elif(list_keyfunc[i]==KF.MAX_FLOAT):
