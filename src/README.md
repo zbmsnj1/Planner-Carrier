@@ -154,7 +154,7 @@ $ python3 gentask.py
 ```
 
 ### Details:
-* Step 1: Enter a folder name, all **standard output** (**stdout**) of each job will be stored as `.txt` files in `results/output/[corresponding task]/[corresponding planner]/domain_name_problem_id.txt` .
+* Step 1: Enter a folder name, all **standard output** (**stdout**) of each job will be stored as `.txt` files in `results/output/[task]/[planner]/domain_name_problem_id.txt` .
 
 * Step 2: Choose mode to run task.
   * 1: Run task on your local machine, running n-jobs in parallel(*n depends on the number of CPU*), can change n in `run.py` in line: 
@@ -233,7 +233,7 @@ $ python3 gentask.py
 		* 0: End choose problems size for current selected domain, move to next domain.    
 		* [a,b-c](#Usage-of-a-b-c): Choose specific problems size for selected domain.
 	 * Step 2.3: Save the list for future use
-	 	* 1. Yes, the list will be saved as `.txt` in `results/list/[output folder]/[planner]/[list].txt`
+	 	* 1. Yes, the list will be saved as `.txt` in `results/list/[output folder]/[list].txt`
 		* 2. No
 	 * Step 2.4: Enter the list file name.
 	 * Step 2.5: Decide to use same problems size as the previous planner or not.
@@ -242,7 +242,7 @@ $ python3 gentask.py
 		
  * Step 2(Use existing list): Will skip generate list, and use the existing list for all planners. 
  
- * Step 3: Save processed data into a csv file. (*For now, only have one method: mean, so the data will be stored in `results/mean/corresponding [task]/corresponding [planner]/`*)
+ * Step 3: Save processed data into a csv file. (*For now, only have one method: mean, so the data will be stored in `results/mean/[task]/[planner]/`*)
  	* Enter a name to save the selected domains for testing in `.csv` file. (*name should exclude ".csv"*)
    	* Then 
   	   * loop Step background and Step 2(Generate list) again: if choose 2 in Step 2.5
