@@ -43,13 +43,12 @@ Check details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob
     * Implemented: [PRP](https://github.com/QuMuLab/planner-for-relevant-policies), [SAT](https://github.com/tomsons22/FOND-SAT)
     * Not yet: [MBP](http://mbp.fbk.eu/), [myND](https://bitbucket.org/robertmattmueller/mynd), [Gamer](http://fai.cs.uni-saarland.de/kissmann/planning/downloads/),  [FIP](http://cs2.uco.edu/~fu/research.html)([Code+Sample Problems] can be found in the end of the publication: *Fast strong planning for fully observable nondeterministic planning problems*)
 * `results/`:
-	* `data/`: all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
-	* `mean/`: the average of the data in `data/` with customized sizes stored in `.csv` files
-	* `output/`: all **standard output** (**stdout**) of tested experiments stored in `.txt` files
-	* `list/`: all lists contain customized problems size that use for analyze output data stored in `.txt` files
-	* inside of `data/`, `mean/`, `output/`, `list/`: all folder are divided by task name
-		* `[task_name]/`: for each task, the output range are different, so they cannot share `data/`, `list/` or `mean/`
-			* `[planner_name]/`(*for now: PRP or SAT*): inside of task folder, all folders are divided by planner name.
+	* `output/[task]/[planner]/`: all **standard output** (**stdout**) of tested experiments stored in `.txt` files
+	* `data/[task]/[planner]/`: all digitial data collected using corresponding key words stored in a `.csv` file for each benchamark
+	* `mean/[task]/[planner]/`: the average of the data in `data/` with customized sizes stored in `.csv` files	
+	* `list/[task]/`: all lists contain customized problems size that use for analyze output data stored in `.txt` files
+		* `[task]/`: for each task, its corresping `output/` is different, so it cannot share `data/`, `list/` or `mean/` with each other
+			* `[planner]/`: Each planner has its own folder inside `output/[task]/`, `data/[task]/` and `mean/[task]/`. But for `list/[task]/`, all planners use the shared list
 
 * `src/`: including the code files to updat database, to create task file, to run the planning benchmarks , and to analyze the output data
 	* `task/`: all created tasks stored in `.txt` files
