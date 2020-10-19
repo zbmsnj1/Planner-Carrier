@@ -44,7 +44,7 @@ $ python -m pip install "dask[complete]"
 	```
 	python3 processdata.py [output folder] [list.txt]
 	```
-### Specific Details:
+### Specific Details
 Check more details in [User Manual](https://github.com/lslll0302/Planner-Carrier/blob/master/src/README.md)
 
 ## Directory Structure
