@@ -3,7 +3,7 @@ conflicts             : 0              (nan /sec)
 decisions             : 0              (nan /sec)
 propagations          : 191            (inf /sec)
 conflict literals     : 0              ( nan % deleted)
-Memory used           : 1.67 MB
+Memory used           : 1.68 MB
 CPU time              : 0 s
 
 UNSATISFIABLE
@@ -14,12 +14,12 @@ UNSATISFIABLE
 |         0 |    2958     7243 |     986       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 8              (4457 /sec)
-decisions             : 10             (5571 /sec)
-propagations          : 749            (417270 /sec)
+conflicts             : 8              (4540 /sec)
+decisions             : 10             (5675 /sec)
+propagations          : 749            (425085 /sec)
 conflict literals     : 15             (21.05 % deleted)
 Memory used           : 1.68 MB
-CPU time              : 0.001795 s
+CPU time              : 0.001762 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -29,12 +29,12 @@ UNSATISFIABLE
 |         0 |    5128    12958 |    1709       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 32             (11208 /sec)
-decisions             : 65             (22767 /sec)
-propagations          : 3469           (1215061 /sec)
-conflict literals     : 136            (21.84 % deleted)
+conflicts             : 26             (9455 /sec)
+decisions             : 59             (21455 /sec)
+propagations          : 3138           (1141091 /sec)
+conflict literals     : 107            (25.17 % deleted)
 Memory used           : 1.81 MB
-CPU time              : 0.002855 s
+CPU time              : 0.00275 s
 
 SATISFIABLE
 ('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
@@ -52,21 +52,21 @@ Setting relevant actions
 Setting splitting
 Setting compatible actions
 (0, '/', 80)
-0.00301814079285
+0.00299501419067
 =================================================
 Trying with 2 states
 Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.013834
+SAT formula generation time = 0.013071
 # Clauses = 2877
 # Variables = 276
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.003048
-Cumulated solver time: 0.003048
+Done solver. Round time: 0.003203
+Cumulated solver time: 0.003203
 UNSATISFIABLE
 =================================================
 Trying with 3 states
@@ -74,14 +74,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.023769
+SAT formula generation time = 0.024165
 # Clauses = 4917
 # Variables = 450
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.004247
-Cumulated solver time: 0.007295
+Done solver. Round time: 0.003910
+Cumulated solver time: 0.007113
 UNSATISFIABLE
 =================================================
 Trying with 4 states
@@ -89,17 +89,17 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 31
 # Actions: 80
-SAT formula generation time = 0.038114
+SAT formula generation time = 0.037487
 # Clauses = 7458
 # Variables = 656
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.005482
-Cumulated solver time: 0.012777
-Elapsed total time (s): 0.198416
-Elapsed solver time (s): 0.012777
-Elapsed solver time (s): [0.003047943115234375, 0.004246950149536133, 0.005482196807861328]
+Done solver. Round time: 0.004709
+Cumulated solver time: 0.011822
+Elapsed total time (s): 0.203855
+Elapsed solver time (s): 0.011822
+Elapsed solver time (s): [0.0032029151916503906, 0.0039098262786865234, 0.004709005355834961]
 Looking for strong plans: False
 Fair actions: True
 Done

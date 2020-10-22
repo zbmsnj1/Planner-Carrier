@@ -13,7 +13,7 @@ import json
 
 
 KEY_IGNORE = "@@KEY^^IGNORE"
-RE_FLOAT = r"\d+\.\d+|\d+"
+RE_FLOAT = r"\d+\.\d+"
 RE_INT = r"\d+"
 DOT_ABC = r"\.[a-z]*"
 NUM_TXT = r"\d+.txt"
@@ -61,12 +61,14 @@ def max_number(keyword, keyword_ignore,file, regex):
     lines = match_keyword(keyword, keyword_ignore, file)
     temp = 0.0000000000
     for line in lines:
-        try:
-            number = re.findall(regex,line)[0]
-            if(float(number) > temp):
-                temp = float(number)
-        except:
-            print(f"ERROR: Not find key word!!!  {file.name}")
+        if re.findall(regex,line):
+                number = re.findall(regex,line)[0]
+                if(float(number) > temp):
+                    temp = float(number)
+        else:
+            print(file.name)
+            print(f"Not find corresponding number of [{keyword}] in the following line:")
+            print(line)
     return temp
 
 def get_keydata(output_file_path, list_keywords, list_keyfunc, list_keyignore):
@@ -113,9 +115,10 @@ def calcu_mean( csvfile, abs_output_path, column_names, list_size):
     column_names = column_names[1:]
     means= []
     for i in range(len(column_names)):
-
-        means.append(df[column_names[i]].iloc[list_size].mean())
-    
+        try:
+            means.append(df[column_names[i]].iloc[list_size].mean())
+        except:
+            print(f"ERROR: list is out of range!")
     #print(means)
     return  means
 

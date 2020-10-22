@@ -1,10 +1,10 @@
 restarts              : 0
 conflicts             : 0              (0 /sec)
 decisions             : 0              (0 /sec)
-propagations          : 497            (38207 /sec)
+propagations          : 497            (60169 /sec)
 conflict literals     : 0              ( nan % deleted)
 Memory used           : 1.93 MB
-CPU time              : 0.013008 s
+CPU time              : 0.00826 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -14,12 +14,12 @@ UNSATISFIABLE
 |         0 |   40596    84569 |   13532       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 7              (326 /sec)
-decisions             : 9              (419 /sec)
-propagations          : 1553           (72367 /sec)
+conflicts             : 7              (558 /sec)
+decisions             : 9              (718 /sec)
+propagations          : 1554           (123933 /sec)
 conflict literals     : 13             (13.33 % deleted)
 Memory used           : 2.20 MB
-CPU time              : 0.02146 s
+CPU time              : 0.012539 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -29,12 +29,12 @@ UNSATISFIABLE
 |         0 |   62221   131661 |   20740       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 32             (1061 /sec)
-decisions             : 84             (2784 /sec)
-propagations          : 7572           (250986 /sec)
+conflicts             : 32             (1373 /sec)
+decisions             : 86             (3690 /sec)
+propagations          : 7592           (325711 /sec)
 conflict literals     : 135            (21.97 % deleted)
-Memory used           : 2.49 MB
-CPU time              : 0.030169 s
+Memory used           : 2.48 MB
+CPU time              : 0.023309 s
 
 SATISFIABLE
 ('WARNING: variable not Atom nor NegatedAtom;', '<none of those>')
@@ -52,21 +52,21 @@ Setting relevant actions
 Setting splitting
 Setting compatible actions
 (0, '/', 236)
-0.0916349887848
+0.197677135468
 =================================================
 Trying with 2 states
 Looking for strong plans: False
 Fair actions: True
 # Atoms: 85
 # Actions: 236
-SAT formula generation time = 0.254876
+SAT formula generation time = 0.248842
 # Clauses = 40023
 # Variables = 696
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.018011
-Cumulated solver time: 0.018011
+Done solver. Round time: 0.051643
+Cumulated solver time: 0.051643
 UNSATISFIABLE
 =================================================
 Trying with 3 states
@@ -74,14 +74,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 85
 # Actions: 236
-SAT formula generation time = 0.413518
+SAT formula generation time = 0.270200
 # Clauses = 61422
 # Variables = 1080
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3598 seconds
-Done solver. Round time: 0.027433
-Cumulated solver time: 0.045444
+Done solver. Round time: 0.036770
+Cumulated solver time: 0.088413
 UNSATISFIABLE
 =================================================
 Trying with 4 states
@@ -89,17 +89,17 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 85
 # Actions: 236
-SAT formula generation time = 0.578131
+SAT formula generation time = 0.305989
 # Clauses = 83862
 # Variables = 1496
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3598 seconds
-Done solver. Round time: 0.055405
-Cumulated solver time: 0.100849
-Elapsed total time (s): 1.811359
-Elapsed solver time (s): 0.100849
-Elapsed solver time (s): [0.018010854721069336, 0.027432918548583984, 0.0554051399230957]
+Done solver. Round time: 0.068709
+Cumulated solver time: 0.157122
+Elapsed total time (s): 1.575972
+Elapsed solver time (s): 0.157122
+Elapsed solver time (s): [0.05164289474487305, 0.036769866943359375, 0.06870889663696289]
 Looking for strong plans: False
 Fair actions: True
 Done

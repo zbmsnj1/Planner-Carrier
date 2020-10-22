@@ -3,10 +3,10 @@ UNSATISFIABLE
 restarts              : 0
 conflicts             : 0              (0 /sec)
 decisions             : 0              (0 /sec)
-propagations          : 127            (136412 /sec)
+propagations          : 127            (83115 /sec)
 conflict literals     : 0              ( nan % deleted)
-Memory used           : 1.67 MB
-CPU time              : 0.000931 s
+Memory used           : 1.68 MB
+CPU time              : 0.001528 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -16,12 +16,12 @@ UNSATISFIABLE
 |         0 |    2227     5857 |     742       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 5              (inf /sec)
-decisions             : 6              (inf /sec)
-propagations          : 506            (inf /sec)
+conflicts             : 5              (2276 /sec)
+decisions             : 6              (2731 /sec)
+propagations          : 506            (230314 /sec)
 conflict literals     : 12             (0.00 % deleted)
 Memory used           : 1.68 MB
-CPU time              : 0 s
+CPU time              : 0.002197 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -31,12 +31,12 @@ UNSATISFIABLE
 |         0 |    3538     9568 |    1179       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 18             (7166 /sec)
-decisions             : 38             (15127 /sec)
-propagations          : 2022           (804936 /sec)
+conflicts             : 18             (5483 /sec)
+decisions             : 36             (10966 /sec)
+propagations          : 2017           (614377 /sec)
 conflict literals     : 110            (9.84 % deleted)
 Memory used           : 1.82 MB
-CPU time              : 0.002512 s
+CPU time              : 0.003283 s
 
 UNSATISFIABLE
 ==================================[MINISAT]===================================
@@ -46,12 +46,12 @@ UNSATISFIABLE
 |         0 |    5201    14328 |    1733       0        0     nan |  0.000 % |
 ==============================================================================
 restarts              : 1
-conflicts             : 45             (11725 /sec)
-decisions             : 142            (36998 /sec)
-propagations          : 6208           (1617509 /sec)
-conflict literals     : 570            (25.88 % deleted)
+conflicts             : 41             (8019 /sec)
+decisions             : 139            (27186 /sec)
+propagations          : 5831           (1140426 /sec)
+conflict literals     : 501            (28.63 % deleted)
 Memory used           : 1.81 MB
-CPU time              : 0.003838 s
+CPU time              : 0.005113 s
 
 SATISFIABLE
 Setting atoms
@@ -68,21 +68,21 @@ Setting relevant actions
 Setting splitting
 Setting compatible actions
 (0, '/', 54)
-0.00357484817505
+0.00696301460266
 =================================================
 Trying with 2 states
 Looking for strong plans: False
 Fair actions: True
 # Atoms: 22
 # Actions: 54
-SAT formula generation time = 0.007808
+SAT formula generation time = 0.012896
 # Clauses = 1199
 # Variables = 182
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.003180
-Cumulated solver time: 0.003180
+Done solver. Round time: 0.003399
+Cumulated solver time: 0.003399
 UNSATISFIABLE
 =================================================
 Trying with 3 states
@@ -90,14 +90,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 22
 # Actions: 54
-SAT formula generation time = 0.012578
+SAT formula generation time = 0.023361
 # Clauses = 2124
 # Variables = 297
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.003172
-Cumulated solver time: 0.006352
+Done solver. Round time: 0.004784
+Cumulated solver time: 0.008183
 UNSATISFIABLE
 =================================================
 Trying with 4 states
@@ -105,14 +105,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 22
 # Actions: 54
-SAT formula generation time = 0.020651
+SAT formula generation time = 0.035695
 # Clauses = 3332
 # Variables = 436
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.003912
-Cumulated solver time: 0.010264
+Done solver. Round time: 0.004886
+Cumulated solver time: 0.013069
 UNSATISFIABLE
 =================================================
 Trying with 5 states
@@ -120,14 +120,14 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 22
 # Actions: 54
-SAT formula generation time = 0.029308
+SAT formula generation time = 0.051509
 # Clauses = 4864
 # Variables = 605
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.005632
-Cumulated solver time: 0.015896
+Done solver. Round time: 0.006336
+Cumulated solver time: 0.019405
 UNSATISFIABLE
 =================================================
 Trying with 6 states
@@ -135,17 +135,17 @@ Looking for strong plans: False
 Fair actions: True
 # Atoms: 22
 # Actions: 54
-SAT formula generation time = 0.040314
+SAT formula generation time = 0.070797
 # Clauses = 6762
 # Variables = 810
 Creating formula...
 Done creating formula. Calling solver...
 SAT solver called with 4096 MB and 3599 seconds
-Done solver. Round time: 0.006878
-Cumulated solver time: 0.022774
-Elapsed total time (s): 0.265205
-Elapsed solver time (s): 0.022774
-Elapsed solver time (s): [0.0031800270080566406, 0.003172159194946289, 0.003912210464477539, 0.005631923675537109, 0.006877899169921875]
+Done solver. Round time: 0.008453
+Cumulated solver time: 0.027858
+Elapsed total time (s): 0.389410
+Elapsed solver time (s): 0.027858
+Elapsed solver time (s): [0.0033991336822509766, 0.0047838687896728516, 0.004886150360107422, 0.0063359737396240234, 0.008453130722045898]
 Looking for strong plans: False
 Fair actions: True
 Done
