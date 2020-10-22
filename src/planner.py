@@ -90,7 +90,7 @@ class SAT(Planner):
         return f"python main.py {abs_d_path} {abs_p_path}"
 
     def extract_data(self, output_file_path):
-        list_keywords = ["Atoms","Actions","SATISFIABLE","Elapsed total time","Trying with"]
+        list_keywords = ["Atoms","Actions","SATISFIABLE","Elapsed solver time","Trying with"]
         list_keyfunc = [processdata.KF.MAX_INT, processdata.KF.MAX_INT, processdata.KF.FIND_KW, processdata.KF.MAX_FLOAT,  processdata.KF.MAX_INT]
         list_keyignore = [processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE, processdata.KEY_IGNORE]
                             
