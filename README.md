@@ -36,7 +36,7 @@ $ python -m pip install "dask[complete]"
 	```
 	python3 gentask.py 
 	```
-* Run system:
+* Run task:
 	```
 	python3 run.py [task.csv]
 	```
