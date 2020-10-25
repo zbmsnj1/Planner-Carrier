@@ -11,7 +11,7 @@
 * [Appendix](#Appendix)
 
 
-## Generate tasks
+## Generate task
 ### Command:
 ```
 $ python3 gentask.py
@@ -147,7 +147,7 @@ $ python3 gentask.py
 
 	```
 
-## Run planner
+## Run task
 ### Command:
 ```
  $ python3 run.py [task.csv]
