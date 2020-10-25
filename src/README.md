@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-* [Generate tasks](#generate-tasks)
-* [Run planner](#run-planner)
+* [Generate task](#generate-task)
+* [Run task](#run-task)
 * [Process data](#process-data)
 * [Planner class](#planner-class)
 * [Appendix](#Appendix)
