@@ -569,51 +569,7 @@ $ python3 gentask.py
 
   ```   
   
-  * Below is the class: **Planner**
-  ```python
-    class Planner:
-	    def __init__(self, planner_name):
-		self.planner_name = planner_name 
-		self.planner_src_folder_name = "src" 
-
-	    def create_tempsrc(self, job_id):
-
-	    def remove_tempsrc(self, job_id):
-
-	    def run_and_save(self, planner_command, job_id, output_file_path):
-
-  ```   
   
-  * Below is an example of subclass: **PRP(Planner)**)
-  ```python
-    class PRP(Planner):
-	    def __init__(self):
-		self.name = "PRP"
-		super().__init__(self.name)
-
-	    def get_command(self, rel_d_path, rel_p_path):
-		abs_d_path = os.path.join(utils.ROOT_PATH, rel_d_path)
-		abs_p_path = os.path.join(utils.ROOT_PATH, rel_p_path)
-		return f"./prp {abs_d_path} {abs_p_path} --dump-policy 2"
-
-  ```   
-  
-    * Below is an example of subclass: **PRP(Planner)**)
-  ```python
-    class PRP(Planner):
-	    def __init__(self):
-		self.name = "PRP"
-		super().__init__(self.name)
-
-	    def extract_data(self, output_file_path):
-		list_keywords = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-		list_keyfunc = [processdata.KF.FIND_KW,  processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
-		list_keyignore = [processdata.KEY_IGNORE,  processdata.KEY_IGNORE, "Forbidden"]
-
-		data = processdata.get_keydata(output_file_path, list_keywords, list_keyfunc, list_keyignore)
-		return  data
-
-  ```   
  
 ## Appendix
 ### Usage of a b-c
