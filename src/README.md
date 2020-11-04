@@ -504,41 +504,68 @@ $ python3 gentask.py
   * KEY_WORDS: to find data corresponding with the key words
   * KEY_WORDS_FUNCTION: the funtion of `processdata.py` to apply for each key word, for example, FIND_KW return ture if finding the key word in output file, and MAX_INT return the max integer of all found integers by key word in output file (*should be same size as the size of KEY_WORDS*)
   * KEY_WORDS_IGNORE: while use KEY_WORDS_METHOD, it will find interferential data with key word, this help to ignore the unuseful data. For example: it will find both `get plan` and `not get plan`, but  if we wish to find only `get plan`, we can add `not` into `KEY_WORDS_IGNORE` to avoid this kind of situation (*should be same size as the size of KEY_WORDS*)
+* Below is the class: **Planner**
+  ```python
+    class Planner:
+	    def __init__(self, planner_name):
+		self.planner_name = planner_name 
+		self.planner_src_folder_name = "src" 
+
+
+	    def create_tempsrc(self, job_id):
+		abs_src_path = os.path.join(utils.PLANNER_PATH, self.planner_name, self.planner_src_folder_name)
+		temp_src_path = f"{abs_src_path}{job_id}"
+		copy_tree(abs_src_path,temp_src_path)
+		return temp_src_path
+
+	    def remove_tempsrc(self, job_id):
+		abs_src_path = os.path.join(utils.PLANNER_PATH, self.planner_name, self.planner_src_folder_name)
+		abs_temp_path = f"{abs_src_path}{job_id}"
+		try:
+		    remove_tree(abs_temp_path)
+		except:
+		    print("No such file or directory")
+
+	    def run_and_save(self, planner_command, job_id, output_file_path):
+		print(f"Start job {job_id}:")
+		print(f"Create {self.planner_name} planner successfully")
+		temp_src = self.create_tempsrc(job_id)
+		print('Create temporary work environment successfully')
+
+		os.chdir(temp_src)
+		print('Start running the planning job...')
+
+		with open(output_file_path, 'w') as outputf:
+		    print(f"Writing stdout into {output_file_path}")              
+		    subprocess.run(planner_command, stdout=outputf, shell=True)   
+		print('Finish running the planning job!')
+
+		self.remove_tempsrc(job_id) 
+		print('Remove temporary work environment successfully') 
+  ```   
+
 
 * Below is an example of subclass: **PRP(Planner)**)
   ```python
-  class PRP(Planner):
-    def __init__(self):
-        self.name = "PRP"
-        self.COLUMN_NAMES = ["Id","Solve", "Time","Size"]
-        self.TITLE = ['Domain (# inst)','%solve',"time",'size']
-        self.KEY_WORDS = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
-        self.KEY_WORDS_FUNCTION = [processdata.KF.FIND_KW,  processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
-        self.KEY_WORDS_IGNORE = [processdata.KEY_IGNORE,  processdata.KEY_IGNORE, "Forbidden"]
-        super().__init__()
+    class PRP(Planner):
+	    def __init__(self):
+		self.name = "PRP"
+		self.COLUMN_NAMES = ["Id","Solve", "Time","Size"]
+		self.TITLE = ['Domain (# inst)','%solve',"time",'size']
+		super().__init__(self.name)
 
-    def get_command(self, rel_d_path, rel_p_path):
-        command=f"./prp {super().get_command(rel_d_path, rel_p_path)} --dump-policy 2"
-        return command
+	    def get_command(self, rel_d_path, rel_p_path):
+		abs_d_path = os.path.join(utils.ROOT_PATH, rel_d_path)
+		abs_p_path = os.path.join(utils.ROOT_PATH, rel_p_path)
+		return f"./prp {abs_d_path} {abs_p_path} --dump-policy 2"
 
-    def create_tempsrc(self, job_id):    
-        return super().create_tempsrc(self.name, job_id)
+	    def extract_data(self, output_file_path):
+		list_keywords = ["Strong cyclic plan found", "Total time", "State-Action Pairs"]
+		list_keyfunc = [processdata.KF.FIND_KW,  processdata.KF.MAX_FLOAT, processdata.KF.MAX_INT]
+		list_keyignore = [processdata.KEY_IGNORE,  processdata.KEY_IGNORE, "Forbidden"]
 
-    def remove_tempsrc(self, job_id):
-        super().remove_tempsrc(self.name, job_id)
-
-    def output_path(self, rel_p_path, output_folder):
-        return super().output_path( rel_p_path, output_folder, self.name)
-
-    def save_into_csv(self, output_folder):
-        print("Collecting data:PRP......")
-        super().save_into_csv(output_folder, self.name,  self.COLUMN_NAMES, self.KEY_WORDS, self.KEY_WORDS_FUNCTION, self.KEY_WORDS_IGNORE )
-        
-    def generate_list(self, output_folder, alist):
-        return super().generate_list(self.name, output_folder, alist)
-            
-    def data_mean(self, list_name, list_size, output_folder):
-        super().data_mean(self.name, output_folder, self.COLUMN_NAMES, self.TITLE, list_name, list_size)  
+		data = processdata.get_keydata(output_file_path, list_keywords, list_keyfunc, list_keyignore)
+		return  data
 
   ```   
  
